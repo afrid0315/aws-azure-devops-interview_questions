@@ -169,3 +169,7 @@ Docker Swarm: Simpler and more lightweight, making it easier to set up and manag
 - Docker Swarm is not robust multicloud support as kubernetes.
 - Kubernetes offers rolling updates, auto-scaling, sophisticated deployment strategies and advanced orchestration features compare to DockerSwarm.
 
+#### 32. What is namespace?
+
+Answer. 
+
