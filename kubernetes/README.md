@@ -173,3 +173,7 @@ Docker Swarm: Simpler and more lightweight, making it easier to set up and manag
 
 Answer. 
 
+#### 33. What is the purpose of operators?
+
+Answer.
+
