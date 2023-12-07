@@ -68,3 +68,60 @@ Answer. I will secure kubernetes cluster:
         - By Role Based Access Control
         - By Network policies- it will control traffic between the pods.
         - By Secrets and conflicts - it will manage your sensitive information.
+
+#### 17. What is minikube?
+
+Answer.
+
+#### 18. How to deploy a containerized application?
+
+Answer.
+
+#### 19. How to deploy cluster deployment?
+
+Answer.
+
+#### 20. How to deploy services?
+
+Answer.
+
+#### 21. What are Kubernetes commands? Give examples?
+
+Answer.
+
+#### 22. How to install Kubectl?
+
+Answer.
+
+#### 23. What are container and components?
+
+Answer.
+
+#### 24. Why we use Kubernetes?
+
+Answer.
+
+#### 25. Explain ClusterIp, Nodeport, LoadBalancer and ExternalName?
+
+Answer.
+
+#### 26. What are the difference between Docker and Kubernetes?
+
+Answer.
+
+#### 27. Explain deploying application in Kubernetes?
+
+Answer.
+
+#### 28. What is Kubectl?
+
+Answer.
+
+#### 29. What is guestbook?
+
+Answer.
+
+#### 30. Explain Kubernetes architecture?
+
+Answer.
+
