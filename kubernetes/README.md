@@ -160,3 +160,12 @@ Answer.
 
 Answer. 
 
+#### 31. Why should I go with kubernetes than Docker Swarm?
+
+Answer. Kubernetes: Well-suited for large, complex, and multi-service applications. It provides a more extensive set of features, making it highly scalable and suitable for enterprise-level deployments.
+
+Docker Swarm: Simpler and more lightweight, making it easier to set up and manage. It is suitable for smaller projects and environments with less complexity.
+
+- Docker Swarm is not robust multicloud support as kubernetes.
+- Kubernetes offers rolling updates, auto-scaling, sophisticated deployment strategies and advanced orchestration features compare to DockerSwarm.
+
