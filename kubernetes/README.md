@@ -113,7 +113,7 @@ Answer.
 
 Answer.
 
-#### 28. What is Kubectl?
+#### 28. Explain Kubernetes architecture?
 
 Answer. Kubernetes architecture consists of a Master Node - which consists of API server, Controller Manager, and Scheduler. 
 Worker Node - which consists of Kubelet, Kube Proxy, and Container Runtime), etcd (distributed key-value store), Pods (basic units), Services (network abstraction), and Controllers (manage desired state). These components collaborate to automate containerized application deployment, scaling, and management in a distributed and scalable environment. 
@@ -156,7 +156,7 @@ Kubernetes components communicate with each other via the API server, and the et
 
 Answer.
 
-#### 30. Explain Kubernetes architecture?
+#### 30. What is Kubectl?
 
 Answer. 
 
