@@ -3,67 +3,67 @@
 
 #### 1. How do you  automate Kubernetes deployment? 
 
-Answer. 
+**Answer**. 
 
 #### 2. What is exactly self healing in Kubernetes?
 
-Answer. 
+**Answer**. 
 
 #### 3. Is Kubernetes portable? How?
 
-Answer.
+**Answer**.
 
 #### 4. We have pods? Why we use them?
 
-Answer.
+**Answer**.
 
 #### 5. How Kubernetes ensure the availability of applications?
 
-Answer. 
+**Answer**. 
 
 #### 6. About replicaset?
 
-Answer.
+**Answer**.
 
 #### 7. Do you have any experience of upgrading the cluster? 
 
-Answer.
+**Answer**.
 
 #### 8. Clusters you are managing is self-hosted cluster or managed Kubernetes cluster?
 
-Answer.
+**Answer**.
 
 #### 9. Any scaling experience in kubernetes?
 
-Answer.
+**Answer**.
 
 #### 10. What is kubernetes namespace and why its useful?
 
-Answer.
+**Answer**.
 
 #### 11. What about persistent storage (PVC)?
 
-Answer.
+**Answer**.
 
 #### 12. What is config map?
 
-Answer.
+**Answer**.
 
 #### 13. Do you have any idea about kubernetes service account?
 
-Answer.
+**Answer**.
 
 #### 14. Rolling update on kubernetes and how will you update?
 
-Answer.
+**Answer**.
 
 #### 15. When do we use statefull set or statefull application?
 
-Answer.
+**Answer**.
 
 #### 16. As a kubernetes admin, if i ask to secure my kubernetes cluster and I do not have any information on it? How you will secure?
 
-Answer. I will secure kubernetes cluster: 
+**Answer**. I will secure kubernetes cluster: 
 
         - By Role Based Access Control
         - By Network policies- it will control traffic between the pods.
@@ -71,51 +71,51 @@ Answer. I will secure kubernetes cluster:
 
 #### 17. What is minikube?
 
-Answer. Minikube is a tool that enables developers to run a single-node Kubernetes cluster locally on their machines. It provides a lightweight and easy-to-set-up environment for testing and developing Kubernetes applications. Minikube allows you to experiment with Kubernetes features, deploy and manage applications in a local cluster, and gain hands-on experience with Kubernetes without the need for a full-scale, multi-node cluster. It's particularly useful for development, testing, and learning Kubernetes in a resource-constrained or offline environment.
+**Answer**. Minikube is a tool that enables developers to run a single-node Kubernetes cluster locally on their machines. It provides a lightweight and easy-to-set-up environment for testing and developing Kubernetes applications. Minikube allows you to experiment with Kubernetes features, deploy and manage applications in a local cluster, and gain hands-on experience with Kubernetes without the need for a full-scale, multi-node cluster. It's particularly useful for development, testing, and learning Kubernetes in a resource-constrained or offline environment.
 
 #### 18. How to deploy a containerized application?
 
-Answer.
+**Answer**.
 
 #### 19. How to deploy cluster deployment?
 
-Answer.
+**Answer**.
 
 #### 20. How to deploy services?
 
-Answer.
+**Answer**.
 
 #### 21. What are Kubernetes commands? Give examples?
 
-Answer.
+**Answer**.
 
 #### 22. How to install Kubectl?
 
-Answer.
+**Answer**.
 
 #### 23. What are container and components?
 
-Answer.
+**Answer**.
 
 #### 24. Why we use Kubernetes?
 
-Answer.
+**Answer**.
 
 #### 25. Explain ClusterIp, Nodeport, LoadBalancer and ExternalName?
 
-Answer.
+**Answer**.
 
 #### 26. What are the difference between Docker and Kubernetes?
 
-Answer.
+**Answer**.
 
 #### 27. Explain deploying application in Kubernetes?
 
-Answer.
+**Answer**.
 
 #### 28. Explain Kubernetes architecture?
 
-Answer. Kubernetes architecture consists of a Master Node - which consists of API server, Controller Manager, and Scheduler. 
+**Answer**. Kubernetes architecture consists of a Master Node - which consists of API server, Controller Manager, and Scheduler. 
 Worker Node - which consists of Kubelet, Kube Proxy, and Container Runtime), etcd (distributed key-value store), Pods (basic units), Services (network abstraction), and Controllers (manage desired state). These components collaborate to automate containerized application deployment, scaling, and management in a distributed and scalable environment. 
 
 For more detailed explaination -
@@ -152,15 +152,15 @@ Kubernetes components communicate with each other via the API server, and the et
 
 #### 29. What is guestbook?
 
-Answer.
+**Answer**.
 
 #### 30. What is Kubectl?
 
-Answer. kubectl is a command-line tool used to interact with Kubernetes clusters. It allows users to deploy, manage, and troubleshoot applications within a Kubernetes environment. With kubectl, you can perform tasks like deploying applications, managing pods and services, scaling deployments, and inspecting cluster resources. It's a crucial tool for Kubernetes administrators and developers working with containerized applications."
+**Answer**. kubectl is a command-line tool used to interact with Kubernetes clusters. It allows users to deploy, manage, and troubleshoot applications within a Kubernetes environment. With kubectl, you can perform tasks like deploying applications, managing pods and services, scaling deployments, and inspecting cluster resources. It's a crucial tool for Kubernetes administrators and developers working with containerized applications."
 
 #### 31. Why should I go with kubernetes than Docker Swarm?
 
-Answer. Kubernetes: Well-suited for large, complex, and multi-service applications. It provides a more extensive set of features, making it highly scalable and suitable for enterprise-level deployments.
+**Answer**. Kubernetes: Well-suited for large, complex, and multi-service applications. It provides a more extensive set of features, making it highly scalable and suitable for enterprise-level deployments.
 
 Docker Swarm: Simpler and more lightweight, making it easier to set up and manage. It is suitable for smaller projects and environments with less complexity.
 
@@ -169,9 +169,9 @@ Docker Swarm: Simpler and more lightweight, making it easier to set up and manag
 
 #### 32. What is namespace?
 
-Answer. 
+**Answer**. 
 
 #### 33. What is the purpose of operators?
 
-Answer.
+**Answer**.
 
