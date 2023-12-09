@@ -123,14 +123,12 @@ Master Node:
 - API Server: Serves as the entry point for all administrative tasks and communication with the cluster. It validates and configures data for the API objects, such as pods, services, and replication controllers.
 - Controller Manager: Monitors the state of the cluster and responds to changes. It includes controller processes for nodes, replication, endpoints, and service accounts.
 - Scheduler: Assigns newly created pods to nodes based on resource requirements, policies, and other constraints.
+- Etcd: A distributed key-value store that stores the configuration data of the cluster. This data represents the state of the cluster at any given point in time.
 
 Worker Node:
 - Kubelet: Ensures that containers are running on a node and communicates with the master to receive instructions.
 - Kube Proxy: Maintains network rules on nodes. It manages network communication to and from a pod.
 - Container Runtime: The software responsible for running containers. Common runtimes include Docker, containerd, and others.
-
-Etcd:
-A distributed key-value store that stores the configuration data of the cluster. This data represents the state of the cluster at any given point in time.
 
 Pod:
 The smallest and simplest unit in the Kubernetes object model. It represents a single instance of a running process in a cluster and consists of one or more containers that share the same network namespace.
