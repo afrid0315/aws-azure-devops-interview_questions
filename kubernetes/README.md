@@ -156,7 +156,7 @@ Answer.
 
 #### 30. What is Kubectl?
 
-Answer. 
+Answer. kubectl is a command-line tool used to interact with Kubernetes clusters. It allows users to deploy, manage, and troubleshoot applications within a Kubernetes environment. With kubectl, you can perform tasks like deploying applications, managing pods and services, scaling deployments, and inspecting cluster resources. It's a crucial tool for Kubernetes administrators and developers working with containerized applications."
 
 #### 31. Why should I go with kubernetes than Docker Swarm?
 
