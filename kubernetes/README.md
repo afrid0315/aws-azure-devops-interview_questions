@@ -71,7 +71,7 @@ Answer. I will secure kubernetes cluster:
 
 #### 17. What is minikube?
 
-Answer.
+Answer. Minikube is a tool that enables developers to run a single-node Kubernetes cluster locally on their machines. It provides a lightweight and easy-to-set-up environment for testing and developing Kubernetes applications. Minikube allows you to experiment with Kubernetes features, deploy and manage applications in a local cluster, and gain hands-on experience with Kubernetes without the need for a full-scale, multi-node cluster. It's particularly useful for development, testing, and learning Kubernetes in a resource-constrained or offline environment.
 
 #### 18. How to deploy a containerized application?
 
