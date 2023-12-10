@@ -177,5 +177,5 @@ Docker Swarm: Simpler and more lightweight, making it easier to set up and manag
 
 #### 34. How do you debug your pod or application or issues?
 
-**Answer**. By using 'kubectl describe pod <pod-name>'. I get all the details of that pod and can debug accordingly. And also we have 'kubectl logs <pod-name>' we get log details and can debug using those logs information.
+**Answer**. By using "kubectl describe pod <pod-name>". I get all the details of that pod and can debug accordingly. And also we have "kubectl logs <pod-name>" we get log details and can debug using those logs information.
 
