@@ -7,7 +7,7 @@
 
 #### 2. What is exactly self healing in Kubernetes?
 
-**Answer**. 
+**Answer**. Self-healing in Kubernetes refers to the platform's ability to automatically detect and recover from failures or disruptions within the cluster. Kubernetes continuously monitors the desired state of applications and infrastructure. If it detects a discrepancy between the desired state and the current state, it takes corrective actions to reconcile them. This includes restarting failed containers, rescheduling pods to healthy nodes, and maintaining the desired number of replicas. Self-healing mechanisms contribute to the platform's robustness and resilience by minimizing downtime and ensuring that applications run reliably.
 
 #### 3. Is Kubernetes portable? How?
 
