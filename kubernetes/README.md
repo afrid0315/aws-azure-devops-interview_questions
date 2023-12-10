@@ -31,7 +31,7 @@
 
 #### 8. Clusters you are managing is self-hosted cluster or managed Kubernetes cluster?
 
-**Answer**.
+**Answer**. Explain this answer as per you worked on it - I have experience managing both self-hosted and managed Kubernetes clusters. In certain environments, I've set up and configured self-hosted clusters, providing more customization control. Additionally, I've worked with managed Kubernetes services, such as Amazon EKS, where operational aspects are handled by the cloud provider, allowing a focus on application deployment and scalability.
 
 #### 9. Any scaling experience in kubernetes?
 
