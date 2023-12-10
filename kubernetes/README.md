@@ -11,7 +11,7 @@
 
 #### 3. Is Kubernetes portable? How?
 
-**Answer**.
+**Answer**. Kubernetes is highly portable due to its architecture and design. It abstracts away infrastructure details, allowing applications to run consistently across different environments. Kubernetes achieves portability by using containerization (e.g., Docker) to encapsulate applications and their dependencies. Additionally, Kubernetes supports various cloud providers and on-premises environments, providing a consistent orchestration layer. This allows developers to build applications once and deploy them seamlessly across different infrastructures, promoting flexibility and reducing vendor lock-in
 
 #### 4. We have pods? Why we use them?
 
