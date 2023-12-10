@@ -23,7 +23,7 @@
 
 #### 6. About replicaset?
 
-**Answer**.
+**Answer**. A ReplicaSet in Kubernetes is a controller that ensures a specified number of identical replicas, or instances, of a pod are running at all times. It helps maintain the desired level of availability and scalability for applications. If a pod fails or needs to be scaled, the ReplicaSet automatically adjusts the number of replicas to match the specified configuration. ReplicaSets are a key component in achieving high availability and reliability within a Kubernetes cluster.(While we are going to use deployment.yml to actually create pod and in that yml file we give replicas, which is going to create that number of podes and if unfortunately pod deleted. This replicaset is going to auto-heal and create another pod.)
 
 #### 7. Do you have any experience of upgrading the cluster? 
 
@@ -99,15 +99,20 @@
 
 #### 24. Why we use Kubernetes?
 
-**Answer**.
-
+**Answer**. Kubernetes is used to automate and orchestrate containerized applications, providing a consistent and scalable platform. It simplifies deployment, scaling, and management tasks, ensuring high availability, fault tolerance, and efficient resource utilization. Kubernetes abstracts away infrastructure complexities, supports multi-cloud environments, and enhances developer productivity by promoting a declarative and self-healing approach to application deployment.
+(kubernetes provides auto-healing, auto-scaling, managing multiple containers and having enterprise level support)
+ 
 #### 25. Explain ClusterIp, Nodeport, LoadBalancer and ExternalName?
 
 **Answer**.
 
 #### 26. What are the difference between Docker and Kubernetes?
 
-**Answer**.
+**Answer**. Docker is a containerization platform that allows packaging and distributing applications along with their dependencies. It provides a standardized unit (container) for application deployment.
+
+Kubernetes, on the other hand, is a container orchestration platform. It automates the deployment, scaling, and management of containerized applications. Kubernetes orchestrates multiple Docker containers, ensuring their efficient operation, high availability, and scalability.
+
+In summary, Docker is for containerization, while Kubernetes is for container orchestration, providing a robust solution for deploying and managing containerized applications at scale.
 
 #### 27. Explain deploying application in Kubernetes?
 
