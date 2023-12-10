@@ -15,7 +15,7 @@
 
 #### 4. We have pods? Why we use them?
 
-**Answer**.
+**Answer**. We use pods in Kubernetes as the smallest deployable units that represent one or more containers closely coupled together. Containers within the same pod share the same network namespace and can communicate with each other using localhost. This allows for efficient communication and coordination between containers within a pod. However, for communication between different pods or services, companies typically use service discovery mechanisms provided by Kubernetes, and communication doesn't rely on localhost but rather on the ClusterIP service or other networking solutions
 
 #### 5. How Kubernetes ensure the availability of applications?
 
