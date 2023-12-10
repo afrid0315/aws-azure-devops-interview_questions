@@ -91,7 +91,7 @@
 
 #### 22. What is Cluster in Kubernetes?
 
-**Answer**.
+**Answer**. A Kubernetes cluster is a set of machines, called nodes, that collectively run containerized applications orchestrated by Kubernetes. The cluster consists of a control plane that manages the cluster's state and a set of worker nodes where the actual application containers run. The control plane includes components such as the API server, controller manager, scheduler, and etcd, which store the cluster's configuration data. Worker nodes host the containers and run the kubelet, which communicates with the control plane. Kubernetes clusters provide scalability, fault tolerance, and ease of management for deploying and scaling containerized applications.
 
 #### 23. What are container and components?
 
