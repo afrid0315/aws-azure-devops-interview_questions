@@ -89,7 +89,7 @@
 
 **Answer**.
 
-#### 22. How to install Kubectl?
+#### 22. What is Cluster in Kubernetes?
 
 **Answer**.
 
