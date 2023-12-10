@@ -3,7 +3,7 @@
 
 #### 1. How do you  automate Kubernetes deployment? 
 
-**Answer**. 
+**Answer**. I automate Kubernetes deployments through Infrastructure as Code (IaC) tools like Terraform or AWS CloudFormation for cluster provisioning. For application deployment, I use Kubernetes manifests or Helm charts, and CI/CD pipelines with tools like Jenkins or GitLab CI. This allows for version-controlled, repeatable, and consistent deployments, ensuring efficiency and reducing manual errors.
 
 #### 2. What is exactly self healing in Kubernetes?
 
