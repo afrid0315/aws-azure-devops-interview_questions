@@ -132,7 +132,7 @@ Master Node:
 - Etcd: A distributed key-value store that stores the configuration data of the cluster. This data represents the state of the cluster at any given point in time.
 
 Worker Node:
-- Kubelet: Ensures that containers are running on a node and communicates with the master to receive instructions.
+- Kubelet: Ensures that containers are running on a node and communicates with the master to receive instructions.(Kubelet manages the container that are scheduled to run on that node. It ensure that containers are running and healthy, and that resources they need are available. Kubelet communicates with API server to get information about the containers that are running on node, and then starts and stops the containers as needed to maintain the desired state. It also monitors the containers to ensure the containers running correctly, restarts them if necessary.
 - Kube Proxy: Maintains network rules on nodes. It manages network communication to and from a pod.
 - Container Runtime: The software responsible for running containers. Common runtimes include Docker, containerd, and others.
 
