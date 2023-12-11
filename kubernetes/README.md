@@ -188,3 +188,10 @@ Docker Swarm: Simpler and more lightweight, making it easier to set up and manag
 #### 35. What is the difference between Docker container and Kubernetes pod?
 
 **Answer**. A pod in kubernetes is a runtime specification of a container in docker. A pod provides more declarative way of defining using YAML and you can run more than one container in pod.
+
+#### 36. What are the types of services within kubernetes?
+
+**Answer**. There are three types of services in kubernetes that user can create.
+- ClusterIp Mode
+- Nodeport Mode
+- LoadBalancer Mode
