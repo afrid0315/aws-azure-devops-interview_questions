@@ -37,9 +37,10 @@
 
 **Answer**. Yes, I have experience with scaling applications in Kubernetes. Kubernetes provides both manual and automatic scaling options. For manual scaling, I've used the 'kubectl scale' command to adjust the number of replicas in a deployment based on demand. Additionally, I've implemented Horizontal Pod Autoscaling (HPA), allowing Kubernetes to automatically adjust the number of replicas based on resource metrics or custom metrics. This ensures optimal resource utilization and responsiveness to changing workloads. Overall, my experience includes efficiently scaling applications in Kubernetes to meet performance and resource requirements.
 
-#### 10. What is kubernetes namespace and why its useful?
+#### 10. What is the role of kube-proxy?
 
-**Answer**.
+**Answer**. Kube-proxy works by maintaining a set of network rules on each node in the cluster, which are updated dynamically as services added or removed. When a client sends request to a service, the request is intercepted by Kube-proxy on the node where it was received. Kube-proxy then looks up the destination endpoint for the service and routes the request accordingly.
+ Kube-proxy is the essential component of a kubernetes cluster, as it ensures that services can communicate with each other.
 
 #### 11. What about persistent storage (PVC)?
 
