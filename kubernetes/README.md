@@ -174,7 +174,7 @@ Docker Swarm: Simpler and more lightweight, making it easier to set up and manag
 
 #### 32. What is namespace?
 
-**Answer**. 
+**Answer**. In a kubernetes namespace is a logical isolation of resources, network policies, rbac and everything. For example, there are two projects using same k8s cluster. One project can use namespace1 and other project can use namespace2 without any overlap and authentication problems.
 
 #### 33. What is the purpose of operators?
 
@@ -184,3 +184,6 @@ Docker Swarm: Simpler and more lightweight, making it easier to set up and manag
 
 **Answer**. By using "kubectl describe pod <pod-name>". I get all the details of that pod and can debug accordingly. And also we have "kubectl logs <pod-name>" we get log details and can debug using those logs information.
 
+#### 35. What is the difference between Docker container and Kubernetes pod?
+
+**Answer**. A pod in kubernetes is a runtime specification of a container in docker. A pod provides more declarative way of defining using YAML and you can run more than one container in pod.
