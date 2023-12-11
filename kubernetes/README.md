@@ -192,7 +192,7 @@ Docker Swarm: Simpler and more lightweight, making it easier to set up and manag
 
 **Answer**. A pod in kubernetes is a runtime specification of a container in docker. A pod provides more declarative way of defining using YAML and you can run more than one container in pod.
 
-#### 36. 
+#### 36. What is ingress?
 
 
 
