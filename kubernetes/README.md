@@ -19,7 +19,7 @@
 
 #### 5. How Kubernetes ensure the availability of applications?
 
-**Answer**. 
+**Answer**. Kubernetes ensures application availability through replication and scaling mechanisms, self-healing practices, and distribution of pod replicas across multiple nodes. Replication Controllers or Deployments maintain the desired number of pod replicas, allowing automatic recovery from failures. Kubernetes' self-healing continuously monitors and corrects discrepancies, while distribution across nodes and Horizontal Pod Autoscaling (HPA) further enhance resilience and scalability, ensuring applications are available and responsive.
 
 #### 6. About replicaset?
 
@@ -27,7 +27,7 @@
 
 #### 7. Do you have any experience of upgrading the cluster? 
 
-**Answer**.
+**Answer**. Yes, I have experience upgrading clusters. I follow a systematic approach, ensuring backups, checking compatibility, and performing rolling upgrades. I use tools like kubeadm or KOPS or Kubernetes-specific managed services to streamline the process. Continuous testing in non-production environments is a key practice to identify and address any potential issues before upgrading the production cluster.
 
 #### 8. Clusters you are managing is self-hosted cluster or managed Kubernetes cluster?
 
@@ -52,15 +52,15 @@
 
 #### 13. Do you have any idea about kubernetes service account?
 
-**Answer**.
+**Answer**. Yes, Kubernetes service accounts are used to control and manage permissions for applications running in a Kubernetes cluster. Each pod can be associated with a service account, allowing it to interact with the Kubernetes API and access resources. Service accounts help implement the principle of least privilege by granting only the necessary permissions to pods. They play a crucial role in securing and managing access within the Kubernetes environment.
 
 #### 14. Rolling update on kubernetes and how will you update?
 
-**Answer**.
+**Answer**. A rolling update in Kubernetes involves updating a deployment without downtime by gradually replacing old replicas with new ones. I achieve this by adjusting the deployment's replica set, allowing a controlled rollout. I typically use the kubectl set image command or update the deployment YAML with the new image version. Kubernetes ensures a smooth transition by gradually replacing old pods with new ones, maintaining application availability throughout the update process.
 
 #### 15. When do we use statefull set or statefull application?
 
-**Answer**.
+**Answer**. StatefulSets are suitable for stateful applications that require stable network identities and persistent storage. Use StatefulSets when applications need ordered and unique pod identifiers, data persistence, and stable network identities. Examples include databases (like MySQL, PostgreSQL) and distributed systems where each pod has a distinct role or identity. StatefulSets provide guarantees for stable hostnames, storage, and ordered scaling, making them ideal for stateful workloads.
 
 #### 16. As a kubernetes admin, if i ask to secure my kubernetes cluster and I do not have any information on it? How you will secure?
 
@@ -82,9 +82,12 @@
 
 **Answer**.
 
-#### 20. What is service in kubernetes?
+#### 20. What are the types of services within kubernetes?
 
-**Answer**.
+**Answer**. There are three types of services in kubernetes that user can create.
+- ClusterIp Mode
+- Nodeport Mode
+- LoadBalancer Mode
 
 #### 21. What are Kubernetes commands? Give examples?
 
@@ -105,7 +108,7 @@
  
 #### 25. Explain ClusterIp, Nodeport, LoadBalancer and ExternalName?
 
-**Answer**.
+**Answer**. ClusterIP provides internal cluster communication, NodePort exposes on a static port for external access, LoadBalancer leverages cloud providers' load balancers for external traffic distribution, and ExternalName maps services to external DNS names. These service types cater to different use cases, ensuring flexibility and adaptability to various networking requirements
 
 #### 26. What are the difference between Docker and Kubernetes?
 
@@ -189,12 +192,7 @@ Docker Swarm: Simpler and more lightweight, making it easier to set up and manag
 
 **Answer**. A pod in kubernetes is a runtime specification of a container in docker. A pod provides more declarative way of defining using YAML and you can run more than one container in pod.
 
-#### 36. What are the types of services within kubernetes?
-
-**Answer**. There are three types of services in kubernetes that user can create.
-- ClusterIp Mode
-- Nodeport Mode
-- LoadBalancer Mode
+#### 36. 
 
 
 
