@@ -110,7 +110,7 @@
 
 **Answer**. Docker is a containerization platform that allows packaging and distributing applications along with their dependencies. It provides a standardized unit (container) for application deployment.
 
-Kubernetes, on the other hand, is a container orchestration platform. It automates the deployment, scaling, and management of containerized applications. Kubernetes orchestrates multiple Docker containers, ensuring their efficient operation, high availability, and scalability.
+Kubernetes, on the other hand, is a container orchestration platform. It automates the deployment, scaling, and management of containerized applications. Kubernetes orchestrates multiple Docker containers, ensuring their efficient operation, high availability, and scalability.(Kubernetes provide auto-healing, auto scaling, clustering and enterprise level support like load balancing).
 
 In summary, Docker is for containerization, while Kubernetes is for container orchestration, providing a robust solution for deploying and managing containerized applications at scale.
 
