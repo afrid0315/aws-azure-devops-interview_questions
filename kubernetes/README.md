@@ -204,3 +204,6 @@ Docker Swarm: Simpler and more lightweight, making it easier to set up and manag
 
 **Answer**.
 
+#### 39. What is Helm?
+
+**Answer**. Helm is a package manager for Kubernetes that simplifies the deployment and management of applications. It uses charts, which are packages of pre-configured Kubernetes resources, to define, install, and upgrade even complex applications. Helm streamlines the process of managing Kubernetes manifests, making it easier to share, version, and deploy applications consistently.
