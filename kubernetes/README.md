@@ -194,5 +194,9 @@ Docker Swarm: Simpler and more lightweight, making it easier to set up and manag
 
 #### 36. What is ingress?
 
+**Answer**.
+
+#### 37. What is the difference between ingress and loadBalancer service type? Why they use ingress?
+
 
 
