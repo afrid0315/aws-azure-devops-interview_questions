@@ -81,7 +81,7 @@
 
 **Answer**.
 
-#### 20. How to deploy services?
+#### 20. What is service in kubernetes?
 
 **Answer**.
 
