@@ -215,7 +215,30 @@ Docker Swarm: Simpler and more lightweight, making it easier to set up and manag
 
 #### 40. When you create a new version of your Docker image, what steps do you follow?
 
+**Answer**. Firstly, we create a docker file in that file we can make necessary code and enhancements. Add the version, build the image, test the image locally to ensure it works as expected then push it to Docker registry. Update Kubernetes manifests and deploy the updated application with the new image version to the target environment.
+
 #### 41. Have you ever worked with horizontal pod autoscaling (HPA) in Kubernetes? If so, how do you set it up?
+
+**Answer**. I ensure the Kubernetes Metrics Server is deployed in the cluster to collect resource usage metrics. For pods, I configure them to expose resource metrics, such as CPU or memory usage. I create an HPA (HorizontalPodAutoscaler) resource, specifying the target metrics (e.g., CPU) and scaling parameters, like the minimum and maximum number of replicas. For example hpa.yml is
+```
+apiVersion: autoscaling/v2beta2
+kind: HorizontalPodAutoscaler
+metadata:
+  name: my-app-hpa
+spec:
+  scaleTargetRef:
+    apiVersion: apps/v1
+    kind: Deployment
+    name: my-app
+  minReplicas: 2
+  maxReplicas: 10
+  metrics:
+  - type: Resource
+    resource:
+      name: cpu
+      targetAverageUtilization: 70
+```
+After defining the HPA, I apply it to the cluster using kubectl apply -f hpa.yaml. This setup allows Kubernetes to automatically adjust the number of pod replicas based on resource metrics, ensuring optimal performance and resource utilization for the application.
 
 #### 42. Explain the purpose of persistent storage in Kubernetes and why it's needed.
 
