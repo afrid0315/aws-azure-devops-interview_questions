@@ -57,6 +57,12 @@
 #### 14. Rolling update on kubernetes and how will you update?
 
 **Answer**. A rolling update in Kubernetes involves updating a deployment without downtime by gradually replacing old replicas with new ones. I achieve this by adjusting the deployment's replica set, allowing a controlled rollout. I typically use the kubectl set image command or update the deployment YAML with the new image version. Kubernetes ensures a smooth transition by gradually replacing old pods with new ones, maintaining application availability throughout the update process.
+(or) 
+- Use Deployments: Employ Kubernetes Deployments for managing your application's lifecycle.
+- Update Image Version: Modify the Deployment configuration with the new image version.
+- Apply Changes: Use kubectl apply to update the configuration and trigger the rolling update.
+- Monitor Progress: Keep an eye on the update progress with kubectl rollout status.
+- Rollback (if necessary): If issues arise, perform a rollback with kubectl rollout undo.
 
 #### 15. When do we use statefull set or statefull application?
 
