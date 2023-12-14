@@ -247,12 +247,25 @@ After defining the HPA, I apply it to the cluster using kubectl apply -f hpa.yam
 #### 43. Describe a scenario where you would use Persistent Volumes (PVs) and Persistent Volume Claims (PVCs) in Kubernetes.
 
 **Answer**. I would use Persistent Volumes (PVs) and Persistent Volume Claims (PVCs) in Kubernetes when deploying a stateful application, such as a database. PVs represent physical storage resources, and PVCs act as a request for storage by the application. This ensures data persistence and allows the application to retain state even if the underlying pods are rescheduled or restarted. PVs and PVCs provide a way to dynamically provision and manage storage for stateful workloads in a scalable and reliable manner.
+
 #### 44. How do you manage secrets in your Kubernetes project, and what role does Kubernetes Secret play?
+
+**Answer**. In my Kubernetes project, I manage secrets using Kubernetes Secrets, a built-in resource for securely storing sensitive information like API keys or passwords. Kubernetes Secrets encode and store these values, ensuring they are not exposed in plaintext within the cluster. I reference secrets in pod specifications, either mounting them as files or exposing them as environment variables, to securely provide confidential data to applications running in the cluster.
 
 #### 45. Can you explain a scenario where you would use a service mesh in Kubernetes, especially in terms of authentication and authorization?
 
+**Answer**. I would use a service mesh in Kubernetes, such as Istio, in scenarios where I need to enhance communication between microservices. Specifically, for authentication and authorization, a service mesh provides capabilities like mutual TLS for secure communication, fine-grained access control, and user identity propagation. This ensures that only authorized services can communicate securely within the cluster, improving overall security and governance."
+
 #### 46. Why are Pod Security Policies important in Kubernetes, and how would you implement them to enhance security?
 
+**Answer**. Pod Security Policies (PSPs) are crucial in Kubernetes to enforce security measures for pods. They define the security context under which pods run, mitigating risks. To implement PSPs, you define policies specifying allowed actions and restrictions, ensuring pods adhere to security standards. This enhances security by preventing unauthorized access, minimizing privileges, and promoting a secure container runtime environment.
+- To enhance security with Pod Security Policies (PSPs) in Kubernetes, I would:
+- Define PSPs: Specify security policies detailing pod behavior.
+- Enable Admission Controller: Activate the PodSecurity admission controller to enforce PSPs.
+- Create RoleBindings: Associate PSPs with Kubernetes roles to apply policies to namespaces or clusters.
+- Review and Adjust: Regularly audit and adjust PSPs based on security requirements and application needs.
+- Educate Users: Ensure users understand and follow security best practices when deploying pods to maintain a secure environment.
+  
 #### 47. Do you work with resource limits and resource quotas in your Kubernetes setup? If yes, how do you set them up?
 
 #### 48. How would you implement horizontal pod scaling based on custom metrics specific to your application's performance indicators?
