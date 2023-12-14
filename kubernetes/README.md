@@ -42,7 +42,7 @@
 **Answer**. Kube-proxy works by maintaining a set of network rules on each node in the cluster, which are updated dynamically as services added or removed. When a client sends request to a service, the request is intercepted by Kube-proxy on the node where it was received. Kube-proxy then looks up the destination endpoint for the service and routes the request accordingly.
  Kube-proxy is the essential component of a kubernetes cluster, as it ensures that services can communicate with each other.
 
-#### 11. What about persistent storage (PVC)?
+#### 11. Have you ever used multiple containers within a single pod in Kubernetes? Provide an example.
 
 **Answer**.
 
@@ -64,9 +64,8 @@
 - Monitor Progress: Keep an eye on the update progress with kubectl rollout status.
 - Rollback (if necessary): If issues arise, perform a rollback with kubectl rollout undo.
 
-#### 15. When do we use statefull set or statefull application?
+#### 15. Can you differentiate between Kubernetes Jobs and Cron Jobs, and when would you use each?
 
-**Answer**. StatefulSets are suitable for stateful applications that require stable network identities and persistent storage. Use StatefulSets when applications need ordered and unique pod identifiers, data persistence, and stable network identities. Examples include databases (like MySQL, PostgreSQL) and distributed systems where each pod has a distinct role or identity. StatefulSets provide guarantees for stable hostnames, storage, and ordered scaling, making them ideal for stateful workloads.
 
 #### 16. As a kubernetes admin, if i ask to secure my kubernetes cluster and I do not have any information on it? How you will secure?
 
@@ -213,3 +212,31 @@ Docker Swarm: Simpler and more lightweight, making it easier to set up and manag
 #### 39. What is Helm?
 
 **Answer**. Helm is a package manager for Kubernetes that simplifies the deployment and management of applications. It uses charts, which are packages of pre-configured Kubernetes resources, to define, install, and upgrade even complex applications. Helm streamlines the process of managing Kubernetes manifests, making it easier to share, version, and deploy applications consistently.
+
+#### 40. When you create a new version of your Docker image, what steps do you follow?
+
+#### 41. Have you ever worked with horizontal pod autoscaling (HPA) in Kubernetes? If so, how do you set it up?
+
+#### 42. Explain the purpose of persistent storage in Kubernetes and why it's needed.
+
+**Answer**. Persistent storage in Kubernetes is crucial for preserving data beyond the lifecycle of individual pods. It ensures that data persists even if a pod or node fails, enabling stateful applications. Persistent Volume Claims (PVCs) simplify storage management by abstracting underlying storage details, providing dynamic provisioning, and facilitating easier scaling and data persistence for applications.
+
+#### 43. Describe a scenario where you would use Persistent Volumes (PVs) and Persistent Volume Claims (PVCs) in Kubernetes.
+
+#### 44. How do you manage secrets in your Kubernetes project, and what role does Kubernetes Secret play?
+
+#### 45. Can you explain a scenario where you would use a service mesh in Kubernetes, especially in terms of authentication and authorization?
+
+#### 46. Why are Pod Security Policies important in Kubernetes, and how would you implement them to enhance security?
+
+#### 47. Do you work with resource limits and resource quotas in your Kubernetes setup? If yes, how do you set them up?
+
+#### 48. How would you implement horizontal pod scaling based on custom metrics specific to your application's performance indicators?
+
+#### 49. Explain a scenario where pod priority and premption in Kubernetes would be useful, and have you ever implemented this?
+
+#### 50. In what situations would you use StatefulSets in Kubernetes, and what benefits do they offer over Deployments?
+
+**Answer**. I would use StatefulSets in Kubernetes for stateful applications that require stable network identities and persistent storage. StatefulSets provide ordered and unique pod identifiers, ensuring predictable hostnames and persistent volumes for each replica. This is beneficial for databases, distributed systems, or applications with specific node dependencies. StatefulSets offer stronger guarantees for stateful workload orchestration compared to Deployments.
+
+#### 51. How can you change the number of replicas for a ReplicaSet in Kubernetes, and what should you check for if the replicas are not scaling as expected?
