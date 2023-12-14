@@ -277,3 +277,5 @@ After defining the HPA, I apply it to the cluster using kubectl apply -f hpa.yam
 **Answer**. I would use StatefulSets in Kubernetes for stateful applications that require stable network identities and persistent storage. StatefulSets provide ordered and unique pod identifiers, ensuring predictable hostnames and persistent volumes for each replica. This is beneficial for databases, distributed systems, or applications with specific node dependencies. StatefulSets offer stronger guarantees for stateful workload orchestration compared to Deployments.
 
 #### 51. How can you change the number of replicas for a ReplicaSet in Kubernetes, and what should you check for if the replicas are not scaling as expected?
+
+#### 52. About Network Policies?
