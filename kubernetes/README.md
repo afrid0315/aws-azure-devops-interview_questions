@@ -246,6 +246,7 @@ After defining the HPA, I apply it to the cluster using kubectl apply -f hpa.yam
 
 #### 43. Describe a scenario where you would use Persistent Volumes (PVs) and Persistent Volume Claims (PVCs) in Kubernetes.
 
+**Answer**. I would use Persistent Volumes (PVs) and Persistent Volume Claims (PVCs) in Kubernetes when deploying a stateful application, such as a database. PVs represent physical storage resources, and PVCs act as a request for storage by the application. This ensures data persistence and allows the application to retain state even if the underlying pods are rescheduled or restarted. PVs and PVCs provide a way to dynamically provision and manage storage for stateful workloads in a scalable and reliable manner.
 #### 44. How do you manage secrets in your Kubernetes project, and what role does Kubernetes Secret play?
 
 #### 45. Can you explain a scenario where you would use a service mesh in Kubernetes, especially in terms of authentication and authorization?
