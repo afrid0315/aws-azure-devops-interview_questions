@@ -283,6 +283,12 @@ After defining the HPA, I apply it to the cluster using kubectl apply -f hpa.yam
 
 #### 51. How can you change the number of replicas for a ReplicaSet in Kubernetes, and what should you check for if the replicas are not scaling as expected?
 
+**Answer**. To change the number of replicas for a ReplicaSet in Kubernetes, you can edit the replicas field in the ReplicaSet's YAML or you can use the kubectl scale command. For example:.
+```
+kubectl scale replicasets my-replicaset --replicas=3
+```
+If replicas are not scaling as expected, check for issues such as resource constraints, unsatisfied PodDisruptionBudget, or problems with the underlying container runtime.
+
 #### 52. Have you ever used multiple containers within a single pod in Kubernetes? Provide an example.
 
 **Answer**. Yes, I've used multiple containers within a single pod in Kubernetes. For instance, in a web application pod, I might have both a main application container and a sidecar container for log shipping. The containers share the same network namespace and storage, facilitating coordination and enhancing application functionality.
