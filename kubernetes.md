@@ -65,6 +65,7 @@
 
 #### 15. Can you differentiate between Kubernetes Jobs and Cron Jobs, and when would you use each?
 
+**Answer**. Kubernetes Jobs are used for running tasks to completion, ensuring a specified number of completions. Cron Jobs, on the other hand, are used for running repetitive tasks on a schedule. Use Jobs for one-time or batch tasks, and Cron Jobs for recurring tasks, similar to cron jobs in Unix-like systems.
 
 #### 16. As a kubernetes admin, if i ask to secure my kubernetes cluster and I do not have any information on it? How you will secure?
 
@@ -80,7 +81,13 @@
 
 #### 18. How to deploy a containerized application?
 
-**Answer**.
+**Answer**. To deploy a containerized application:
+
+- Create Docker Image: Package your application into a Docker image.
+- Push Image to Registry: Push the Docker image to a container registry.
+- Write Kubernetes Manifests: Create Kubernetes YAML files specifying deployment details.
+- Apply Manifests: Use kubectl apply -f to deploy the application to the Kubernetes cluster.
+- Monitor and Scale: Monitor the application, and scale as needed using Kubernetes features like replicas and Horizontal Pod Autoscaling.
 
 #### 19. How to deploy cluster deployment?
 
