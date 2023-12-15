@@ -330,4 +330,3 @@ kubectl scale replicasets my-replicaset --replicas=3
 ```
 If replicas are not scaling as expected, check for issues such as resource constraints, unsatisfied PodDisruptionBudget, or problems with the underlying container runtime.
 
-#### 52. 
