@@ -42,9 +42,7 @@
 **Answer**. Kube-proxy works by maintaining a set of network rules on each node in the cluster, which are updated dynamically as services added or removed. When a client sends request to a service, the request is intercepted by Kube-proxy on the node where it was received. Kube-proxy then looks up the destination endpoint for the service and routes the request accordingly.
  Kube-proxy is the essential component of a kubernetes cluster, as it ensures that services can communicate with each other.
 
-#### 11. Have you ever used multiple containers within a single pod in Kubernetes? Provide an example.
-
-**Answer**. Yes, I've used multiple containers within a single pod in Kubernetes. For instance, in a web application pod, I might have both a main application container and a sidecar container for log shipping. The containers share the same network namespace and storage, facilitating coordination and enhancing application functionality.
+#### 11. About Network Policies?
 
 #### 12. What is config map?
 
@@ -278,4 +276,12 @@ After defining the HPA, I apply it to the cluster using kubectl apply -f hpa.yam
 
 #### 51. How can you change the number of replicas for a ReplicaSet in Kubernetes, and what should you check for if the replicas are not scaling as expected?
 
-#### 52. About Network Policies?
+#### 52. Have you ever used multiple containers within a single pod in Kubernetes? Provide an example.
+
+**Answer**. Yes, I've used multiple containers within a single pod in Kubernetes. For instance, in a web application pod, I might have both a main application container and a sidecar container for log shipping. The containers share the same network namespace and storage, facilitating coordination and enhancing application functionality.
+**Scenario you can explain**. Consider a web application that generates logs. You want to ship these logs to an external service for analysis. In this scenario, you could have a pod with two containers:
+- Main Application Container:
+Contains the primary web application that generates logs.
+- Sidecar Container:
+A separate container running a log shipping agent (e.g., Fluentd, Filebeat).
+The sidecar container reads logs from the main application container, processes them, and sends them to a centralized logging service. 
