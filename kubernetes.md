@@ -275,7 +275,31 @@ After defining the HPA, I apply it to the cluster using kubectl apply -f hpa.yam
 
 #### 48. How would you implement horizontal pod scaling based on custom metrics specific to your application's performance indicators?
 
+**Answer**. To implement horizontal pod scaling based on custom metrics in Kubernetes, I would follow these steps:
+- Install a Metrics Provider: Deploy and configure a custom metrics provider like Prometheus or Datadog to collect application-specific metrics.
+- Define a Custom Metrics API: Expose custom metrics in a format compatible with the Kubernetes Custom Metrics API.
+- Set Up Horizontal Pod Autoscaler (HPA): Create an HPA resource, specifying the custom metric and target value for scaling.
+```
+apiVersion: autoscaling/v2beta2
+kind: HorizontalPodAutoscaler
+metadata:
+  name: my-app-hpa
+spec:
+  scaleTargetRef:
+    apiVersion: apps/v1
+    kind: Deployment
+    name: my-app
+  metrics:
+  - type: External
+    external:
+      metricName: custom.metric/name
+      targetValue: 100
+```
+- Apply Configurations: Apply the configurations to the cluster using kubectl apply -f.
+This setup allows Kubernetes to dynamically adjust the number of pod replicas based on your application-specific performance metrics.
 #### 49. Explain a scenario where pod priority and premption in Kubernetes would be useful, and have you ever implemented this?
+
+**Answer**. Pod priority and preemption in Kubernetes are useful in scenarios where certain pods, such as critical services, need preferential treatment during resource allocation. For example, a critical production service might be assigned a higher priority to ensure it gets resources over less critical background tasks. While I haven't implemented this directly, understanding the concept is crucial for optimizing resource allocation in Kubernetes.
 
 #### 50. In what situations would you use StatefulSets in Kubernetes, and what benefits do they offer over Deployments?
 
