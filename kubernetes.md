@@ -82,7 +82,6 @@
 #### 18. How to deploy a containerized application?
 
 **Answer**. To deploy a containerized application:
-
 - Create Docker Image: Package your application into a Docker image.
 - Push Image to Registry: Push the Docker image to a container registry.
 - Write Kubernetes Manifests: Create Kubernetes YAML files specifying deployment details.
