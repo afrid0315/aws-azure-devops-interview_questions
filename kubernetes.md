@@ -44,7 +44,7 @@
 
 #### 11. Have you ever used multiple containers within a single pod in Kubernetes? Provide an example.
 
-**Answer**.
+**Answer**. Yes, I've used multiple containers within a single pod in Kubernetes. For instance, in a web application pod, I might have both a main application container and a sidecar container for log shipping. The containers share the same network namespace and storage, facilitating coordination and enhancing application functionality.
 
 #### 12. What is config map?
 
