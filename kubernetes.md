@@ -44,6 +44,7 @@
 
 #### 11. About Network Policies?
 
+**Answer**. Network Policies in Kubernetes are a set of rules that define how pods can communicate with each other and with other network endpoints. They provide a way to control the traffic flow at the pod level, allowing you to define ingress (incoming) and egress (outgoing) traffic rules. Network Policies are particularly useful in microservices architectures, where controlling and securing communication between services is essential for overall application security and performance.
 #### 12. What is config map?
 
 **Answer**.
