@@ -90,7 +90,8 @@
 
 #### 19. How to deploy cluster deployment?
 
-**Answer**.
+**Answer**. Create a YAML file specifying the deployment details, including container image, replicas, and any necessary configuration.
+Use kubectl apply -f deployment.yaml to deploy the defined resources to the cluster. Monitor the deployment status with kubectl get deployments and kubectl get pods to ensure the desired number of replicas are running.
 
 #### 20. What are the types of services within kubernetes?
 
@@ -101,7 +102,12 @@
 
 #### 21. What are Kubernetes commands? Give examples?
 
-**Answer**.
+**Answer**. kubectl get pods: List all pods.
+kubectl get services: List all services.
+kubectl get deployments: List all deployments.
+kubectl create configmap <configmap-name> --from-file=<path-to-file>: Create a ConfigMap.
+kubectl cluster-info: Display cluster information.
+kubectl get nodes: List all nodes in the cluster.
 
 #### 22. What is Cluster in Kubernetes?
 
@@ -109,7 +115,9 @@
 
 #### 23. What are container and components?
 
-**Answer**.
+**Answer**. In the context of Kubernetes:
+**Container**: A lightweight, standalone, and executable software package that includes everything needed to run a piece of software, including the code, runtime, libraries, and system tools.
+**Components**: Refers to the various functional units within a Kubernetes cluster, such as the control plane components (API server, controller manager, scheduler), worker nodes, and add-ons like networking and storage plugins. These components collaborate to manage and run containerized applications.
 
 #### 24. Why we use Kubernetes?
 
@@ -128,9 +136,16 @@ Kubernetes, on the other hand, is a container orchestration platform. It automat
 
 In summary, Docker is for containerization, while Kubernetes is for container orchestration, providing a robust solution for deploying and managing containerized applications at scale.
 
-#### 27. Explain deploying application in Kubernetes?
+#### 27. Have you ever used multiple containers within a single pod in Kubernetes? Provide an example.
 
-**Answer**.
+**Answer**. Yes, I've used multiple containers within a single pod in Kubernetes. For instance, in a web application pod, I might have both a main application container and a sidecar container for log shipping. The containers share the same network namespace and storage, facilitating coordination and enhancing application functionality.
+
+**Scenario you can explain**. Consider a web application that generates logs. You want to ship these logs to an external service for analysis. In this scenario, you could have a pod with two containers:
+- Main Application Container:
+Contains the primary web application that generates logs.
+- Sidecar Container:
+A separate container running a log shipping agent (e.g., Fluentd, Filebeat).
+The sidecar container reads logs from the main application container, processes them, and sends them to a centralized logging service. 
 
 #### 28. Explain Kubernetes architecture?
 
@@ -171,7 +186,7 @@ Kubernetes components communicate with each other via the API server, and the et
 
 #### 29. What is guestbook?
 
-**Answer**.
+**Answer**. Guestbook is a simple, classic example application often used in Kubernetes tutorials and demos. It consists of a front-end service where users can leave messages, and a back-end service storing those messages. Guestbook showcases the deployment of a multi-tier application in Kubernetes, illustrating concepts like service discovery, scaling, and persistence.
 
 #### 30. What is Kubectl?
 
@@ -192,7 +207,7 @@ Docker Swarm: Simpler and more lightweight, making it easier to set up and manag
 
 #### 33. What is the purpose of operators?
 
-**Answer**.
+**Answer**. The purpose of operators in Kubernetes is to automate the management and operation of applications by encoding operational knowledge into software. Operators extend Kubernetes functionality to handle complex, stateful applications, providing a way to deploy, scale, and manage them more effectively through the use of custom controllers and automation scripts.
 
 #### 34. How do you debug your pod or application or issues?
 
@@ -204,15 +219,15 @@ Docker Swarm: Simpler and more lightweight, making it easier to set up and manag
 
 #### 36. What is ingress?
 
-**Answer**.
+**Answer**. In Kubernetes, Ingress is an API object that manages external access to services within the cluster. It acts as a layer 7 HTTP and HTTPS traffic router, providing rules for directing requests to the appropriate services based on paths, domains, and other criteria. Ingress enables more sophisticated routing and allows for centralized management of external access configurations.
 
 #### 37. What is the difference between ingress and loadBalancer service type? Why they use ingress?
 
-**Answer**. 
+**Answer**. The key difference between Ingress and LoadBalancer service types in Kubernetes is that LoadBalancer provisions an external load balancer to expose a service, while Ingress is an API object that manages external access to services. Ingress provides additional capabilities such as path-based routing, SSL termination, and more, making it more versatile for managing HTTP and HTTPS traffic. It's preferred for complex routing scenarios and enables efficient use of resources by handling multiple services through a single external IP address.
 
 #### 38. What about RBAC? 
 
-**Answer**.
+**Answer**. RBAC, or Role-Based Access Control, in Kubernetes is a security mechanism to control access to resources. It defines roles and role bindings, allowing fine-grained permissions management. Roles specify what actions are allowed, and role bindings associate roles with users or groups. RBAC enhances security by restricting unauthorized access to sensitive operations and resources within the Kubernetes cluster.
 
 #### 39. What is Helm?
 
@@ -273,6 +288,8 @@ After defining the HPA, I apply it to the cluster using kubectl apply -f hpa.yam
   
 #### 47. Do you work with resource limits and resource quotas in your Kubernetes setup? If yes, how do you set them up?
 
+**Answer**. Yes, in my Kubernetes setup, I utilize resource limits and quotas for effective resource management. To set them up, I define resource limits in pod specifications to restrict CPU and memory usage. For resource quotas, I create a ResourceQuota object in the desired namespace, specifying limits for CPU, memory, and other resources. This helps prevent resource overuse and ensures fair resource distribution among applications within the cluster.
+
 #### 48. How would you implement horizontal pod scaling based on custom metrics specific to your application's performance indicators?
 
 **Answer**. To implement horizontal pod scaling based on custom metrics in Kubernetes, I would follow these steps:
@@ -313,13 +330,4 @@ kubectl scale replicasets my-replicaset --replicas=3
 ```
 If replicas are not scaling as expected, check for issues such as resource constraints, unsatisfied PodDisruptionBudget, or problems with the underlying container runtime.
 
-#### 52. Have you ever used multiple containers within a single pod in Kubernetes? Provide an example.
-
-**Answer**. Yes, I've used multiple containers within a single pod in Kubernetes. For instance, in a web application pod, I might have both a main application container and a sidecar container for log shipping. The containers share the same network namespace and storage, facilitating coordination and enhancing application functionality.
-
-**Scenario you can explain**. Consider a web application that generates logs. You want to ship these logs to an external service for analysis. In this scenario, you could have a pod with two containers:
-- Main Application Container:
-Contains the primary web application that generates logs.
-- Sidecar Container:
-A separate container running a log shipping agent (e.g., Fluentd, Filebeat).
-The sidecar container reads logs from the main application container, processes them, and sends them to a centralized logging service. 
+#### 52. 
