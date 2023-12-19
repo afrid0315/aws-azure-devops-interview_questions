@@ -782,3 +782,7 @@ The tee command reads standard input and copies it to both standard outputs and 
 74. Linux Command for CPU memories and process troubleshooting with command.
 75. What are the “top“ command in Linux and the “star“ command.
 76. Use of Traceroute & Nslookup command.
+77. Few Linux questions-processing a log file and fetching for few error codes from debugging prints. Can be solved using cat and sed.
+78. Write a shell script for tasks performed in (c) —> I wrote a simple for loop command.
+79. Discussion on how to debug disk space issue in Linux
+80. Write a shell script to generate a report on 10 top space-consuming workspaces (folders) with consumption details—> again a simple for loop with df & du commands.
