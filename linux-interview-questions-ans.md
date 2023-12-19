@@ -786,3 +786,5 @@ The tee command reads standard input and copies it to both standard outputs and 
 78. Write a shell script for tasks performed in (c) —> I wrote a simple for loop command.
 79. Discussion on how to debug disk space issue in Linux
 80. Write a shell script to generate a report on 10 top space-consuming workspaces (folders) with consumption details—> again a simple for loop with df & du commands.
+81. Questions on file processing, solutions involved a cat, sed, awk, tail, head, grep -B, sort, unique, etc
+82. How would you debug if there is an issue with API output -> Discuss all the scenarios ranging from network connectivity to data in DB from where API fetches its data.
