@@ -788,3 +788,33 @@ The tee command reads standard input and copies it to both standard outputs and 
 80. Write a shell script to generate a report on 10 top space-consuming workspaces (folders) with consumption details—> again a simple for loop with df & du commands.
 81. Questions on file processing, solutions involved a cat, sed, awk, tail, head, grep -B, sort, unique, etc
 82. How would you debug if there is an issue with API output -> Discuss all the scenarios ranging from network connectivity to data in DB from where API fetches its data.
+83. OS boot process (Win/Linux)
+84. Memory management, Memory pages, Buffer, and Caches, Basic commands
+85. System date/time management, network time protocol
+86. Managing Users and groups
+87. File permissions
+88. Managing software – installation, uninstall, upgrade, etc.
+89. Managing system services and background processes
+90. Remote management of a system – SSH, RDP, etc.
+91. Network protocols – FTP, HTTP (web servers), SMTP (mail server)
+92. System automation – cron, batch jobs, windows startup tasks
+93. Booting Process in Detail.
+Booting Process troubleshooting.
+Bootable Device not found. Troubleshoot it.
+SSH connection troubleshooting.
+How do you check which ports are listening?
+The device is slowing down, Troubleshoot it.
+Commands to check for CPU Utilization.
+TOP and SAR command in detail.
+Paging Concept.
+What are System calls?
+Explain about fork().
+Explain the Process life cycle or Process States.
+How to check for Disk Free space.
+I have disk space available but the file is not getting created. Why?
+Explain the importance of inodes.
+The device is Heating up. Troubleshoot it.
+How do PING and TRACERT commands work?
+Explain what happens when www.amazon.com is clicked.
+Explain DHCP DORA Process.
+Write a program for printing the permutations of a string.
