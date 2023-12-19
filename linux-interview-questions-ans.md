@@ -775,3 +775,10 @@ We can copy a file to multiple directories in Linux by these methods and command
 xargs command on Unix/Linux operating system converts input from standard input into an argument list for a specified command.
 The command find initiates a search and allows actions to be performed based on the search results.
 The tee command reads standard input and copies it to both standard outputs and to one or more files.
+
+71. What is booting and explain are steps in detail (Linux/Windows).
+72. What is virtual memory & do why we need this in OS. Explain with real-life examples.
+73. If you are facing any issue with an internal server error, How you will troubleshoot?
+74. Linux Command for CPU memories and process troubleshooting with command.
+75. What are the “top“ command in Linux and the “star“ command.
+76. Use of Traceroute & Nslookup command.
