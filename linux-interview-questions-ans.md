@@ -636,8 +636,16 @@ By default, iptables rules get automatically removed after the system reboot, bu
 
 `iptables-save > /etc/iptables/rules.v4`
 
-#### 73. 
+#### 73. Managing system services and background processes.
+**Answer. Managing System Services and Background Processes:**
 
+- Use service management commands like systemctl (systemd) or service (SysV).
+- Start, stop, restart, or enable/disable services.
+- Monitor processes with commands like ps or top.
+- Background processes using & at the end of a command.
+- Manage cron jobs for scheduled tasks.
+- Utilize tools like nohup to run processes immune to hangups.
+  
 #### 74. Linux Command for CPU memories and process troubleshooting with command.
 **Answer.** To troubleshoot CPU, memory, and processes in Linux:
 
@@ -657,7 +665,7 @@ By default, iptables rules get automatically removed after the system reboot, bu
 - Kill a process using kill or pkill.
 - Monitor process activity using strace or lsof.
 
-#### 75. 
+#### 75. SSH connection troubleshooting.
 
 #### 76. Use of Traceroute & Nslookup command.
 **Answer. Traceroute Command:**
@@ -675,25 +683,31 @@ It is used to troubleshoot DNS-related issues, verify DNS records, and gather in
 - Example: `cat logfile.txt | sed -n '/ERROR/p'` fetches lines containing "ERROR" from the log.
 
 #### 78. Write a shell script for tasks performed in (c) —> I wrote a simple for loop command.
-#### 79. Discussion on how to debug disk space issue in Linux
+
+#### 79. How do you check which ports are listening?
+**Answer.** 
+Checking Listening Ports:
+- Use netstat -tulpn or ss -tulpn to display listening ports.
+- Alternatively, use lsof -i to list open ports and associated processes.
+- nmap can scan for open ports on a remote system.
+  
 #### 80. Write a shell script to generate a report on 10 top space-consuming workspaces (folders) with consumption details—> again a simple for loop with df & du commands.
-#### 81. Questions on file processing, solutions involved a cat, sed, awk, tail, head, grep -B, sort, unique, etc
+#### 81. 
 #### 82. How would you debug if there is an issue with API output -> Discuss all the scenarios ranging from network connectivity to data in DB from where API fetches its data.
-#### 83. OS boot process (Win/Linux)
+#### 83. 
 #### 84. Memory management, Memory pages, Buffer, and Caches, Basic commands
 #### 85. System date/time management, network time protocol
-#### 86. Managing Users and groups
-#### 87. File permissions
-#### 88. Managing software – installation, uninstall, upgrade, etc.
-#### 89. Managing system services and background processes
+#### 86. 
+#### 87.
+#### 88. 
+#### 89. 
 #### 90. Remote management of a system – SSH, RDP, etc.
 #### 91. Network protocols – FTP, HTTP (web servers), SMTP (mail server)
 #### 92. System automation – cron, batch jobs, windows startup tasks
-#### 93. Booting Process in Detail.
-Booting Process troubleshooting.
-Bootable Device not found. Troubleshoot it.
-SSH connection troubleshooting.
-How do you check which ports are listening?
+#### 93. 
+
+
+
 The device is slowing down, Troubleshoot it.
 Commands to check for CPU Utilization.
 TOP and SAR command in detail.
