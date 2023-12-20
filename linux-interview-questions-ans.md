@@ -507,8 +507,8 @@ The pkill command sends a signal (by default, SIGTERM) to the matched processes,
 #### 58. What is network bonding in Linux?
 **Answer.** Network bonding is the process of creating a single network by combining two or more network interfaces. This combination of networks improves redundancy and performance by increasing bandwidth and throughput. The major benefit of network bonding is that the overall network works fine even if a single network in the bonding does not work properly.
 
-####59. What is SELinux?
-**Answer.**SELinux or also known as Security-Enhanced Linux, is the security framework. It offers an additional layer of security to improve access control and strengthen security. SELinux was developed to improve the security policies to prevent unauthorized access and exploitation. However, learning about SELinux is essential before working on it can create serious security issues.
+#### 59. What is SELinux?
+**Answer.** SELinux or also known as Security-Enhanced Linux, is the security framework. It offers an additional layer of security to improve access control and strengthen security. SELinux was developed to improve the security policies to prevent unauthorized access and exploitation. However, learning about SELinux is essential before working on it can create serious security issues.
 
 #### 60. What is the purpose of the SSH protocol in Linux, and how do you securely connect to a remote server using SSH?
 **Answer.** The Secure Shell (SSH) is a protocol in Linux which is used to establish a secure encrypted connection between a local and remote machine. It allows to securely access and manage remote servers. If we want to connect to a remote server using SSH. We can use the following command.
