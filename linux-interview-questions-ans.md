@@ -666,6 +666,20 @@ By default, iptables rules get automatically removed after the system reboot, bu
 - Monitor process activity using strace or lsof.
 
 #### 75. SSH connection troubleshooting.
+**Answer. SSH Connection Troubleshooting:**
+
+- Check Network Connectivity:
+- Verify if the server is reachable.
+- Ensure the SSH service is running on the server.
+- Confirm that firewalls allow SSH traffic.
+- Use correct username and password/key.
+- Verify SSH server configuration.
+- Ensure correct permissions for SSH keys.
+- Check server logs for SSH errors.
+- Verify SSH is running on the correct port (default is 22).
+- Ensure client and server have compatible SSH versions.
+- Try connecting from a different SSH client.
+- Use -v or -vv with ssh for detailed debugging output.
 
 #### 76. Use of Traceroute & Nslookup command.
 **Answer. Traceroute Command:**
@@ -682,7 +696,17 @@ It is used to troubleshoot DNS-related issues, verify DNS records, and gather in
 - Employ sed to filter specific lines, e.g., for error codes.
 - Example: `cat logfile.txt | sed -n '/ERROR/p'` fetches lines containing "ERROR" from the log.
 
-#### 78. Write a shell script for tasks performed in (c) —> I wrote a simple for loop command.
+#### 78. Explain DHCP DORA Process.
+**Answer.**  
+**Discover (D):**
+Client broadcasts a DHCP Discover message to find available DHCP servers on the network.
+**Offer (O):**
+DHCP servers respond with DHCP Offer messages, providing IP address lease information.
+**Request (R):**
+Client selects an offered IP address and broadcasts a DHCP Request message.
+**Acknowledge (A):**
+The chosen DHCP server responds with a DHCP Acknowledge message, confirming the lease.
+**DORA: Discover, Offer, Request, Acknowledge.**
 
 #### 79. How do you check which ports are listening?
 **Answer.** 
@@ -692,34 +716,86 @@ Checking Listening Ports:
 - nmap can scan for open ports on a remote system.
   
 #### 80. Write a shell script to generate a report on 10 top space-consuming workspaces (folders) with consumption details—> again a simple for loop with df & du commands.
-#### 81. 
+**Answer.** 
+```
+#!/bin/bash
+
+# Shell script to generate a report on top 10 space-consuming workspaces
+
+echo "Top 10 Space-Consuming Workspaces:"
+echo "---------------------------------"
+
+# Loop through directories and calculate space consumption
+for dir in /*; do
+    if [ -d "$dir" ]; then
+        space_consumed=$(du -hs "$dir" 2>/dev/null | awk '{print $1}')
+        echo "$dir: $space_consumed"
+    fi
+done | sort -hrk 2 | head -n 10
+```
+
+#### 81. TOP and SAR command in detail. 
+**Answer.** 
+**TOP Command:**
+- top provides real-time system resource monitoring.
+- Displays CPU usage, memory, processes, and more.
+- Interactive interface for dynamic updates.
+- Press 'q' to exit.
+
+**SAR Command:**
+- sar (System Activity Reporter) collects, reports, and saves system activity data.
+- Captures CPU, memory, disk, and network usage.
+- Useful for performance analysis and historical data.
+- Example: sar -u shows CPU usage.
+  
 #### 82. How would you debug if there is an issue with API output -> Discuss all the scenarios ranging from network connectivity to data in DB from where API fetches its data.
-#### 83. 
-#### 84. Memory management, Memory pages, Buffer, and Caches, Basic commands
+**Answer.** 
+- Verify if the server hosting the API is reachable.
+- Check for any network issues or firewalls blocking communication.
+- Confirm the API service is running and accessible.
+- Check server logs for errors related to the API.
+- Ensure the API endpoint is correct.
+- Verify the HTTP method (GET, POST, etc.) and parameters.
+- Check if proper authentication tokens or API keys are provided.
+- Confirm the user has the necessary permissions.
+- Ensure the database from which the API fetches data is accessible.
+- Check database logs for errors or slow queries.
+- Inspect the data in the database to ensure it is accurate and up-to-date.
+- Confirm that the API response matches the expected data.
+- Validate that the API response adheres to the expected format (JSON, XML, etc.).
+- Check for any error messages or unexpected data.
+- Examine the HTTP status codes returned by the API (e.g., 200 for success, 404 for not found).
+- Different status codes provide insights into the nature of the issue.
+- Confirm if the API has rate limits, and ensure they are not exceeded.
+- Check for rate limit-related error responses.
+- If using a proxy or CDN, check for misconfigurations or issues affecting data transmission.
+
+#### 83. Paging Concept.
+**Answer.**
+
+**Memory Management Technique:**
+- Breaks physical memory into fixed-size blocks called pages.
+- Logical memory divided into same-sized pages.
+- Address Translation:
+- Operating system maintains a page table for mapping logical to physical addresses.
+- Allows non-contiguous allocation of memory.
+**Advantages:**
+- Efficient use of physical memory.
+- Simplifies memory allocation and management.
+- Used in Virtual Memory Systems.
+
+#### 84. 
 #### 85. System date/time management, network time protocol
-#### 86. 
-#### 87.
-#### 88. 
-#### 89. 
+#### 86. The device is slowing down, Troubleshoot it.
+#### 87. What are System calls?
+#### 88. Explain the Process life cycle or Process States.
+#### 89. I have disk space available but the file is not getting created. Why?
 #### 90. Remote management of a system – SSH, RDP, etc.
 #### 91. Network protocols – FTP, HTTP (web servers), SMTP (mail server)
 #### 92. System automation – cron, batch jobs, windows startup tasks
-#### 93. 
-
-
-
-The device is slowing down, Troubleshoot it.
-Commands to check for CPU Utilization.
-TOP and SAR command in detail.
-Paging Concept.
-What are System calls?
-Explain about fork().
-Explain the Process life cycle or Process States.
-How to check for Disk Free space.
-I have disk space available but the file is not getting created. Why?
-Explain the importance of inodes.
-The device is Heating up. Troubleshoot it.
-How do PING and TRACERT commands work?
-Explain what happens when www.amazon.com is clicked.
-Explain DHCP DORA Process.
-Write a program for printing the permutations of a string.
+#### 93. Explain the importance of inodes.
+#### 94. The device is Heating up. Troubleshoot it.
+#### 95. How do PING and TRACERT commands work?
+#### 96. Explain what happens when www.amazon.com is clicked.
+#### 97. 
+#### 98. 
