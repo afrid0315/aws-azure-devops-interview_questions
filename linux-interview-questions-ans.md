@@ -80,7 +80,7 @@ It offers CLI and GUI to use different commands and applications such as Firefox
 **Answer.** Here is the table that shows the difference between soft links and hard links:
 | Hard Links  | Soft Links  |
 | --- | --- |
-| It includes original content. Links  | It includes the original file location.  |
+| It includes original content Links.  | It includes the original file location.  |
 | Hard links are faster as compared to soft links.| Soft links are slower.|
 | It shares similar inode numbers.  | It shares different inode numbers.  |
 | There is no relative path for hard links. | Relative paths are used for soft links. |
