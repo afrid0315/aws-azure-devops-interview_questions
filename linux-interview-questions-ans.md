@@ -604,6 +604,26 @@ Save the file and restart the network service or reboot the system for the chang
 - The tee command reads standard input and copies it to both standard outputs and to one or more files.
 
 #### 71. What is booting and explain are steps in detail (Linux/Windows).
+**Answer.** 
+Booting is the process of initializing a computer's operating system and making it ready for use.
+
+**Linux Boot Process:**
+
+- BIOS/UEFI: The computer's firmware (BIOS or UEFI) performs a Power-On Self-Test (POST) and initializes hardware.
+- Boot Loader (GRUB): The boot loader, such as GRUB, loads the Linux kernel into memory from the boot partition.
+- Linux Kernel Initialization: The kernel initializes hardware, mounts the root file system, and starts the init process.
+- Init Process: The init process (or a modern equivalent like systemd) initializes user space components, services, and runs startup scripts.
+
+**Windows Boot Process:**
+
+- Power-On Self-Test (POST): Hardware is tested during POST, and the system's firmware (UEFI or BIOS) is activated.
+- Boot Loader (Windows Boot Manager): The boot loader, often Windows Boot Manager, loads the Windows Boot Configuration Data (BCD) and presents a menu if multiple OS options exist.
+- Windows Kernel Initialization: The Windows kernel (ntoskrnl.exe) is loaded into memory and initializes essential system components.
+- Session Manager (Wininit.exe): The Session Manager starts, initializing system processes and drivers.
+- Winlogon and User Initialization: Winlogon starts, and user-specific processes and services are initiated.
+- User Interface: The graphical user interface (GUI) is presented, and the user can log in.
+
+In both cases, the boot process involves initializing hardware, loading the operating system's kernel, and transitioning from a pre-boot environment to a fully functional user environment
 #### 72. What is virtual memory & do why we need this in OS. Explain with real-life examples.
 #### 73. If you are facing any issue with an internal server error, How you will troubleshoot?
 #### 74. Linux Command for CPU memories and process troubleshooting with command.
