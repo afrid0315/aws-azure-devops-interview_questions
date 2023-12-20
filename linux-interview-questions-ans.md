@@ -111,7 +111,7 @@ After identifying the partition, create the directory which will work as the mou
 Finally, you can run sudo mount <partition> <mount_point_directory> to complete the mounting.
 
 **For Unmounting:**
-Once you check if the specific filesystem is in use, you can run the `sudo umount <mount_point_directory>` for unmounting. If you want to learn more about the mount command in Linux, check out this brief guide.
+Once you check if the specific filesystem is in use, you can run the `sudo umount <mount_point_directory>` for unmounting.
 
 #### 17. How do you troubleshoot network connectivity issues in Linux?
 **Answer.** There are multiple ways to troubleshoot the network connectivity and find the issue correctly:
