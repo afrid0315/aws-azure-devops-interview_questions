@@ -256,8 +256,6 @@ Once you run the command, the system will ask you to enter and confirm the new p
 
 `ulimit -u 50 `
 
-You can explore more options of the ulimit command by following this guide.
-
 #### 28. What is the find command, and how do you use it?
 **Answer.** The find command searches for files based on different factors such as name, size, permissions, etc. Here is the basic command:
 
