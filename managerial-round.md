@@ -1,5 +1,8 @@
 ## Managerial round questions and answers
-
+14 Leadership principles from amazon. Read this first and then go to below questions...
+```
+https://www.levels.fyi/blog/amazon-leadership-principles.html
+```
 #### 1. Tell me how you handled your non-supportive team members in your team.
 
 Answer.
