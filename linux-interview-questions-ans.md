@@ -1,245 +1,177 @@
-Linux Interview Question
+## Linux Interview Questions & Answers
 
-1. What is Linux?
-Linus Torvalds developed Linux, a Unix-like, free, open-source, and kernel operating system. Mainly it is designed for systems, servers, embedded devices, mobile devices, and mainframes and is also supported on major computer platforms such as ARM, x86, and SPARC.
+#### 1. What is Linux?
+**Answer.** Linus Torvalds developed Linux, a Unix-like, free, open-source, and kernel operating system. Mainly it is designed for systems, servers, embedded devices, mobile devices, and mainframes and is also supported on major computer platforms such as ARM, x86, and SPARC.
 
-2. Explain the basic features of the Linux OS.
-Some basic features of Linux are:
+#### 2. Explain the basic features of the Linux OS.
+**Answer.** Some basic features of Linux are:
 
 Linux is free and easily available.
 It is more secure than other operating systems because it uses security auditing and password authentication features.
 Linux has its personal software repository.
 It includes multiple languages throughout the world. Hence Linux supports different language keyboards.
 It offers CLI and GUI to use different commands and applications such as Firefox, VLC, etc.
-3. Name some Linux Distros
-There are various Linux distros but the following are the most commonly used:
 
-Ubuntu
-Debian
-CentOS
-Fedora
-RedHat
-4. What are the major differences between Linux and Windows?
-The following table will help in understanding the differences between Linux and Windows:
+#### 3. Name some Linux Distros
+**Answer.** There are various Linux distros but the following are the most commonly used:
+- Ubuntu
+- Debian
+- CentOS
+- Fedora
+- RedHat
 
-Comparison Factor
+#### 4. What are the major differences between Linux and Windows?
+**Answer.** The following table will help in understanding the differences between Linux and Windows:
 
-Linux
+| Comparison Factor | Linux  | Windows  |
+| ------- | --- | --- |
+| Free/Paid | It is a free and open-source OS. | It is not open-source and is free to use. |
+| Security | Linux is highly secure. | Windows is less secure compared to Linux. |
+| Path separator | As a path separator, it uses a forward slash. | Windows uses a backward slash between the directories. |
+| Efficiency | Linux is more efficient than Windows. | Windows is less efficient. |
+| Kernel type | It uses a monolithic kernel. | It uses a microkernel.|
+| File system | Linux file systems are case-sensitive.| Its file system is case-insensitive. |
 
-Windows
+#### 5. Define the basic components of Linux.
+**Answer.** Majorly there are five basic components of Linux:
 
-Free/Paid
+**Kernel:** Linux kernel is a core part of the operating system that works as a bridge between hardware and software.
 
-It is a free and open-source OS.
+**Shell:** Shell is an interface between a kernel and a user.
 
-It is not open-source and is free to use.
+**GUI:** Offers different way to interact with the system, known as the graphical user interface (GUI).
 
-Security
+**Application programs:** It is designed to perform a bundle of tasks through a bundle of functions.
 
-Linux is highly secure.
+**System Utilities:** It is the software functions through which users manage the system.
 
-Windows is less secure compared to Linux.
+#### 6. Elaborate all the file permission in Linux.
+**Answer.** There are three types of file permissions in Linux:
 
-Path separator
+- Read: Users open and read files with this permission.
+- Write: Users can open and modify the files.
+- Execute: Users can run the file.
 
-As a path separator, it uses a forward slash.
+#### 7. What is the Linux Kernel? Is it legal to edit it?
+**Answer.** It is known as a low-level software system. The Linux kernel tracks the resources and provides a user interface. This OS is released under GPL (General Public License). Hence every project is released under it. So, you can edit the Linux kernel legally.
 
-Windows uses a backward slash between the directories.
+#### 8. Explain LILO
+**Answer.** LILO, i.e., Linux Loader and is a Linux Boot loader. It loads the Linux operating system into memory and starts the execution. Most operating systems like Windows and macOS come with a bootloader. While in Linux, you need to install a separate boot loader, and LILO is one of the Linux boot loaders.
 
-Efficiency
+#### 9. What is Shell in Linux?
+**Answer.** In Linux, five Shells are used:
 
-Linux is more efficient than Windows.
+- csh (C Shell): This shell offers job control and spell checking and is similar to C syntax.]
+- ksh (Korn Shell): A high-level shell for programming languages.
+- ssh (Z Shell): This shell has a unique nature, such as closing comments, startup files, file name generating, and observing logout/login watching.
+- bash (Bourne Again Shell): This is the default shell for Linux.
+- Fish (Friendly Interactive Shell): This shell provides auto-suggestion, web-based configuration, etc.
 
-Windows is less efficient.
+#### 10. What is a root account?
+**Answer.** The root is like the user’s name or system administrator account in Linux. The root account provides complete system control, which an ordinary user cannot do.
 
-Kernel type
+#### 11. Describe CLI and GUI in Linux.
+**Answer.** CLI, i.e., command line interface. It takes input as a command and runs the tasks of the system. The term GUI refers to the Graphical User Interface or the human-computer interface. It uses icons, images, menus, and windows, which can be manipulated through the mouse.
 
-It uses a monolithic kernel.
+#### 12. What is Swap Space?
+**Answer.** Linux uses swap space to expand RAM. Linux uses this extra space to hold concurrently running programs temporarily.
 
-It uses a microkernel.
+#### 13. What is the difference between hard links and soft links?
+**Answer.** Here is the table that shows the difference between soft links and hard links:
+| Hard Links  | Soft Links  |
+| --- | --- |
+| It includes original content. Links  | It includes the original file location.  |
+| Hard links are faster as compared to soft links.| Soft links are slower.|
+| It shares similar inode numbers.  | It shares different inode numbers.  |
+| There is no relative path for hard links. | Relative paths are used for soft links. |
+| It didn’t link the directories.  | It links the directories. |
+| Any change in this link reflects other files directly. | Every change in this link reflects its hard link and the actual file directly.|
+| It uses less memory. | It uses more memory. |
 
-File system
-
-Linux file systems are case-sensitive.
-
-Its file system is case-insensitive.
-
-5. Define the basic components of Linux.
-Majorly there are five basic components of Linux:
-
-Kernel: Linux kernel is a core part of the operating system that works as a bridge between hardware and software.
-Shell: Shell is an interface between a kernel and a user.
-GUI: Offers different way to interact with the system, known as the graphical user interface (GUI).
-Application programs: It is designed to perform a bundle of tasks through a bundle of functions.
-System Utilities: It is the software functions through which users manage the system.
-6. Elaborate all the file permission in Linux.
-There are three types of file permissions in Linux:
-
-Read: Users open and read files with this permission.
-Write: Users can open and modify the files.
-Execute: Users can run the file.
-7. What is the Linux Kernel? Is it legal to edit it?
-It is known as a low-level software system. The Linux kernel tracks the resources and provides a user interface. This OS is released under GPL (General Public License). Hence every project is released under it. So, you can edit the Linux kernel legally.
-
-8. Explain LILO
-LILO, i.e., Linux Loader and is a Linux Boot loader. It loads the Linux operating system into memory and starts the execution. Most operating systems like Windows and macOS come with a bootloader. While in Linux, you need to install a separate boot loader, and LILO is one of the Linux boot loaders.
-
-9. What is Shell in Linux?
-In Linux, five Shells are used:
-
-csh (C Shell): This shell offers job control and spell checking and is similar to C syntax.]
-ksh (Korn Shell): A high-level shell for programming languages.
-ssh (Z Shell): This shell has a unique nature, such as closing comments, startup files, file name generating, and observing logout/login watching.
-bash (Bourne Again Shell): This is the default shell for Linux.
-Fish (Friendly Interactive Shell): This shell provides auto-suggestion, web-based configuration, etc.
-10. What is a root account?
-The root is like the user’s name or system administrator account in Linux. The root account provides complete system control, which an ordinary user cannot do.
-
-11. Describe CLI and GUI in Linux.
-CLI, i.e., command line interface. It takes input as a command and runs the tasks of the system. The term GUI refers to the Graphical User Interface or the human-computer interface. It uses icons, images, menus, and windows, which can be manipulated through the mouse.
-
-12. What is Swap Space?
-Linux uses swap space to expand RAM. Linux uses this extra space to hold concurrently running programs temporarily.
-
-13. What is the difference between hard links and soft links?
-Here is the table that shows the difference between soft links and hard links:
-
-Hard Links
-
-Soft Links
-
-It includes original content.
-
-It includes the original file location.
-
-Hard links are faster as compared to soft links.
-
-Soft links are slower.
-
-It shares similar inode numbers.
-
-It shares different inode numbers.
-
-There is no relative path for hard links.
-
-Relative paths are used for soft links.
-
-It didn’t link the directories.
-
-It links the directories.
-
-Any change in this link reflects other files directly.
-
-Every change in this link reflects its hard link and the actual file directly.
-
-It uses less memory.
-
-It uses more memory.
-
-14. How do users create a symbolic link in Linux?
-Symbolic links, symlink, or soft links are shortcuts to files and directories. Users can create the symbolic link in Linux through the’ ln’ command. The general command to create a symbolic link is as follows:
-
+#### 14. How do users create a symbolic link in Linux?
+**Answer.** Symbolic links, symlink, or soft links are shortcuts to files and directories. Users can create the symbolic link in Linux through the’ ln’ command. The general command to create a symbolic link is as follows:
+```
 ln -s <existing_source file> <optional_symbolic link>
+```
 
+#### 15. What do you understand about the standard streams?
+**Answer.** Output and input in Linux OS are divided into three standard streams: 
 
-
-15. What do you understand about the standard streams?
-Output and input in Linux OS are divided into three standard streams: 
-
-Stdin (standard input)
-stdout(standard output)
-stderr (standard error)
+- Stdin (standard input)
+- stdout(standard output)
+- stderr (standard error)
 Under Linux, these standard streams channel communication of output and input between programs and their environment.
 
-Intermediate-Level Linux Interview Questions
-The next 15 questions are the best suitable for those who have an intermediate level of experience in Linux:
+#### 16. How do you mount and unmount filesystems in Linux?
+**Answer.** In this case, you can use the ‘mount’ and ‘umount’ commands.
 
-16. How do you mount and unmount filesystems in Linux?
-In this case, you can use the ‘mount’ and ‘umount’ commands.
-
-For mounting:
-
+**For mounting:**
 First, identify the partition through the fdisk -l command. You can also use the lsblk command for it.
 After identifying the partition, create the directory which will work as the mount point. For example, running the mkdir /mnt/mountpnt will create the mountpnt directory as the mount point.
 Finally, you can run sudo mount <partition> <mount_point_directory> to complete the mounting.
-For Unmounting:
 
+**For Unmounting:**
 Once you check if the specific filesystem is in use, you can run the `sudo umount <mount_point_directory>` for unmounting. If you want to learn more about the mount command in Linux, check out this brief guide.
 
-17. How do you troubleshoot network connectivity issues in Linux?
-There are multiple ways to troubleshoot the network connectivity and find the issue correctly:
+#### 17. How do you troubleshoot network connectivity issues in Linux?
+**Answer.** There are multiple ways to troubleshoot the network connectivity and find the issue correctly:
 
-Check the Internet Connectivity:
+**Check the Internet Connectivity:** First of all, please check if the internet connection option is on and also check the cables to find if there is any issue with it.
 
-First of all, please check if the internet connection option is on and also check the cables to find if there is any issue with it.
-
-Verify the Network Configuration:
-
+**Verify the Network Configuration:**
 Please check that your network is configured correctly and the network interface has your IP address. You can check it by running the ip addr or ifconfig commands.
 You can also run the ip route command to check if the default gateway is set properly.
 Finally, verify the DNS server configuration in the /etc/resolv.conf file.
-Check the Firewall:
 
+**Check the Firewall:**
 Sometimes, firewall rules block the internet connection for the system’s security. Hence, you can run the ufw or iptables command to modify the firewall rules.
 
-Network Interface:
-
+**Network Interface:**
 You can restart your network interface through the ifup and ifdown commands. Once you restart the network interface, please reboot the system to make changes successful.
 
-18. How do you list all the processes running in Linux?
-You can list the currently running process in Linux through various commands such as:
+#### 18. How do you list all the processes running in Linux?
+**Answer.** You can list the currently running process in Linux through various commands such as:
 
-ps Command:
-
+**ps Command:**
 The ps command displays brief information about the running processes. You can use the ps -f or ps -f command because the -f option shows the full-format result, and the -e option displays all processes. Moreover, you can use the ps auxf command to get a detailed list of processes.
 
-top and htop Command:
-
+**top and htop Command:**
 The top command displays the real-time details about the system process and the complete resource usage.
 The htop command is the improved version of the top command because it displays the color-coded list with additional features such as sorting, filtering, sorting, etc.
-19. What is the chmod command in Linux, and how do you use it?
-You can use the chmod command to change the file permissions of the directories. It offers a simple way to control the read and write permissions. For instance, if you want to change the permission of the ABC.sh script and give it the write and executable permission, you can run the below command:
 
-chmod u+wx ABC.sh
+#### 19. What is the chmod command in Linux, and how do you use it?
+**Answer.** You can use the chmod command to change the file permissions of the directories. It offers a simple way to control the read and write permissions. For instance, if you want to change the permission of the ABC.sh script and give it the write and executable permission, you can run the below command:
 
+`chmod u+wx ABC.sh`
 
 The chmod command is not limited to the write (w), read (r), and executable (x) permissions because there are symbolic modes and numeric modes, which you can learn from this guide.
 
-20. How do you check disk space usage?
-There are some simple commands you can use to check disk space usage, such as:
+#### 20. How do you check disk space usage?
+**Answer.** There are some simple commands you can use to check disk space usage, such as:
 
-df Command:
-
+**df Command:**
 The df or disk-free command shows the used and the available disk space. You can use the additional options to check disk space differently. For instance, you can use the df -h command to check the disk usage in the human-readable format.
 
-du Command:
-
+**du Command:**
 The du or disk usage command estimates and shows the disk space usage, so running the du command with no option shows the disk usage of your current directory. However, you can run the following command to check the disk usage of a specific directory:
 
-du -sh ~/<directory> 
+`du -sh ~/<directory> `
 
-
-
-ncdu Command:
-
+**ncdu Command:**
 The NCurses Disk Usage, or ncdu command, displays more interactive disk usage. Similar to the du command, the ncdu command also requires the path of the specific directory to check its space.
 
-21. How do you find the process ID (PID) of a running process?
-You can use the following command to find the Process ID or PID of the currently running process:
+#### 21. How do you find the process ID (PID) of a running process?
+**Answer.** You can use the following command to find the Process ID or PID of the currently running process:
 
-pgrep Command:
-
+**pgrep Command:**
 The pgrep command shows the PID of a process through its name or other different attributes. For example, you can find the PID of process_1 using the below command:
 
-pgrep <process_1>
+`pgrep <process_1>`
 
-
-ps Command:
-
+**ps Command:**
 ps command not only displays the currently running process but also shows the process’s PID. However, if you want to check the PID of a specific process, you can combine the ps with the grep command:
 
-ps -e | grep -i <process_1> 
-
+`ps -e | grep -i <process_1>`
 
 22. What is the rsync command, and how do you use this command for synchronization?
 The rsync command is used to synchronize and transfer the files in Linux. It synchronizes files between two local systems, directories, or a network. The basic rsync command contains the following:
