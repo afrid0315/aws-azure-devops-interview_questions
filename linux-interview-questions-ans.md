@@ -334,6 +334,9 @@ Once you run the above command, the system will start tracing the list command a
 #### 36. What is a Linux virtual memory system?
 **Answer.** Virtual memory is a great memory management utility in any OS. You can use the virtual memory system as secondary memory. This memory is used by both software and hardware in Linux so that your system can cope with the lack of physical memory. Moreover, virtual memory is also used to compensate for the RAM usage by transferring the data temporarily from RAM to disk storage.
 
+**Real-Life Example:**
+Imagine you're working on a computer with limited RAM, and you have multiple applications open simultaneously. Virtual memory allows the operating system to use a portion of the hard disk as if it were additional RAM. When the physical RAM becomes fully occupied, less frequently used data is moved to the disk, making room for actively used data in RAM. This enables you to run more applications than the physical RAM would otherwise allow, preventing system slowdowns or crashes.
+
 #### 37. What do you understand about process scheduling in Linux?
 **Answer.** Process scheduling is the mechanism that identifies the order of processes running on the system. In other words, process scheduling determines the order and execution time of multiple processes running on the system concurrently. This process scheduler of Linux is priority-based and uses a preemptive algorithm. It allocates CPU time for different processes to ensure efficient CPU resource usage. These processes are dynamic, and their order can change depending on many factors, such as resource usage, process behavior, and scheduling policies.
 
@@ -352,26 +355,14 @@ Once you run the above command, the system will start tracing the list command a
 - df: Shows disk space usage.
 - man: Gives a manual page for a specific command that displays instructions and details.
 
-#### 39. What is the iptables command, and how to use it for network filtering?
-**Answer.** The iptables command configures Netfilter firewall rules providing the network address translation, packet filtering, etc. iptables inspects the network packet and then manages them according to the defined rules. Here is how you can use the iptables command for network filtering: 
-
-Run the below command to display the current iptables rules, including policies, chains, and other actions for the network:
-
-`iptables -L`
-
-The iptables configuration uses the predefined set of chains to process the network packages at different stages. So you can define rules to these chains for manipulating the network packets:
-
-`iptables -A <chain> <options> -j <target>`
-
-In the above command:
-```
-<chain>: Specifies the chain where you want to define a new rule.
-<options>: Defines the conditions for the rule, like ports, protocols, etc.
--j <target>: Defines the target action when the packet matches the rule.
-```
-By default, iptables rules get automatically removed after the system reboot, but you can use the following command to make the rules persistent:
-
-`iptables-save > /etc/iptables/rules.v4`
+#### 39. If you are facing any issue with an internal server error, How you will troubleshoot?
+**Answer.** To troubleshoot an internal server error:
+- Check Logs: Examine server logs for errors.
+- Review Code: Look into recent code changes.
+- Verify Permissions: Ensure correct file permissions.
+- Test Components: Isolate and test components.
+- Review Configuration: Check server configuration files.
+- Update Software: Ensure all software is up-to-date.
 
 #### 40. How do you troubleshoot a Linux OS that fails to boot?
 **Answer.** In case of the system boot failure, you can follow various approaches such as:
@@ -624,12 +615,65 @@ Booting is the process of initializing a computer's operating system and making 
 - User Interface: The graphical user interface (GUI) is presented, and the user can log in.
 
 In both cases, the boot process involves initializing hardware, loading the operating system's kernel, and transitioning from a pre-boot environment to a fully functional user environment
-#### 72. What is virtual memory & do why we need this in OS. Explain with real-life examples.
-#### 73. If you are facing any issue with an internal server error, How you will troubleshoot?
+#### 72. What is the iptables command, and how to use it for network filtering?
+**Answer.** The iptables command configures Netfilter firewall rules providing the network address translation, packet filtering, etc. iptables inspects the network packet and then manages them according to the defined rules. Here is how you can use the iptables command for network filtering: 
+
+Run the below command to display the current iptables rules, including policies, chains, and other actions for the network:
+
+`iptables -L`
+
+The iptables configuration uses the predefined set of chains to process the network packages at different stages. So you can define rules to these chains for manipulating the network packets:
+
+`iptables -A <chain> <options> -j <target>`
+
+In the above command:
+```
+<chain>: Specifies the chain where you want to define a new rule.
+<options>: Defines the conditions for the rule, like ports, protocols, etc.
+-j <target>: Defines the target action when the packet matches the rule.
+```
+By default, iptables rules get automatically removed after the system reboot, but you can use the following command to make the rules persistent:
+
+`iptables-save > /etc/iptables/rules.v4`
+
+#### 73. 
+
 #### 74. Linux Command for CPU memories and process troubleshooting with command.
-#### 75. What are the “top“ command in Linux and the “star“ command.
+**Answer.** To troubleshoot CPU, memory, and processes in Linux:
+
+**CPU Usage:**
+
+- Use top or htop command to view real-time CPU usage.
+- mpstat provides CPU usage statistics.
+**Memory Usage:**
+
+- Check memory usage with free command.
+- Analyze detailed memory info using vmstat or htop.
+
+**Process Management:**
+
+- View running processes with ps command.
+- Investigate detailed process information with pidstat.
+- Kill a process using kill or pkill.
+- Monitor process activity using strace or lsof.
+
+#### 75. 
+
 #### 76. Use of Traceroute & Nslookup command.
-#### 77. Few Linux questions-processing a log file and fetching for few error codes from debugging prints. Can be solved using cat and sed.
+**Answer. Traceroute Command:**
+traceroute is used to trace the route that packets take from your computer to a destination, showing the network hops in between.
+It helps diagnose network connectivity issues and identify delays.
+
+**Nslookup Command:**
+nslookup is a command-line tool for querying DNS (Domain Name System) to obtain domain name or IP address information.
+It is used to troubleshoot DNS-related issues, verify DNS records, and gather information about a domain.
+
+#### 77. Processing a log file and fetching for few error codes from debugging prints. Can be solved using cat and sed.
+**Answer. Processing Log File with cat and sed in Linux:**
+- Use cat to display log content.
+- Employ sed to filter specific lines, e.g., for error codes.
+- Example: `cat logfile.txt | sed -n '/ERROR/p'` fetches lines containing "ERROR" from the log.
+
 #### 78. Write a shell script for tasks performed in (c) —> I wrote a simple for loop command.
 #### 79. Discussion on how to debug disk space issue in Linux
 #### 80. Write a shell script to generate a report on 10 top space-consuming workspaces (folders) with consumption details—> again a simple for loop with df & du commands.
