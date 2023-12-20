@@ -328,7 +328,6 @@ Once you run the above command, the system will start tracing the list command a
 - Configure the system to optimize the performance, improve the security and maintain the network connectivity.
 - Implement the backup strategy to perform regular backups of the server.
 - Implement the monitoring tools to track resource usage, system performance, and network.
-- Set up monitoring tools to track system performance, resource usage, and network activity.
 - Configure firewall, set up intrusion detection, manage user permissions and configure the SSH.
 - Create a proper recovery planning that must include regular backup, critical configuration documentation, recovery process testing, and offsite storage.
 
