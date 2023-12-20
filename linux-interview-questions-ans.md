@@ -570,7 +570,7 @@ For example: If we want to check the connectivity to a remote host, we use the f
 Here replace `remote_host_ip` with the Ip address of the host
 
 #### 67. How do you recursively copy files and directories in Linux using the cp command?
-**Answer.** In linxux we can simply use `-R` option with the `cp` command to recursively copy the file and directories.
+**Answer.** In linux we can simply use `-R` option with the `cp` command to recursively copy the file and directories.
 
 For example: 
 
