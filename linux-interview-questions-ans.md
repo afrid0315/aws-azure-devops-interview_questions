@@ -133,11 +133,11 @@ You can restart your network interface through the ifup and ifdown commands. Onc
 **Answer.** You can list the currently running process in Linux through various commands such as:
 
 **ps Command:**
-The ps command displays brief information about the running processes. You can use the ps -f or ps -f command because the -f option shows the full-format result, and the -e option displays all processes. Moreover, you can use the ps auxf command to get a detailed list of processes.
+The ps command displays brief information about the running processes. You can use the ps -f or ps -ef command because the -f option shows the full-format result, and the -e option displays all processes. Moreover, you can use the ps auxf command to get a detailed list of processes.
 
 **top and htop Command:**
 The top command displays the real-time details about the system process and the complete resource usage.
-The htop command is the improved version of the top command because it displays the color-coded list with additional features such as sorting, filtering, sorting, etc.
+The htop command is the improved version of the top command because it displays the color-coded list with additional features such as sorting, filtering, etc.
 
 #### 19. What is the chmod command in Linux, and how do you use it?
 **Answer.** You can use the chmod command to change the file permissions of the directories. It offers a simple way to control the read and write permissions. For instance, if you want to change the permission of the ABC.sh script and give it the write and executable permission, you can run the below command:
