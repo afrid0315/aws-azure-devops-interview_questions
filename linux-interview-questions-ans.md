@@ -61,7 +61,7 @@ It offers CLI and GUI to use different commands and applications such as Firefox
 #### 9. What is Shell in Linux?
 **Answer.** In Linux, five Shells are used:
 
-- csh (C Shell): This shell offers job control and spell checking and is similar to C syntax.]
+- csh (C Shell): This shell offers job control and spell checking and is similar to C syntax.
 - ksh (Korn Shell): A high-level shell for programming languages.
 - ssh (Z Shell): This shell has a unique nature, such as closing comments, startup files, file name generating, and observing logout/login watching.
 - bash (Bourne Again Shell): This is the default shell for Linux.
