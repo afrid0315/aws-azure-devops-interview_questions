@@ -37,10 +37,42 @@
 
 **Answer**. Yes, I have experience with scaling applications in Kubernetes. Kubernetes provides both manual and automatic scaling options. For manual scaling, I've used the 'kubectl scale' command to adjust the number of replicas in a deployment based on demand. Additionally, I've implemented Horizontal Pod Autoscaling (HPA), allowing Kubernetes to automatically adjust the number of replicas based on resource metrics or custom metrics. This ensures optimal resource utilization and responsiveness to changing workloads. Overall, my experience includes efficiently scaling applications in Kubernetes to meet performance and resource requirements.
 
-#### 10. What is the role of kube-proxy?
+#### 10. Explain Kubernetes architecture?
 
-**Answer**. Kube-proxy works by maintaining a set of network rules on each node in the cluster, which are updated dynamically as services added or removed. When a client sends request to a service, the request is intercepted by Kube-proxy on the node where it was received. Kube-proxy then looks up the destination endpoint for the service and routes the request accordingly.
- Kube-proxy is the essential component of a kubernetes cluster, as it ensures that services can communicate with each other.
+**Answer**. Kubernetes architecture consists of a Master Node - which consists of API server, Controller Manager, and Scheduler. 
+Worker Node - which consists of Kubelet, Kube Proxy, and Container Runtime), etcd (distributed key-value store), Pods (basic units), Services (network abstraction), and Controllers (manage desired state). These components collaborate to automate containerized application deployment, scaling, and management in a distributed and scalable environment. 
+
+For more detailed explaination -
+Master Node:
+- API Server: Serves as the entry point for all administrative tasks and communication with the cluster. It validates and configures data for the API objects, such as pods, services, and replication controllers.
+- Controller Manager: Monitors the state of the cluster and responds to changes. It includes controller processes for nodes, replication, endpoints, and service accounts.
+- Scheduler: Assigns newly created pods to nodes based on resource requirements, policies, and other constraints.
+- Etcd: A distributed key-value store that stores the configuration data of the cluster. This data represents the state of the cluster at any given point in time.
+
+Worker Node:
+- Kubelet: Ensures that containers are running on a node and communicates with the master to receive instructions.(Kubelet manages the container that are scheduled to run on that node. It ensure that containers are running and healthy, and that resources they need are available. Kubelet communicates with API server to get information about the containers that are running on node, and then starts and stops the containers as needed to maintain the desired state. It also monitors the containers to ensure the containers running correctly, restarts them if necessary.
+- Kube Proxy: Maintains network rules on nodes. It manages network communication to and from a pod.
+- Container Runtime: The software responsible for running containers. Common runtimes include Docker, containerd, and others.
+
+Pod:
+The smallest and simplest unit in the Kubernetes object model. It represents a single instance of a running process in a cluster and consists of one or more containers that share the same network namespace.
+
+Service:
+An abstraction that defines a logical set of pods and a policy by which to access them. Services enable communication between different sets of pods as if they were all part of a single application.
+
+Namespace:
+A way to divide cluster resources between multiple users, teams, or applications. It provides a scope for names within the cluster.
+
+Volume:
+A directory accessible to all containers in a pod. It can be used to share data between containers and to persist data beyond the lifecycle of a pod.
+
+Label:
+A key-value pair that is attached to objects, such as pods. Labels are used to organize and select subsets of objects for various purposes.
+
+Controller:
+A control loop that watches the desired state of an object in the cluster and takes steps to move the current state closer to the desired state. Examples include ReplicaSets, Deployments, and StatefulSets.
+
+Kubernetes components communicate with each other via the API server, and the etcd cluster ensures consistent and reliable storage of configuration data. This distributed architecture enables high availability, scalability, and resilience in managing containerized applications.
 
 #### 11. About Network Policies?
 
@@ -147,42 +179,10 @@ Contains the primary web application that generates logs.
 A separate container running a log shipping agent (e.g., Fluentd, Filebeat).
 The sidecar container reads logs from the main application container, processes them, and sends them to a centralized logging service. 
 
-#### 28. Explain Kubernetes architecture?
+#### 28. What is the role of kube-proxy?
 
-**Answer**. Kubernetes architecture consists of a Master Node - which consists of API server, Controller Manager, and Scheduler. 
-Worker Node - which consists of Kubelet, Kube Proxy, and Container Runtime), etcd (distributed key-value store), Pods (basic units), Services (network abstraction), and Controllers (manage desired state). These components collaborate to automate containerized application deployment, scaling, and management in a distributed and scalable environment. 
-
-For more detailed explaination -
-Master Node:
-- API Server: Serves as the entry point for all administrative tasks and communication with the cluster. It validates and configures data for the API objects, such as pods, services, and replication controllers.
-- Controller Manager: Monitors the state of the cluster and responds to changes. It includes controller processes for nodes, replication, endpoints, and service accounts.
-- Scheduler: Assigns newly created pods to nodes based on resource requirements, policies, and other constraints.
-- Etcd: A distributed key-value store that stores the configuration data of the cluster. This data represents the state of the cluster at any given point in time.
-
-Worker Node:
-- Kubelet: Ensures that containers are running on a node and communicates with the master to receive instructions.(Kubelet manages the container that are scheduled to run on that node. It ensure that containers are running and healthy, and that resources they need are available. Kubelet communicates with API server to get information about the containers that are running on node, and then starts and stops the containers as needed to maintain the desired state. It also monitors the containers to ensure the containers running correctly, restarts them if necessary.
-- Kube Proxy: Maintains network rules on nodes. It manages network communication to and from a pod.
-- Container Runtime: The software responsible for running containers. Common runtimes include Docker, containerd, and others.
-
-Pod:
-The smallest and simplest unit in the Kubernetes object model. It represents a single instance of a running process in a cluster and consists of one or more containers that share the same network namespace.
-
-Service:
-An abstraction that defines a logical set of pods and a policy by which to access them. Services enable communication between different sets of pods as if they were all part of a single application.
-
-Namespace:
-A way to divide cluster resources between multiple users, teams, or applications. It provides a scope for names within the cluster.
-
-Volume:
-A directory accessible to all containers in a pod. It can be used to share data between containers and to persist data beyond the lifecycle of a pod.
-
-Label:
-A key-value pair that is attached to objects, such as pods. Labels are used to organize and select subsets of objects for various purposes.
-
-Controller:
-A control loop that watches the desired state of an object in the cluster and takes steps to move the current state closer to the desired state. Examples include ReplicaSets, Deployments, and StatefulSets.
-
-Kubernetes components communicate with each other via the API server, and the etcd cluster ensures consistent and reliable storage of configuration data. This distributed architecture enables high availability, scalability, and resilience in managing containerized applications.
+**Answer**. Kube-proxy works by maintaining a set of network rules on each node in the cluster, which are updated dynamically as services added or removed. When a client sends request to a service, the request is intercepted by Kube-proxy on the node where it was received. Kube-proxy then looks up the destination endpoint for the service and routes the request accordingly.
+ Kube-proxy is the essential component of a kubernetes cluster, as it ensures that services can communicate with each other.
 
 #### 29. What is guestbook?
 
