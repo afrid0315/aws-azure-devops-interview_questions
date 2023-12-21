@@ -614,7 +614,8 @@ Booting is the process of initializing a computer's operating system and making 
 - Winlogon and User Initialization: Winlogon starts, and user-specific processes and services are initiated.
 - User Interface: The graphical user interface (GUI) is presented, and the user can log in.
 
-In both cases, the boot process involves initializing hardware, loading the operating system's kernel, and transitioning from a pre-boot environment to a fully functional user environment
+In both cases, the boot process involves initializing hardware, loading the operating system's kernel, and transitioning from a pre-boot environment to a fully functional user environment.
+
 #### 72. What is the iptables command, and how to use it for network filtering?
 **Answer.** The iptables command configures Netfilter firewall rules providing the network address translation, packet filtering, etc. iptables inspects the network packet and then manages them according to the defined rules. Here is how you can use the iptables command for network filtering: 
 
@@ -784,8 +785,24 @@ done | sort -hrk 2 | head -n 10
 - Simplifies memory allocation and management.
 - Used in Virtual Memory Systems.
 
-#### 84. 
+#### 84. Explain what happens when www.amazon.com is clicked.
+**Answer.** The browser initiates a Domain Name System (DNS) lookup to translate the human-readable domain (www.amazon.com) into an IP address.
+- The browser sends an HTTP GET request to the IP address obtained from DNS, specifying the path ("/" in the case of the homepage).
+Server Processing
+- Amazon's web server receives the request, processes it, and generates an appropriate response.
+- The server sends back an HTML page along with additional resources (images, stylesheets, scripts, etc.) required to render the page.
+- The browser receives the response, parses the HTML, and starts rendering the webpage. It may make additional requests for linked resources.
+- JavaScript on the page might make further requests for dynamic content or interact with the server asynchronously.
+- The browser combines all elements and displays the complete Amazon webpage, allowing the user to interact with it.
+- This process involves multiple network interactions, server processing, and client-side rendering to provide a seamless user experience when accessing www.amazon.com.
+
 #### 85. System date/time management, network time protocol
+**Answer. System Date/Time Management:**
+Linux manages date and time through the system clock. The date command allows users to display and set the system date and time. System time is maintained using Coordinated Universal Time (UTC), and the time zone is configured in the /etc/localtime file.
+
+**Network Time Protocol (NTP):**
+NTP is a protocol used to synchronize system clocks over a network. In Linux, the NTP daemon (ntpd) or the more modern chrony is commonly used. Configuration files such as /etc/ntp.conf or /etc/chrony.conf define NTP server settings. NTP helps maintain accurate and synchronized time across a network, crucial for various system operations and applications.
+
 #### 86. The device is slowing down, Troubleshoot it.
 #### 87. What are System calls?
 #### 88. Explain the Process life cycle or Process States.
@@ -796,6 +813,6 @@ done | sort -hrk 2 | head -n 10
 #### 93. Explain the importance of inodes.
 #### 94. The device is Heating up. Troubleshoot it.
 #### 95. How do PING and TRACERT commands work?
-#### 96. Explain what happens when www.amazon.com is clicked.
+#### 96. 
 #### 97. 
 #### 98. 
