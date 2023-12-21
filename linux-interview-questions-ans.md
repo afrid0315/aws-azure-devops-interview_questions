@@ -654,6 +654,7 @@ By default, iptables rules get automatically removed after the system reboot, bu
 
 - Use top or htop command to view real-time CPU usage.
 - mpstat provides CPU usage statistics.
+  
 **Memory Usage:**
 
 - Check memory usage with free command.
