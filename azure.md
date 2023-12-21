@@ -6,7 +6,7 @@ Answer-
 
 #### 2. How many pipeline you have created?
 
-Answer- 
+Answer- I have experience creating and managing multiple CI/CD pipelines to automate the software delivery process. The exact number depends on the projects I've worked on. I've implemented pipelines using popular CI/CD tools like Jenkins. These pipelines typically include stages for building, testing, and deploying applications. I emphasize the importance of version control integration, automated testing, and deployment strategies to achieve efficient and reliable software delivery.
 
 #### 3. How many environments do you have in your project?
 
