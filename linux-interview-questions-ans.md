@@ -803,16 +803,33 @@ Linux manages date and time through the system clock. The date command allows us
 **Network Time Protocol (NTP):**
 NTP is a protocol used to synchronize system clocks over a network. In Linux, the NTP daemon (ntpd) or the more modern chrony is commonly used. Configuration files such as /etc/ntp.conf or /etc/chrony.conf define NTP server settings. NTP helps maintain accurate and synchronized time across a network, crucial for various system operations and applications.
 
-#### 86. The device is slowing down, Troubleshoot it.
+#### 86. How do PING and TRACERT commands work?
+**Answer.** PING (Packet Internet Groper) sends ICMP Echo Request packets to a destination IP address. When the target receives the packet, it responds with an ICMP Echo Reply. The round-trip time is measured, providing information about network latency and reachability.
+
+TRACERT (Traceroute) traces the route that packets take to reach a destination. It sends packets with increasing TTL (Time To Live) values, causing routers along the path to respond with ICMP Time Exceeded messages. This helps identify the routers in the network path and measure the round-trip time to each hop, aiding in network troubleshooting.
+
 #### 87. What are System calls?
-#### 88. Explain the Process life cycle or Process States.
+**Answer.** System calls are functions provided by the operating system that enable applications to request services from the kernel, such as file I/O, process creation, and network communication. These calls provide a controlled interface between user-level programs and the underlying hardware, allowing processes to perform privileged operations in a secure manner. Examples include open(), read(), write(), and fork().
+
+#### 88. Explain the importance of inodes.
+**Answer.** Inodes(Index Nodes) are essential data structures that store critical information about files, enable efficient file access, and contribute to the organization and structure of the file system.
+
 #### 89. I have disk space available but the file is not getting created. Why?
-#### 90. Remote management of a system – SSH, RDP, etc.
-#### 91. Network protocols – FTP, HTTP (web servers), SMTP (mail server)
-#### 92. System automation – cron, batch jobs, windows startup tasks
-#### 93. Explain the importance of inodes.
-#### 94. The device is Heating up. Troubleshoot it.
-#### 95. How do PING and TRACERT commands work?
+**Answer.**
+- Check if the user has the necessary permissions to create files in the specified directory.
+- Verify if there are filesystem quotas in place, restricting the amount of space a user can use.
+- Ensure that the filesystem has available inodes. Sometimes, even with space available, if there are no available inodes, you can't create new files.
+- Check if there is a disk quota limit for the user, and the limit has been reached.
+- Examine the filesystem for any corruption that might prevent file creation.
+- Confirm that the filesystem supports the creation of files.
+- Verify that the disk where the file is being created is mounted and accessible.
+
+#### 90.
+#### 91. 
+#### 92. 
+#### 93. 
+#### 94. 
+#### 95. 
 #### 96. 
 #### 97. 
 #### 98. 
