@@ -18,3 +18,5 @@ terraform import aws_instance.example i-0123456789abcdef0
 #### 4. What is statefile? Where can we store it?
 **Answer.** The statefile in Terraform is a crucial file that tracks the current state of your infrastructure. It contains information about the resources Terraform manages, their configurations, and relationships. This file is used to plan and apply changes. You can store the statefile locally or remotely. For collaboration and consistency, it's recommended to use remote backends like AWS S3 or HashiCorp Terraform Cloud to store and share the statefile among team members.
 
+#### 5. What if we loose terraform statefile? How to resolve it?
+**Answer.** If the Terraform statefile is lost, it can lead to issues in managing infrastructure. To recover, you can attempt to recreate the statefile by importing existing resources using 'terraform import'. However, for a more robust solution, it's advisable to maintain backups of the statefile and store it securely. Services like Terraform Cloud or using remote backends with version control systems can mitigate the risk of losing the statefile.
