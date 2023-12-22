@@ -15,3 +15,6 @@ But, existing resources that were not initially created by Terraform. You want t
 terraform import aws_instance.example i-0123456789abcdef0
 ```
 
+#### 4. What is statefile? Where can we store it?
+**Answer.** The statefile in Terraform is a crucial file that tracks the current state of your infrastructure. It contains information about the resources Terraform manages, their configurations, and relationships. This file is used to plan and apply changes. You can store the statefile locally or remotely. For collaboration and consistency, it's recommended to use remote backends like AWS S3 or HashiCorp Terraform Cloud to store and share the statefile among team members.
+
