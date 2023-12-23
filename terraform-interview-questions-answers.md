@@ -96,3 +96,6 @@ instance_count = 3
 instance_count = 10
 ```
 3. Configure different remote backends for each environment to store state files separately.
+
+#### 18. Why we use resource in terraform and where?
+**Answer.** In Terraform, resources are used to represent and define the infrastructure components you want to create or manage. They are specified in Terraform configuration files and are associated with a specific provider (e.g., AWS, Azure, Google Cloud).
