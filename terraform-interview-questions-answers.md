@@ -101,3 +101,4 @@ instance_count = 10
 **Answer.** In Terraform, resources are used to represent and define the infrastructure components you want to create or manage. They are specified in Terraform configuration files and are associated with a specific provider (e.g., AWS, Azure, Google Cloud).
 
 #### 19. About Provisioners?
+**Answer.** Provisioners in Terraform are used to execute scripts or commands on a resource after it's created or updated. They help in configuring and customizing resources, such as installing software or performing post-deployment tasks. Provisioners should be used judiciously, as they may introduce dependencies and hinder Terraform's declarative nature.
