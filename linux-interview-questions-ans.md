@@ -825,7 +825,9 @@ TRACERT (Traceroute) traces the route that packets take to reach a destination. 
 - Confirm that the filesystem supports the creation of files.
 - Verify that the disk where the file is being created is mounted and accessible.
 
-#### 90.
+#### 90. What is postfix? why we use?
+**Answer.** Postfix is a mail transfer agent (MTA), which is a software application responsible for routing and delivering email messages. Postfix is commonly used as a mail server to handle the sending, receiving, and delivery of emails within a network or over the Internet. Postfix is a popular and widely used MTA in the Unix/Linux community due to its reliability, performance, and security features. It is often used in conjunction with other components like Dovecot (for IMAP/POP3 services) and various spam filtering tools to create a comprehensive email server solution.
+
 #### 91. 
 #### 92. 
 #### 93. 
