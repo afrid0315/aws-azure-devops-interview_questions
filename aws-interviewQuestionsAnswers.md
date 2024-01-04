@@ -54,3 +54,19 @@ In vertical scaling, the resources of a single machine are increased to handle a
 #### 12. Name The Several Layers Of Cloud Computing?
 
 **Answer.** The layers of Cloud Computing are Infrastructure as a Service (IaaS) which is the basic layer, Platform as a Service (PaaS), Software as a Service (SaaS), and Business Process Outsourcing (BPO).
+
+#### 13. What is T-Class and M-Class in aws instance?
+
+**Answer.** In Amazon Web Services (AWS), instance types are categorized into families, and each family is designed to meet specific use cases. The instance types are identified by letters and numbers that denote the characteristics of the instance. The most common families you mentioned are the "T-class" and "M-class" instance families:
+
+**T-Class Instances:**
+T-class instances are part of the "Burstable Performance Instances" family.
+They are designed to provide a baseline level of CPU performance with the ability to burst above that baseline when needed.
+These instances are suitable for applications with variable CPU usage that can benefit from the burstable performance model.
+Example: T3, T3a
+
+**M-Class Instances:**
+M-class instances are part of the "General Purpose Instances" family.
+They provide a balance of compute, memory, and networking resources.
+M-class instances are versatile and can be used for a wide range of applications, making them a good choice for many workloads.
+Example: M5, M5a, M5n, M5zn, M6g, M6gd
