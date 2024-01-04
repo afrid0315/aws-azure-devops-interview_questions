@@ -12,8 +12,44 @@
 
 **Answer.** Maintaining our own databases and infrastructure offers greater control over security, customization, performances. It allows for tailored solutions to specific needs, avoiding reliance on third party providers. However, Cloud migration provides scalability, cost-efficiency and automated maintenance. The choice depends on your organization's priorities, resources and long-term strategies.
 
+#### 4. Write the grrovy script for retry option in jenkins?
+**Answer.** 
+```
+  pipeline {
+    agent any
+
+    parameters {
+        // Define your parameters here if needed
+    }
+
+    stages {
+        stage('Retry Stage') {
+            steps {
+                script {
+                    retry(3) {
+                        // Your code to be retried goes here
+                        echo "Trying something..."
+                        
+                        // Example: Simulating a failure on the first attempt
+                        if (currentAttempt == 1) {
+                            error "Simulated failure!"
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    post {
+        failure {
+            echo "The job failed after retrying."
+            // Additional failure handling steps if needed
+        }
+    }
+}
+```
 Round 1 [ Technical ]
-- Write the grrovy script for retry option in jenkins
+
 - Jenkins design and integration with various tools
 - Automation done in your projects as a devops engineer
 - How to trobleshoot the linux server if there is any CPU or memory issue
