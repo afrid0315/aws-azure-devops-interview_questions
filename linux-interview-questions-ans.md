@@ -828,8 +828,15 @@ TRACERT (Traceroute) traces the route that packets take to reach a destination. 
 #### 90. What is postfix? why we use?
 **Answer.** Postfix is a mail transfer agent (MTA), which is a software application responsible for routing and delivering email messages. Postfix is commonly used as a mail server to handle the sending, receiving, and delivery of emails within a network or over the Internet. Postfix is a popular and widely used MTA in the Unix/Linux community due to its reliability, performance, and security features. It is often used in conjunction with other components like Dovecot (for IMAP/POP3 services) and various spam filtering tools to create a comprehensive email server solution.
 
-#### 91. 
-#### 92. 
+#### 91. By aws cli in linux post how can i know about distribution? 
+**Answer.** To determine the Linux distribution on a system using the command line. By using below command we can check
+``
+cat /etc/os-release
+``
+
+#### 92. What is iostat?
+**Answer.** iostat is a command-line utility that provides detailed statistics about CPU, I/O, and disk utilization on Linux systems. It is a part of the sysstat package, which needs to be installed on your system to use iostat. The iostat command can be useful for monitoring system performance and identifying performance bottlenecks.
+
 #### 93. 
 #### 94. 
 #### 95. 
