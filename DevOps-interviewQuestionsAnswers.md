@@ -48,6 +48,9 @@
     }
 }
 ```
+#### 5. What is the port of Sonarkube?
+**Answer.** Sonarkube starts with the port 9000.
+
 Round 1 [ Technical ]
 
 - Jenkins design and integration with various tools
