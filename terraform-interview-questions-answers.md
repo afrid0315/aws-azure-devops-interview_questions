@@ -30,8 +30,10 @@ terraform import aws_instance.example i-0123456789abcdef0
 #### 8. Which version of terraform are you currently using?
 **Answer.**
 
-#### 9. Why we use 'terraform validate' command?
+#### 9. Why we use 'terraform validate' and 'terraform fmt' command?
 **Answer.** The 'terraform validate' command is used to check the syntax and validity of Terraform configuration files (written in HCL) without actually deploying any infrastructure. It helps catch errors early in the development process, ensuring that the configuration is correctly formatted and free of syntax errors before applying changes.
+
+The 'terraform fmt' command is used to reads your Terraform configuration files and rewrites them with a consistent style, ensuring proper indentation, spacing, and other formatting rules.
 
 #### 10. Can you explain about any terraform lifecycle?
 **Answer.** A typical Terraform lifecycle includes:
