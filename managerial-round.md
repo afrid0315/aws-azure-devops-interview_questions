@@ -14,17 +14,17 @@ https://www.levels.fyi/blog/amazon-leadership-principles.html
 
 #### 3. Tell me about a time when you failed a deadline.
 
-Answer.
+Answer. To date, I have consistently met project deadlines. Through effective planning, proactive monitoring, and a commitment to best practices, I've been able to ensure the successful delivery of projects within the specified timelines. However, I acknowledge that the nature of the industry involves challenges, and in the event of unforeseen obstacles, I prioritize transparent communication and rapid resolution to minimize any potential impact on project timelines.
 
 #### 4. Detailed discussion about Projects.
-
-Answer.
+**Answer.** In my role as a DevOps engineer, I've been involved in several projects focused on optimizing continuous integration, deployment pipelines, and infrastructure as code. Notable projects include implementing AWS-based solutions for scalability, enhancing container orchestration with Kubernetes, and integrating monitoring tools for improved system reliability. These experiences have honed my skills in automating workflows, ensuring high availability, and fostering a culture of collaboration between development and operations teams.
 
 #### 5. Tell me about a time when you didn’t get the solution even after putting in the effort.
 
 Answer.
 
 #### 6. Tell me about a time when you handled a task within tight deadlines.
+**Answer.** In a critical project with tight deadlines, I took charge of streamlining the deployment pipeline. I optimized configurations, automated manual processes, and collaborated closely with the team. Despite the pressure, the pipeline enhancements were successfully implemented ahead of schedule, ensuring timely and efficient project delivery.
 
 #### 7. Tell me about a time when you did something out of your comfort zone.
 
