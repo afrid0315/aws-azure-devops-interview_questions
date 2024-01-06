@@ -27,15 +27,27 @@ Answer.
 **Answer.** In a critical project with tight deadlines, I took charge of streamlining the deployment pipeline. I optimized configurations, automated manual processes, and collaborated closely with the team. Despite the pressure, the pipeline enhancements were successfully implemented ahead of schedule, ensuring timely and efficient project delivery.
 
 #### 7. Tell me about a time when you did something out of your comfort zone.
+**Answer.** I stepped out of my comfort zone by investing time and effort into obtaining certifications on both AWS and Azure, showcasing my commitment to continuous learning and expanding my expertise across multiple cloud platforms.
 
 #### 8. Tell me about a time when you had to take a decision on the spot.
+**Answer.** During a critical incident in our production environment, I had to make an immediate decision on rolling back a recent deployment due to unexpected issues. After analyzing the severity and impact, I decided to roll back to the previous stable version swiftly, minimizing downtime and ensuring system stability.
 
 #### 9. Tell me about a time when you had to take critical feedback.
+**Answer.** When receiving critical feedback on a project's performance, I acknowledged the input positively. I actively listened, sought clarification on specific areas for improvement, and implemented corrective actions promptly. This experience reinforced the importance of feedback for continuous improvement and strengthened collaborative relationships within the team.
 
 #### 10. Did you ever ask your peers for help when you were stuck.
+**Answer.** Yes, when faced with a challenging technical issue, I promptly sought assistance from my peers. Collaborative problem-solving allowed us to pool our expertise, leading to a quicker resolution and reinforcing a culture of teamwork.
 
 #### 11. How did you develop interest on Competitive Programming.
+**Answer.** My interest in Competitive Programming grew organically as I discovered the intellectually stimulating challenges it offers. The desire to enhance problem-solving skills, coupled with the thrill of competition, motivated me to delve deeper into this field.
 
 #### 12. How comfortable are you with learning new concepts.
+**Answer.** I am highly comfortable and proactive about learning new concepts. I thrive on the opportunity to expand my knowledge and skills, adapting swiftly to evolving technologies and methodologies in the ever-changing tech landscape.
 
 #### 13. How adaptable are you with entering the Networking sphere.
+**Answer.** I am highly adaptable to entering the Networking sphere. I possess a solid foundation in networking concepts and protocols, and I am eager to further develop my skills and contribute effectively in this domain.
+
+
+
+
+
