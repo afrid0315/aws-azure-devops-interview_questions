@@ -700,15 +700,24 @@ It is used to troubleshoot DNS-related issues, verify DNS records, and gather in
 
 #### 78. Explain DHCP DORA Process.
 **Answer.**  
+The DHCP (Dynamic Host Configuration Protocol) DORA process is a series of steps that a device goes through when it requests and obtains an IP address from a DHCP server. DORA stands for Discover, Offer, Request, and Acknowledge, representing the four main steps in the DHCP process.
+
 **Discover (D):**
-Client broadcasts a DHCP Discover message to find available DHCP servers on the network.
+The DHCP client (usually a computer or network device) begins the process by sending a DHCP Discover message to the local network. This message is a broadcast packet, meaning it is sent to all devices on the network.
+The purpose of the Discover message is for the client to find available DHCP servers and obtain configuration information.
+
 **Offer (O):**
-DHCP servers respond with DHCP Offer messages, providing IP address lease information.
+When a DHCP server receives a Discover message, it responds with a DHCP Offer message. This message is a unicast packet, sent directly to the DHCP client.
+The Offer message includes an IP address that the server is willing to lease to the client, along with other configuration parameters such as subnet mask, default gateway, DNS server, and lease duration.
+
 **Request (R):**
-Client selects an offered IP address and broadcasts a DHCP Request message.
+After receiving one or more Offer messages, the DHCP client selects one of the offers and sends a DHCP Request message back to the chosen DHCP server.
+The Request message indicates the client's acceptance of the offered IP address and requests the server to reserve that address for the client.
+
 **Acknowledge (A):**
-The chosen DHCP server responds with a DHCP Acknowledge message, confirming the lease.
-**DORA: Discover, Offer, Request, Acknowledge.**
+Upon receiving the Request message, the DHCP server sends a DHCP Acknowledge message to the client, confirming that the requested IP address has been reserved for the client's use.
+The Acknowledge message also includes any additional configuration information and the duration of the lease.
+After the Acknowledge step, the DHCP client configures its network interface with the provided IP address and other parameters. The client will use this leased IP address until the lease expires, at which point it may need to renew the lease by going through the DHCP process again.
 
 #### 79. How do you check which ports are listening?
 **Answer.** 
