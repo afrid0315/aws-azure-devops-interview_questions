@@ -19,3 +19,10 @@ WORKDIR /app/data
 
 #### 3. What is docker networks?
 **Answer.** Docker Networks are vital for defining communication patterns, ensuring proper isolation, and facilitating containerized application deployment.
+
+#### 4. How the port forwading is done in docker?
+**Answer.**
+``
+docker run -p 8080:80 my-web-app
+``
+This command forwards traffic from port 8080 on the host to port 80 in the container. Now, accessing http://localhost:8080 on the host system will be directed to the web application running on port 80 inside the container. Port forwarding enables communication between the host and containerized applications.
