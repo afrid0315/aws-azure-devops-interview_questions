@@ -51,7 +51,7 @@
 #### 5. What is the port of Sonarkube?
 **Answer.** Sonarkube starts with the port 9000.
 
-How to find thread dump of java application?
+#### 6. How to find thread dump of java application?
 **Answer.** To find a thread dump of a Java application:
 - Identify the Java process ID (PID) using jps or ps -ef | grep java.
 - Use jstack command: jstack <PID> > thread_dump.txt.
