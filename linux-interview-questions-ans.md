@@ -846,9 +846,43 @@ cat /etc/os-release
 #### 92. What is iostat?
 **Answer.** iostat is a command-line utility that provides detailed statistics about CPU, I/O, and disk utilization on Linux systems. It is a part of the sysstat package, which needs to be installed on your system to use iostat. The iostat command can be useful for monitoring system performance and identifying performance bottlenecks.
 
-#### 93. 
-#### 94. 
-#### 95. 
+#### 93. What are logical volumes in linux and how to create?
+**Answer.** Logical volumes in Linux are a part of the Logical Volume Manager (LVM) system, allowing for dynamic disk space management. Logical volumes provide a flexible way to allocate and resize storage on Linux systems.
+
+To create a logical volume:
+
+- Initialize Physical Volumes: Use pvcreate to initialize the physical volumes (disks or partitions).
+- Create a Volume Group: Use vgcreate to create a volume group, grouping one or more physical volumes.
+- Create Logical Volumes: Use lvcreate to create logical volumes within the volume group, specifying size and other parameters.
+- Format the Logical Volume: Use a command like mkfs to format the logical volume with the desired filesystem.
+- Mount the Logical Volume: Use mount to mount the logical volume to a specific directory.
+```
+# Assuming /dev/sdb1 is a partition to be used as a physical volume
+pvcreate /dev/sdb1
+# Create a volume group named myvg
+vgcreate myvg /dev/sdb1
+# Create a logical volume named mylv with 10GB size
+lvcreate -L 10G -n mylv myvg
+# Format the logical volume with ext4 filesystem
+mkfs.ext4 /dev/myvg/mylv
+# Mount the logical volume to /mnt/mylv
+mount /dev/myvg/mylv /mnt/mylv
+```
+
+#### 94. What is swap and buffer in linux?
+**Answer. Swap:** Reserved space on disk used as virtual memory when physical RAM is full. Created to prevent system crashes due to memory exhaustion. 
+**Buffer:** Temporary storage in RAM for I/O operations. Improves efficiency by holding data in memory before being written to or after being read from disk. Both enhance system performance but serve different purposes. Swap aids memory management, while buffers optimize I/O operations.
+
+#### 95. How to monitor the linux files for any changes?
+**Answer.** To monitor Linux files for changes, you can use the inotifywait command:
+```
+inotifywait -m -r -e modify,create,delete /path/to/directory
+```
+This command continuously monitors the specified directory (/path/to/directory) and reports any modifications, creations, or deletions of files. Adjust the options and events based on your monitoring needs.
+
 #### 96. 
 #### 97. 
 #### 98. 
+
+
+ 
