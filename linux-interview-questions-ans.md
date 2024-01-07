@@ -880,9 +880,26 @@ inotifywait -m -r -e modify,create,delete /path/to/directory
 ```
 This command continuously monitors the specified directory (/path/to/directory) and reports any modifications, creations, or deletions of files. Adjust the options and events based on your monitoring needs.
 
-#### 96. 
-#### 97. 
+#### 96. What is ctime and mtime in linux?
+**Answer. ctime (change time):** 
+Represents the last time metadata of a file (permissions, ownership) was changed. Altered when the file's metadata is modified.
+**mtime (modification time):**
+Indicates the last time the content of a file was modified. Changes when the file's actual data is updated. Both timestamps are part of a file's metadata and can be viewed using the stat command.
+
+#### 97. Why nohup and & are used?
+**Answer. nohup:**
+Prevents a command from being terminated when the terminal is closed. Example: nohup command.
+**& (ampersand):**
+Runs a command in the background, allowing the terminal prompt to be used for other commands. Example: command & Together (nohup command &), they allow a command to run in the background and persist even if the terminal session is closed.
+
 #### 98. 
+
+ 
+
+ 
+
+
+
 
 
  
