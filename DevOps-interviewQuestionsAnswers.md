@@ -51,16 +51,70 @@
 #### 5. What is the port of Sonarkube?
 **Answer.** Sonarkube starts with the port 9000.
 
-Round 1 [ Technical ]
+- Jenkins design and integration with various tools?
+**Answer.** Jenkins is designed for continuous integration and supports integration with various tools through plugins. Its modular architecture allows seamless integration with version control systems, build tools, deployment tools, and testing frameworks. Jenkins pipelines can be configured to automate the entire software delivery process, from code commit to deployment, making it a versatile tool for DevOps practices.
+  
 
-- Jenkins design and integration with various tools
-- Automation done in your projects as a devops engineer
-- How to trobleshoot the linux server if there is any CPU or memory issue
-- Write the ansible playbook the show the handlers
-- What are logical volumes in linux and how to create
-- What is swap and buffer in linux
-- How do you change the root password in linux system
-- How to monitor the linux fi;es for any changes
+- What are logical volumes in linux and how to create?
+**Answer.** Logical volumes in Linux are a part of the Logical Volume Manager (LVM) system, allowing for dynamic disk space management. Logical volumes provide a flexible way to allocate and resize storage on Linux systems.
+
+To create a logical volume:
+
+**Initialize Physical Volumes:**
+Use pvcreate to initialize the physical volumes (disks or partitions).
+
+**Create a Volume Group:**
+Use vgcreate to create a volume group, grouping one or more physical volumes.
+
+**Create Logical Volumes:**
+Use lvcreate to create logical volumes within the volume group, specifying size and other parameters.
+
+**Format the Logical Volume:**
+Use a command like mkfs to format the logical volume with the desired filesystem.
+
+**Mount the Logical Volume:**
+Use mount to mount the logical volume to a specific directory.
+
+```
+# Assuming /dev/sdb1 is a partition to be used as a physical volume
+pvcreate /dev/sdb1
+
+# Create a volume group named myvg
+vgcreate myvg /dev/sdb1
+
+# Create a logical volume named mylv with 10GB size
+lvcreate -L 10G -n mylv myvg
+
+# Format the logical volume with ext4 filesystem
+mkfs.ext4 /dev/myvg/mylv
+
+# Mount the logical volume to /mnt/mylv
+mount /dev/myvg/mylv /mnt/mylv
+```
+
+- What is swap and buffer in linux?
+**Answer. Swap:**
+Reserved space on disk used as virtual memory when physical RAM is full.
+Created to prevent system crashes due to memory exhaustion.
+**Buffer:**
+Temporary storage in RAM for I/O operations.
+Improves efficiency by holding data in memory before being written to or after being read from disk.
+Both enhance system performance but serve different purposes. Swap aids memory management, while buffers optimize I/O operations.
+
+
+- How to monitor the linux fi;es for any changes?
+**Answer.** To monitor Linux files for changes, you can use the inotifywait command:
+
+```
+inotifywait -m -r -e modify,create,delete /path/to/directory
+```
+This command continuously monitors the specified directory (/path/to/directory) and reports any modifications, creations, or deletions of files. Adjust the options and events based on your monitoring needs.
+
+
+
+
+
+
 
 Round 2[ Technical ]
 - What is ctime and mtime in linux
