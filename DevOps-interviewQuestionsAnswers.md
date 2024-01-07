@@ -83,3 +83,33 @@ Round4/5 [ Managerial ]
 - Design the 3 tier architecture for your telecommunications project
 - You are in the production oncall support and you get a alert where one of the system CPU is spiking up what measures would you take
 -Your team mate is not coping up with tasks being a lead how will you support and guide him
+
+-Can you explain the ingress controller routing mechanism
+-What will happen if you get no space left on device
+- What are the RCA rule along with SRE 4 rules that you will apply while you create the alerts for your application
+-How you will achieve the DB high availability and fault tolerance
+-What is jenkins and security tools
+-How docker is integrated in jenkins
+-Write terraform code to have the AWS with1 VPC 2 Subnets and each having 1 ec2 instance
+- Tell all the scenarios too implement the security in kubernetes
+- Your Prod systems are down and being an SRE what are the Steps you are going to take to solve the issue
+
+
+𝐑𝐨𝐮𝐧𝐝𝟑 - 𝐂𝐨𝐝𝐢𝐧𝐠
+
+-What is DNS caching
+-What is an i node
+- The systems CPU and Memory are spiking up and at the same time PODs are in crashloop back what steps you would take to resolve the issue
+-Write the Python code to hit the rest endpoint and take our all the urls from the json and again check if the status is 200 or not
+- One more python code based on Leetcode
+
+𝐑𝐨𝐮𝐧𝐝 𝟒 - 𝐒𝐲𝐬𝐭𝐞𝐦 𝐃𝐞𝐬𝐢𝐠𝐧
+
+- Design a high availability 3 tier system where your deployments will happen on kubernetes
+
+𝐑𝐨𝐮𝐧𝐝 𝟓 - 𝐌𝐚𝐧𝐚𝐠𝐞𝐫𝐢𝐚𝐥/𝐓𝐞𝐜𝐡𝐧𝐢𝐜𝐚𝐥
+
+- Why would you be a good fit for a senior management position?
+- What’s your most significant achievement so far?
+- Tell me a scenario where you had critical issue and you went beyond and above to solve that issue
+
