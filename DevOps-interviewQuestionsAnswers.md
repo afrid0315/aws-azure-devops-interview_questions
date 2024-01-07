@@ -58,54 +58,14 @@
 - The thread dump is saved in the specified file (thread_dump.txt), revealing the state of all threads in the Java application.
 
 
-- What is ctime and mtime in linux?
-ctime (change time):
 
-Represents the last time metadata of a file (permissions, ownership) was changed.
-Altered when the file's metadata is modified.
-mtime (modification time):
-
-Indicates the last time the content of a file was modified.
-Changes when the file's actual data is updated.
-Both timestamps are part of a file's metadata and can be viewed using the stat command.
-
-
-- Why nohup and & are used?
-- nohup:
-
-Prevents a command from being terminated when the terminal is closed.
-Example: nohup command &
-& (ampersand):
-
-Runs a command in the background, allowing the terminal prompt to be used for other commands.
-Example: command &
-Together (nohup command &), they allow a command to run in the background and persist even if the terminal session is closed.
-
-
-- Write a docker file to copy a file from the system to container with a volume mount?
-**Answer.**
+- How the port forwading is done in docker?
 ```
-FROM ubuntu:latest
-# Create a directory in the container
-WORKDIR /app
-# Copy a file from the host system to the container
-COPY ./localfile.txt /app/
-# Define a volume mount
-VOLUME /app/data
-# Set the working directory
-WORKDIR /app/data
+ docker run -p 8080:80 my-web-app
 ```
-
-- What are ansible roles and what are its advantages?
-Using roles enhances the readability, scalability, and maintainability of Ansible playbooks, making automation projects more efficient.
-
-Round 3 [ Technical ]
-- Write a shell script to seperate the number of alphabets, numbers, alpha numeric chars from a file
-- What are the differenet grouping of ansible inventory files
-- How the port forwading is done in docker
-- What is docker compose and differenet types of docker networks
-- What is the container life cycle in docker
-- Write a ansible plabook to deploy an application and check whether the app url is up or not
+This command forwards traffic from port 8080 on the host to port 80 in the container. Now, accessing http://localhost:8080 on the host system will be directed to the web application running on port 80 inside the container. Port forwarding enables communication between the host and containerized applications.
+- What is docker networks?
+- Docker Networks are vital for defining communication patterns, ensuring proper isolation, and facilitating containerized application deployment.
 
 Round4/5 [ Managerial ]
 - Design the 3 tier architecture for your telecommunications project
