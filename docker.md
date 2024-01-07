@@ -16,3 +16,6 @@ VOLUME /app/data
 # Set the working directory
 WORKDIR /app/data
 ```
+
+#### 3. What is docker networks?
+**Answer.** Docker Networks are vital for defining communication patterns, ensuring proper isolation, and facilitating containerized application deployment.
