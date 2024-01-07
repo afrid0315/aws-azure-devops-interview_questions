@@ -51,79 +51,53 @@
 #### 5. What is the port of Sonarkube?
 **Answer.** Sonarkube starts with the port 9000.
 
-- Jenkins design and integration with various tools?
-**Answer.** Jenkins is designed for continuous integration and supports integration with various tools through plugins. Its modular architecture allows seamless integration with version control systems, build tools, deployment tools, and testing frameworks. Jenkins pipelines can be configured to automate the entire software delivery process, from code commit to deployment, making it a versatile tool for DevOps practices.
-  
+How to find thread dump of java application?
+**Answer.** To find a thread dump of a Java application:
+- Identify the Java process ID (PID) using jps or ps -ef | grep java.
+- Use jstack command: jstack <PID> > thread_dump.txt.
+- The thread dump is saved in the specified file (thread_dump.txt), revealing the state of all threads in the Java application.
 
-- What are logical volumes in linux and how to create?
-**Answer.** Logical volumes in Linux are a part of the Logical Volume Manager (LVM) system, allowing for dynamic disk space management. Logical volumes provide a flexible way to allocate and resize storage on Linux systems.
 
-To create a logical volume:
+- What is ctime and mtime in linux?
+ctime (change time):
 
-**Initialize Physical Volumes:**
-Use pvcreate to initialize the physical volumes (disks or partitions).
+Represents the last time metadata of a file (permissions, ownership) was changed.
+Altered when the file's metadata is modified.
+mtime (modification time):
 
-**Create a Volume Group:**
-Use vgcreate to create a volume group, grouping one or more physical volumes.
+Indicates the last time the content of a file was modified.
+Changes when the file's actual data is updated.
+Both timestamps are part of a file's metadata and can be viewed using the stat command.
 
-**Create Logical Volumes:**
-Use lvcreate to create logical volumes within the volume group, specifying size and other parameters.
 
-**Format the Logical Volume:**
-Use a command like mkfs to format the logical volume with the desired filesystem.
+- Why nohup and & are used?
+- nohup:
 
-**Mount the Logical Volume:**
-Use mount to mount the logical volume to a specific directory.
+Prevents a command from being terminated when the terminal is closed.
+Example: nohup command &
+& (ampersand):
 
+Runs a command in the background, allowing the terminal prompt to be used for other commands.
+Example: command &
+Together (nohup command &), they allow a command to run in the background and persist even if the terminal session is closed.
+
+
+- Write a docker file to copy a file from the system to container with a volume mount?
+**Answer.**
 ```
-# Assuming /dev/sdb1 is a partition to be used as a physical volume
-pvcreate /dev/sdb1
-
-# Create a volume group named myvg
-vgcreate myvg /dev/sdb1
-
-# Create a logical volume named mylv with 10GB size
-lvcreate -L 10G -n mylv myvg
-
-# Format the logical volume with ext4 filesystem
-mkfs.ext4 /dev/myvg/mylv
-
-# Mount the logical volume to /mnt/mylv
-mount /dev/myvg/mylv /mnt/mylv
+FROM ubuntu:latest
+# Create a directory in the container
+WORKDIR /app
+# Copy a file from the host system to the container
+COPY ./localfile.txt /app/
+# Define a volume mount
+VOLUME /app/data
+# Set the working directory
+WORKDIR /app/data
 ```
 
-- What is swap and buffer in linux?
-**Answer. Swap:**
-Reserved space on disk used as virtual memory when physical RAM is full.
-Created to prevent system crashes due to memory exhaustion.
-**Buffer:**
-Temporary storage in RAM for I/O operations.
-Improves efficiency by holding data in memory before being written to or after being read from disk.
-Both enhance system performance but serve different purposes. Swap aids memory management, while buffers optimize I/O operations.
-
-
-- How to monitor the linux fi;es for any changes?
-**Answer.** To monitor Linux files for changes, you can use the inotifywait command:
-
-```
-inotifywait -m -r -e modify,create,delete /path/to/directory
-```
-This command continuously monitors the specified directory (/path/to/directory) and reports any modifications, creations, or deletions of files. Adjust the options and events based on your monitoring needs.
-
-
-
-
-
-
-
-Round 2[ Technical ]
-- What is ctime and mtime in linux
-- Why nohup and & are used
-- How to find thread dump of java application
-- How the ansible variable precedence happens
-- Write a docker file to copy a file from the system to container with a volume mount
-- What are xargs in linux
-- What are ansible roles and what are its advantages
+- What are ansible roles and what are its advantages?
+Using roles enhances the readability, scalability, and maintainability of Ansible playbooks, making automation projects more efficient.
 
 Round 3 [ Technical ]
 - Write a shell script to seperate the number of alphabets, numbers, alpha numeric chars from a file
