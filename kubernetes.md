@@ -314,6 +314,7 @@ spec:
 ```
 - Apply Configurations: Apply the configurations to the cluster using kubectl apply -f.
 This setup allows Kubernetes to dynamically adjust the number of pod replicas based on your application-specific performance metrics.
+
 #### 49. Explain a scenario where pod priority and premption in Kubernetes would be useful, and have you ever implemented this?
 
 **Answer**. Pod priority and preemption in Kubernetes are useful in scenarios where certain pods, such as critical services, need preferential treatment during resource allocation. For example, a critical production service might be assigned a higher priority to ensure it gets resources over less critical background tasks. While I haven't implemented this directly, understanding the concept is crucial for optimizing resource allocation in Kubernetes.
@@ -329,4 +330,8 @@ This setup allows Kubernetes to dynamically adjust the number of pod replicas ba
 kubectl scale replicasets my-replicaset --replicas=3
 ```
 If replicas are not scaling as expected, check for issues such as resource constraints, unsatisfied PodDisruptionBudget, or problems with the underlying container runtime.
+
+#### 52. Can you explain the ingress controller routing mechanism?
+
+**Answer**. The Ingress controller manages external access to services in a Kubernetes cluster. It uses rules and configurations to route incoming traffic to the appropriate services based on criteria such as hostnames, paths, or other attributes. This routing mechanism allows for efficient and flexible traffic management, enabling the cluster to handle external requests and distribute them to the relevant services within.
 
