@@ -101,3 +101,39 @@ Round4/5 [ Managerial ]
 - What’s your most significant achievement so far?
 - Tell me a scenario where you had critical issue and you went beyond and above to solve that issue
 
+- Write a script
+
+AWS experience
+
+Database
+
+Microservives artitectures
+
+Upgrade activities
+
+Automation and Deployment strategies
+
+HTTP protocol
+
+About SAAS
+
+About Loginext
+
+About cloud platforms
+
+1. the installation and configuration part, troubleshooting skills(must have skills)
+
+2. Hands-on with Database. (must have skills)
+
+3. Hands-on with Microservices & HTTP. also how to increase disk space of running ec2.
+
+4. understanding of cloud watch
+
+5. Hands-on exp with AWS. know how to create replicas in RDS.
+
+6. Scaling concepts and understanding of EC2, Subnet, VPC
+
+7. Concepts on RDS.worked on a scalable environment
+
+8. Worked on Infrastructure as a Code. Linux
+
