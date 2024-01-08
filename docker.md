@@ -81,3 +81,9 @@ docker system inspect - show detailed information about Docker objects
 docker system logs - show the system logs of Docker
 docker system version - show the version of Docker installed on the system
 ```
+
+#### 6. What is difference between CMD and ENTRYPOINT?
+**Answer.** In Docker, ENTRYPOINT is used to set the default executable for a container, defining the command and its arguments. It is often used for the main application process. On the other hand, CMD is used to provide default command-line arguments for the ENTRYPOINT or the default command to be executed if ENTRYPOINT is not specified. Both are instructions in a Dockerfile, but ENTRYPOINT is primarily for setting the main executable, while CMD is for providing default parameters or a fallback command.
+
+#### 7. How docker is integrated in jenkins
+**Answer.** Docker is integrated into Jenkins through the Docker Pipeline plugin. This plugin enables the use of Docker containers within Jenkins pipelines, allowing developers to define, build, and run their applications in isolated and reproducible environments. It simplifies the integration of Docker-based workflows, providing seamless containerization support in Jenkins CI/CD pipelines.
