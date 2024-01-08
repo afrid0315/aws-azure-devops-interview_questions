@@ -137,3 +137,7 @@ About cloud platforms
 
 8. Worked on Infrastructure as a Code. Linux
 
+9. 4.What is dif bw entry points and cmd??
+5.What is the dif bw add and copy??
+Open jdk 10 and 11 how u will configure in jenkins and ensure it is configured??
+
