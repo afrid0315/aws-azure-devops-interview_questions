@@ -57,18 +57,19 @@
 - Use jstack command: jstack <PID> > thread_dump.txt.
 - The thread dump is saved in the specified file (thread_dump.txt), revealing the state of all threads in the Java application.
 
-
+#### 7. Design the 3 tier architecture for your telecommunications project?
+**Answer.** The 3-tier architecture for our telecommunications project comprises three layers: the presentation layer for user interface, the application layer for business logic, and the data layer for storage and retrieval. This design ensures modular scalability, separation of concerns, and efficient management of telecommunications services.
 
 - How the port forwading is done in docker?
 ```
  docker run -p 8080:80 my-web-app
 ```
 This command forwards traffic from port 8080 on the host to port 80 in the container. Now, accessing http://localhost:8080 on the host system will be directed to the web application running on port 80 inside the container. Port forwarding enables communication between the host and containerized applications.
-- What is docker networks?
-- Docker Networks are vital for defining communication patterns, ensuring proper isolation, and facilitating containerized application deployment.
+
 
 Round4/5 [ Managerial ]
-- Design the 3 tier architecture for your telecommunications project
+
+  
 - You are in the production oncall support and you get a alert where one of the system CPU is spiking up what measures would you take
 -Your team mate is not coping up with tasks being a lead how will you support and guide him
 
