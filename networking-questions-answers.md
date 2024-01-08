@@ -27,3 +27,7 @@ What is SSL. Explain about Digital Certificates and TLS Handshake.
 Problem on IP Addressing at the sender, gateway and destination.
 Packet Tracing.
 How do we check IP address and Gateway and DNS Server addresses of our device.
+
+#### 1. What is HTTP protocol?
+**Answer.** The HTTP (Hypertext Transfer Protocol) is a protocol used for communication between a client and a server over the internet. It facilitates the transfer of hypertext, typically in the form of HTML documents, but can also handle various data types. HTTP operates on a request-response model, where clients send requests to servers, and servers respond with the requested information along with a status code indicating the success or failure of the request.
+
