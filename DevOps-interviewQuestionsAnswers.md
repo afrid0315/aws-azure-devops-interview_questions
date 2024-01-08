@@ -141,3 +141,43 @@ About cloud platforms
 5.What is the dif bw add and copy??
 Open jdk 10 and 11 how u will configure in jenkins and ensure it is configured??
 
+1)Explain what DevOps is and its key principles.
+
+2)What is the purpose of version control, and which version control systems are you familiar with?
+
+3)Describe the difference between continuous integration and continuous deployment.
+
+4)Explain the concept of Infrastructure as Code (IaC) and provide examples of IaC tools.
+
+5)How do containers differ from virtual machines, and what are the advantages of using containers in a DevOps environment?
+
+6)What is the significance of microservices architecture in DevOps?
+
+7)How would you set up a CI/CD pipeline? Describe the stages involved.
+
+8)What is the role of Docker in DevOps, and how does it contribute to containerization?
+
+9)Explain the importance of monitoring and logging in a DevOps environment. Which tools have you used for monitoring or logging?
+
+10)How do you handle security in a DevOps pipeline, from code development to production deployment?
+
+11)What is the purpose of configuration management, and which tools can be used for this purpose?
+
+12)How do you ensure high availability and scalability in a DevOps setup?
+
+13)Describe the concept of blue-green deployment and its advantages.
+
+14)What is the role of automation in DevOps, and how have you used automation tools in your previous projects?
+
+15)How do you approach collaboration between development and operations teams?
+
+16)Explain the term "Infrastructure as Code" and provide a scenario where it can be beneficial.
+
+17)Describe your experience with cloud platforms (AWS, Azure, or Google Cloud) and how you integrate them into your DevOps practices.
+
+18)What is Jenkins, and how does it contribute to continuous integration and continuous deployment?
+
+19)How do you manage secrets and sensitive information in a DevOps environment?
+
+20)Can you share a challenging situation you faced in a DevOps role and how you resolved it?
+
