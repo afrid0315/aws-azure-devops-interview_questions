@@ -70,3 +70,6 @@ M-class instances are part of the "General Purpose Instances" family.
 They provide a balance of compute, memory, and networking resources.
 M-class instances are versatile and can be used for a wide range of applications, making them a good choice for many workloads.
 Example: M5, M5a, M5n, M5zn, M6g, M6gd
+
+#### 14. How to increase disk space of running EC2?
+**Answer.** To increase disk space on a running EC2 instance, you can either resize the existing EBS (Elastic Block Store) volume or attach a new EBS volume with additional capacity. After attaching or resizing, you need to extend the file system to make use of the added space. The specific steps may vary based on the operating system, but generally involve using commands like resize2fs for Linux or Disk Management for Windows.
