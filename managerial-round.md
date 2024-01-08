@@ -47,7 +47,11 @@ Answer.
 #### 13. How adaptable are you with entering the Networking sphere.
 **Answer.** I am highly adaptable to entering the Networking sphere. I possess a solid foundation in networking concepts and protocols, and I am eager to further develop my skills and contribute effectively in this domain.
 
-
+#### 14. You are in the production oncall support and you get a alert where one of the system CPU is spiking up what measures would you take?
+**Answer.** In the event of a CPU spike alert during on-call support, I would first identify the root cause by checking system logs and monitoring tools. Next, I would assess the impact on performance and user experience. Depending on the severity, I may scale resources, optimize code, or restart services to mitigate the issue. Continuous monitoring and alerting would be implemented to prevent future occurrences, and a post-incident review would be conducted for further optimization and learning.
+ 
+#### 15. Your team mate is not coping up with tasks being a lead how will you support and guide him?
+**Answer.** As a team lead, if a team member is struggling with tasks, I would initiate an open and empathetic conversation to understand their challenges. Together, we would identify specific areas of difficulty and create a plan to address them. I'd provide additional resources or training if needed and offer ongoing support and feedback. Collaboration and setting realistic goals would be key, ensuring the team member feels supported in their professional development.
 
 
 
