@@ -821,8 +821,8 @@ TRACERT (Traceroute) traces the route that packets take to reach a destination. 
 #### 87. What are System calls?
 **Answer.** System calls are functions provided by the operating system that enable applications to request services from the kernel, such as file I/O, process creation, and network communication. These calls provide a controlled interface between user-level programs and the underlying hardware, allowing processes to perform privileged operations in a secure manner. Examples include open(), read(), write(), and fork().
 
-#### 88. Explain the importance of inodes.
-**Answer.** Inodes(Index Nodes) are essential data structures that store critical information about files, enable efficient file access, and contribute to the organization and structure of the file system.
+#### 88. What is inode or Explain the importance of inodes.
+**Answer.** An inode, short for index node, is a data structure in a file system that stores information about a file or a directory. It includes metadata such as file permissions, ownership, size, and pointers to the actual data blocks on the disk. Inodes enable the operating system to manage and locate files efficiently.
 
 #### 89. I have disk space available but the file is not getting created. Why?
 **Answer.**
