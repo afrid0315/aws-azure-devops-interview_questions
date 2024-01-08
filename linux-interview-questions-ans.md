@@ -898,7 +898,10 @@ Runs a command in the background, allowing the terminal prompt to be used for ot
 #### 98. What will happen if you get no space left on device?
 **Answer.** If a system runs out of space on a device, it can lead to critical issues. Applications may fail to write data, logs, or temporary files, causing disruptions or crashes. System processes may malfunction, and essential services may become unavailable. It's crucial to regularly monitor disk space, implement proper alerting, and take proactive measures such as cleaning up unnecessary files or expanding storage capacity to avoid these situations.
 
- 
+#### 99. What is DNS caching?
+**Answer.** DNS caching is the temporary storage of DNS (Domain Name System) query results by a system or network device. It helps improve efficiency and reduce latency by storing previously resolved domain names and their corresponding IP addresses, allowing quicker retrieval of this information without the need to repeatedly query DNS servers for the same data.
+
+#### 100. 
 
  
 
