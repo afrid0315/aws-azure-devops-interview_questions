@@ -901,7 +901,8 @@ Runs a command in the background, allowing the terminal prompt to be used for ot
 #### 99. What is DNS caching?
 **Answer.** DNS caching is the temporary storage of DNS (Domain Name System) query results by a system or network device. It helps improve efficiency and reduce latency by storing previously resolved domain names and their corresponding IP addresses, allowing quicker retrieval of this information without the need to repeatedly query DNS servers for the same data.
 
-#### 100. 
+#### 100. What is HA Proxy LBR?
+**Answer.** "High Availability Proxy Load Balancer," it generally means a High Availability (HA) configuration of the HAProxy load balancer. This setup is designed to provide continuous availability, fault tolerance, and efficient distribution of incoming network traffic across multiple servers.
 
  
 
