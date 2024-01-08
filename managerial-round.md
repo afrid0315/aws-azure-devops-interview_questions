@@ -53,5 +53,7 @@ Answer.
 #### 15. Your team mate is not coping up with tasks being a lead how will you support and guide him?
 **Answer.** As a team lead, if a team member is struggling with tasks, I would initiate an open and empathetic conversation to understand their challenges. Together, we would identify specific areas of difficulty and create a plan to address them. I'd provide additional resources or training if needed and offer ongoing support and feedback. Collaboration and setting realistic goals would be key, ensuring the team member feels supported in their professional development.
 
+#### 16. Why would you be a good fit for a senior management position?
+**Answer.** As a candidate for a senior management position, I bring a combination of strong leadership skills, a proven track record in achieving strategic goals, and the ability to foster a collaborative and high-performance work culture. My experience includes successfully leading teams through complex projects, implementing effective organizational strategies, and driving innovation. I am dedicated to achieving operational excellence, fostering employee development, and contributing to the overall success and growth of the organization.
 
 
