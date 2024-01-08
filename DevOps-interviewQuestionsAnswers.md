@@ -60,119 +60,15 @@
 #### 7. Design the 3 tier architecture for your telecommunications project?
 **Answer.** The 3-tier architecture for our telecommunications project comprises three layers: the presentation layer for user interface, the application layer for business logic, and the data layer for storage and retrieval. This design ensures modular scalability, separation of concerns, and efficient management of telecommunications services.
 
+#### 8. Explain what DevOps is and its key principles?
+**Answer.** DevOps is a cultural and collaborative approach to software development and IT operations, aiming to improve communication, collaboration, and automation across the entire software delivery lifecycle. Key principles include automation for efficiency, continuous integration/continuous deployment (CI/CD) for faster delivery, infrastructure as code (IaC) for consistent environments, and a culture of collaboration and shared responsibility between development and operations teams.
+
+#### 9. What is the significance of microservices architecture in DevOps?
+**Answer.** Microservices architecture in DevOps promotes the development of small, independent services that can be deployed, scaled, and updated individually. This fosters agility, allowing teams to release features faster, scale components independently, and improve fault isolation. It aligns well with DevOps practices, facilitating continuous integration, continuous delivery, and efficient collaboration between development and operations teams.
+
+#### 10. How do containers differ from virtual machines, and what are the advantages of using containers in a DevOps environment?
+**Answer.** Containers differ from virtual machines in that they share the host OS kernel, making them lightweight and faster to start. Virtual machines, on the other hand, emulate an entire OS. Container advantages in DevOps include faster deployment, efficient resource utilization, consistency across environments with Docker images, and easier scalability. Containers also promote isolation, facilitating microservices architecture, and enhance portability across various cloud and on-premises environments.
 
 
-Round4/5 [ Managerial ]
 
-  
-
-
--Can you explain the ingress controller routing mechanism
--What will happen if you get no space left on device
-- What are the RCA rule along with SRE 4 rules that you will apply while you create the alerts for your application
--How you will achieve the DB high availability and fault tolerance
--What is jenkins and security tools
--How docker is integrated in jenkins
--Write terraform code to have the AWS with1 VPC 2 Subnets and each having 1 ec2 instance
-- Tell all the scenarios too implement the security in kubernetes
-- Your Prod systems are down and being an SRE what are the Steps you are going to take to solve the issue
-
-
-𝐑𝐨𝐮𝐧𝐝𝟑 - 𝐂𝐨𝐝𝐢𝐧𝐠
-
--What is DNS caching
--What is an i node
-- The systems CPU and Memory are spiking up and at the same time PODs are in crashloop back what steps you would take to resolve the issue
--Write the Python code to hit the rest endpoint and take our all the urls from the json and again check if the status is 200 or not
-- One more python code based on Leetcode
-
-𝐑𝐨𝐮𝐧𝐝 𝟒 - 𝐒𝐲𝐬𝐭𝐞𝐦 𝐃𝐞𝐬𝐢𝐠𝐧
-
-- Design a high availability 3 tier system where your deployments will happen on kubernetes
-
-𝐑𝐨𝐮𝐧𝐝 𝟓 - 𝐌𝐚𝐧𝐚𝐠𝐞𝐫𝐢𝐚𝐥/𝐓𝐞𝐜𝐡𝐧𝐢𝐜𝐚𝐥
-
-- Why would you be a good fit for a senior management position?
-- What’s your most significant achievement so far?
-- Tell me a scenario where you had critical issue and you went beyond and above to solve that issue
-
-- Write a script
-
-AWS experience
-
-Database
-
-Microservives artitectures
-
-Upgrade activities
-
-Automation and Deployment strategies
-
-HTTP protocol
-
-About SAAS
-
-About Loginext
-
-About cloud platforms
-
-1. the installation and configuration part, troubleshooting skills(must have skills)
-
-2. Hands-on with Database. (must have skills)
-
-3. Hands-on with Microservices & HTTP. also how to increase disk space of running ec2.
-
-4. understanding of cloud watch
-
-5. Hands-on exp with AWS. know how to create replicas in RDS.
-
-6. Scaling concepts and understanding of EC2, Subnet, VPC
-
-7. Concepts on RDS.worked on a scalable environment
-
-8. Worked on Infrastructure as a Code. Linux
-
-9. 4.What is dif bw entry points and cmd??
-5.What is the dif bw add and copy??
-Open jdk 10 and 11 how u will configure in jenkins and ensure it is configured??
-
-1)Explain what DevOps is and its key principles.
-
-2)What is the purpose of version control, and which version control systems are you familiar with?
-
-3)Describe the difference between continuous integration and continuous deployment.
-
-4)Explain the concept of Infrastructure as Code (IaC) and provide examples of IaC tools.
-
-5)How do containers differ from virtual machines, and what are the advantages of using containers in a DevOps environment?
-
-6)What is the significance of microservices architecture in DevOps?
-
-7)How would you set up a CI/CD pipeline? Describe the stages involved.
-
-8)What is the role of Docker in DevOps, and how does it contribute to containerization?
-
-9)Explain the importance of monitoring and logging in a DevOps environment. Which tools have you used for monitoring or logging?
-
-10)How do you handle security in a DevOps pipeline, from code development to production deployment?
-
-11)What is the purpose of configuration management, and which tools can be used for this purpose?
-
-12)How do you ensure high availability and scalability in a DevOps setup?
-
-13)Describe the concept of blue-green deployment and its advantages.
-
-14)What is the role of automation in DevOps, and how have you used automation tools in your previous projects?
-
-15)How do you approach collaboration between development and operations teams?
-
-16)Explain the term "Infrastructure as Code" and provide a scenario where it can be beneficial.
-
-17)Describe your experience with cloud platforms (AWS, Azure, or Google Cloud) and how you integrate them into your DevOps practices.
-
-18)What is Jenkins, and how does it contribute to continuous integration and continuous deployment?
-
-19)How do you manage secrets and sensitive information in a DevOps environment?
-
-20)Can you share a challenging situation you faced in a DevOps role and how you resolved it?
 
