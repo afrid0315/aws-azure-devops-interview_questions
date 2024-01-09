@@ -30,6 +30,7 @@ terraform import aws_instance.example i-0123456789abcdef0
 #### 8. Which version of terraform are you currently using?
 **Answer.** Terraform version windows - 1.3.9,
 Terraform version linux - 1.3.3, 1.6.6 amd64 linux
+In provider section I had mention terraform version as 5.10.0, 5.30.0 (any latest versions)
 
 #### 9. Why we use 'terraform validate' and 'terraform fmt' command?
 **Answer.** The 'terraform validate' command is used to check the syntax and validity of Terraform configuration files (written in HCL) without actually deploying any infrastructure. It helps catch errors early in the development process, ensuring that the configuration is correctly formatted and free of syntax errors before applying changes.
