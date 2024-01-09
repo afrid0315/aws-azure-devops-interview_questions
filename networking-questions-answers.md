@@ -95,4 +95,24 @@ Automatic Allocation: IP addresses are permanently assigned to devices based on 
 #### 20. How do we check IP address and Gateway and DNS Server addresses of our device?
 **Answer.** By giving 'ifconfig' command.
 
+#### 21. What are the HTTP method are? PUT POST DELETE GET
+● What is the time complexity of merge sort?
+● What are the status code are available?
+● What is the difference between PUT and POST?
+● What is the website cookies?
+● How to check IO Usage for machine? SAR Utilities
+● How to Capture and analyse Network Traffic? Tcpdump
+● How to check boot logs in linux? journalctl -b
+● What is the significance of SIGKILL?
+● Which single will be send to OS when you run kill -9 PID command in linux? SIGKILL
+How would you check whether the user has to execute permission or not?
+● How do you call the HTTP request method without a browser or curl?
+● What are the parameter available in the curl command?
+● A different alternative and flavor for curl command?
+● What happen we you run the cat command on terminal internal workflow?
+● What if I got an error cat command not found what could be the possible issue?
+● What if I can’t able to SSH into the remote machine? What is the possible step would
+● Practical coding round java code snippet was given
+Basic Networking commands like nslookup, dig, ping, traceroute.
+
 
