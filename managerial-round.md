@@ -12,6 +12,8 @@ https://www.levels.fyi/blog/amazon-leadership-principles.html
 
 **Scenario 2:** Once in our Kubernetes cluster, a pod failed to start. Upon inspecting the logs and details, I found that the pod comprised two containers: a main container and a side-car container responsible for storing logs from the main container. It became apparent that the issue stemmed from an improperly specified image for the side-car container. After correcting the image name and version, the pod started successfully.
 
+**Scenario 3:** In the context of our high-availability infrastructure, we implemented an HAProxy Load Balancer (LBR) on a dedicated server to ensure the availability and reliability of our application servers. Recently, I encountered a troubleshooting issue where the HAProxy service was not activating and running as expected. I found that the backend configuration was commented out in the '/etc/haproxy/haproxy.cfg' file. Removing the '#' enabled the backend, resolving the issue and allowing the service to start successfully, ensuring high availability for our application servers.
+
 #### 3. Tell me about a time when you failed a deadline.
 
 Answer. To date, I have consistently met project deadlines. Through effective planning, proactive monitoring, and a commitment to best practices, I've been able to ensure the successful delivery of projects within the specified timelines. However, I acknowledge that the nature of the industry involves challenges, and in the event of unforeseen obstacles, I prioritize transparent communication and rapid resolution to minimize any potential impact on project timelines.
