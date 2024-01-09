@@ -182,3 +182,7 @@ instance_count = 10
    ```
 
    In this example, a `null_resource` is used with a `local-exec` provisioner to run a simple local command that echoes a message to the console whenever Terraform is applied or refreshed. The `timestamp()` function ensures it runs each time.
+
+#### 21. Do you know Terraform Blockers?
+**Answer.** If by "Terraform Blockers" you mean different types of blocks in Terraform configurations, then yes. Terraform blocks include Provider Blocks, Resource Blocks, Variable Blocks, Output Blocks, and Module Blocks, each serving a specific purpose in defining and managing infrastructure.
+
