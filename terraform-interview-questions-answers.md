@@ -28,7 +28,8 @@ terraform import aws_instance.example i-0123456789abcdef0
 **Answer.** HCL stands for HashiCorp Configuration Language. It is a domain-specific language (DSL) created by HashiCorp and used by tools like Terraform for writing configuration files. In the context of Terraform, HCL is used to define the infrastructure in a human-readable and structured format.
 
 #### 8. Which version of terraform are you currently using?
-**Answer.** Terraform version windows - 1.3.9
+**Answer.** Terraform version windows - 1.3.9,
+Terraform version linux - 1.6.6 amd64 linux
 
 #### 9. Why we use 'terraform validate' and 'terraform fmt' command?
 **Answer.** The 'terraform validate' command is used to check the syntax and validity of Terraform configuration files (written in HCL) without actually deploying any infrastructure. It helps catch errors early in the development process, ensuring that the configuration is correctly formatted and free of syntax errors before applying changes.
