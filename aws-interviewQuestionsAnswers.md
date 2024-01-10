@@ -76,3 +76,37 @@ Example: M5, M5a, M5n, M5zn, M6g, M6gd
 
 #### 15. Why we need autoscaling?
 **Answer.** Autoscaling is essential for dynamically adjusting computing resources based on demand. It ensures optimal performance, cost efficiency, and high availability by automatically scaling resources up or down in response to varying workloads. Autoscaling helps maintain a balance between resource utilization and cost effectiveness, providing scalability and resilience for applications and services in a dynamic and unpredictable environment.
+
+#### 16. In S3 difference between public and private subnet?
+**Answer.** In an Amazon S3 context, there is no distinction between public and private subnets, as S3 is a globally accessible storage service. Public and private subnets typically pertain to resources hosted in Amazon VPC (Virtual Private Cloud), and they don't directly impact the accessibility of S3 buckets. S3 buckets are accessible over the internet by default, but their access can be controlled using S3 bucket policies, IAM policies, and VPC endpoint policies. The concepts of public and private subnets are more relevant to EC2 instances and other resources within a VPC.
+
+#### 17. VPC private linked points
+**Answer.** The term "VPC Private Linked Endpoints" typically refers to AWS PrivateLink, a service that enables private connectivity between a Virtual Private Cloud (VPC) and supported AWS services or endpoints, without traversing the public internet. Private Linked Endpoints enhance security and reduce data transfer costs by allowing direct, private communication between your VPC and AWS services, such as S3, DynamoDB, or others. It enables access to these services with increased privacy and without exposing them to the public internet.
+
+#### 18. S3 storage classes?
+**Answer.** Amazon S3 offers multiple storage classes to suit different performance, durability, and cost requirements:
+
+Standard: General-purpose storage with high durability and low latency.
+
+Intelligent-Tiering: Automatically moves objects between two access tiers based on changing access patterns.
+
+Standard-IA (Infrequent Access): Suitable for infrequently accessed data with lower storage costs and retrieval fees.
+
+One Zone-IA: Similar to Standard-IA but stores data in a single availability zone for cost savings.
+
+Glacier: Extremely low-cost archival storage with longer retrieval times.
+
+Glacier Deep Archive: Lowest-cost archival storage for long-term retention with the longest retrieval times.
+
+Reduced Redundancy Storage (RRS): Deprecated storage class, once commonly used for non-critical, reproducible data. It's recommended to use Standard or Intelligent-Tiering instead.
+
+#### 19. Encryption in S3?
+**Answer.** Amazon S3 provides server-side encryption options to secure data at rest:
+
+SSE-S3 (Server-Side Encryption with S3): Amazon manages and protects keys.
+
+SSE-KMS (Server-Side Encryption with AWS Key Management Service): Allows more control over encryption keys.
+
+SSE-C (Server-Side Encryption with Customer-Provided Keys): Lets you manage and control encryption keys.
+
+Encrypting data in transit is achieved through the use of SSL/TLS when accessing S3 over HTTPS.
