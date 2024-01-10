@@ -110,3 +110,88 @@ SSE-KMS (Server-Side Encryption with AWS Key Management Service): Allows more co
 SSE-C (Server-Side Encryption with Customer-Provided Keys): Lets you manage and control encryption keys.
 
 Encrypting data in transit is achieved through the use of SSL/TLS when accessing S3 over HTTPS.
+
+#### 20. How to copy local file to s3 using cli?
+**Answer.** To copy a local file to Amazon S3 using the AWS CLI, you can use the aws s3 cp command. 
+```
+aws s3 cp local-file.txt s3://your-bucket-name/
+```
+
+#### 21. About S3 bucket policy
+**Answer.** An S3 bucket policy is a JSON document that defines permissions for an Amazon S3 bucket. It controls who can access the bucket and how they can access it. Key elements include specifying actions (e.g., s3:GetObject), resources (e.g., the bucket and objects), and the conditions under which the policy applies. Bucket policies are used for access control, allowing fine-grained control over who can perform specific actions on objects within the bucket.
+
+#### 22. About S3 encryption policy
+**Answer.** An S3 encryption policy refers to specifying rules within an S3 bucket policy that mandate encryption for objects stored in the bucket. This policy ensures that any data uploaded to the bucket is encrypted, either using server-side encryption provided by AWS S3 (SSE-S3, SSE-KMS, or SSE-C) or by enforcing client-side encryption before uploading to the bucket. The encryption policy enhances data security and compliance by enforcing encryption standards for data at rest in an S3 bucket.
+
+#### 23. Write a yaml file to create a ec2 in cloud formation?
+**Answer.** 
+```
+AWSTemplateFormatVersion: "2010-09-09"
+Resources:
+  MyEC2Instance:
+    Type: "AWS::EC2::Instance"
+    Properties:
+      ImageId: "ami-xxxxxxxxxxxxxxxxx"  # Replace with your desired AMI ID
+      InstanceType: "t2.micro"
+      KeyName: "your-key-pair-name"     # Replace with your key pair name
+```
+
+#### 24. Difference between nginx and apache
+**Answer.** Nginx and Apache are both popular web servers, but they have some key differences:
+
+Architecture:
+
+Apache: Processes requests using a multi-process, multi-threaded model.
+Nginx: Uses an event-driven, asynchronous architecture to handle a large number of concurrent connections efficiently.
+Resource Usage:
+
+Apache: Generally consumes more memory per process.
+Nginx: Typically has lower memory usage and can handle more concurrent connections with fewer resources.
+Concurrency:
+
+Apache: Uses a process-based model where each connection gets a dedicated process or thread.
+Nginx: Uses an asynchronous, non-blocking model, making it more efficient in handling concurrent connections.
+Modules:
+
+Apache: Has a rich set of modules for various functionalities.
+Nginx: Modules are more lightweight, and additional functionalities are often implemented as separate processes.
+Configuration:
+
+Apache: Configuration can be more complex with its .htaccess files and extensive configuration options.
+Nginx: Configuration is generally simpler and more streamlined.
+Use Cases:
+
+Apache: Traditionally favored for dynamic content and shared hosting environments.
+Nginx: Known for its performance in serving static content, acting as a reverse proxy, and handling high concurrency.
+Choosing between Nginx and Apache depends on specific use cases and performance requirements. Often, they are used together in a complementary way, with Nginx handling static content and serving as a reverse proxy in front of Apache for dynamic content.
+
+#### 25. Comparison between classic, network, application load balancing?
+**Answer.** Load balancing in AWS offers different options, each suited for specific use cases:
+
+Classic Load Balancer (CLB):
+
+Operates at both the application and transport layers.
+Well-suited for simple applications.
+Supports HTTP, HTTPS, TCP, and SSL protocols.
+Network Load Balancer (NLB):
+
+Operates at the transport layer (Layer 4).
+Designed for high-performance, low-latency, and scalable applications.
+Ideal for TCP and UDP traffic.
+Application Load Balancer (ALB):
+
+Operates at the application layer (Layer 7).
+Suited for modern, containerized, and microservices-based architectures.
+Supports routing decisions based on content, enabling more advanced load balancing.
+Key Considerations:
+
+CLB: Basic and versatile. Suitable for general use but lacks advanced features.
+
+NLB: Efficient for handling high-volume, low-latency traffic. Ideal for scenarios like gaming and IoT.
+
+ALB: Provides advanced application-level routing and content-based routing. Well-suited for modern web applications and microservices architectures.
+
+#### 26. About Amazon CloudFront?
+**Answer.** Amazon CloudFront is a content delivery network (CDN) service by AWS that securely delivers data, videos, applications, and APIs to customers globally with low latency, high transfer speeds, and a high level of security. It caches content at edge locations worldwide, reducing latency and providing a scalable solution for distributing content with a global reach.
+
+
