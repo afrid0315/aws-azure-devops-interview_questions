@@ -907,8 +907,10 @@ Runs a command in the background, allowing the terminal prompt to be used for ot
 #### 101. What is Sticky bit?
 **Answer.** The sticky bit is a permission in Unix file systems that, when set on a directory, restricts the deletion or renaming of files within that directory to only the file owner. It is often represented by the letter "t" like this **"drwxrwxrwt for /tmp"** in the execute permission for others. This is commonly used on directories like /tmp to prevent users from deleting or renaming each other's files.
 
+#### 102. how can you create a zero byte file using which command
+**Answer.** You can create a zero-byte file using the touch command: ``touch filename``
 
-
-
+#### 103. how to check a particular port is open or no
+**Answer.** You can check if a particular port is open using the telnet command or nc (netcat) command.``telnet hostname_or_ip port_number or telnet example.com 80``
 
  
