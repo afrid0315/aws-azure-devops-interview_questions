@@ -87,3 +87,22 @@ docker system version - show the version of Docker installed on the system
 
 #### 7. How docker is integrated in jenkins
 **Answer.** Docker is integrated into Jenkins through the Docker Pipeline plugin. This plugin enables the use of Docker containers within Jenkins pipelines, allowing developers to define, build, and run their applications in isolated and reproducible environments. It simplifies the integration of Docker-based workflows, providing seamless containerization support in Jenkins CI/CD pipelines.
+
+#### 8. Write a dockerfile for tomcat container?
+**Answer.** 
+```
+FROM ubuntu
+RUN apt-get update \
+    && apt-get install -y open-jdk-8-jre wget \
+    && rm -rf /var/lib/apt/lists/*
+
+RUN wget https://archive.apache.org/dist/tomcat/tomcat-9/v9.0.59/bin/apache-tomcat-9.0.59.tar.gz \
+    && tar -xf apache-tomcat-9.0.59.tar.gz -C /opt \
+    && ln -s /opt/apache-tomcat-9.0.59 /opt/tomcat \
+    && rm apache-tomcat-9.0.59.tar.gz
+
+EXPOSE 8080
+
+CMD ["/opt/tomcat/bin/catalina.sh", "run"]
+```
+
