@@ -73,3 +73,6 @@ Example: M5, M5a, M5n, M5zn, M6g, M6gd
 
 #### 14. How to increase disk space of running EC2?
 **Answer.** To increase disk space on a running EC2 instance, you can either resize the existing EBS (Elastic Block Store) volume or attach a new EBS volume with additional capacity. After attaching or resizing, you need to extend the file system to make use of the added space. The specific steps may vary based on the operating system, but generally involve using commands like resize2fs for Linux or Disk Management for Windows.
+
+#### 15. Why we need autoscaling?
+**Answer.** Autoscaling is essential for dynamically adjusting computing resources based on demand. It ensures optimal performance, cost efficiency, and high availability by automatically scaling resources up or down in response to varying workloads. Autoscaling helps maintain a balance between resource utilization and cost effectiveness, providing scalability and resilience for applications and services in a dynamic and unpredictable environment.
