@@ -904,7 +904,8 @@ Runs a command in the background, allowing the terminal prompt to be used for ot
 #### 100. What is HA Proxy LBR?
 **Answer.** "High Availability Proxy Load Balancer," it generally means a High Availability (HA) configuration of the HAProxy load balancer. This setup is designed to provide continuous availability, fault tolerance, and efficient distribution of incoming network traffic across multiple servers.
 
- 
+#### 101. What is Sticky bit?
+**Answer.** The sticky bit is a permission in Unix file systems that, when set on a directory, restricts the deletion or renaming of files within that directory to only the file owner. It is often represented by the letter "t" like this **"drwxrwxrwt for /tmp"** in the execute permission for others. This is commonly used on directories like /tmp to prevent users from deleting or renaming each other's files.
 
 
 
