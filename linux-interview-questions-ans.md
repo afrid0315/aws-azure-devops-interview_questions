@@ -88,11 +88,13 @@ It offers CLI and GUI to use different commands and applications such as Firefox
 | Any change in this link reflects other files directly. | Every change in this link reflects its hard link and the actual file directly.|
 | It uses less memory. | It uses more memory. |
 
-#### 14. How do users create a symbolic link in Linux?
+#### 14. How do users create a symbolic link in Linux? What scenario you faced and how did you fix that?
 **Answer.** Symbolic links, symlink, or soft links are shortcuts to files and directories. Users can create the symbolic link in Linux through the’ ln’ command. The general command to create a symbolic link is as follows:
 ```
 ln -s <existing_source file> <optional_symbolic link>
 ```
+
+Scenario: Suppose you have a symbolic link pointing to a file, and the target file gets deleted or moved. The symlink becomes a "dangling symlink," pointing to a non-existent location.
 
 #### 15. What do you understand about the standard streams?
 **Answer.** Output and input in Linux OS are divided into three standard streams: 
@@ -976,3 +978,45 @@ aws cloudformation update-stack \
 
 echo "Stack $stack_name updated successfully."
 ```
+
+#### 108. Port number for tomcat? Can you use another port number and what is the path for how to change number?
+**Answer.** The default port number for Apache Tomcat is 8080. You can change the port number by modifying the server.xml configuration file. Locate the server.xml file in the conf directory of your Tomcat installation. Most software packages, configuration files related to port numbers are often found in a "conf" (configuration) directory.
+
+#### 109. Do you know how to be setting file path?
+**Answer.** Yes, setting a file path involves specifying the location of a file. In various programming languages or systems, you can set file paths using variables, constants, or configuration files. Always consider the appropriate syntax for the specific language or environment you're working in.
+
+#### 110. What is hikari-pool?
+**Answer.** HikariCP is a high-performance JDBC (Java Database Connectivity) connection pool for Java applications, designed to efficiently manage and reuse database connections, improving application performance by reducing connection overhead.
+
+#### 111. Trying to hit url getting blank page and now wanted to troubleshoot the error and need to verify port is listening or not and what you will do?
+**Answer.** To troubleshoot a blank page when hitting a URL:
+
+Use telnet your_server_ip your_port to check port availability.
+Inspect server logs for errors.
+Verify application and server configurations.
+Check for recent changes that may have caused the issue.
+
+#### 112. About utility and supervisor?
+**Answer. Utility:**
+
+Utilities are software tools designed to perform specific tasks or functions.
+They are often command-line or GUI-based tools that aid in various operations.
+Examples include grep for text searching, sed for text manipulation, and rsync for file synchronization.
+Utilities simplify routine tasks, enhance productivity, and contribute to system administration and development processes.
+
+**Supervisor:**
+
+Supervisor is a process control system commonly used in Unix-like operating systems.
+It monitors and manages processes to ensure they run continuously and reliably.
+If a monitored process fails, Supervisor can restart it automatically.
+Provides features like process grouping, logging, and configuration management.
+Frequently used in server environments to maintain the stability and availability of critical services.
+
+#### 113. Command to check wat all the server running using supervisor?
+**Answer.** This command will display the status of all processes managed by Supervisor, showing their names, states, and other information. ``sudo supervisorctl status``
+
+#### 114. About monit?
+**Answer.** Monit is an open-source utility for monitoring and managing Unix systems. It monitors processes, files, directories, and system resources, and can perform automatic actions based on predefined conditions to ensure system stability.
+
+#### 115. Differences between rpm and yum?
+**Answer.** rpm is a low-level package manager for installing individual packages in Linux. yum is a higher-level package manager that simplifies package management by handling dependencies and providing an easier interface to install, update, and remove packages.
