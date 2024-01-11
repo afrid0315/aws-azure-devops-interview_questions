@@ -907,10 +907,72 @@ Runs a command in the background, allowing the terminal prompt to be used for ot
 #### 101. What is Sticky bit?
 **Answer.** The sticky bit is a permission in Unix file systems that, when set on a directory, restricts the deletion or renaming of files within that directory to only the file owner. It is often represented by the letter "t" like this **"drwxrwxrwt for /tmp"** in the execute permission for others. This is commonly used on directories like /tmp to prevent users from deleting or renaming each other's files.
 
-#### 102. how can you create a zero byte file using which command
+#### 102. How can you create a zero byte file using which command
 **Answer.** You can create a zero-byte file using the touch command: ``touch filename``
 
-#### 103. how to check a particular port is open or no
+#### 103. How to check a particular port is open or no
 **Answer.** You can check if a particular port is open using the telnet command or nc (netcat) command.``telnet hostname_or_ip port_number or telnet example.com 80``
 
- 
+#### 104. How to check the services running in Linux tell the command? 
+**Answer.** To check the services running in Linux, you can use the systemctl command. Use the following command to list all running services: ``systemctl list-units --type=service --state=running``
+
+#### 105. Using which command will you list out all the empty files in Linux?
+**Answer.** To list all empty files in Linux, you can use the find command along with the -empty option.
+``find /path/to/directory -type f -empty``
+
+#### 106. How to add volume permanently in linux/windows server?
+**Answer.** To add a volume permanently in Linux, you need to edit the /etc/fstab file. Add an entry specifying the details of the volume, such as device, mount point, file system type, and options.``/dev/sdb1   /mnt/myvolume   ext4   defaults   0   0``
+
+#### 107. Write python or shell script to mdify the cloud formation stack?
+**Answer.** For python
+```
+import boto3
+
+# Replace with your AWS credentials and region
+aws_access_key = 'your_access_key'
+aws_secret_key = 'your_secret_key'
+region = 'your_region'
+
+stack_name = 'your_stack_name'
+parameter_key = 'ParameterKey'
+parameter_value = 'NewValue'
+
+# Create a CloudFormation client
+cf_client = boto3.client('cloudformation', aws_access_key_id=aws_access_key, aws_secret_access_key=aws_secret_key, region_name=region)
+
+# Get the current stack description
+response = cf_client.describe_stacks(StackName=stack_name)
+stack_description = response['Stacks'][0]
+
+# Extract the current parameter values
+current_parameters = stack_description['Parameters']
+
+# Update the parameter value
+for param in current_parameters:
+    if param['ParameterKey'] == parameter_key:
+        param['ParameterValue'] = parameter_value
+
+# Modify the stack with the updated parameters
+cf_client.update_stack(
+    StackName=stack_name,
+    UsePreviousTemplate=True,
+    Parameters=current_parameters
+)
+
+print(f"Stack {stack_name} updated successfully.")
+```
+
+For Shell Script
+```
+#!/bin/bash
+stack_name='your_stack_name'
+parameter_key='ParameterKey'
+parameter_value='NewValue'
+
+aws cloudformation update-stack \
+    --stack-name $stack_name \
+    --use-previous-template \
+    --parameters ParameterKey=$parameter_key,ParameterValue=$parameter_value
+
+echo "Stack $stack_name updated successfully."
+```
