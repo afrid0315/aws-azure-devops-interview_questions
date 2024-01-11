@@ -1,2 +1,13 @@
 # Troubleshooting Scenario's Faced in daily tasks
 
+#### 1. Tell me about a time when you spent a lot of time solving a problem.
+**Answer.** I have faced few challanges that 
+**Scenario 1:** During a critical period, our organization experienced email delivery failures. After an in-depth investigation, I discovered a misconfiguration in the Postfix service settings. Specifically, the relay server details were incorrect, causing mail to be stuck in the queue. By rectifying the configuration and implementing appropriate testing procedures, I successfully restored normal email functionality.
+
+**Scenario 2:** Once in our Kubernetes cluster, a pod failed to start. Upon inspecting the logs and details, I found that the pod comprised two containers: a main container and a side-car container responsible for storing logs from the main container. It became apparent that the issue stemmed from an improperly specified image for the side-car container. After correcting the image name and version, the pod started successfully.
+
+**Scenario 3:** In the context of our high-availability infrastructure, we implemented an HAProxy Load Balancer (LBR) on a dedicated server to ensure the availability and reliability of our application servers. Recently, I encountered a troubleshooting issue where the HAProxy service was not activating and running as expected. I found that the backend configuration was commented out in the '/etc/haproxy/haproxy.cfg' file. Removing the '#' enabled the backend, resolving the issue and allowing the service to start successfully, ensuring high availability for our application servers.
+
+**Scenario 4.** Team identified that the application is unable to connect to the database. After digging into the issue, the team found that mariadb service is down on the database server.The MariaDB service failed to start due to an error during the ExecStartPre phase, specifically in the mysql-prepare-db-dir script. The script reported that the MariaDB directory /var/lib/mysql was not empty, preventing the initialization process. Despite creating an empty directory and validating its contents, the issue persisted, suggesting the need for further investigation to identify the root cause.
+
+**Scenario 5.** The Apache HTTP Server on the system encountered a startup failure, as revealed by the output of systemctl status httpd.service. Apache service failed due to a syntax error in the DocumentRoot directive. Resolution involved correcting the directive, restarting Apache, and verifying the status. Log analysis was performed in case of persistent issues (systemctl status, config file, logs).
