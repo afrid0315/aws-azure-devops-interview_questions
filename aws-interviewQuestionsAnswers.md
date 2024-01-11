@@ -173,13 +173,13 @@ Classic Load Balancer (CLB):
 Operates at both the application and transport layers.
 Well-suited for simple applications.
 Supports HTTP, HTTPS, TCP, and SSL protocols.
-Network Load Balancer (NLB):
 
+Network Load Balancer (NLB):
 Operates at the transport layer (Layer 4).
 Designed for high-performance, low-latency, and scalable applications.
 Ideal for TCP and UDP traffic.
-Application Load Balancer (ALB):
 
+Application Load Balancer (ALB)
 Operates at the application layer (Layer 7).
 Suited for modern, containerized, and microservices-based architectures.
 Supports routing decisions based on content, enabling more advanced load balancing.
