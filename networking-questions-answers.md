@@ -95,7 +95,25 @@ Automatic Allocation: IP addresses are permanently assigned to devices based on 
 #### 20. How do we check IP address and Gateway and DNS Server addresses of our device?
 **Answer.** By giving 'ifconfig' command.
 
-#### 21. What are the HTTP method are? PUT POST DELETE GET
+#### 21. Difference between network layer and transport layer?
+**Answer.** The main difference between the network layer and transport layer lies in their functionalities within the OSI model:
+
+Network Layer (Layer 3):
+
+Responsible for logical addressing and routing of data packets between different networks.
+Uses IP addresses for communication.
+Examples of protocols: IP (Internet Protocol).
+Transport Layer (Layer 4):
+
+Manages end-to-end communication between devices on the same network or segment.
+Ensures reliable and efficient data transfer, error detection, and flow control.
+Uses port numbers for communication.
+Examples of protocols: TCP (Transmission Control Protocol) for reliable communication, UDP (User Datagram Protocol) for faster but less reliable communication.
+
+
+
+
+What are the HTTP method are? PUT POST DELETE GET
 ● What is the time complexity of merge sort?
 ● What are the status code are available?
 ● What is the difference between PUT and POST?
