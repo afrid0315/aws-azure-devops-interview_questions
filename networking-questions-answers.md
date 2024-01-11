@@ -132,5 +132,17 @@ How would you check whether the user has to execute permission or not?
 ● What if I can’t able to SSH into the remote machine? What is the possible step would
 ● Practical coding round java code snippet was given
 Basic Networking commands like nslookup, dig, ping, traceroute.
-
+1) Jenkins pipeline to build and run container nginx 
+2) How to copy 6gb zip file from local to s3 bucket?
+3) what is the maximum limit of s3 storage ?
+4) s3 glacier
+5) there is small team requesting u to create infrastructure of 25, So how will you define vpc cidr block?
+6) 10.0.0.0/16 - how many ip address we get? How to calculate this ip addresses?
+7) Write python script for aws lambda?
+8) In autoscaling we have minimum capacity, max capacity and desired capacity. Is desired value is optional or mandatory to provide?
+9) Why we have desired capacity option in load balancer? We have min and max capacities, So, what is the use-case to have desired capacity?
+10) About AWS Lambda? Where you used in your project?
+11) About Cloud formation? AWS Kinesis?
+12) Daily activities and tasks?
+13) About JIRA or other tools you are using in your project?
 
