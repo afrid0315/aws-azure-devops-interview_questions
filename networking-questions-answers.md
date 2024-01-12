@@ -146,3 +146,16 @@ Basic Networking commands like nslookup, dig, ping, traceroute.
 12) Daily activities and tasks?
 13) About JIRA or other tools you are using in your project?
 
+Write a program to list the function
+2.to list even and odd numbers
+3.to print functions
+4.dict fun
+5.linux environment all commands
+6.as a sre what's ur roles and responsibilities
+7.if iam in banglore and my datacenters are in different places how comfortable you will feel to solve this virtual machine problem??
+8.terraform have u created any services??
+9.what is sre??
+10.which are the tools used in sre?
+What actually work you will do to secure our company data??
+11.what are the projects you did as a sre and what challenges you faced??
+12.have you worked on cloud era and do you have knowledge on any programming language and how much u rate yourself??
