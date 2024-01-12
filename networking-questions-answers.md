@@ -159,3 +159,46 @@ Write a program to list the function
 What actually work you will do to secure our company data??
 11.what are the projects you did as a sre and what challenges you faced??
 12.have you worked on cloud era and do you have knowledge on any programming language and how much u rate yourself??
+
+1.as a sre how u solve pl,P2,p3 issues have u used service now ??
+2.how you will trouble shoot if application goes down??
+3.have u raised any tickets,you should have knowledge on incident analysis??
+4.Branching stratergy??
+5.types of elb
+6.what is auto scaling n types??
+7.where exactly you will install build tool??
+8.have you integrated tools??
+9.for intergration do you need git ??
+10.how you will go inside a container in kubernetes??
+11.how you will troubleshoot if the pod goes down??
+12.what is webhook where you used it??
+13.what is nodeport and cluster ip??
+14.terraform is stateless??what do you mean by terraform import and terraform refresh??
+15.have you created any real time services using state files??
+16.what are the types of storages in AWS??
+17.what is the df bw nacl and transit gateway?
+18.what is security group??give one example
+19.which protocol is used for putty??
+20.Difference bw http and HTTPS??
+21.what is namespace??
+22.prometheus give on real time example??
+23.how you troubleshoot your kubernetes cluster??
+24.Do you need GitHub url to run a pipeline??
+25.what is the command to check particular port is open or not??
+26.command for disk usage
+27.command for CPU utilisation
+28.what are the challenges you have faced as a sre??how u troubleshooted it??
+29.What are roles and responsibilities of your sre role in your organisation??
+30.what is vpc peering??
+
+1.question about os build like linux.
+2.docker container will get reboot failure what you will do if it won't work ??
+3.what is devops??why it's important??
+4.what are the build tools??
+5.what are configuration management tools??
+6.do you have any knowledge on programming language?
+7.write a docker file for java application.
+8.Ansible playbooks
+9.Terraform .tf files general syntax
+10.do you worked on AWS??
+11.which all commands you used in day today responsibilities??
