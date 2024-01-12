@@ -1020,3 +1020,6 @@ Frequently used in server environments to maintain the stability and availabilit
 
 #### 115. Differences between rpm and yum?
 **Answer.** rpm is a low-level package manager for installing individual packages in Linux. yum is a higher-level package manager that simplifies package management by handling dependencies and providing an easier interface to install, update, and remove packages.
+
+#### 116. What is GPG?
+**Answer.** GPG stands for GNU Privacy Guard. It is a free and open-source software suite that provides cryptographic privacy and authentication for data communication. GPG is a complete implementation of the OpenPGP (Pretty Good Privacy) standard as defined by RFC4880.
