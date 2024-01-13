@@ -1,7 +1,15 @@
 # Networking Interview Questions & Answers
 
-#### 1. What is HTTP protocol?
+#### 1. What is HTTP protocol and explain PUT POST DELETE GET?
 **Answer.** The HTTP (Hypertext Transfer Protocol) is a protocol used for communication between a client and a server over the internet. It facilitates the transfer of hypertext, typically in the form of HTML documents, but can also handle various data types. HTTP operates on a request-response model, where clients send requests to servers, and servers respond with the requested information along with a status code indicating the success or failure of the request.
+
+**PUT:** Used to update or create a resource on the server. The data sent with a PUT request typically replaces the existing resource or creates a new one if it doesn't exist.
+
+**POST:** Used to submit data to be processed to a specified resource. It is often used to create new resources, and the server assigns a URI to the new resource.
+
+**DELETE:** Used to request the removal of a resource on the server. After a successful DELETE request, the resource is no longer available.
+
+**GET:** Used to retrieve data from a specified resource. It should not have any side effects on the server and is considered a safe and idempotent operation, meaning multiple identical requests should have the same effect as a single request.
 
 #### 2. Difference between router, switch?
 **Answer.** A router operates at the network layer (Layer 3) and connects different networks, making routing decisions based on IP addresses. It directs traffic between networks.
@@ -98,13 +106,12 @@ Automatic Allocation: IP addresses are permanently assigned to devices based on 
 #### 21. Difference between network layer and transport layer?
 **Answer.** The main difference between the network layer and transport layer lies in their functionalities within the OSI model:
 
-Network Layer (Layer 3):
-
+**Network Layer (Layer 3):**
 Responsible for logical addressing and routing of data packets between different networks.
 Uses IP addresses for communication.
 Examples of protocols: IP (Internet Protocol).
-Transport Layer (Layer 4):
 
+**Transport Layer (Layer 4):**
 Manages end-to-end communication between devices on the same network or segment.
 Ensures reliable and efficient data transfer, error detection, and flow control.
 Uses port numbers for communication.
@@ -113,25 +120,32 @@ Examples of protocols: TCP (Transmission Control Protocol) for reliable communic
 #### 22. What is the port of Sonarkube, SQL?
 **Answer.** Sonarkube starts with the port 9000, SQL starts with the port 3306
 
+#### 23. What is the time complexity of merge sort?
+**Answer.** The time complexity of merge sort is O(n log n), where "n" is the number of elements in the array that is being sorted.
 
-What are the HTTP method are? PUT POST DELETE GET
-● What is the time complexity of merge sort?
-● What are the status code are available?
-● What is the difference between PUT and POST?
-● What is the website cookies?
-● How to check IO Usage for machine? SAR Utilities
-● How to Capture and analyse Network Traffic? Tcpdump
-● How to check boot logs in linux? journalctl -b
-● What is the significance of SIGKILL?
-● Which single will be send to OS when you run kill -9 PID command in linux? SIGKILL
-How would you check whether the user has to execute permission or not?
-● How do you call the HTTP request method without a browser or curl?
-● What are the parameter available in the curl command?
-● A different alternative and flavor for curl command?
-● What happen we you run the cat command on terminal internal workflow?
-● What if I got an error cat command not found what could be the possible issue?
-● What if I can’t able to SSH into the remote machine? What is the possible step would
-● Practical coding round java code snippet was given
+#### 24. What are the status code are available?
+**Answer.** Here are some common HTTP status codes:
+
+- 200 OK (Success)
+- 404 Not Found (Resource not found)
+- 500 Internal Server Error (Server error)
+- 401 Unauthorized (Authentication required)
+- 403 Forbidden (Access denied)
+- 301 Moved Permanently (Resource has moved)
+- 302 Found (Resource temporarily moved)
+- 204 No Content (Request successful, no additional content)
+
+#### 25. What is the website cookies?
+**Answer.** Website cookies, or HTTP cookies, are small pieces of data sent by a website and stored on a user's device. They serve various purposes, such as remembering user preferences and maintaining user sessions, enhancing the overall browsing experience.
+
+#### 26. How to Capture and analyse Network Traffic?
+**Answer.** Use tools like 'Wireshark' or 'tcpdump' to capture network packets.
+
+#### 27. 
+**Answer.** 
+
+#### 28. 
+
 Basic Networking commands like nslookup, dig, ping, traceroute.
 1) Jenkins pipeline to build and run container nginx 
 2) How to copy 6gb zip file from local to s3 bucket?
