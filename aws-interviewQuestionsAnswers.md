@@ -43,9 +43,11 @@ In vertical scaling, the resources of a single machine are increased to handle a
 
 **Answer.** The Best practices for Amazon EC2 can be done by managing secure access to resources using identity federation, IAM users along with implementing the least permissive rules for a secure operating system and applications on the instance.
 
-#### 10. Can I Vertically Scale An Amazon Instance? How?
+#### 10. Can I Vertically Scale An Amazon Instance? How? Give me details about scaling?
 
 **Answer.** Yes. Vertically scaling of an AWS instance can be done up or down when instance size changed, and then restarted because of moving the VM to a different piece of hardware with the available resources.
+
+About Scaling, we are having Horizontal scaling and Vertical scaling. Horizontal scaling will increase or decrease by no. of machines as  per workload requirement which is scale-in and scale-out(by using autoscaling we can automatically scale). Vertical scaling will increase or decrease its machines configurations like size, cpu, ram... It will increase or decrease its single machines configurations which is scale-up and scale-down(this done by manually by stopping machine and updating configuration as per workload and restarting machine.
 
 #### 11. How To Use Amazon Sqs?
 
