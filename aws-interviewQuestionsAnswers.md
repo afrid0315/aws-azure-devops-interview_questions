@@ -196,4 +196,20 @@ ALB: Provides advanced application-level routing and content-based routing. Well
 #### 26. About Amazon CloudFront?
 **Answer.** Amazon CloudFront is a content delivery network (CDN) service by AWS that securely delivers data, videos, applications, and APIs to customers globally with low latency, high transfer speeds, and a high level of security. It caches content at edge locations worldwide, reducing latency and providing a scalable solution for distributing content with a global reach.
 
+#### 27. How to copy large zip file from local to s3 bucket?
+**Answer.** For copying large files or directories to an S3 bucket efficiently, use the 'copy' command or aws s3 sync command. 
+```
+aws s3 cp yourfile.zip s3://your-bucket-name/
+```
+But, aws s3 sync command will be good to copy large files than copy command 
+```
+aws s3 sync /path/to/local/directory s3://your-bucket-name/
+``` 
 
+#### 28. What is the maximum limit of s3 storage?
+**Answer.** The maximum limit for a single Amazon S3 bucket is 5 terabytes (TB) for both the total storage size and any individual object stored within the bucket. 
+
+#### 29. Write python script for aws lambda?
+
+#### 30. In autoscaling we have minimum capacity, max capacity and desired capacity. Is desired value is optional or mandatory to provide?
+**Answer.** In Auto Scaling, the "desired capacity" value is optional to provide. If not specified, Auto Scaling will use the default desired capacity, which is often the minimum capacity. However, setting the desired capacity explicitly allows you to control the number of instances in the Auto Scaling group independently of the minimum or maximum capacities. If we specify desired value then it will defaultly start with desired value.
