@@ -48,8 +48,7 @@
     }
 }
 ```
-#### 5. What is the port of Sonarkube?
-**Answer.** Sonarkube starts with the port 9000.
+#### 5. 
 
 #### 6. How to find thread dump of java application?
 **Answer.** To find a thread dump of a Java application:
