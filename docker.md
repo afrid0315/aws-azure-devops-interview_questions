@@ -106,3 +106,18 @@ EXPOSE 8080
 CMD ["/opt/tomcat/bin/catalina.sh", "run"]
 ```
 
+#### 9. Write a docker file for java application?
+**Answer.** 
+```
+# Use an official OpenJDK runtime as a base image
+FROM openjdk:11-jre-slim
+
+# Set the working directory in the container
+WORKDIR /app
+
+# Copy the JAR file into the container at /app
+COPY target/your-java-app.jar /app/your-java-app.jar
+
+# Specify the default command to run when the container starts
+CMD ["java", "-jar", "your-java-app.jar"]
+```
