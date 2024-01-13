@@ -1026,3 +1026,6 @@ Frequently used in server environments to maintain the stability and availabilit
 
 #### 117. What is the significance of SIGKILL?
 **Answer.** The SIGKILL signal in Linux is significant because it forcefully terminates a process. It is often used as a last resort when a process needs to be immediately and unconditionally stopped, without allowing it to perform any cleanup or graceful shutdown procedures. The SIGKILL signal cannot be ignored or handled by the process, making it a powerful tool for stopping misbehaving or unresponsive programs.
+
+#### 118. How do you call the HTTP request method without a browser or curl?
+**Answer.** You can use the telnet or netcat command to manually send an HTTP request without a browser or curl.
