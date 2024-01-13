@@ -1029,3 +1029,18 @@ Frequently used in server environments to maintain the stability and availabilit
 
 #### 118. How do you call the HTTP request method without a browser or curl?
 **Answer.** You can use the telnet or netcat command to manually send an HTTP request without a browser or curl.
+
+#### 119. What are the parameter available in the curl command?
+**Answer.** The curl command has various parameters, some of the common ones include:
+
+-X, --request: Specifies the HTTP request method.
+-H, --header: Adds custom headers to the request.
+-d, --data: Sends data in the request body.
+-i, --include: Includes the HTTP headers in the output.
+-o, --output: Writes output to a file.
+-u, --user: Provides username and password for authentication.
+-A, --user-agent: Sets the User-Agent header.
+-v, --verbose: Enables verbose mode for detailed information.
+
+#### 120. How to check boot logs in linux?
+**Answer.** Use this command ``journalctl -b``
