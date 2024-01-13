@@ -146,37 +146,8 @@ Examples of protocols: TCP (Transmission Control Protocol) for reliable communic
 
 #### 28. 
 
-Basic Networking commands like nslookup, dig, ping, traceroute.
-1) Jenkins pipeline to build and run container nginx 
-2) How to copy 6gb zip file from local to s3 bucket?
-3) what is the maximum limit of s3 storage ?
-4) s3 glacier
-5) there is small team requesting u to create infrastructure of 25, So how will you define vpc cidr block?
-6) 10.0.0.0/16 - how many ip address we get? How to calculate this ip addresses?
-7) Write python script for aws lambda?
-8) In autoscaling we have minimum capacity, max capacity and desired capacity. Is desired value is optional or mandatory to provide?
-9) Why we have desired capacity option in load balancer? We have min and max capacities, So, what is the use-case to have desired capacity?
-10) About AWS Lambda? Where you used in your project?
-11) About Cloud formation? AWS Kinesis?
-12) Daily activities and tasks?
-13) About JIRA or other tools you are using in your project?
 
-Write a program to list the function
-2.to list even and odd numbers
-3.to print functions
-4.dict fun
-5.linux environment all commands
-6.as a sre what's ur roles and responsibilities
-7.if iam in banglore and my datacenters are in different places how comfortable you will feel to solve this virtual machine problem??
-8.terraform have u created any services??
-9.what is sre??
-10.which are the tools used in sre?
-What actually work you will do to secure our company data??
-11.what are the projects you did as a sre and what challenges you faced??
-12.have you worked on cloud era and do you have knowledge on any programming language and how much u rate yourself??
 
-1.as a sre how u solve pl,P2,p3 issues have u used service now ??
-2.how you will trouble shoot if application goes down??
 3.have u raised any tickets,you should have knowledge on incident analysis??
 4.Branching stratergy??
 5.types of elb
