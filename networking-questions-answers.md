@@ -110,7 +110,8 @@ Ensures reliable and efficient data transfer, error detection, and flow control.
 Uses port numbers for communication.
 Examples of protocols: TCP (Transmission Control Protocol) for reliable communication, UDP (User Datagram Protocol) for faster but less reliable communication.
 
-
+#### 22. What is the port of Sonarkube, SQL?
+**Answer.** Sonarkube starts with the port 9000, SQL starts with the port 3306
 
 
 What are the HTTP method are? PUT POST DELETE GET
