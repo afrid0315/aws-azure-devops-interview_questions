@@ -1023,3 +1023,6 @@ Frequently used in server environments to maintain the stability and availabilit
 
 #### 116. What is GPG?
 **Answer.** GPG stands for GNU Privacy Guard. It is a free and open-source software suite that provides cryptographic privacy and authentication for data communication. GPG is a complete implementation of the OpenPGP (Pretty Good Privacy) standard as defined by RFC4880.
+
+#### 117. What is the significance of SIGKILL?
+**Answer.** The SIGKILL signal in Linux is significant because it forcefully terminates a process. It is often used as a last resort when a process needs to be immediately and unconditionally stopped, without allowing it to perform any cleanup or graceful shutdown procedures. The SIGKILL signal cannot be ignored or handled by the process, making it a powerful tool for stopping misbehaving or unresponsive programs.
