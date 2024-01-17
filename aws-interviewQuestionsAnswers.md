@@ -213,3 +213,6 @@ aws s3 sync /path/to/local/directory s3://your-bucket-name/
 
 #### 30. In autoscaling we have minimum capacity, max capacity and desired capacity. Is desired value is optional or mandatory to provide?
 **Answer.** In Auto Scaling, the "desired capacity" value is optional to provide. If not specified, Auto Scaling will use the default desired capacity, which is often the minimum capacity. However, setting the desired capacity explicitly allows you to control the number of instances in the Auto Scaling group independently of the minimum or maximum capacities. If we specify desired value then it will defaultly start with desired value.
+
+#### 31. Default execution time for AWS Lambda?
+**Answer.** Default execution time for AWS Lambda is 3 seconds. But, we can change as per our wish.
