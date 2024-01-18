@@ -68,6 +68,23 @@
 #### 10. How do containers differ from virtual machines, and what are the advantages of using containers in a DevOps environment?
 **Answer.** Containers differ from virtual machines in that they share the host OS kernel, making them lightweight and faster to start. Virtual machines, on the other hand, emulate an entire OS. Container advantages in DevOps include faster deployment, efficient resource utilization, consistency across environments with Docker images, and easier scalability. Containers also promote isolation, facilitating microservices architecture, and enhance portability across various cloud and on-premises environments.
 
+#### 11. What is the use of Jira tool?
+**Answer.** Jira is a project management and issue tracking tool that helps teams plan, track, and manage their work. It provides features for tasks such as project management, bug tracking, and agile development. Jira facilitates collaboration among team members and enables them to organize and prioritize their work effectively.
 
+#### 12. About pom.xml?
+**Answer.** The pom.xml (Project Object Model) file is the configuration file used by Maven, a build automation and project management tool in Java. It defines the project's structure, dependencies, plugins, and various settings required for building, testing, and packaging Java applications.
 
+#### 13. Maven lifecycle? 
+**Answer.** Clean Lifecycle:
+clean: Removes target directory, cleaning up artifacts from previous builds.
 
+Default Lifecycle:
+validate: Checks if the project is correct.
+compile: Compiles the source code.
+test: Runs tests.
+package: Packages compiled code into a distributable format.
+install: Installs the packaged artifact into the local repository.
+deploy: Copies the final package to the remote repository.
+
+Site Lifecycle:
+site: Generates project documentation.
