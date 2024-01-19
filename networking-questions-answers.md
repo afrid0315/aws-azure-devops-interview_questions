@@ -117,8 +117,8 @@ Ensures reliable and efficient data transfer, error detection, and flow control.
 Uses port numbers for communication.
 Examples of protocols: TCP (Transmission Control Protocol) for reliable communication, UDP (User Datagram Protocol) for faster but less reliable communication.
 
-#### 22. What is the port of Sonarkube, SQL?
-**Answer.** Sonarkube starts with the port 9000, SQL starts with the port 3306
+#### 22. What is the port of Sonarkube, SQL, DNS?
+**Answer.** Sonarkube starts with the port 9000, SQL starts with the port 3306, DNS port number is 53.
 
 #### 23. What is the time complexity of merge sort?
 **Answer.** The time complexity of merge sort is O(n log n), where "n" is the number of elements in the array that is being sorted.
