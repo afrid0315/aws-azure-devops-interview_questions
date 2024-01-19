@@ -336,7 +336,8 @@ If replicas are not scaling as expected, check for issues such as resource const
 **Answer**. The Ingress controller manages external access to services in a Kubernetes cluster. It uses rules and configurations to route incoming traffic to the appropriate services based on criteria such as hostnames, paths, or other attributes. This routing mechanism allows for efficient and flexible traffic management, enabling the cluster to handle external requests and distribute them to the relevant services within.
 
 #### 53. Kubernetes commands?
-**Answer**. ```
+**Answer**. 
+```
 kubectl apply -f httpd-deploy 
 kubectl get deployment
 kubectl get namespace
