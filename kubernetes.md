@@ -335,3 +335,19 @@ If replicas are not scaling as expected, check for issues such as resource const
 
 **Answer**. The Ingress controller manages external access to services in a Kubernetes cluster. It uses rules and configurations to route incoming traffic to the appropriate services based on criteria such as hostnames, paths, or other attributes. This routing mechanism allows for efficient and flexible traffic management, enabling the cluster to handle external requests and distribute them to the relevant services within.
 
+#### 53. Kubernetes commands?
+**Answer**. ```
+kubectl apply -f httpd-deploy 
+kubectl get deployment
+kubectl get namespace
+kubectl apply -f httpd-deploy
+kubectl apply -f httpd-service 
+kubectl get service -n <namespace>
+kubectl set image deployment/httpd-deploy httpd=httpd:2.4.43 --namespace=xfusion - to update image of existing deployment(rolling update)
+kubectl rollout status deployment/httpd-deploy --namespace=xfusion - to check status of particular rollout deployment
+kubectl rollout undo deployment/httpd-deploy --namespace=xfusion - to roll back to existing deployment.
+kubectl get pods - to get pods
+kubectl get pods -l app=httpd --namespace=xfusion - to get particular pods of namespace
+kubectl get service httpd-service --namespace=xfusion
+kubectl rollout history deployment/httpd-deploy --namespace=xfusion
+```
