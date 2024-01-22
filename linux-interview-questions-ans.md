@@ -673,14 +673,7 @@ By default, iptables rules get automatically removed after the system reboot, bu
 - Try connecting from a different SSH client.
 - Use -v or -vv with ssh for detailed debugging output.
 
-#### 76. Use of Traceroute & Nslookup command.
-**Answer. Traceroute Command:**
-traceroute is used to trace the route that packets take from your computer to a destination, showing the network hops in between.
-It helps diagnose network connectivity issues and identify delays.
-
-**Nslookup Command:**
-nslookup is a command-line tool for querying DNS (Domain Name System) to obtain domain name or IP address information.
-It is used to troubleshoot DNS-related issues, verify DNS records, and gather information about a domain.
+#### 76. 
 
 #### 77. Processing a log file and fetching for few error codes from debugging prints. Can be solved using cat and sed.
 **Answer. Processing Log File with cat and sed in Linux:**
