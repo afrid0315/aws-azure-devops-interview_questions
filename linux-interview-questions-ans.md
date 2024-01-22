@@ -553,14 +553,7 @@ For example: If we want to change the ownership of a file to user “Jayesh” a
 
 chown jayesh:users file_name
 
-#### 66. What is the purpose of the ping command in Linux, and how do you test network connectivity to a remote host?
-**Answer.** Ping command is used to test the network connectively between the local and remote hosts. It basically sends an ICMP echo request packet to the remote host and waits for the corresponding echo reply packet.
-
-For example: If we want to check the connectivity to a remote host, we use the following command.
-
-`ping remote_host_ip`
-
-Here replace `remote_host_ip` with the Ip address of the host
+#### 66. 
 
 #### 67. How do you recursively copy files and directories in Linux using the cp command?
 **Answer.** In linux we can simply use `-R` option with the `cp` command to recursively copy the file and directories.
@@ -569,12 +562,7 @@ For example:
 
 `cp -R sourece_durectory destination_directory`
 
-#### 68. What is the purpose of the netstat command in Linux, and how do you view network connections and listening ports?
-**Answer.** The netstat command in Linux is used to display active network connections, routing tables, and listening ports. To view network connections and listening ports, use the netstat command with appropriate options. 
-
-For example: If we want to display all listening TCP ports, we can use the following command.
-
-`netstat -tuln`
+#### 68. 
 
 #### 69. How do you set up a static IP address in Linux using the command-line interface?
 **Answer.** To set up a static IP address in Linux using the command-line interface, you need to modify the network configuration file. The location and name of the file may vary depending on the Linux distribution, but commonly it is /etc/network/interfaces. Open the file with a text editor and modify the configuration to set a static IP address, subnet mask, gateway, and DNS servers.
@@ -700,26 +688,7 @@ It is used to troubleshoot DNS-related issues, verify DNS records, and gather in
 - Employ sed to filter specific lines, e.g., for error codes.
 - Example: `cat logfile.txt | sed -n '/ERROR/p'` fetches lines containing "ERROR" from the log.
 
-#### 78. Explain DHCP DORA Process.
-**Answer.**  
-The DHCP (Dynamic Host Configuration Protocol) DORA process is a series of steps that a device goes through when it requests and obtains an IP address from a DHCP server. DORA stands for Discover, Offer, Request, and Acknowledge, representing the four main steps in the DHCP process.
-
-**Discover (D):**
-The DHCP client (usually a computer or network device) begins the process by sending a DHCP Discover message to the local network. This message is a broadcast packet, meaning it is sent to all devices on the network.
-The purpose of the Discover message is for the client to find available DHCP servers and obtain configuration information.
-
-**Offer (O):**
-When a DHCP server receives a Discover message, it responds with a DHCP Offer message. This message is a unicast packet, sent directly to the DHCP client.
-The Offer message includes an IP address that the server is willing to lease to the client, along with other configuration parameters such as subnet mask, default gateway, DNS server, and lease duration.
-
-**Request (R):**
-After receiving one or more Offer messages, the DHCP client selects one of the offers and sends a DHCP Request message back to the chosen DHCP server.
-The Request message indicates the client's acceptance of the offered IP address and requests the server to reserve that address for the client.
-
-**Acknowledge (A):**
-Upon receiving the Request message, the DHCP server sends a DHCP Acknowledge message to the client, confirming that the requested IP address has been reserved for the client's use.
-The Acknowledge message also includes any additional configuration information and the duration of the lease.
-After the Acknowledge step, the DHCP client configures its network interface with the provided IP address and other parameters. The client will use this leased IP address until the lease expires, at which point it may need to renew the lease by going through the DHCP process again.
+#### 78. 
 
 #### 79. How do you check which ports are listening?
 **Answer.** 
@@ -815,10 +784,7 @@ Linux manages date and time through the system clock. The date command allows us
 **Network Time Protocol (NTP):**
 NTP is a protocol used to synchronize system clocks over a network. In Linux, the NTP daemon (ntpd) or the more modern chrony is commonly used. Configuration files such as /etc/ntp.conf or /etc/chrony.conf define NTP server settings. NTP helps maintain accurate and synchronized time across a network, crucial for various system operations and applications.
 
-#### 86. How do PING and TRACERT commands work?
-**Answer.** PING (Packet Internet Groper) sends ICMP Echo Request packets to a destination IP address. When the target receives the packet, it responds with an ICMP Echo Reply. The round-trip time is measured, providing information about network latency and reachability.
-
-TRACERT (Traceroute) traces the route that packets take to reach a destination. It sends packets with increasing TTL (Time To Live) values, causing routers along the path to respond with ICMP Time Exceeded messages. This helps identify the routers in the network path and measure the round-trip time to each hop, aiding in network troubleshooting.
+#### 86. 
 
 #### 87. What are System calls?
 **Answer.** System calls are functions provided by the operating system that enable applications to request services from the kernel, such as file I/O, process creation, and network communication. These calls provide a controlled interface between user-level programs and the underlying hardware, allowing processes to perform privileged operations in a secure manner. Examples include open(), read(), write(), and fork().
@@ -912,8 +878,7 @@ Runs a command in the background, allowing the terminal prompt to be used for ot
 #### 102. How can you create a zero byte file using which command
 **Answer.** You can create a zero-byte file using the touch command: ``touch filename``
 
-#### 103. How to check a particular port is open or no
-**Answer.** You can check if a particular port is open using the telnet command or nc (netcat) command.``telnet hostname_or_ip port_number or telnet example.com 80``
+#### 103. 
 
 #### 104. How to check the services running in Linux tell the command? 
 **Answer.** To check the services running in Linux, you can use the systemctl command. Use the following command to list all running services: ``systemctl list-units --type=service --state=running``
