@@ -141,12 +141,69 @@ Examples of protocols: TCP (Transmission Control Protocol) for reliable communic
 #### 26. How to Capture and analyse Network Traffic?
 **Answer.** Use tools like 'Wireshark' or 'tcpdump' to capture network packets.
 
-#### 27. 
+#### 27. What is the purpose of the ping command in Linux, and how do you test network connectivity to a remote host?
+**Answer.** Ping command is used to test the network connectively between the local and remote hosts. It basically sends an ICMP echo request packet to the remote host and waits for the corresponding echo reply packet.
+
+For example: If we want to check the connectivity to a remote host, we use the following command.
+
+`ping remote_host_ip`
+
+Here replace `remote_host_ip` with the Ip address of the host.
+
+
+
+#### 28. What is the purpose of the netstat command in Linux, and how do you view network connections and listening ports?
+**Answer.** The netstat command in Linux is used to display active network connections, routing tables, and listening ports. To view network connections and listening ports, use the netstat command with appropriate options. 
+
+For example: If we want to display all listening TCP ports, we can use the following command.
+
+`netstat -tuln`
+
+#### 29. Explain DHCP DORA Process.
+**Answer.**  The DHCP (Dynamic Host Configuration Protocol) DORA process is a series of steps that a device goes through when it requests and obtains an IP address from a DHCP server. DORA stands for Discover, Offer, Request, and Acknowledge, representing the four main steps in the DHCP process.
+
+**Discover (D):**
+The DHCP client (usually a computer or network device) begins the process by sending a DHCP Discover message to the local network. This message is a broadcast packet, meaning it is sent to all devices on the network.
+The purpose of the Discover message is for the client to find available DHCP servers and obtain configuration information.
+
+**Offer (O):**
+When a DHCP server receives a Discover message, it responds with a DHCP Offer message. This message is a unicast packet, sent directly to the DHCP client.
+The Offer message includes an IP address that the server is willing to lease to the client, along with other configuration parameters such as subnet mask, default gateway, DNS server, and lease duration.
+
+**Request (R):**
+After receiving one or more Offer messages, the DHCP client selects one of the offers and sends a DHCP Request message back to the chosen DHCP server.
+The Request message indicates the client's acceptance of the offered IP address and requests the server to reserve that address for the client.
+
+**Acknowledge (A):**
+Upon receiving the Request message, the DHCP server sends a DHCP Acknowledge message to the client, confirming that the requested IP address has been reserved for the client's use.
+The Acknowledge message also includes any additional configuration information and the duration of the lease.
+After the Acknowledge step, the DHCP client configures its network interface with the provided IP address and other parameters. The client will use this leased IP address until the lease expires, at which point it may need to renew the lease by going through the DHCP process again.
+
+#### 30. How do you check which ports are listening?
+**Answer.** Checking Listening Ports:
+- Use netstat -tulpn or ss -tulpn to display listening ports.
+- Alternatively, use lsof -i to list open ports and associated processes.
+- nmap can scan for open ports on a remote system.
+
+#### 31. How do PING and TRACERT commands work?
+**Answer.** PING (Packet Internet Groper) sends ICMP Echo Request packets to a destination IP address. When the target receives the packet, it responds with an ICMP Echo Reply. The round-trip time is measured, providing information about network latency and reachability.
+
+TRACERT (Traceroute) traces the route that packets take to reach a destination. It sends packets with increasing TTL (Time To Live) values, causing routers along the path to respond with ICMP Time Exceeded messages. This helps identify the routers in the network path and measure the round-trip time to each hop, aiding in network troubleshooting.
+
+#### 32. How to check a particular port is open or no
+**Answer.** You can check if a particular port is open using the telnet command or nc (netcat) command.``telnet hostname_or_ip port_number or telnet example.com 80``
+
+#### 33. Use of Traceroute & Nslookup command.
+**Answer. Traceroute Command:**
+traceroute is used to trace the route that packets take from your computer to a destination, showing the network hops in between.
+It helps diagnose network connectivity issues and identify delays.
+
+**Nslookup Command:**
+nslookup is a command-line tool for querying DNS (Domain Name System) to obtain domain name or IP address information.
+It is used to troubleshoot DNS-related issues, verify DNS records, and gather information about a domain.
+
+
 **Answer.** 
-
-#### 28. 
-
-
 1.Delivery vs deployment 
 2.What is cicd
 3.Jenkins build declarative file
