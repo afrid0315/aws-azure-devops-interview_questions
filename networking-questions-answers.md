@@ -203,116 +203,14 @@ nslookup is a command-line tool for querying DNS (Domain Name System) to obtain 
 It is used to troubleshoot DNS-related issues, verify DNS records, and gather information about a domain.
 
 
-**Answer.** 
-1.Delivery vs deployment 
-2.What is cicd
-3.Jenkins build declarative file
-4.Alb ,nlb
-5.Ansible cloud modules
-6.Ansible facts module
-7.Terraform stages
-8.Terraform commands
-9.Git rebase vs git merge
-10.Diff b/w ec2 and s3
-11.Internet gateway,NAT gateway
-12.Vpc
-13.She’ll script $ symbol purpose
-14.How to input file in shell script
-15.Data types in python
-16.How to secure keys 
-17.Hashicorp vault ,kms 
-18.How to integrate sonarkube in declarative pipeline
-19.Webhooks 
-20.how to create a ec2 instance in ansible play book 
-21.What is task in ansible
-22.How to add multiple tasks in ansible playbook
-23.What is playbook 
-24.Which deployment model used in your organisation
-25.How to deploy a deployment yaml file
-26.How to encrypt and decrypt secret keys
-27.How to pass a credentials in pipeline
-28.What is pipeline
-29.Which bug tracking tool is used
-30.Are you used jira tool
-31.What are the components required to create ec2 instance
-32.How to rollout a update in kubernetes
-33.S3 cli commands
-34.Sticky sessions
-35.Terraform backends 
-36.Meta data vs user data 
-37.What is helmcharts and it’s use
-38.If I lose the state files in terraform how can I recover that
-39.How to increase ec2 instance storage without stoping the instance
-40.Terraform validate 
-41.How to debug the pods 
-42.Rollout and rollback
-43.Kubectl describe 
-44.What is namespace
-45.What is listeners
-46.Vpc endpoint types
-47.Route table
-48.Public subnet ,private subnet
-49.Security groups
-50.Ip tables
-51.Internet gateway
-52.Nat gateway
-53.Cluster ip
-54.Micro services 
-55.Micro services advantages and disadvantages
-56.What is cloud native applications 
-And it’s used and advantage
-57.Linux file permissions types
-58.How to mount a volume in Linux
-59.Why it’s using v1/apps in service file in kubernetes
-60.Load balancer waiting time
-61.AWS code deploy 
-62.Nginx config file locations
-63.How to attach NAT , internet gateways 
-64.Pod.yaml file
-65.Service.yaml file 
-66.How to debug the Linux is performance issue
-67.How to modify Terraform state files
-68.Ad hoc command ansible
-69.Docker file for httpd
-70.Terraform resource file 
-71.Ansible syntax check command
-72.How to restrict user in s3 bucket - ip restrictions
-73.Acl policies
-74.Ec2 instance types and difference 
-75.EBS vs EFS
-76.Redirect and rewrite in cloudfront
-77.Diff b/w on demand instance,spot instances,reserved instance 
-78.Instance type c4.X-Large and m4.X-Large 
-79.Autoscaling groups ,how to add spot,on demand instances in Autoscaling
-80.Node is not booted how to debug that node
-81.Ansible host ping is success but I am not execute playbooks why?
-82.I am trying to connect an ec2 instance but I am facing issues how to debug?
-83.Disk usage checking command
-84.Diff b/w Postgres and MySQL
 
 
-Maven
-when i issue mvn install what all things happen in background?
-what are the settings you need to do before running mvn deploy?
-why maven takes much time for 1st execution and from 2nd execution it will take less time?
 
-Unix and Shell Scripting
-How to get present working folder?
-How to copy files from local windows machine to cloud based Linux machine?
-A shell script named test.sh can accept 4 parameters i.e, a,b,c,d. the parameters wont be supplied in order always and number of parameters might also vary( only 2 parameters user might supply sometimes), how to identify position of letter c?
 
-Ansible
-Why we need ad-hoc ansible commands, scenario where you have used ansible ad-hoc command?
-When i need detailed logs on executing ansible playbook what option i need to use?
-what is ansible.cfg file?
-what are the modules have you worked on? which module will you use for getting the file from node to master?
-Lets say i have a playbook which has 5 tasks in playbook, first 2 tasks should run on local machine and other 3 tasks should run on node?
 
-Jenkins
-How to save only last 5 builds of jenkins job?
-Have you worked on Jenknsfile? can we use docker container as a node in Jenkinsfile? Who will handle docker container creation and deletion? If i am building a maven project always docker container is fresh instance it will try to download dependency from repository, what measures you will take to reduce build time?
-Why we need multi branch pipeline?
-If you forget Jenkins password, how would you login back?
+
+
+
 
 Docker
 Any 3 best practices of docker?
@@ -330,7 +228,7 @@ What is liveness and readiness probe? Why we need them?
 Have you worked on kubernetes monitoring? Which tools you have used?
 Can we deploy a pod on particular node?
 
-Sticky session
+
 Connection draining in load balancer
 Routing polices in route53
 What encryption method u used for s3 bucket
