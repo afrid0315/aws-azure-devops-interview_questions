@@ -115,3 +115,5 @@ pipeline {
 **Answer.** Master: The Jenkins master is the main server responsible for managing jobs, distributing builds to agent nodes, and coordinating the overall build process. It hosts the Jenkins web interface and handles the primary configuration.
 
 Node: Nodes, also known as agents or slaves, are additional machines that perform the actual build jobs. They receive tasks from the master, execute the builds, and report the results back. Nodes can be set up on different environments, allowing parallel execution of builds and expanding Jenkins' capacity.
+
+#### 7. About Jenkins Shared Library?
