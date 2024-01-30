@@ -352,3 +352,5 @@ kubectl get pods -l app=httpd --namespace=xfusion - to get particular pods of na
 kubectl get service httpd-service --namespace=xfusion
 kubectl rollout history deployment/httpd-deploy --namespace=xfusion
 ```
+
+#### 54. How to increase node in eks?
