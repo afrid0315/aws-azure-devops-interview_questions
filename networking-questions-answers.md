@@ -213,10 +213,6 @@ It is used to troubleshoot DNS-related issues, verify DNS records, and gather in
 
 
 Docker
-Any 3 best practices of docker?
-Difference between docker stop and docker kill?
-Command to list conatiners which state is exited?
-command to clean-up docker host ( deleting stopped conatiners, dangling images and unused networks)?
 What version of docker you have used? Specific reason to use that particular version?
 Can we have multiple CMD in Dockerfile?
 Have you worked on docker swarm and docker compose?
