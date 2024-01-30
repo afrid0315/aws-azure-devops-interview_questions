@@ -88,3 +88,6 @@ deploy: Copies the final package to the remote repository.
 
 Site Lifecycle:
 site: Generates project documentation.
+
+#### 14. Delivery vs deployment?
+**Answer.** Delivery is the process of making a software application available for use or testing, while deployment is the actual installation and release of the software into a target environment for end-users. In simpler terms, delivery is about preparing the software for deployment, and deployment is about putting the software into production.
