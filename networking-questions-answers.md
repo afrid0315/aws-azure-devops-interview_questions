@@ -288,4 +288,43 @@ And it’s used and advantage
 81.Ansible host ping is success but I am not execute playbooks why?
 82.I am trying to connect an ec2 instance but I am facing issues how to debug?
 83.Disk usage checking command
-84.Diff b/w Postgres and MySQL 
+84.Diff b/w Postgres and MySQL
+
+
+Maven
+when i issue mvn install what all things happen in background?
+what are the settings you need to do before running mvn deploy?
+why maven takes much time for 1st execution and from 2nd execution it will take less time?
+
+Unix and Shell Scripting
+How to get present working folder?
+How to copy files from local windows machine to cloud based Linux machine?
+A shell script named test.sh can accept 4 parameters i.e, a,b,c,d. the parameters wont be supplied in order always and number of parameters might also vary( only 2 parameters user might supply sometimes), how to identify position of letter c?
+
+Ansible
+Why we need ad-hoc ansible commands, scenario where you have used ansible ad-hoc command?
+When i need detailed logs on executing ansible playbook what option i need to use?
+what is ansible.cfg file?
+what are the modules have you worked on? which module will you use for getting the file from node to master?
+Lets say i have a playbook which has 5 tasks in playbook, first 2 tasks should run on local machine and other 3 tasks should run on node?
+
+Jenkins
+How to save only last 5 builds of jenkins job?
+Have you worked on Jenknsfile? can we use docker container as a node in Jenkinsfile? Who will handle docker container creation and deletion? If i am building a maven project always docker container is fresh instance it will try to download dependency from repository, what measures you will take to reduce build time?
+Why we need multi branch pipeline?
+If you forget Jenkins password, how would you login back?
+
+Docker
+Any 3 best practices of docker?
+Difference between docker stop and docker kill?
+Command to list conatiners which state is exited?
+command to clean-up docker host ( deleting stopped conatiners, dangling images and unused networks)?
+What version of docker you have used? Specific reason to use that particular version?
+Can we have multiple CMD in Dockerfile?
+Have you worked on docker swarm and docker compose?
+
+Kubernetes
+Can we have multiple conatiners in a pod? Can we have similar conatiners in a pod? Lets say i have 4 conatiners, one of them has failed how would you check which container has failed?
+What is liveness and readiness probe? Why we need them?
+Have you worked on kubernetes monitoring? Which tools you have used?
+Can we deploy a pod on particular node?
