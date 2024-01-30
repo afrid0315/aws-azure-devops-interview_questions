@@ -100,4 +100,5 @@ site: Generates project documentation.
 
 **User Data:** The primary data generated or managed by users. For instance, the content of a document, the pixels in an image, or the entries in a database are considered user data.
 
-#### 16. 
+#### 16. When i issue mvn install what all things happen in background?
+**Answer.** 'mvn install' compiles, tests, packages, and installs the project artifacts into the local Maven repository, making them available for other projects.
