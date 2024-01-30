@@ -94,3 +94,10 @@ site: Generates project documentation.
 
 #### 15. About Sticky session?
 **Answer.** Sticky sessions, also known as session affinity or session persistence, refer to a mechanism in load balancing where a server consistently handles requests from the same client. This is typically achieved by associating a user's session with a specific server, ensuring that subsequent requests from that user are directed to the same server. Sticky sessions are commonly used to maintain session-related data and stateful connections in web applications.
+
+#### 15. Meta data vs user data?
+**Answer. Metadata:** Describes and provides information about other data. It's data about data. For example, file metadata may include information like file size, creation date, or authorship.
+
+**User Data:** The primary data generated or managed by users. For instance, the content of a document, the pixels in an image, or the entries in a database are considered user data.
+
+#### 16. 
