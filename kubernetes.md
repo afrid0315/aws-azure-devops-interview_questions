@@ -354,3 +354,6 @@ kubectl rollout history deployment/httpd-deploy --namespace=xfusion
 ```
 
 #### 54. How to increase node in eks?
+
+#### 55. Why it’s using v1/apps in service file in kubernetes?
+**Answer.** The use of v1/apps in a Kubernetes deployment file indicates the API version and resource type being used. In the context of Kubernetes definitions, v1 refers to the core API version, and apps refers to the resource type, which typically relates to applications.
