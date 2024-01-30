@@ -91,3 +91,6 @@ site: Generates project documentation.
 
 #### 14. Delivery vs deployment?
 **Answer.** Delivery is the process of making a software application available for use or testing, while deployment is the actual installation and release of the software into a target environment for end-users. In simpler terms, delivery is about preparing the software for deployment, and deployment is about putting the software into production.
+
+#### 15. About Sticky session?
+**Answer.** Sticky sessions, also known as session affinity or session persistence, refer to a mechanism in load balancing where a server consistently handles requests from the same client. This is typically achieved by associating a user's session with a specific server, ensuring that subsequent requests from that user are directed to the same server. Sticky sessions are commonly used to maintain session-related data and stateful connections in web applications.
