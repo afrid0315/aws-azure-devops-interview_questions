@@ -121,3 +121,19 @@ COPY target/your-java-app.jar /app/your-java-app.jar
 # Specify the default command to run when the container starts
 CMD ["java", "-jar", "your-java-app.jar"]
 ```
+
+#### 10. Difference between docker stop and docker kill?
+**Answer.** docker stop initiates a graceful shutdown, while docker kill forcefully terminates the container without giving it a chance to clean up.
+
+#### 11. Command to list continers which state is exited?
+**Answer.** This command shows all containers (including those that have exited) and filters the output to display only containers with the "exited" status. The -a flag ensures that both running and exited containers are considered.
+```
+docker ps -a --filter "status=exited"
+```
+
+#### 12. Command to clean-up docker host ( deleting stopped conatiners, dangling images and unused networks)?
+**Answer.** 
+`docker container prune -f`: Deletes all stopped containers.
+`docker image prune -f`: Removes dangling images (images with no tag).
+`docker network prune -f`: Deletes unused networks.
+Make sure to use these commands cautiously, as they will irreversibly remove the specified resources. The -f flag is used to force the removal without interactive confirmation.
