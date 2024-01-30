@@ -117,3 +117,20 @@ pipeline {
 Node: Nodes, also known as agents or slaves, are additional machines that perform the actual build jobs. They receive tasks from the master, execute the builds, and report the results back. Nodes can be set up on different environments, allowing parallel execution of builds and expanding Jenkins' capacity.
 
 #### 7. About Jenkins Shared Library?
+
+#### 8. How to save only last 5 builds of jenkins job?
+**Answer.** In Jenkins, you can use the "Discard Old Builds" feature to limit the number of builds to keep. To save only the last 5 builds for a Jenkins job:
+
+Open the Jenkins job configuration.
+Under the "Build Triggers" section, find and enable the option "Discard Old Builds."
+Set the "Max # of builds to keep" to 5.
+This configuration ensures that only the last 5 builds are retained, and older builds are automatically discarded. Adjust the settings according to your requirements.
+
+#### 9. If you forget Jenkins password, how would you login back?
+**Answer.** To regain access to Jenkins if you forget the password:
+
+Navigate to the Jenkins home directory.
+Locate the secrets/initialAdminPassword file.
+Retrieve the password from the file.
+Access the Jenkins web UI and use the password for setup.
+Follow on-screen instructions to complete the setup and create a new admin user.
