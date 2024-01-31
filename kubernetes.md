@@ -354,6 +354,17 @@ kubectl rollout history deployment/httpd-deploy --namespace=xfusion
 ```
 
 #### 54. How to increase node in eks?
+**Answer.** Increasing Nodes in EKS:
+
+Auto Scaling Group (ASG): Adjust the desired capacity of the ASG associated with the EKS node group.
+
+AWS Console: Navigate to the EKS console, select the node group, and modify the desired capacity.
+
+AWS CLI: Use the eks update-nodegroup-version command to modify the node group capacity.
+
+HCL Configuration: If using Terraform or other Infrastructure as Code tools, update the configuration file and apply the changes.
+
+Verification: Ensure that the new nodes are added to the EKS cluster, and monitor cluster health after scaling.
 
 #### 55. Why it’s using v1/apps in service file in kubernetes?
 **Answer.** The use of v1/apps in a Kubernetes deployment file indicates the API version and resource type being used. In the context of Kubernetes definitions, v1 refers to the core API version, and apps refers to the resource type, which typically relates to applications.
@@ -412,3 +423,18 @@ These tools collectively offer comprehensive monitoring, alerting, and visualiza
 - Types: Common workloads include Deployments, StatefulSets, DaemonSets, and Jobs, each serving specific application requirements.
 
 - Management: Kubernetes workloads are managed using declarative configurations, enabling scalability, resilience, and ease of deployment.
+
+#### 61. Kuberntes cost optimisation?
+**Answer.** Kubernetes Cost Optimization:
+
+Right-sizing: Adjust resource requests and limits for pods to match actual usage.
+
+Auto-scaling: Dynamically scale the number of pods based on demand to avoid overprovisioning.
+
+Resource Quotas: Enforce limits on resources consumed by namespaces to prevent resource sprawl.
+
+Node Pools: Use different node pools with varied instance types based on workload requirements.
+
+Pod Disruption Budgets: Control the number of simultaneous pod disruptions during updates to maintain stability.
+
+Monitoring and Alerts: Implement monitoring to identify inefficiencies and set up alerts for cost-related anomalies.
