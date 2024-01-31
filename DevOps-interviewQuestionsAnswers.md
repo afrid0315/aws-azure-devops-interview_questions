@@ -102,3 +102,14 @@ site: Generates project documentation.
 
 #### 16. When i issue mvn install what all things happen in background?
 **Answer.** 'mvn install' compiles, tests, packages, and installs the project artifacts into the local Maven repository, making them available for other projects.
+
+#### 17. High level about DR.
+**Answer.** Disaster Recovery (DR):
+
+Definition: A set of strategies and procedures to recover and protect a business IT infrastructure in the event of a disaster.
+
+Objectives: Minimize downtime, data loss, and ensure business continuity by having plans in place for potential disasters.
+
+Components: Typically involves backup systems, offsite storage, replication, and procedures to restore critical systems and data.
+
+Key Considerations: Identifying critical systems, defining recovery time objectives (RTO) and recovery point objectives (RPO), and regular testing to ensure effectiveness.
