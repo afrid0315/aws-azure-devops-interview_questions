@@ -223,3 +223,39 @@ aws s3 sync /path/to/local/directory s3://your-bucket-name/
 When a server needs to be taken out of service, either for maintenance, updates, or due to scaling events, connection draining allows the load balancer to gradually redirect traffic away from that instance while allowing existing connections to complete.
 
 **Use Cases:** Connection draining is particularly useful in scenarios where maintaining high availability and minimizing service disruption are critical, such as during rolling updates, scaling events, or when retiring instances from the pool.
+
+#### 33. Routing polices in route53?
+**Answer.** Routing Policies in Route 53:
+
+- Simple Routing: Directs traffic to a single resource, useful for a single endpoint or when all resources serve the same purpose.
+
+- Weighted Routing: Distributes traffic based on assigned weights, allowing control over the proportion sent to different resources.
+
+- Latency-Based Routing: Routes traffic to the resource with the lowest latency for the end-user, optimizing response times.
+
+- Failover Routing: Directs traffic to a standby resource when the primary one is unhealthy, enhancing availability.
+
+- Geolocation Routing: Routes traffic based on the geographic location of the end-user, directing them to a region-specific resource.
+
+- Multivalue Answer Routing: Returns multiple healthy records for a single DNS query, providing load balancing across resources.
+
+ #### 34. Auto scaling polices
+ **Answer. Auto Scaling Policies:**
+
+- Scale Out (Add Capacity): Adds instances based on defined triggers, like high CPU usage or increased demand.
+
+- Scale In (Remove Capacity): Removes instances during low-demand periods or based on specified conditions.
+
+- Target Tracking: Maintains a specific metric at a target value, adjusting capacity to meet the target.
+
+- Simple/Step Scaling: Adds or removes a fixed number of instances in response to alarms, suitable for predictable workloads.
+
+- Scheduled Scaling: Adjusts capacity based on a predefined schedule, accommodating known traffic patterns or events.
+
+ #### 35. Disadvantage of AMI (Amazon Machine Image)?
+**Answer. Disadvantage of AMI (Amazon Machine Image):**
+Static Nature: AMIs are static, and updating them requires creating new versions, leading to potential management overhead.
+
+Size: Large AMIs can result in longer instance launch times and increased storage costs.
+
+Regional Dependency: AMIs are tied to specific AWS regions, limiting portability across regions without copying.
