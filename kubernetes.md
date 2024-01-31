@@ -357,3 +357,49 @@ kubectl rollout history deployment/httpd-deploy --namespace=xfusion
 
 #### 55. Why it’s using v1/apps in service file in kubernetes?
 **Answer.** The use of v1/apps in a Kubernetes deployment file indicates the API version and resource type being used. In the context of Kubernetes definitions, v1 refers to the core API version, and apps refers to the resource type, which typically relates to applications.
+
+#### 56. Can we have multiple conatiners in a pod? Can we have similar conatiners in a pod? Lets say i have 4 conatiners, one of them has failed how would you check which container has failed?
+**Answer.** Yes, multiple containers can be in a single pod in Kubernetes. These containers share the same network namespace and can communicate with each other using localhost.
+
+Yes, it is possible to have similar containers in a pod.
+
+To check which container has failed in a pod with multiple containers, you can use the following command:
+```
+kubectl describe pod <pod_name>
+```
+Look for the Events section, and it will provide details about the status and events related to each container within the pod, helping you identify the one that has failed.
+
+#### 57. What is liveness and readiness probe? Why we need them?
+**Answer.** 
+Liveness Probe:
+
+Definition: A liveness probe is a mechanism to determine if a container is running and healthy.
+Purpose: Ensures that the application inside the container is responsive and prevents routing traffic to unhealthy instances.
+Readiness Probe:
+
+Definition: A readiness probe checks if a container is ready to accept traffic.
+Purpose: Ensures that the container is fully initialized and ready to serve requests before being included in the pool of service instances.
+Why We Need Them:
+
+Liveness Probe:
+
+Prevents routing traffic to containers that are unresponsive or in a faulty state.
+Ensures the continuous availability and health of the application.
+Readiness Probe:
+
+Ensures smooth traffic transitions during updates or scaling by letting Kubernetes know when a container is ready to serve requests.
+Enhances the reliability and stability of a service by avoiding premature traffic to containers that might still be initializing.
+Overall, liveness and readiness probes contribute to the robustness and reliability of applications in a containerized environment.
+
+#### 58. Have you worked on kubernetes monitoring? Which tools you have used?
+**Answer.** Yes, I have experience with Kubernetes monitoring. I have used tools such as:
+
+Prometheus: For collecting and querying metrics from Kubernetes clusters.
+Grafana: Used in conjunction with Prometheus for visualization and dashboard creation.
+Kube-state-metrics: Provides additional Kubernetes-specific metrics for better insights.
+Alertmanager: Integrated with Prometheus for alerting based on defined rules.
+Kubernetes Dashboard: For a graphical interface to monitor cluster resources and activities.
+These tools collectively offer comprehensive monitoring, alerting, and visualization capabilities for Kubernetes environments.
+
+#### 59. Can we deploy a pod on particular node??
+**Answer.** Yes, we can deploy a pod on a particular node in Kubernetes by using node affinity or node selectors. These mechanisms allow specifying constraints to influence pod placement, ensuring that the pod runs on a node with specific attributes or labels.
