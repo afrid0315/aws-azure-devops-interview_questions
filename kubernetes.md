@@ -403,3 +403,12 @@ These tools collectively offer comprehensive monitoring, alerting, and visualiza
 
 #### 59. Can we deploy a pod on particular node??
 **Answer.** Yes, we can deploy a pod on a particular node in Kubernetes by using node affinity or node selectors. These mechanisms allow specifying constraints to influence pod placement, ensuring that the pod runs on a node with specific attributes or labels.
+
+#### 60. Workload in Kubernetes?
+**Answer.** Workload in Kubernetes:
+
+- Definition: Refers to the application components or processes running on a Kubernetes cluster.
+
+- Types: Common workloads include Deployments, StatefulSets, DaemonSets, and Jobs, each serving specific application requirements.
+
+- Management: Kubernetes workloads are managed using declarative configurations, enabling scalability, resilience, and ease of deployment.
