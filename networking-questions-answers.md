@@ -209,31 +209,14 @@ It is used to troubleshoot DNS-related issues, verify DNS records, and gather in
 
 
 
-
-
-
-Docker
-What version of docker you have used? Specific reason to use that particular version?
-Can we have multiple CMD in Dockerfile?
-Have you worked on docker swarm and docker compose?
-difference between docker attach and docker exec?
-
-Kubernetes
-Can we have multiple conatiners in a pod? Can we have similar conatiners in a pod? Lets say i have 4 conatiners, one of them has failed how would you check which container has failed?
-What is liveness and readiness probe? Why we need them?
-Have you worked on kubernetes monitoring? Which tools you have used?
-Can we deploy a pod on particular node?
-
-
-Connection draining in load balancer
 Routing polices in route53
 What encryption method u used for s3 bucket
  Auto scaling polices
 Work load in kubernates
 Terraform state file and terraform how to create particular resource
  Disadvantage of ami
-What is kublet
-Container runtime
+
+
 S3 object lock and how to give permission to particular user to bucket
  Replication
 
