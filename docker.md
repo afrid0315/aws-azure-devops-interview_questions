@@ -137,3 +137,17 @@ docker ps -a --filter "status=exited"
 `docker image prune -f`: Removes dangling images (images with no tag).
 `docker network prune -f`: Deletes unused networks.
 Make sure to use these commands cautiously, as they will irreversibly remove the specified resources. The -f flag is used to force the removal without interactive confirmation.
+
+#### 13. What version of docker you have used? Specific reason to use that particular version?
+**Answer.** I have used 20.10.17 docker version. There is no particular reason.
+
+#### 14. Can we have multiple CMD in Dockerfile?
+**Answer.** No, a Dockerfile can only have one CMD instruction. If you include multiple CMD instructions, only the last one will take effect.
+
+#### 15. Have you worked on docker swarm and docker compose?
+**Answer.** Yes, I have experience working with Docker Swarm and Docker Compose. Docker Swarm is used for orchestrating and managing distributed Docker applications, providing features like service scaling and load balancing. Docker Compose is a tool for defining and running multi-container Docker applications, simplifying the process of setting up and running complex services.
+
+#### 16. Difference between docker attach and docker exec?
+**Answer. docker attach** is used to connect to a running container's main process and take control of its input and output.
+
+**docker exec** is used to run a command inside a running container without changing its main process, allowing for more flexibility in executing commands and interacting with containerized applications.
