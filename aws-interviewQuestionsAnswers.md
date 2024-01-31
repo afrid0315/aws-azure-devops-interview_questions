@@ -259,3 +259,36 @@ Static Nature: AMIs are static, and updating them requires creating new versions
 Size: Large AMIs can result in longer instance launch times and increased storage costs.
 
 Regional Dependency: AMIs are tied to specific AWS regions, limiting portability across regions without copying.
+
+#### 36. S3 object lock and how to give permission to particular user to bucket?
+**Answer.** S3 Object Lock:
+
+Definition: S3 Object Lock is a feature that allows you to enforce retention periods or legal holds on objects, preventing them from being deleted or modified.
+Permission to a Particular User:
+
+IAM Policy: Assign a specific IAM policy to the user, granting permissions like s3:GetObject and s3:PutObject on the desired S3 bucket.
+
+Bucket Policy: Define a bucket policy specifying allowed actions and resources for the user.
+
+Access Control List (ACL): Use S3 ACLs to grant specific permissions directly to the user on individual objects or the entire bucket.
+
+#### 37. How can u create read replica in rds?
+**Answer.** Creating Read Replica in RDS:
+
+AWS Console: Navigate to RDS service, select the source DB instance, and choose "Create Read Replica."
+
+AWS CLI: Use the create-db-instance-read-replica command, providing the source DB instance identifier.
+
+Amazon RDS API: Utilize the CreateDBInstanceReadReplica API call with required parameters such as source DB instance identifier and desired replica details.
+
+#### 38. How you scale read replica
+**Answer.** Scaling Read Replica in RDS:
+
+AWS Console: Navigate to RDS service, select the read replica, and modify the instance by adjusting the desired instance type or other parameters.
+
+AWS CLI: Use the modify-db-instance command, specifying the read replica identifier and updated configurations.
+
+Amazon RDS API: Utilize the ModifyDBInstance API call with parameters including the read replica identifier and new settings for scaling.
+
+
+
