@@ -216,3 +216,10 @@ aws s3 sync /path/to/local/directory s3://your-bucket-name/
 
 #### 31. Default execution time for AWS Lambda?
 **Answer.** Default execution time for AWS Lambda is 3 seconds. But, we can change as per our wish.
+
+#### 32. Connection draining in load balancer.
+**Answer.** Connection draining in a load balancer is a mechanism designed to ensure a smooth and controlled process when removing instances (such as servers or virtual machines) from the pool of active resources. The goal is to avoid abrupt interruptions to ongoing connections or requests, providing a better experience for end-users and maintaining service reliability.
+
+When a server needs to be taken out of service, either for maintenance, updates, or due to scaling events, connection draining allows the load balancer to gradually redirect traffic away from that instance while allowing existing connections to complete.
+
+**Use Cases:** Connection draining is particularly useful in scenarios where maintaining high availability and minimizing service disruption are critical, such as during rolling updates, scaling events, or when retiring instances from the pool.
