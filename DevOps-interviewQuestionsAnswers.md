@@ -104,7 +104,7 @@ site: Generates project documentation.
 **Answer.** 'mvn install' compiles, tests, packages, and installs the project artifacts into the local Maven repository, making them available for other projects.
 
 #### 17. High level about DR.
-**Answer.** Disaster Recovery (DR):
+**Answer. Disaster Recovery (DR):**
 
 Definition: A set of strategies and procedures to recover and protect a business IT infrastructure in the event of a disaster.
 
@@ -113,3 +113,7 @@ Objectives: Minimize downtime, data loss, and ensure business continuity by havi
 Components: Typically involves backup systems, offsite storage, replication, and procedures to restore critical systems and data.
 
 Key Considerations: Identifying critical systems, defining recovery time objectives (RTO) and recovery point objectives (RPO), and regular testing to ensure effectiveness.
+
+#### 18. Difference between Maven install package and maven clean package?
+**Answer.** mvn clean package is used to firstly clean the existing build artifact and packages the project, create the distributable format like (jar, war..)
+mvn install package is also going to do all the steps mvn clean package does. But, additionally it will also install the project artifacts into the local maven repository for use by other local projects.
