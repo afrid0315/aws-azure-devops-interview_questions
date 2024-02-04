@@ -128,3 +128,4 @@ mvn install package is also going to do all the steps mvn clean package does. Bu
 8.minikube what it's used for??
 9.functionality side or you not interested ??
 10.how you configured yaml script in your project can you explain??
+why mechanical to IT switch
