@@ -39,7 +39,8 @@ docker stop - stop a running container
 docker start - start a stopped container
 docker restart - restart a container
 docker logs - show the logs of a container
-docker exec - execute a command inside a running container
+docker exec -it <container-name> /bin/bash - execute a command inside a running container or to enter into running container.
+docker run -d --name <container-name> -v /<host/path>:/<containerpath> <image-name> - to volume map host to container path
 docker images - list available images
 docker rm - remove a container
 docker rmi - remove an image
