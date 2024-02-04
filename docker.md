@@ -47,6 +47,7 @@ docker inspect - show information about a container
 docker network create - create a network for containers to communicate
 docker network connect - connect a container to a network
 docker network disconnect - disconnect a container from a network
+docker network create -d macvlan --subnet=10.10.1.0/24 --ip-range=10.10.1.2/24 -o parent=eth0 beta - Creating a docker network named as beta, Configure it to use macvlan drivers, Set it to use subnet 10.10.1.0/24 and iprange 10.10.1.2/24.
 docker port - show the mapped ports of a container
 docker cp - copy files between a container and the host
 docker commit - create a new image from a container's changes
