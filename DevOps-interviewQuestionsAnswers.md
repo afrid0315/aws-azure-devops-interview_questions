@@ -117,3 +117,14 @@ Key Considerations: Identifying critical systems, defining recovery time objecti
 #### 18. Difference between Maven install package and maven clean package?
 **Answer.** mvn clean package is used to firstly clean the existing build artifact and packages the project, create the distributable format like (jar, war..)
 mvn install package is also going to do all the steps mvn clean package does. But, additionally it will also install the project artifacts into the local maven repository for use by other local projects.
+
+1.How to create eks cluster in production environment??
+2.what is sonarqube??what exactly it will do can you explain how it will analyse the code??
+3.can you write a terraform file?
+4.what is GitHub hook??
+5.what is docker??
+6.what all tools you have used to store artifact's??
+7.you will create a cluster in AWS console or in prod??
+8.minikube what it's used for??
+9.functionality side or you not interested ??
+10.how you configured yaml script in your project can you explain??
