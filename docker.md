@@ -62,7 +62,6 @@ docker import - create a new image from a tar archive
 docker save - save an image as a tar archive
 docker save -o <imagename.tar> <imagename:tag> - save an image as a tar archive.
 scp <file.tar? banner@stapp03:/home/banner/ - copy file.tar from one server to other server.
-
 docker load - load an image from a tar archive
 docker top - show the processes running inside a container
 docker stats - show resource usage statistics of containers
