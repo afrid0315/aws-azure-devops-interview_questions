@@ -25,7 +25,7 @@ A shared environment for integration testing, system testing, and user acceptanc
 The live environment where the application is accessible to end-users. We follow a robust deployment process, including automation and monitoring, to ensure smooth and reliable production releases.
 Additionally, we may have specialized environments for specific purposes, such as staging for final pre-production environment.
 
-#### 4. While deployment, how exactly you have manintained the approval process?
+#### 4. While deployment, how exactly you have maintained the approval process?
 
 **Answer-** In our deployment process, maintaining a robust approval workflow is crucial for ensuring controlled and reliable releases. We have implemented the following strategies:
 
