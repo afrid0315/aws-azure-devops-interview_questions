@@ -81,6 +81,8 @@ Kubernetes components communicate with each other via the API server, and the et
 
 **Answer**. A ConfigMap in Kubernetes is a resource that allows you to decouple configuration artifacts from pod specifications. It stores key-value pairs of configuration data, which can be consumed by pods as environment variables, command-line arguments, or as configuration files mounted into the pod's filesystem. ConfigMaps facilitate the separation of configuration concerns from application logic, promoting flexibility and manageability.
 
+For example: When you have sensitive data such as database credentials or user passwords, it's not advisable to put them directly into your application's configuration files or Docker images, as this can pose a security risk. Instead, you can use Kubernetes ConfigMaps to store this sensitive information securely. By using ConfigMaps, you separate the sensitive configuration from your application code and Docker images, which helps improve security. Additionally, Kubernetes provides features such as encryption at rest for secrets, further enhancing the security of sensitive data stored in ConfigMaps or secrets.
+
 #### 13. Do you have any idea about kubernetes service account?
 
 **Answer**. Yes, Kubernetes service accounts are used to control and manage permissions for applications running in a Kubernetes cluster. Each pod can be associated with a service account, allowing it to interact with the Kubernetes API and access resources. Service accounts help implement the principle of least privilege by granting only the necessary permissions to pods. They play a crucial role in securing and managing access within the Kubernetes environment.
