@@ -39,8 +39,8 @@
 
 #### 10. Explain Kubernetes architecture?
 
-**Answer**. Kubernetes architecture consists of a Master Node - which consists of API server, Controller Manager, and Scheduler. 
-Worker Node - which consists of Kubelet, Kube Proxy, and Container Runtime), etcd (distributed key-value store), Pods (basic units), Services (network abstraction), and Controllers (manage desired state). These components collaborate to automate containerized application deployment, scaling, and management in a distributed and scalable environment. 
+**Answer**. Kubernetes architecture consists of a Master Node - which consists of API server, Controller Manager, etcd (distributed key-value store) and Scheduler. 
+Worker Node - which consists of Kubelet, Kube Proxy, and Container Runtime), Pods (basic units), Services (network abstraction), and Controllers (manage desired state). These components collaborate to automate containerized application deployment, scaling, and management in a distributed and scalable environment. 
 
 For more detailed explaination -
 Master Node:
