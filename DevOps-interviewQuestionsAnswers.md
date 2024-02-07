@@ -48,7 +48,8 @@
     }
 }
 ```
-#### 5. 
+#### 5. What is shift Left concept?
+**Answer.** Shift left is a concept in software development and DevOps that emphasizes moving tasks, processes, and responsibilities earlier in the software development lifecycle (SDLC). The goal of shifting left is to identify and address issues as early as possible, thereby reducing the cost and effort of fixing them later in the development process.
 
 #### 6. How to find thread dump of java application?
 **Answer.** To find a thread dump of a Java application:
