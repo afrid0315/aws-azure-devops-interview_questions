@@ -290,5 +290,7 @@ AWS CLI: Use the modify-db-instance command, specifying the read replica identif
 
 Amazon RDS API: Utilize the ModifyDBInstance API call with parameters including the read replica identifier and new settings for scaling.
 
+#### 39. About umask value?
 
-
+#### 40. About swap memory?
+**Answer.** When working on a file in Linux using tools like vi or nano, if the file is abruptly closed due to a network issue or if the Linux machine is reloaded, attempting to reopen the same file for editing may prompt a message indicating that the file already exists in the swap memory.
