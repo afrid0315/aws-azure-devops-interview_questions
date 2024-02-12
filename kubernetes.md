@@ -480,3 +480,8 @@ NodePort: Exposes a service on a static port on each node, allowing external acc
 
 #### 72. What is a Kubernetes Headless service, and how is it used in networking?
 **Answer.** A Headless service in Kubernetes doesn't assign a Cluster IP, providing a stable network identity for pods but without load balancing. (or) A Kubernetes Headless Service is a type of Service that doesn't assign a ClusterIP to its Pods. Instead, it allows direct communication with individual Pods via their IP addresses. It's useful for scenarios such as StatefulSets, where stable network identities for Pods are required, or for enabling peer-to-peer communication. Clients resolve the Service's DNS name to a list of individual Pod IP addresses for direct communication.
+
+#### 73. Difference between Node and Pod?
+**Answer.** Node: A node is a physical or virtual machine within a Kubernetes cluster. It provides resources and runs Kubernetes services.
+
+Pod: A pod is the smallest deployable unit in Kubernetes, containing one or more tightly coupled containers. Pods share resources and networking context. They run on nodes.
