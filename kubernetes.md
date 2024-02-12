@@ -485,3 +485,8 @@ NodePort: Exposes a service on a static port on each node, allowing external acc
 **Answer.** Node: A node is a physical or virtual machine within a Kubernetes cluster. It provides resources and runs Kubernetes services.
 
 Pod: A pod is the smallest deployable unit in Kubernetes, containing one or more tightly coupled containers. Pods share resources and networking context. They run on nodes.
+
+#### 74. What is pod, how many containers we can run in single pods, any limitations?
+**Answer.** A Pod is the smallest deployable unit in Kubernetes, representing one or more containers that are deployed together on the same host.
+- A single Pod can contain one or more containers, typically related and tightly coupled, that share networking and storage resources.
+- While there is no strict limit on the number of containers within a single Pod, it's generally recommended to keep Pods focused on a single concern or tightly coupled set of concerns for better maintainability and scalability.
