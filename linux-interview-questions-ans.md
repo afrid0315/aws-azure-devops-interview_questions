@@ -74,7 +74,7 @@ It offers CLI and GUI to use different commands and applications such as Firefox
 **Answer.** CLI, i.e., command line interface. It takes input as a command and runs the tasks of the system. The term GUI refers to the Graphical User Interface or the human-computer interface. It uses icons, images, menus, and windows, which can be manipulated through the mouse.
 
 #### 12. What is Swap Space?
-**Answer.** Linux uses swap space to expand RAM. Linux uses this extra space to hold concurrently running programs temporarily.
+**Answer.** A swap file or swap space is a portion of a computer's hard drive used as virtual memory when physical RAM is full. It prevents out-of-memory errors by temporarily storing inactive data. It's slower than RAM, so excessive swapping can impact performance. Proper configuration and sizing are important to maintain system stability without sacrificing performance.
 
 #### 13. What is the difference between hard links and soft links?
 **Answer.** Here is the table that shows the difference between soft links and hard links:
