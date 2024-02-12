@@ -294,3 +294,14 @@ Amazon RDS API: Utilize the ModifyDBInstance API call with parameters including 
 
 #### 40. About swap memory?
 **Answer.** When working on a file in Linux using tools like vi or nano, if the file is abruptly closed due to a network issue or if the Linux machine is reloaded, attempting to reopen the same file for editing may prompt a message indicating that the file already exists in the swap memory.
+
+#### 41. Target group and listeners in load balancer?
+**Answer.** Target Group and Listeners in Load Balancer:
+
+Target Group: Defines backend resources to route traffic to, with health checks and routing rules.Eg: ec2-instances, Lambda functions..
+Listeners: Listen for incoming traffic, define protocols/ports, and route traffic to target groups based on rules.
+
+#### 42. Loadbalancer and round robin concept?
+**Answer.** Load Balancer: Distributes incoming network traffic across multiple servers or resources to ensure high availability and reliability.
+Round Robin Concept: A basic load balancing algorithm that distributes requests sequentially among backend servers in a circular order.
+ In a round-robin setup, each new request is routed to the next server in the pool in a sequential order. Once all servers have received a request, the algorithm cycles back to the beginning of the server list and continues distributing requests in the same order.
