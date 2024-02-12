@@ -5,3 +5,4 @@
 #### 2.to list even and odd numbers
 #### 3.to print functions
 #### 4.dict fun
+#### 5. Difference between compiler and interpreter?
