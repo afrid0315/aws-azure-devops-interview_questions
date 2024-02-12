@@ -1005,3 +1005,10 @@ Frequently used in server environments to maintain the stability and availabilit
 
 #### 121. What is Symbiosis Linux?
 **Answer.** "Symbiosis Linux" is a specialized Linux distribution optimized for web hosting environments. It simplifies server management by providing tools for setting up domains, email accounts, databases, and security configurations.
+
+#### 122. how to create zip file in linux?
+**Answer.** To create a zip file in Linux, you can use the zip command. For example, to create a zip file named myfiles.zip containing file1.txt and directory1, you would run:
+```
+zip myfiles.zip file1.txt directory1
+```
+
