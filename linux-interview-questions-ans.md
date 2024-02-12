@@ -1002,3 +1002,6 @@ Frequently used in server environments to maintain the stability and availabilit
 
 #### 120. How to check boot logs in linux?
 **Answer.** Use this command ``journalctl -b``
+
+#### 121. What is Symbiosis Linux?
+**Answer.** "Symbiosis Linux" is a specialized Linux distribution optimized for web hosting environments. It simplifies server management by providing tools for setting up domains, email accounts, databases, and security configurations.
