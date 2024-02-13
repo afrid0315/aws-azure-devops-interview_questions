@@ -294,7 +294,9 @@ Amazon RDS API: Utilize the ModifyDBInstance API call with parameters including 
 **Answer.** The umask value is a permission mask applied when creating new files or directories in Unix-like operating systems. It determines which permissions are not granted by default. It is subtracted from the maximum permission to determine the default permissions. For instance, if the umask is set to 022, it means that write permissions are removed for group and others when new files or directories are created.
 
 #### 40. About swap memory?
-**Answer.** When working on a file in Linux using tools like vi or nano, if the file is abruptly closed due to a network issue or if the Linux machine is reloaded, attempting to reopen the same file for editing may prompt a message indicating that the file already exists in the swap memory.
+**Answer.** Swap memory, also known as swap space or swap file, is a portion of a hard drive or SSD used by the operating system as virtual memory when the physical RAM (random access memory) is full. When the system runs out of RAM, it moves inactive pages of memory to the swap space, freeing up RAM for active processes.
+
+The purpose of swap memory is to provide additional memory resources when physical RAM is insufficient.
 
 #### 41. Target group and listeners in load balancer?
 **Answer.** Target Group and Listeners in Load Balancer:
