@@ -291,6 +291,7 @@ AWS CLI: Use the modify-db-instance command, specifying the read replica identif
 Amazon RDS API: Utilize the ModifyDBInstance API call with parameters including the read replica identifier and new settings for scaling.
 
 #### 39. About umask value?
+**Answer.** The umask value is a permission mask applied when creating new files or directories in Unix-like operating systems. It determines which permissions are not granted by default. It is subtracted from the maximum permission to determine the default permissions. For instance, if the umask is set to 022, it means that write permissions are removed for group and others when new files or directories are created.
 
 #### 40. About swap memory?
 **Answer.** When working on a file in Linux using tools like vi or nano, if the file is abruptly closed due to a network issue or if the Linux machine is reloaded, attempting to reopen the same file for editing may prompt a message indicating that the file already exists in the swap memory.
