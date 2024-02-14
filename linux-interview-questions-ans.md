@@ -679,7 +679,10 @@ By default, iptables rules get automatically removed after the system reboot, bu
 - Try connecting from a different SSH client.
 - Use -v or -vv with ssh for detailed debugging output.
 
-#### 76. 
+#### 76. If the server appears to be running correctly in the AWS console, and you've confirmed that the inbound rules and security group settings allow port 22 and the instance is in a public subnet is correct. But, system is still not working. Any commands you can run to check where might be the issue lying with this?
+**Answer.** Check SSH service status: ``sudo systemctl status ssh``
+Verify SSH port connectivity: ``telnet <server_ip> 22``
+Review system logs for SSH-related errors: ``sudo journalctl -u sshd``
 
 #### 77. Processing a log file and fetching for few error codes from debugging prints. Can be solved using cat and sed.
 **Answer. Processing Log File with cat and sed in Linux:**
@@ -687,7 +690,8 @@ By default, iptables rules get automatically removed after the system reboot, bu
 - Employ sed to filter specific lines, e.g., for error codes.
 - Example: `cat logfile.txt | sed -n '/ERROR/p'` fetches lines containing "ERROR" from the log.
 
-#### 78. 
+#### 78. You ping it you get a response right? What does that mean?
+**Answer.** When you ping a server or device and receive a response, it means that the target device is reachable over the network and is responding to ICMP (Internet Control Message Protocol) echo requests. This indicates that there is connectivity between your computer and the target device.
 
 #### 79. How do you check which ports are listening?
 **Answer.** 
@@ -1267,3 +1271,16 @@ Another in-built option to view logs in Windows is the "Event Viewer" applicatio
 **Answer.** To run a management script at a particular time each day, you can use cron, a built-in scheduler in Unix-like operating systems. You'll create a cron job by editing the crontab file using the crontab -e command and specifying the script to run and the desired schedule (e.g., daily at a specific time).
 
 Cron jobs scripts typically contain commands or scripts to be executed at scheduled intervals. They can include shell commands, paths to scripts or programs, and any necessary parameters or options.
+
+#### 161. when you use ping does it only check network connectivity or does it check connectivity on a specific port?
+**Answer.** When you use the ping command, it only checks network connectivity at the IP layer using ICMP echo requests and replies. It does not check connectivity on a specific port. If you want to check connectivity on a specific port, you would use other tools such as telnet, nc, or curl.
+
+#### 162. What if you want to check connectivity on a certain website on a specific port, for example. You do Ping google.com You get a response right? It means that you can communicate with Google as in your laptop from where you ran that command is communicating with google.com Just fine. However, if you want to communicate with Google, let's say on port 8080. How would you check connectivity for that?
+
+#### or
+
+#### Let's say you create a website. Just for example, right? It's your own website, where you know you put in details about your life and stuff. And it's hosted on, let's say www yourname.com. Write your name means that can.com That's fine. So when you pick that you get a response. We have been in this from your own laptop or computer whatever you use, right? It means okay connectivity is there however you want to communicate to your website on a specific port. For example, let the port number be 8080 How would you check connectivity with your website on port 8080 Like what one would use?
+**Answer.** To check connectivity to a specific website on a specific port, such as port 8080 for Google, you can use tools like telnet, nc (netcat), or curl. For example: ```telnet google.com 8080``` or ```telnet yourname.com 8080```
+
+This command attempts to establish a connection to Google on port 8080. If successful, it indicates that there is connectivity to Google on that port.
+
