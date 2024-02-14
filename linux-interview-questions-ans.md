@@ -584,7 +584,7 @@ Save the file and restart the network service or reboot the system for the chang
 - The command find initiates a search and allows actions to be performed based on the search results.
 - The tee command reads standard input and copies it to both standard outputs and to one or more files.
 
-#### 71. What is booting and explain are steps in detail (Linux/Windows).
+#### **71. What is booting and explain are steps in detail (Linux/Windows).
 **Answer.** 
 Booting is the process of initializing a computer's operating system and making it ready for use.
 
