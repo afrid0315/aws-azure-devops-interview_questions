@@ -1158,3 +1158,6 @@ Basic commands for memory management include malloc (allocate memory), free (rel
 **Answer.** Starvation: Starvation occurs when a process is unable to proceed because it cannot access required resources, despite being eligible to do so. This situation can arise due to resource contention or scheduling algorithms favoring other processes excessively.
 
 Aging: Aging is a technique used to prevent starvation in scheduling algorithms. It involves gradually increasing the priority of waiting processes over time, ensuring that all processes eventually get a chance to execute, even if they have been waiting for a long time.
+
+#### 141. BSOD
+**Answer.** BSOD (Blue Screen of Death) is a critical system error in Windows that causes the computer to display a blue screen with an error message. It indicates severe issues like hardware failures, driver conflicts, or system errors, requiring troubleshooting to resolve.
