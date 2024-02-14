@@ -564,7 +564,8 @@ For example:
 
 `cp -R sourece_durectory destination_directory`
 
-#### 68. 
+#### 68. Let's say SSH is not working for some reason. How would you go over troubleshooting it?
+**Answer.** To troubleshoot SSH connectivity issues, you can start by checking if the SSH service is running on the server, ensuring the correct port is open in the firewall, verifying network connectivity, checking SSH configuration files for errors, and reviewing SSH server logs for any error messages. Additionally, testing SSH connections from different client machines and using diagnostic tools like telnet or nc can help identify and resolve the problem.
 
 #### 69. How do you set up a static IP address in Linux using the command-line interface?
 **Answer.** To set up a static IP address in Linux using the command-line interface, you need to modify the network configuration file. The location and name of the file may vary depending on the Linux distribution, but commonly it is /etc/network/interfaces. Open the file with a text editor and modify the configuration to set a static IP address, subnet mask, gateway, and DNS servers.
