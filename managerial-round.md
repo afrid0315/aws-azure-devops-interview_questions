@@ -94,3 +94,35 @@ when you use ping does it only check network connectivity or does it check conne
 What if you want to check connectivity on a certain website on a specific port, for example. You do Ping google.com You get a response right? It means that you can communicate with Google as in your laptop from where you ran that command is communicating with google.com Just fine. However, if you want to communicate with Google, let's say on port 8080. How would you check connectivity for that?
 Let's say you create a website. Just for example, right? It's your own website, where you know you put in details about your life and stuff. And it's hosted on, let's say www yourname.com. Write your name means that can.com That's fine. So when you pick that you get a response. We have been in this from your own laptop or computer whatever you use, right? It means okay connectivity is there however you want to communicate to your website on a specific port. For example, let the port number be 8080 How would you check connectivity with your website on port 8080 Like what one would use?
 the command you will use to check both connectivity. To check port is open or not.
+
+1. what is booting process in detail?
+2. what are the benefits of a multiprocessor system?
+3. what is RAID structure in OS? What are the different levels of RAID configuration?
+4. Commands to check for CPU Utilization?
+5. Paging concept.
+6. What are System calls?
+7. Explain about fork().
+8. Explain the Process life cycle or Process states.
+9. what is the difference between multitasking and mutliprocessing OS?
+10. What is a Scheduling Algorithm? Name different types of schduling algorithms.
+11. How do PING and TRACERT commands work?
+12. What is the difference between paging and segmentation?
+13. What is a process? What are the different states of a process?
+14. Explain the importance of indoes.
+15. What is thread in OS?
+16. How to check for Disk free space.
+17. What is cache? What are its different types? Explain the entire process of searching in memory using hit and miss.
+18. Explain the concept of virtual memory. If its not present in hardware, how does it store data?
+19. My device is heating up very quickly. Troubleshoot the scenario device. justify your answer.
+20. Explain framing, segmentation and paging.
+21. What is a bootstrap program in OS?
+22. Expalin demand paging?
+23. What do you mean by RTOS?
+24. What is virtual memory?
+25. Explain zombie process?
+26. What is thrashing in OS?
+27. I am trying media over FTP from one device to another. The rate of transfer is very slow. Troubleshoot the scenario.
+28. Memory management, Memory pages, Buffer and Caches, Basic commands Troubleshooting: I am not able to connect to the internet.
+29. Scenario: You have 4 GB RAM Mobile, What do you think can we able to play 8GB Game.
+30. What is starvation and aging in OS?
+31. wHAT IS kERNEL AND WRITE its main functions?
