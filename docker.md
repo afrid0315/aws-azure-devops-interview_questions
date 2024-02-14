@@ -195,3 +195,24 @@ ENTRYPOINT instruction also works similar to CMD instruction. ENTRYPOINT instruc
 
 #### 28. Is Docker container itself or container runtime?
 **Answer:** Docker is a container runtime. It provides a platform for building, managing, and running containers, which are lightweight, portable, and self-sufficient environments for running applications. The Docker runtime enables the creation and execution of containers based on Docker images, which contain all the necessary dependencies and configurations to run an application.
+
+#### 29. Why would you use Docker? Over a virtual machine and give an example?
+**Answer:** Docker provides lightweight, portable containers for running applications, offering benefits such as efficient resource utilization, faster deployment, and consistent environments. Compared to virtual machines, Docker containers have lower overhead and faster startup times. For example, if you want to run a web application, you can use Docker to package the application and its dependencies into a container, ensuring consistent behavior across different environments.
+
+#### 30. Let's say I have like okay, I have a Docker image in Docker Hub. And I want to, like use that image to start a Docker container on your local laptop or an EC2 instance what command would we use?
+**Answer:** To start a Docker container from an image available on Docker Hub, you can use the docker run command followed by the image name. For example: docker run <image_name>.
+
+#### 31. If I want to create an Docker image. What command would I use?
+**Answer:** To create a Docker image, you can use the docker build command followed by the path to the Dockerfile and an optional tag for the image. For example: docker build -t <image_name> <path_to_Dockerfile>.
+
+#### 32. What's the difference between Docker build and Docker Compose?
+**Answer:** Docker build is used to build Docker images from a Dockerfile, while Docker Compose is used to define and run multi-container Docker applications. Docker Compose uses a YAML file (docker-compose.yml) to specify the services, networks, and volumes required for the application, making it easier to manage complex deployments with multiple interconnected containers.
+
+#### 33. For example, let's say you have X number of Docker containers running on a machine right and maybe an instant easy to instance or server or whatever. How would you check those containers like what command would you use?
+**Answer:** To check running Docker containers, you can use the docker ps command. This command lists all running containers along with their IDs, names, status, ports, and other details.
+
+#### 34. Let's say there was seven containers running on a machine out of those two stops for some reason. And someone asks you like hey, can we check what happened to those two containers? Like what can you do from here to see why those two containers stopped?
+**Answer:** If containers have stopped unexpectedly, you can use the docker ps -a command to list all containers, including stopped ones. Then, you can use the docker logs <container_id> command to view the logs of a specific container and identify the reason for its failure.
+
+#### 35. Let's say paint shop for whatever reasons. And someone asks you like hey, can we check what happened there? How would you approach?
+**Answer:** To investigate why a container failed, you can inspect its logs using the docker logs <container_id> command. Additionally, you can check the container's exit code using the docker inspect --format='{{.State.ExitCode}}' <container_id> command to get more information about the reason for its failure.
