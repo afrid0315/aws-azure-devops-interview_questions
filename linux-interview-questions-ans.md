@@ -780,7 +780,16 @@ Linux manages date and time through the system clock. The date command allows us
 **Network Time Protocol (NTP):**
 NTP is a protocol used to synchronize system clocks over a network. In Linux, the NTP daemon (ntpd) or the more modern chrony is commonly used. Configuration files such as /etc/ntp.conf or /etc/chrony.conf define NTP server settings. NTP helps maintain accurate and synchronized time across a network, crucial for various system operations and applications.
 
-#### 86. 
+#### 86. Explain the Process life cycle or Process states.
+**Answer.** The process life cycle, or process states, describes the various stages a process goes through during its execution:
+
+- New: The process is being created.
+- Ready: The process is waiting to be assigned to a processor for execution.
+- Running: The process is currently being executed on a processor.
+- Blocked (Wait): The process is waiting for an event (e.g., I/O operation) to occur.
+- Terminated (Exit): The process has finished execution or has been terminated by the operating system.
+
+These states represent the dynamic progression of a process as it interacts with the operating system and other system resources.
 
 #### **87. What are System calls?
 **Answer.** System calls are functions provided by the operating system that enable applications to request services from the kernel, such as file I/O, process creation, and network communication. These calls provide a controlled interface between user-level programs and the underlying hardware, allowing processes to perform privileged operations in a secure manner. Examples include open(), read(), write(), and fork().
@@ -1027,3 +1036,25 @@ A multi-processor system refers to a computer system that contains more than one
 
 #### 124. Explain about fork()?
 **Answer.** fork() is a system call in Unix and Unix-like operating systems that creates a new process by duplicating the existing process. This results in two separate processes: the parent process and the child process. The child process is an exact copy of the parent process, except for a few differences such as their process IDs and return values from fork().
+
+#### 125. What is a Scheduling Algorithm? Name different types of scheduling algorithms.
+**Answer.** A scheduling algorithm determines the order in which tasks or processes are executed on a computing system.
+
+Different types of scheduling algorithms include:
+
+- First-Come, First-Served (FCFS): Processes are executed in the order they arrive.
+- Shortest Job Next (SJN) or Shortest Job First (SJF): The next process to be executed is the one with the smallest execution time.
+- Priority Scheduling: Processes are assigned priorities, and the one with the highest priority is executed first.
+- Round Robin (RR): Each process gets a small unit of CPU time, and if it doesn't finish within that time, it's moved to the back of the queue.
+- Multilevel Queue Scheduling: Processes are divided into different queues with different priorities, and each queue has its own scheduling algorithm.
+- Multilevel Feedback Queue Scheduling: Similar to multilevel queue scheduling, but processes can move between queues based on their behavior.
+
+#### 126. what is the difference between multitasking and multiprocessing OS?
+**Answer.** Multitasking OS allows multiple tasks to run concurrently on a single CPU, while multiprocessing OS utilizes multiple CPUs to execute tasks simultaneously, enhancing overall system performance.
+
+#### 127. What is the difference between paging and segmentation?
+**Answer.** Paging and segmentation are memory management techniques used by operating systems:
+
+Paging: Divides physical memory into fixed-size blocks called "pages" and logical memory into same-sized blocks called "frames." Processes are divided into pages, which are loaded into available frames in physical memory. Paging allows for efficient memory allocation but may lead to external fragmentation.
+
+Segmentation: Divides the logical address space of a process into variable-sized segments. Each segment represents a logical unit of the program, such as code, data, or stack. Segmentation allows for more flexible memory allocation and sharing but may lead to fragmentation within segments.
