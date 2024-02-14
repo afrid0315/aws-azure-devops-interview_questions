@@ -1152,7 +1152,7 @@ Basic commands for memory management include malloc (allocate memory), free (rel
 - ISP Status: Check if the internet service provider is experiencing outages.
 
 #### 139. Scenario: You have 4 GB RAM Mobile, What do you think can we able to play 8GB Game.
-**Answer.** No, it's unlikely. Mobile games typically require RAM similar to or slightly higher than their file size. Attempting to run an 8GB game on a device with only 4GB of RAM would likely result in performance issues or failure to run altogether due to insufficient memory.
+**Answer.** No, it's unlikely. Mobile games typically require RAM similar to or slightly higher than their file size. Attempting to run an 8GB game on a device with only 4GB of RAM would likely result in performance issues or failure to run altogether due to insufficient memory. But, Virtual Memory: Your operating system uses virtual memory to compensate for limited RAM by temporarily storing data on disk. This allows you to run a 8GB game on a 4GB RAM system, but it may slow down performance due to frequent swapping between RAM and disk.
 
 #### 140. What is starvation and aging in OS?
 **Answer.** Starvation: Starvation occurs when a process is unable to proceed because it cannot access required resources, despite being eligible to do so. This situation can arise due to resource contention or scheduling algorithms favoring other processes excessively.
