@@ -1012,3 +1012,4 @@ Frequently used in server environments to maintain the stability and availabilit
 zip myfiles.zip file1.txt directory1
 ```
 
+#### 123. what are the benefits of a multiprocessor system?
