@@ -138,60 +138,12 @@ Answer.
 
 
 
-21. Explain framing.
-22. What is a bootstrap program in OS?
-23. Expalin demand paging?
-25. What do you mean by RTOS?
-27. Explain zombie process?
-28. What is thrashing in OS?
-29. I am trying media over FTP from one device to another. The rate of transfer is very slow. Troubleshoot the scenario.
-30. Memory management, Memory pages, Basic commands Troubleshooting: I am not able to connect to the internet.
-31. Scenario: You have 4 GB RAM Mobile, What do you think can we able to play 8GB Game.
-32. What is starvation and aging in OS?
 
 
 
-1. what type of DNS record would be queried in order to send mail to domain?
-a. CNAME record       b. SMTP record
-c. MX record               d. NS record
-
-2. Which iptables action will send a response back to the source host?
-a. ACCEPT               b. DROP
-C. ALLOW                D. REJECT
-
-3.What command will I have to use to give the following permissions on a file in Linux -rw-rw-r--?
-a. chown 664       b. chmod 644
-c. chown 644        d. chmod 664
-
-4. Which of the following services ake use of the UDP procotol (Select two)
-a. SSH    b. FTP   c. TFTP       d. DNS
-
-5. A dvice ina subnet needs to send a packet to a device in a different subnet. To which device will it address the outgoing packet?
-a. it'll address the packet to its configure default gateway.
-b. it'll address the packet to destination IPV4 address 0.0.0.0
-c. it'll address the packet to any router on the local subnet
-d. it'll address the packet to the switch on the local subnet.
-
-6. which layer of the OSI model is most is directly impacted when an Internet Service Provider is found to be blocking UDP traffic froma source host?
-a. Data Link         b. Transport
-c. Network           d. Session
-
-7. Your web server becomes inaccessible via the network. You run a packet capture and notice that there are thousands of new TCP connections being made from different IP addresses. What would the cause most likely be?
-a. IP Flood.
-b. ARP protcol
-c. pING FLOOD
-D. SYN flood
-
-8. Which two of the following network protocols do not use TCP?
-a. HTTP       B. FTP     C. DHCP      D. ICMP
-
-9. Your are experiencing outbound network connectivity problems. Which devices would you crack to determine if the network settings have issues?
-a. the default gateway.
-b. the DNS server.
-c. source host
-d. all responses are correct.
 
 Operating system questions:
+
 1. What to do if laptop is hanging a lot?
 
 2. How to fix a slow computer?  
@@ -200,23 +152,12 @@ Operating system questions:
 
 4. Can CPU goes beyond 100%?
 
-5. How to install and use a software which need more space than the available space
+5. How to install and use a software which need more space than the available space in your system ?
 
-6. in your system ?
+7. Difference between buffer and cache.
 
-7. Virtual Memory - how I'm able to run a 7GB game with my 4 GB RAM? Why the
+10. Explain deadlock? How can we prevent it? Explain semaphores in layman language?
 
-8. game gets slow in such cases - which OS I primarily work on and why?
-
-
-9. Memory pages; Buffer and Caches. Difference between buffer and cache.
-
-
-10. Explain deadlock? How can we prevent it? Explain semaphores in layman
-
-11. language?
-
-12. CPU scheduling Algorithms and questions based on them.
 
 13. Explain different page replacement algorithm, and which is the most efficient?
 
@@ -224,54 +165,29 @@ Operating system questions:
 
 15. What is Active directory ?
 
-16. Explain Boot process (either windows/linux)
 
-17. What is Bash? How would you explain Bash/PowerShell to a non-technical
-
-18. person?
+17. What is Bash? How would you explain Bash/PowerShell to a non-technical person?
 
 19. How do you access root?
 
-20. Commands to check memory and disk space in OS either Linux or windows?
-
-21. What command checks for running processes?
 
 22. where are the USB drivers installed in Linux
-
-23. System date/time management, network time protocol
-
-24. Managing Users and groups - explain chmod command.
-
-25. File permissions
-
-26. Managing software’s - installation, uninstallation, upgrade etc.  
+  
 
 27. Managing system services and background processes
 
-28. How to view logs in windows ?
+28. How to view logs in windows?
 
 29. Which directory are log files stored?
 
-30. A user says that whenever they try to use the system, it keeps rebooting, what
+30. A user says that whenever they try to use the system, it keeps rebooting, what could be the cause of this? How would you go about trying to find out what's causing the issue?
 
-31. could be the cause of this? How would you go about trying to find out what's
+33. A client's system/server is having bad performance, what could potentially be causing this? How would you go about trying to find out the cause of this problem?
 
-32. causing the issue?
-
-33. A client's system/server is having bad performance, what could potentially be
-
-34. causing this? How would you go about trying to find out the cause of this
-
-35. problem?
-
-36. If I have to run a management script in my system at a particular time each day,
-
-37. how will I proceed? What exactly goes inside cron jobs scripts - Difference
+36. If I have to run a management script in my system at a particular time each day, how will I proceed? What exactly goes inside cron jobs scripts?
 
 
-38. between processes and threads, pages and fragments
 
-39. BSOD
 
  Computer Network questions
 1. OSI model with complete details and protocols on each layer.
