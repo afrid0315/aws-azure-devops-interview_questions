@@ -3,4 +3,4 @@
 
 # These Q/A gathered from different resources and provided for learning
 
-
+# If there is **(Double Star) mostly asked q/a 
