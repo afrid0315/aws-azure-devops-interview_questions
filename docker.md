@@ -192,3 +192,6 @@ ENTRYPOINT instruction also works similar to CMD instruction. ENTRYPOINT instruc
 
 #### 27. When we have both CMD and ENTRYPOINT instructions in a Dockerfile?
 **Answer:** CMD instruction will not be executed and CMD instruction will be passed as an argument for ENTRYPOINT.
+
+#### 28. Is Docker container itself or container runtime?
+**Answer:** Docker is a container runtime. It provides a platform for building, managing, and running containers, which are lightweight, portable, and self-sufficient environments for running applications. The Docker runtime enables the creation and execution of containers based on Docker images, which contain all the necessary dependencies and configurations to run an application.
