@@ -748,7 +748,7 @@ done | sort -hrk 2 | head -n 10
 - Check for rate limit-related error responses.
 - If using a proxy or CDN, check for misconfigurations or issues affecting data transmission.
 
-#### 83. Paging Concept.
+#### **83. Paging Concept.
 **Answer.**
 
 **Memory Management Technique:**
@@ -782,7 +782,7 @@ NTP is a protocol used to synchronize system clocks over a network. In Linux, th
 
 #### 86. 
 
-#### 87. What are System calls?
+#### **87. What are System calls?
 **Answer.** System calls are functions provided by the operating system that enable applications to request services from the kernel, such as file I/O, process creation, and network communication. These calls provide a controlled interface between user-level programs and the underlying hardware, allowing processes to perform privileged operations in a secure manner. Examples include open(), read(), write(), and fork().
 
 #### 88. What is inode or Explain the importance of inodes.
@@ -1016,3 +1016,14 @@ zip myfiles.zip file1.txt directory1
 ```
 
 #### 123. what are the benefits of a multiprocessor system?
+A multi-processor system refers to a computer system that contains more than one central processing unit (CPU) within a single physical machine. These multiple CPUs can work together to execute tasks simultaneously, thereby increasing the system's overall processing power and performance. In essence, it allows the system to perform multiple computations or tasks concurrently, improving efficiency and throughput compared to a single-processor system.
+**Benefits:**
+- Increased performance due to concurrent execution.
+- Scalability by adding more processors.
+- Higher throughput for handling multiple tasks simultaneously.
+- Redundancy and fault tolerance capabilities.
+- Efficient resource sharing and load balancing.
+- Enhanced multitasking and parallel processing abilities.
+
+#### 124. Explain about fork()?
+**Answer.** fork() is a system call in Unix and Unix-like operating systems that creates a new process by duplicating the existing process. This results in two separate processes: the parent process and the child process. The child process is an exact copy of the parent process, except for a few differences such as their process IDs and return values from fork().
