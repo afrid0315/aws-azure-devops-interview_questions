@@ -126,3 +126,44 @@ the command you will use to check both connectivity. To check port is open or no
 29. Scenario: You have 4 GB RAM Mobile, What do you think can we able to play 8GB Game.
 30. What is starvation and aging in OS?
 31. wHAT IS kERNEL AND WRITE its main functions?
+
+
+1. what type of DNS record would be queried in order to send mail to domain?
+a. CNAME record       b. SMTP record
+c. MX record               d. NS record
+
+2. Which iptables action will send a response back to the source host?
+a. ACCEPT               b. DROP
+C. ALLOW                D. REJECT
+
+3.What command will I have to use to give the following permissions on a file in Linux -rw-rw-r--?
+a. chown 664       b. chmod 644
+c. chown 644        d. chmod 664
+
+4. Which of the following services ake use of the UDP procotol (Select two)
+a. SSH    b. FTP   c. TFTP       d. DNS
+
+5. A dvice ina subnet needs to send a packet to a device in a different subnet. To which device will it address the outgoing packet?
+a. it'll address the packet to its configure default gateway.
+b. it'll address the packet to destination IPV4 address 0.0.0.0
+c. it'll address the packet to any router on the local subnet
+d. it'll address the packet to the switch on the local subnet.
+
+6. which layer of the OSI model is most is directly impacted when an Internet Service Provider is found to be blocking UDP traffic froma source host?
+a. Data Link         b. Transport
+c. Network           d. Session
+
+7. Your web server becomes inaccessible via the network. You run a packet capture and notice that there are thousands of new TCP connections being made from different IP addresses. What would the cause most likely be?
+a. IP Flood.
+b. ARP protcol
+c. pING FLOOD
+D. SYN flood
+
+8. Which two of the following network protocols do not use TCP?
+a. HTTP       B. FTP     C. DHCP      D. ICMP
+
+9. Your are experiencing outbound network connectivity problems. Which devices would you crack to determine if the network settings have issues?
+a. the default gateway.
+b. the DNS server.
+c. source host
+d. all responses are correct.
