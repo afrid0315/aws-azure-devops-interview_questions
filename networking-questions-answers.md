@@ -269,3 +269,114 @@ c. source host
 d. all responses are correct.
 
 **Answer.** d. all responses are correct.
+
+#### 43. Transmission of messages between layers
+**Answer.** Messages are transmitted between layers in a networking protocol stack through a process called encapsulation and decapsulation. Each layer adds its own header and possibly trailer to the data received from the upper layer before passing it down, and removes this added information upon receiving data from the lower layer.
+
+#### 44. How is a hub, a router, and a switch different from each other? Explain in terms of broadcast domain.
+**Answer.** A hub operates at the physical layer and broadcasts all incoming packets to all other ports, effectively creating a single collision and broadcast domain. A router operates at the network layer and separates broadcast domains by default, as it forwards packets between different IP subnets. A switch operates at the data link layer and maintains a separate collision domain for each port, but may have multiple ports within a single broadcast domain.
+
+#### 45. What is the difference between Bandwidth, Delay and Latency?
+**Answer.** Bandwidth refers to the maximum data transfer rate of a network connection, measured in bits per second. Delay is the time it takes for data to travel from the source to the destination, affected by factors such as network congestion and distance. Latency is the time delay between the sending and receiving of data packets, often caused by processing, queuing, and transmission delays in network devices.
+
+#### 46. TCP/IP,BGP.
+**Answer.** TCP/IP (Transmission Control Protocol/Internet Protocol) is a suite of communication protocols used to interconnect network devices on the internet. BGP (Border Gateway Protocol) is an exterior gateway protocol used to exchange routing information between different autonomous systems on the internet.
+
+#### 47. What is BGP and describe the states - Idle, Connect, Active, Opensent, Openconfirm, Established.
+**Answer.** BGP has several states including Idle, Connect, Active, Opensent, Openconfirm, and Established. In the Idle state, BGP has not established a connection with any peers. In the Connect state, BGP attempts to establish a TCP connection with a peer. In the Active state, BGP is actively trying to initiate a TCP connection. In the Opensent state, BGP has sent an OPEN message and is waiting for a response. In the Openconfirm state, BGP has received an OPEN message and sent a response. In the Established state, BGP has successfully established a neighbor relationship and can exchange routing information.
+
+#### 48. Why the TCP/IP model used over OSI model?
+**Answer.** The TCP/IP model is used more commonly in practical networking implementations than the OSI model because it is simpler, more widely adopted, and better suited to the decentralized nature of the internet.
+
+#### 49. TCP and SSL handshake. How TCP/ IP connection is established (via 3-way handshake) and terminated?
+**Answer.** The TCP/IP connection is established using a three-way handshake: SYN, SYN-ACK, and ACK. SSL (Secure Sockets Layer) handshake occurs before the TCP handshake in a secured connection. It involves a series of steps, including negotiation of encryption algorithms and exchange of cryptographic keys, to establish a secure communication channel.
+
+#### 50. What is SSL and how does it work? How do you protect a website?
+**Answer.** SSL (Secure Sockets Layer) is a cryptographic protocol used to secure communication over a computer network. It works by encrypting data transmitted between the client and server, preventing unauthorized access to sensitive information. To protect a website using SSL, an SSL certificate is installed on the web server, enabling HTTPS (HTTP Secure) protocol for secure communication between the client's browser and the server.
+
+#### 51. How DHCP server is uniquely identified by the client?
+**Answer.** A DHCP server is uniquely identified by its IP address, which is configured on the client devices as part of the network settings. When a client device needs to obtain an IP address dynamically, it sends a DHCP discover message to the network, and any DHCP server on the network with an available IP address pool can respond.
+
+#### 52. As MSS was explained in TCP 3 way handshake, explain what is MTU and compare and contrast MSS and MTU together.
+**Answer.** MSS (Maximum Segment Size) is the maximum amount of data that can be sent in a single TCP segment, while MTU (Maximum Transmission Unit) is the largest packet size that can be transmitted over a network. MSS is a parameter negotiated during TCP connection establishment, whereas MTU is determined by the underlying network technology. MSS is specific to TCP, while MTU applies to all network protocols.
+
+#### 53. Why would you choose HTTPS over HTTP? From a technical perspective, what is HTTPS?
+**Answer.** HTTPS (HTTP Secure) is preferred over HTTP (Hypertext Transfer Protocol) for secure communication over the internet. HTTPS encrypts data transmitted between the client and server, providing confidentiality, integrity, and authentication, whereas HTTP transmits data in plaintext, making it vulnerable to eavesdropping and tampering.
+
+#### 54. What is FTP? what kind of application it used for?
+**Answer.** FTP is a network protocol used for transferring files between a client and server on a computer network. It provides a standard set of commands for accessing, downloading, uploading, and managing files on a remote server. FTP is commonly used for website maintenance, file sharing, and data backup.
+
+#### 55. How would you secure a website?/How would you make a website secure?
+**Answer.** To secure a website, various measures can be taken including implementing HTTPS encryption, keeping software and plugins updated, using strong and unique passwords, restricting access to sensitive directories, enabling web application firewalls, implementing security headers, regularly scanning for malware, and performing security audits.
+
+#### 56. How does a web page load, what happens in the background?
+**Answer.** When a web page is loaded, the client's browser sends a request to the web server hosting the page. The server processes the request, retrieves the necessary files (HTML, CSS, JavaScript, images, etc.), and sends them back to the client's browser. The browser then renders the content received, displaying the web page to the user.
+
+#### 57. What is DNS? How does DNS work?
+**Answer.** DNS is a decentralized naming system used to translate domain names (e.g., www.example.com) into IP addresses (e.g., 192.0.2.1) on the internet. It enables users to access websites using human-readable domain names instead of numeric IP addresses. DNS works through a distributed hierarchy of servers, including recursive resolvers, authoritative name servers, and root servers.
+
+#### 58. DNS resolving ( how to resolve name to IP or what happen when you vist amazon.com)
+**Answer.** DNS resolution is the process of converting a domain name (e.g., www.example.com) into an IP address (e.g., 192.0.2.1) through the Domain Name System. It involves querying DNS servers recursively or iteratively until the corresponding IP address is found and returned to the client.
+
+#### 59. Describe DNS lookup process for Domain name resolution.
+**Answer.** DNS lookup process involves several steps including checking the local cache for the requested domain name, querying the recursive resolver, which in turn queries authoritative name servers, root servers, and other DNS servers as necessary to resolve the domain name to its corresponding IP address.
+
+#### 60. What is the difference between "Connection Refused" and "Connection Timed Out"? What causes these two things to happen?
+**Answer.** "Connection Refused" error occurs when the server actively rejects the connection request, often due to firewall rules or service not running on the specified port. "Connection Timed Out" error occurs when the client's request doesn't receive a response from the server within a specified time period, possibly due to network congestion, server overload, or misconfiguration.
+ 
+#### 61. Is 1.1.1.1 routable?
+**Answer.** Yes, 1.1.1.1 is a routable IP address assigned to a public DNS resolver operated by Cloudflare.
+
+#### 62. Concept of Proxy and firewall? Stateless and stateful firewalls?
+**Answer.** A proxy acts as an intermediary between clients and servers, forwarding requests and responses between them. A firewall is a network security device that monitors and controls incoming and outgoing traffic based on predetermined security rules. Stateful firewalls keep track of the state of active connections, while stateless firewalls filter packets based on individual packet attributes.
+
+#### 63. What is the difference between example.com and example.org?
+**Answer.** example.com and example.org are both generic top-level domain names used for illustrative purposes in documentation and testing. They are reserved by the Internet Assigned Numbers Authority (IANA) and are not associated with any specific organization or entity. 
+
+#### 64. Trouble shoot slow website.
+**Answer.** To troubleshoot a slow website, you can analyze factors such as server performance, network latency, website configuration, content delivery, database queries, caching mechanisms, and third-party services. Tools like web performance testing, monitoring, profiling, and analytics can help identify and resolve bottlenecks.
+
+#### 65. How to view network stats?
+**Answer.** Network statistics can be viewed using various tools and commands such as netstat, ifconfig, ip, nmap, tcpdump, wireshark, and SNMP (Simple Network Management Protocol). These tools provide information about network interfaces, connections, traffic, protocols, and performance metrics.
+
+#### 66. What does NetStat do? Which Linux command finds routing tables?
+**Answer.** NetStat (Network Statistics) command displays network connections, routing tables, interface statistics, masquerade connections, and multicast memberships. The Linux command for finding routing tables is ip route or route -n.
+
+#### 67. Command to track and print the path traversed between different routers.
+**Answer.** The traceroute command can be used to track and print the path traversed between routers. It sends packets with increasing TTL (Time-To-Live) values and displays the IP addresses of routers along the path until reaching the destination.
+
+#### 68. What command checks the routing table in Linux?
+**Answer.** The ip route command is used to check the routing table in Linux. It displays the kernel's routing table, including network destinations, gateways, interfaces, and metrics.
+ 
+#### 69. How to setup remote desktop connection using command line in windows
+**Answer.** To set up a remote desktop connection using the command line in Windows, you can use the mstsc command followed by the target remote desktop server's IP address or hostname.
+
+#### 70. A scenario question about packet flow in NAT
+**Answer.** Network Address Translation (NAT) translates private IP addresses to public IP addresses and vice versa to enable communication between devices on different networks. In a NAT scenario, packets flow from the source device's private IP address through the NAT device, which translates the source address to a public IP address before forwarding the packet to the destination.
+ 
+#### 71. How do you find out what your IP Address is?
+**Answer.** You can find out your IP address by using commands like ipconfig or ifconfig on Windows and Linux respectively, or by visiting websites that display your public IP address.
+
+#### 72. What protocol is used and how it is used to gate out from private network.(ARP)?
+**Answer.** ARP (Address Resolution Protocol) is used to map IP addresses to MAC addresses on a local network. It resolves the IP address of a device to its corresponding MAC address by broadcasting ARP request packets and receiving ARP reply packets from the target device.
+
+#### 73. Given the following information: 10.0.0.0/8 100,000 hosts on network There is a host with an IP of 10.0.0.1 who cannot connect, why is this? Also, a lot of hosts on the network are reporting that they cannot connect, why is this?
+**Answer.** If a host with an IP address of 10.0.0.1 cannot connect to the network, it may be due to incorrect network settings, misconfigured firewall rules, or network congestion. If multiple hosts on the network are experiencing connection issues, it could indicate a larger network problem such as a router or switch failure, IP address conflicts, or DNS resolution issues.
+
+#### 74. Suppose I have a brand new laptop and I wish to connect it to the internet. What should I do, and what shall happen in background before the laptop is connected to the internet? (Ans. Manually assigning IP address or DHCP and DORA procedure. They expect you to explain in depth about DHCP and DORA)
+**Answer.** To connect a laptop to the internet, you can manually assign an IP address or configure the laptop to obtain an IP address automatically using DHCP (Dynamic Host Configuration Protocol). The laptop communicates with the DHCP server using the DORA (Discover, Offer, Request, Acknowledge) process to obtain network configuration settings.
+
+#### 75. What exactly are the requirements to make two computers communicate (they are close to each other, connected to same network) (here, also highlight the fact that how one computer will uniquely identify the other computer)
+**Answer.** Two computers can communicate when they are connected to the same network and have unique IP addresses within that network. Communication between computers is facilitated by routing packets based on their destination IP addresses.
+ 
+#### 76. Concept of public and private IPs? Can two systems connected to same network have the same public IPs? How conflict is resolved in that case?
+**Answer.** Public IPs are globally unique IP addresses assigned to devices on the internet, while private IPs are used for internal communication within a local network. Two systems connected to the same network can have the same public IP address if they are behind a NAT device, which translates their private IP addresses to the single public IP address for external communication.
+
+#### 77. Will I able to access amazon.com if I'm using private IP (say, if I'm a part of an organization). Or will I need a public IP as well to connect with it?
+**Answer.** If you are using a private IP address, you may still be able to access websites on the internet through NAT (Network Address Translation) performed by your organization's gateway or router. However, some websites may restrict access based on IP addresses or require authentication.
+
+#### 78. If one person is able to access amazon.com website, while the other person is not, what can be the possible valid reasons for the 2nd person, provided the amazon.com website is working fine. Why clearing cookies also helps in reaching to a website?
+**Answer.** Possible reasons for one person being able to access a website while another cannot include network connectivity issues, DNS resolution problems, browser cache or cookie issues, firewall restrictions, IP address blacklisting, or server-side access restrictions. Clearing cookies can help resolve access issues caused by cached or corrupted data.
+
+#### 79. My net isn't working, how do i troubleshoot?
+**Answer.** To troubleshoot network connectivity issues, you can start by checking physical connections, restarting network devices, verifying network settings, testing connectivity with other devices, checking for IP address conflicts, and reviewing firewall configurations. Additionally, diagnostic tools like ping, traceroute, and netstat can help identify and resolve network problems.
