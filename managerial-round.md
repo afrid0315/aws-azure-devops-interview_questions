@@ -52,80 +52,103 @@ Answer.
 #### 16. Why would you be a good fit for a senior management position?
 **Answer.** As a candidate for a senior management position, I bring a combination of strong leadership skills, a proven track record in achieving strategic goals, and the ability to foster a collaborative and high-performance work culture. My experience includes successfully leading teams through complex projects, implementing effective organizational strategies, and driving innovation. I am dedicated to achieving operational excellence, fostering employee development, and contributing to the overall success and growth of the organization.
 
-Why AWS and Amazon ?
-Why deployment ?
-Why, like, what's the benefit of using Ansible?
-What's one thing that makes Ansible different from any other tool for example, Chef, Puppet or anything like that?
-Is Ansible agent or agentless ?
-What does it use to communicate with the host ?
-How does Ansible interact with the servers?
-What have you automated so far in terms of that, like what have you configured on the host using Ansible playbook ?
-You mentioned Docker what is Docker like if you want to generalize it, and how would you go about defining Docker?
-Is Docker container itself or container runtime ?
-Why would you use Docker? Over a virtual machine, and even an example?
-Let's say I have like okay, I have a Docker image in Docker Hub. And I want to, like use that image to start a Docker container on your local laptop or an EC two instance what command would we use?
-If I want to create an image Docker image. What command would I use?
-What's the difference between Docker build and Docker Compose?
-For example, let's say you have X number of Docker containers running on a machine right and maybe an instant easy to instance or server or whatever. How would you check those containers like what command would you use ?
-Let's say there was seven containers running on a machine out of those two stops for some reason. And someone asks you like hey, can we check what happened to those two containers? Like what can you do from here to see why those two containers stopped?
-Let's say paint shop for whatever reasons. And someone asks you like hey, can we check what happened there? How would you approach ?
-I was checking resume and it also says that you have experience with Eks elastic Kubernetes service. Yes. Like what is Kubernetes to begin with ?
-Can you give me a brief overview of what Jenkins is and what it does?
-What are the components of Jenkins ?
-Does Jenkins have a concept of master slave if yes, do you know what it is?
-Can you walk me through how would you? Let's say you write a code right and you want to push it to whatever repo you're using. You mentioned GitHub GitLab only push updated code ?
-Let's say you do this, but there is a conflict in the repo. How will you resolve it ?
-Now, you mentioned your work with CloudFormation and TerraForm. Why do you prefer one over the other?
-Why would you use infrastructure code and what are the benefits of using that ?
-What language do you use? To write your code?
-What have you so far coded? Using cloud formation or TerraForm? Like any major project to undertake and where you wrote IAC for that? If yes, can you please talk about it ?
-Like what is the most ambitious thing you have done with IAC?
-Any difficulty you face while writing this setup form template ?
-Let's say we create a new branch because let's say two people are working on the same project, but don't have their own branches. How do you create a new branch?
-Different deployment strategies one can take when they're deploying any application, or, you know, virtual machines or containers or anything like that.
-But do you know what each of them mean? Like when we talked about rolling and versus blue and green? Key the difference between those two?
-familiar with Windows or Linux?
-Personally, how do you connect to a Linux machine?
-Let's say SSH is not working for some reason. How would you go over troubleshooting it?
-What is the default port for SSH ?
-Let's say the server is running straight because you go to AWS console and you can see your instance running straight right. A better system is still not working any have also checked up the inbound rule is correct and security group is allowing port 22 and instances in public subnet. Any commands you can run to check where might be the issue lying with this ?
-you ping it you get a response right? What does that mean?
-when you use ping does it only check network connectivity or does it check connectivity on a specific port?
-What if you want to check connectivity on a certain website on a specific port, for example. You do Ping google.com You get a response right? It means that you can communicate with Google as in your laptop from where you ran that command is communicating with google.com Just fine. However, if you want to communicate with Google, let's say on port 8080. How would you check connectivity for that?
-Let's say you create a website. Just for example, right? It's your own website, where you know you put in details about your life and stuff. And it's hosted on, let's say www yourname.com. Write your name means that can.com That's fine. So when you pick that you get a response. We have been in this from your own laptop or computer whatever you use, right? It means okay connectivity is there however you want to communicate to your website on a specific port. For example, let the port number be 8080 How would you check connectivity with your website on port 8080 Like what one would use?
-the command you will use to check both connectivity. To check port is open or not.
+#### 17. Why AWS and Amazon? 
 
-1. what is booting process in detail?
-2. what are the benefits of a multiprocessor system?
-3. what is RAID structure in OS? What are the different levels of RAID configuration?
-4. Commands to check for CPU Utilization?
-5. Paging concept.
-6. What are System calls?
-7. Explain about fork().
-8. Explain the Process life cycle or Process states.
-9. what is the difference between multitasking and mutliprocessing OS?
-10. What is a Scheduling Algorithm? Name different types of schduling algorithms.
-11. How do PING and TRACERT commands work?
-12. What is the difference between paging and segmentation?
-13. What is a process? What are the different states of a process?
-14. Explain the importance of indoes.
-15. What is thread in OS?
-16. How to check for Disk free space.
-17. What is cache? What are its different types? Explain the entire process of searching in memory using hit and miss.
-18. Explain the concept of virtual memory. If its not present in hardware, how does it store data?
-19. My device is heating up very quickly. Troubleshoot the scenario device. justify your answer.
-20. Explain framing, segmentation and paging.
-21. What is a bootstrap program in OS?
-22. Expalin demand paging?
-23. What do you mean by RTOS?
-24. What is virtual memory?
-25. Explain zombie process?
-26. What is thrashing in OS?
-27. I am trying media over FTP from one device to another. The rate of transfer is very slow. Troubleshoot the scenario.
-28. Memory management, Memory pages, Buffer and Caches, Basic commands Troubleshooting: I am not able to connect to the internet.
-29. Scenario: You have 4 GB RAM Mobile, What do you think can we able to play 8GB Game.
-30. What is starvation and aging in OS?
-31. wHAT IS kERNEL AND WRITE its main functions?
+#### Why deployment?
+
+#### Why, like, what's the benefit of using Ansible?
+
+#### What's one thing that makes Ansible different from any other tool for example, Chef, Puppet or anything like that?
+
+#### Is Ansible agent or agentless?
+
+#### What does it use to communicate with the host?
+
+#### How does Ansible interact with the servers?
+
+#### What have you automated so far in terms of that, like what have you configured on the host using Ansible playbook?
+
+#### You mentioned Docker what is Docker like if you want to generalize it, and how would you go about defining Docker?
+
+#### Is Docker container itself or container runtime?
+
+#### Why would you use Docker? Over a virtual machine and give an example?
+
+#### Let's say I have like okay, I have a Docker image in Docker Hub. And I want to, like use that image to start a Docker container on your local laptop or an EC2 instance what command would we use?
+
+#### If I want to create an Docker image. What command would I use?
+
+#### What's the difference between Docker build and Docker Compose?
+
+#### For example, let's say you have X number of Docker containers running on a machine right and maybe an instant easy to instance or server or whatever. How would you check those containers like what command would you use?
+
+#### Let's say there was seven containers running on a machine out of those two stops for some reason. And someone asks you like hey, can we check what happened to those two containers? Like what can you do from here to see why those two containers stopped?
+
+#### Let's say paint shop for whatever reasons. And someone asks you like hey, can we check what happened there? How would you approach?
+
+#### what is Kubernetes to begin with?
+
+#### Can you give me a brief overview of what Jenkins is and what it does?
+
+#### What are the components of Jenkins ?
+
+#### Does Jenkins have a concept of master slave if yes, do you know what it is?
+
+#### Can you walk me through how would you? Let's say you write a code right and you want to push it to whatever repo you're using. You mentioned GitHub only push updated code?
+
+#### Let's say you do this, but there is a conflict in the repo. How will you resolve it?
+
+#### Now, you mentioned your work with CloudFormation and TerraForm. Why do you prefer one over the other?
+
+#### Why would you use infrastructure code and what are the benefits of using that?
+
+#### What language do you use? To write your code?
+
+#### What have you so far coded? Using cloud formation or TerraForm? Like any major project to undertake and where you wrote IAC for that? If yes, can you please talk about it?
+
+#### Like what is the most ambitious thing you have done with IAC?
+
+#### Any difficulty you face while writing this setup form template?
+
+#### Let's say we create a new branch because let's say two people are working on the same project, but don't have their own branches. How do you create a new branch?
+
+#### Different deployment strategies one can take when they're deploying any application, or, you know, virtual machines or containers or anything like that.
+
+#### But do you know what each of them mean? Like when we talked about rolling and versus blue and green? Key the difference between those two?
+
+#### familiar with Windows or Linux?
+
+#### Personally, how do you connect to a Linux machine?
+
+#### Let's say SSH is not working for some reason. How would you go over troubleshooting it?
+
+#### What is the default port for SSH?
+
+#### Let's say the server is running straight because you go to AWS console and you can see your instance running straight right. A better system is still not working any have also checked up the inbound rule is correct and security group is allowing port 22 and instances in public subnet. Any commands you can run to check where might be the issue lying with this?
+
+#### you ping it you get a response right? What does that mean?
+
+#### when you use ping does it only check network connectivity or does it check connectivity on a specific port?
+
+#### What if you want to check connectivity on a certain website on a specific port, for example. You do Ping google.com You get a response right? It means that you can communicate with Google as in your laptop from where you ran that command is communicating with google.com Just fine. However, if you want to communicate with Google, let's say on port 8080. How would you check connectivity for that?
+
+#### Let's say you create a website. Just for example, right? It's your own website, where you know you put in details about your life and stuff. And it's hosted on, let's say www yourname.com. Write your name means that can.com That's fine. So when you pick that you get a response. We have been in this from your own laptop or computer whatever you use, right? It means okay connectivity is there however you want to communicate to your website on a specific port. For example, let the port number be 8080 How would you check connectivity with your website on port 8080 Like what one would use?
+
+#### the command you will use to check both connectivity. To check port is open or not.
+
+
+
+21. Explain framing.
+22. What is a bootstrap program in OS?
+23. Expalin demand paging?
+25. What do you mean by RTOS?
+27. Explain zombie process?
+28. What is thrashing in OS?
+29. I am trying media over FTP from one device to another. The rate of transfer is very slow. Troubleshoot the scenario.
+30. Memory management, Memory pages, Basic commands Troubleshooting: I am not able to connect to the internet.
+31. Scenario: You have 4 GB RAM Mobile, What do you think can we able to play 8GB Game.
+32. What is starvation and aging in OS?
+
 
 
 1. what type of DNS record would be queried in order to send mail to domain?
