@@ -333,11 +333,13 @@ Once you run the above command, the system will start tracing the list command a
 - Configure firewall, set up intrusion detection, manage user permissions and configure the SSH.
 - Create a proper recovery planning that must include regular backup, critical configuration documentation, recovery process testing, and offsite storage.
 
-#### 36. What is a Linux virtual memory system?
+#### **36. What is a Linux virtual memory system? If its not present in hardware, how does it store data?
 **Answer.** Virtual memory is a great memory management utility in any OS. You can use the virtual memory system as secondary memory. This memory is used by both software and hardware in Linux so that your system can cope with the lack of physical memory. Moreover, virtual memory is also used to compensate for the RAM usage by transferring the data temporarily from RAM to disk storage.
 
 **Real-Life Example:**
 Imagine you're working on a computer with limited RAM, and you have multiple applications open simultaneously. Virtual memory allows the operating system to use a portion of the hard disk as if it were additional RAM. When the physical RAM becomes fully occupied, less frequently used data is moved to the disk, making room for actively used data in RAM. This enables you to run more applications than the physical RAM would otherwise allow, preventing system slowdowns or crashes.
+
+If virtual memory is not supported by hardware, the operating system would rely solely on software-based techniques to manage memory. In such a scenario, the operating system would still use disk storage as an extension of RAM when needed, but it would handle all memory management tasks without hardware assistance. This could involve techniques such as swapping, where parts of the program's memory are temporarily moved to disk when not actively in use, and then brought back into RAM when needed again. However, without hardware support like a Memory Management Unit (MMU), these operations might be less efficient and more reliant on CPU processing power.
 
 #### 37. What do you understand about process scheduling in Linux?
 **Answer.** Process scheduling is the mechanism that identifies the order of processes running on the system. In other words, process scheduling determines the order and execution time of multiple processes running on the system concurrently. This process scheduler of Linux is priority-based and uses a preemptive algorithm. It allocates CPU time for different processes to ensure efficient CPU resource usage. These processes are dynamic, and their order can change depending on many factors, such as resource usage, process behavior, and scheduling policies.
@@ -883,7 +885,8 @@ Runs a command in the background, allowing the terminal prompt to be used for ot
 #### 102. How can you create a zero byte file using which command
 **Answer.** You can create a zero-byte file using the touch command: ``touch filename``
 
-#### 103. 
+#### 103. What is thread in OS?
+**Answer.** A thread in an operating system is the smallest unit of execution within a process. It represents a single sequential flow of control within the process. Threads share the same memory space and resources of the process they belong to, enabling concurrent execution of multiple tasks within that process. Threads can execute independently, allowing for parallelism and multitasking within a program.
 
 #### 104. How to check the services running in Linux tell the command? 
 **Answer.** To check the services running in Linux, you can use the systemctl command. Use the following command to list all running services: ``systemctl list-units --type=service --state=running``
@@ -1058,3 +1061,45 @@ Different types of scheduling algorithms include:
 Paging: Divides physical memory into fixed-size blocks called "pages" and logical memory into same-sized blocks called "frames." Processes are divided into pages, which are loaded into available frames in physical memory. Paging allows for efficient memory allocation but may lead to external fragmentation.
 
 Segmentation: Divides the logical address space of a process into variable-sized segments. Each segment represents a logical unit of the program, such as code, data, or stack. Segmentation allows for more flexible memory allocation and sharing but may lead to fragmentation within segments.
+
+#### 128. What is cache? What are its different types? Explain the entire process of searching in memory using hit and miss.
+**Answer.** Cache is a high-speed memory subsystem that stores frequently accessed data or instructions to reduce the average time it takes to access them from the main memory. It serves as a buffer between the CPU and the slower main memory, speeding up data access by keeping copies of frequently accessed data closer to the processor.
+
+Different types of cache include:
+
+CPU Cache: Located on the CPU chip itself, CPU cache includes Level 1 (L1), Level 2 (L2), and Level 3 (L3) caches, with L1 being the smallest and fastest and L3 being the largest and slower.
+
+Memory Cache: Also known as disk cache, memory cache stores frequently accessed data from the main memory in faster cache memory, such as RAM or SSDs.
+
+The process of searching in memory using cache involves two scenarios: hit and miss.
+
+Hit: When the processor requests data that is already present in the cache, it's called a cache hit. In this case, the data is retrieved directly from the cache, resulting in a fast access time.
+
+Miss: If the requested data is not found in the cache, it's called a cache miss. The processor then needs to fetch the data from the slower main memory and load it into the cache for future access. This incurs a delay due to the longer access time of the main memory.
+
+Overall, the goal of caching is to maximize the number of hits and minimize the number of misses, thereby improving the overall performance of the system.
+
+#### 129. My device is heating up very quickly. Troubleshoot the scenario device. justify your answer.
+**Answer.** To troubleshoot a device heating up quickly:
+
+- Check for Dust and Debris: Ensure that the device's vents and fans are clear of dust and debris, as blocked airflow can cause overheating.
+
+- Monitor CPU and GPU Usage: Use system monitoring tools to check if any processes are consuming excessive CPU or GPU resources, leading to overheating.
+
+- Close Background Applications: Close any unnecessary background applications or processes that may be running and consuming system resources.
+
+- Update Drivers and Firmware: Ensure that device drivers and firmware are up to date, as outdated drivers can sometimes cause hardware components to work inefficiently, leading to overheating.
+
+- Check for Malware: Perform a malware scan to check for any malicious software that may be running in the background and causing excessive CPU usage.
+
+- Optimize Power Settings: Adjust power settings to optimize performance and reduce power consumption, which can help prevent overheating.
+
+- Inspect Cooling System: Check if the device's cooling system, including fans and heat sinks, is functioning properly. Replace any faulty components if necessary.
+
+- Avoid Overclocking: If applicable, avoid overclocking the device's CPU or GPU, as this can lead to increased heat generation.
+
+By following these troubleshooting steps, you can identify and address the underlying causes of the device overheating, thereby improving its performance and prolonging its lifespan.
+
+
+
+
