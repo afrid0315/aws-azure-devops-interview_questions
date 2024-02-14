@@ -1161,3 +1161,108 @@ Aging: Aging is a technique used to prevent starvation in scheduling algorithms.
 
 #### 141. BSOD
 **Answer.** BSOD (Blue Screen of Death) is a critical system error in Windows that causes the computer to display a blue screen with an error message. It indicates severe issues like hardware failures, driver conflicts, or system errors, requiring troubleshooting to resolve.
+
+#### 142. What to do if laptop is hanging a lot?
+**Answer.** If a laptop is hanging frequently, you can try the following steps:
+
+- Check for Resource Usage: Use task manager or activity monitor to identify any processes consuming excessive CPU, memory, or disk resources.
+- Close Unnecessary Programs: Close any unnecessary programs and browser tabs to free up system resources.
+- Restart: Restart the laptop to clear memory and refresh system processes.
+- Update Drivers and Software: Ensure that device drivers and software are up to date to address any compatibility issues or bugs.
+- Check for Malware: Perform a malware scan to check for any malicious software that may be causing system slowdowns.
+- Increase RAM: If possible, consider upgrading the RAM to improve system performance, especially if the laptop frequently runs out of memory.
+- Disk Cleanup: Perform disk cleanup to remove temporary files, cache, and other unnecessary data that may be clogging up the system.
+- Check Hardware: If the issue persists, it may indicate a hardware problem such as a failing hard drive or overheating. In such cases, consider seeking professional assistance.
+
+#### 143. How to fix a slow computer?  
+**Answer.** To fix a slow computer, you can try the following steps:
+
+- Check for Malware: Run a malware scan to detect and remove any malicious software.
+- Update Software: Ensure that the operating system and all installed software are up to date.
+- Restart: Restart the computer to clear memory and refresh system processes.
+- Check Resource Usage: Use task manager (Windows) or activity monitor (Mac) to identify processes consuming excessive CPU, memory, or disk resources.
+- Disk Cleanup: Remove temporary files, cache, and unnecessary data to free up disk space.
+- Disable Startup Programs: Disable unnecessary programs from starting automatically at boot to improve startup time.
+- Upgrade Hardware: Consider upgrading hardware components like RAM or replacing a traditional hard drive with a solid-state drive (SSD) for improved performance.
+- Optimize Settings: Adjust system settings for better performance, such as disabling visual effects or adjusting power settings.
+- Defragment Hard Drive: If using a traditional hard drive, consider defragmenting it to optimize file access.
+- Seek Professional Help: If the issue persists, consider seeking assistance from a professional technician or computer repair service.
+
+#### 144. What is RAM ? What is a thread ? What is a Pthread ?
+**Answer. RAM (Random Access Memory):** RAM is a type of computer memory that stores data and program instructions that the CPU needs to access quickly. It is volatile memory, meaning that its contents are lost when the computer is powered off.
+
+**Thread:** A thread is the smallest unit of execution within a process. Threads share the same memory space and resources of the process they belong to but can execute independently, allowing for parallel execution of tasks within a program.
+
+**Pthread:** Pthreads (POSIX threads) are a standardized thread API for Unix-like operating systems. They provide a set of functions for creating, managing, and synchronizing threads within a program, allowing developers to write portable multithreaded applications
+
+#### 145. Can CPU goes beyond 100%?
+**Answer.** No, the CPU cannot go beyond 100%. CPU usage percentages represent the proportion of time the CPU spends executing processes relative to its maximum capacity. Therefore, 100% CPU usage indicates that the CPU is fully utilized, and there are no additional processing resources available.
+
+#### 146. How to install and use a software which need more space than the available space in your system ?
+**Answer.** To install and use software that requires more space than available on your system, you can:
+
+Free up disk space by removing unnecessary files or applications.
+Use external storage devices such as USB drives or external hard drives to store additional data or install the software.
+Consider upgrading your system's storage capacity by installing a larger hard drive or using cloud storage solutions.
+But, alternative solutions such as using external storage devices or upgrading your system's storage capacity to accommodate the software.
+
+#### 147. Difference between buffer and cache.
+**Answer.** Buffer: A buffer temporarily stores data during input/output operations, typically to smooth out discrepancies in data transfer rates between devices.
+Cache: A cache stores frequently accessed data or instructions to improve performance by reducing access latency. It holds copies of data from slower storage mediums, such as hard drives, in faster storage mediums, such as RAM or SSDs.
+
+#### 148. Explain deadlock? How can we prevent it? Explain semaphores in layman language?
+**Answer.** Deadlock: Deadlock is a situation in which two or more processes are unable to proceed because each is waiting for the other to release a resource, resulting in a standstill. It can be prevented by using techniques such as resource ordering, deadlock detection, and avoidance algorithms.
+
+Semaphores: Semaphores are synchronization mechanisms used to control access to shared resources in a multi-threaded or multi-process environment. They act like counters and can be used to manage access to resources by allowing only a certain number of threads or processes to access them simultaneously.
+
+#### 149. Explain different page replacement algorithm, and which is the most efficient?
+**Answer.** Page replacement algorithms manage memory in operating systems by selecting which page to evict from memory when a new page needs to be loaded. Some common algorithms include:
+
+FIFO (First-In-First-Out)
+LRU (Least Recently Used)
+LFU (Least Frequently Used)
+Optimal
+The most efficient page replacement algorithm depends on the system's workload and characteristics. However, the Optimal algorithm, which selects the page that will not be used for the longest time in the future, is theoretically the most efficient but often impractical due to its requirement of future knowledge. LRU is widely used in practice and often performs well in a variety of scenarios.
+
+#### 150. Can round-robin be pre-emptive?
+**Answer.** Yes, Round-Robin scheduling can be pre-emptive. In a pre-emptive Round-Robin scheduling algorithm, the CPU time allocated to a process is divided into time slices, and if a process does not complete within its time slice, it is pre-empted (interrupted) and moved to the end of the ready queue to allow other processes to execute. This ensures fairness in CPU allocation and prevents any single process from monopolizing the CPU for an extended period.
+
+#### 151. What is Active directory?
+**Answer.** In Linux, a directory refers to a file system directory structure, which organizes files and directories hierarchically. It is not equivalent to Active Directory, which is a centralized directory service primarily used in Windows environments for managing network resources. In Linux, directory services may be provided by solutions such as LDAP (Lightweight Directory Access Protocol) or OpenLDAP.
+
+#### 152. What is Bash? How would you explain Bash/PowerShell to a non-technical person?
+**Answer.** Bash (Bourne Again Shell) is a command-line shell and scripting language used in Unix-like operating systems, including Linux. It provides a text-based interface for interacting with the operating system, executing commands, and writing scripts to automate tasks.
+
+To explain Bash/PowerShell to a non-technical person:
+
+"Bash/PowerShell is like a digital assistant for your computer. It's a tool that lets you communicate with your computer using text commands instead of clicking buttons or icons. You can tell it to perform tasks like opening files, copying folders, or even writing programs, just by typing commands into a special window called a 'terminal' or 'command prompt'."
+
+#### 153. 
+**Answer.** 
+
+#### 154. where are the USB drivers installed in Linux.
+**Answer.** USB drivers in Linux are typically part of the kernel and are located in the 
+```
+/lib/modules/<kernel_version>/kernel/drivers/usb directory.
+```
+
+#### 155. Managing system services and background processes.
+**Answer.** Managing system services and background processes involves starting, stopping, and monitoring tasks that run in the background of an operating system. This includes using commands like systemctl or service to control services, monitoring resource usage, and configuring automatic startup settings.
+
+#### 156. How to view logs in windows?
+**Answer.** To view logs in Windows, you can use the Event Viewer tool. You can access Event Viewer by typing "Event Viewer" into the Windows search bar and selecting the application from the results.
+Another in-built option to view logs in Windows is the "Event Viewer" application, accessible through the Control Panel. You can navigate to "Control Panel" > "System and Security" > "Administrative Tools" > "Event Viewer" to access it.
+
+#### 157. Which directory are log files stored?
+**Answer.** In Linux, log files are typically stored in the /var/log directory.
+
+#### 158. A user says that whenever they try to use the system, it keeps rebooting, what could be the cause of this? How would you go about trying to find out what's causing the issue?
+**Answer.** The cause of the system continuously rebooting could be due to various reasons such as hardware issues, software conflicts, or system errors. To diagnose the problem, you can start by checking the system logs for any error messages or clues about the rebooting behavior. Additionally, examining recent changes to hardware or software configurations and running diagnostic tests on hardware components can help identify the root cause of the issue.
+
+#### 159. A client's system/server is having bad performance, what could potentially be causing this? How would you go about trying to find out the cause of this problem?
+**Answer.** Poor system/server performance could be caused by factors such as insufficient hardware resources, software issues, network congestion, or improper configuration. To diagnose the problem, you can start by checking system resource usage (CPU, memory, disk, network) and reviewing system logs for error messages or performance-related issues. Additionally, monitoring network traffic and conducting performance tests can help identify bottlenecks and determine the root cause of the problem.
+
+#### 160. If I have to run a management script in my system at a particular time each day, how will I proceed? What exactly goes inside cron jobs scripts?
+**Answer.** To run a management script at a particular time each day, you can use cron, a built-in scheduler in Unix-like operating systems. You'll create a cron job by editing the crontab file using the crontab -e command and specifying the script to run and the desired schedule (e.g., daily at a specific time).
+
+Cron jobs scripts typically contain commands or scripts to be executed at scheduled intervals. They can include shell commands, paths to scripts or programs, and any necessary parameters or options.
