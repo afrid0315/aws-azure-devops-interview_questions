@@ -269,7 +269,7 @@ For example, let’s find a Linux.txt file located in the Downloads directory th
 
 Once you run the above command, the find command will start finding the Linux.txt in the Downloads directory and subdirectories.
 
-#### 29. What is RAID in Linux?
+#### **29. What is RAID in Linux?
 **Answer.** The full form of RAID is the Redundant Array of Independent Disk that allows the system to combine the different physical disk drives into a logical unit. RAID is used to improve the system’s disk performance and data integrity. There are different RAID levels you can configure according to the requirements. Here is the detailed information about the RAID levels:
 | RAID Level  | Description  |
 | --- | --- |
@@ -637,13 +637,16 @@ By default, iptables rules get automatically removed after the system reboot, bu
 - Manage cron jobs for scheduled tasks.
 - Utilize tools like nohup to run processes immune to hangups.
   
-#### 74. Linux Command for CPU memories and process troubleshooting with command.
+#### **74. Linux Command for CPU memories and process troubleshooting with command.
 **Answer.** To troubleshoot CPU, memory, and processes in Linux:
 
 **CPU Usage:**
 
 - Use top or htop command to view real-time CPU usage.
 - mpstat provides CPU usage statistics.
+- sar: Collects and reports system activity information, including CPU usage.
+- vmstat: Reports system resource usage, including CPU utilization.
+- pidstat: Reports statistics for Linux processes, including CPU usage.
   
 **Memory Usage:**
 
