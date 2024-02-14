@@ -1100,6 +1100,61 @@ Overall, the goal of caching is to maximize the number of hits and minimize the 
 
 By following these troubleshooting steps, you can identify and address the underlying causes of the device overheating, thereby improving its performance and prolonging its lifespan.
 
+#### 130. Explain framing.
+**Answer.** Framing is a technique used in data link layer protocols to delineate and identify the boundaries of frames within a stream of data. It involves adding special bit sequences called "flags" or "start-stop" bits at the beginning and end of each frame. These flags help the receiver identify the start and end of each frame, allowing for reliable transmission and reception of data packets over a communication channel.
 
+#### 131. What is a bootstrap program in OS?
+**Answer.** A bootstrap program, often referred to as a bootloader, is a small program stored in non-volatile memory (such as ROM or EEPROM) that initializes the operating system (OS) during the system boot process. It is typically the first program to run when a computer is powered on, and its primary function is to load the operating system kernel into memory and transfer control to it, thereby starting the operating system.
 
+#### 132. Explain demand paging?
+**Answer.** Demand paging is a memory management technique used by operating systems to efficiently manage memory resources. Instead of loading an entire program into memory when it starts, demand paging loads only the necessary portions of a program into memory as they are needed. When a process references a memory page that is not currently in physical memory, a page fault occurs, triggering the operating system to fetch the required page from disk into memory. This approach helps conserve memory by loading only the most essential pages into memory, reducing the overall memory footprint of running processes and improving system performance.
 
+#### 133. What do you mean by RTOS?
+**Answer.** RTOS stands for Real-Time Operating System. It is an operating system designed to manage real-time tasks with strict timing constraints. RTOS ensures that tasks are completed within specific time limits, making it suitable for applications where timing predictability and responsiveness are critical, such as industrial automation, aerospace systems, and embedded devices.
+
+#### 134. Explain zombie process?
+**Answer.** A zombie process is a terminated process that has completed its execution but still has an entry in the process table. It retains some process information, such as its process ID and exit status, but it no longer has an active execution context. Zombie processes typically occur when a parent process fails to call the wait() system call to retrieve the exit status of its terminated child process. These zombie processes consume system resources until their parent process acknowledges their termination by calling wait(), at which point they are removed from the process table.
+
+#### 135. What is thrashing in OS?
+**Answer.** Thrashing in operating systems refers to a state of excessive paging activity, where the system is spending more time swapping data between main memory and disk than executing useful work. It occurs when the system is overwhelmed by the demand for memory, causing a constant state of page faults and disk I/O operations, leading to a significant decrease in overall system performance.
+
+#### 136. I am trying media over FTP from one device to another. The rate of transfer is very slow. Troubleshoot the scenario.
+**Answer.** To troubleshoot slow media transfer over FTP:
+
+- Check Network Connection: Ensure both devices are connected to a stable and fast network, preferably using wired connections for optimal speed.
+- Verify FTP Server Configuration: Confirm that the FTP server's configuration allows for sufficient bandwidth allocation and concurrent connections.
+- Check Device Resources: Verify that both the sender and receiver devices have adequate processing power, memory, and disk space to handle the transfer efficiently.
+- Consider Network Congestion: Check for network congestion or bandwidth limitations, especially if multiple devices are sharing the same network.
+- Review FTP Client Settings: Adjust FTP client settings to use passive mode, which can sometimes improve transfer speeds, especially in firewall-restricted environments.
+- Optimize File Compression: If feasible, compress the media files before transferring them to reduce their size and speed up the transfer process.
+- Monitor Transfer Speed: Use network monitoring tools to measure the actual transfer speed and identify any bottlenecks or limitations in the network or devices.
+- Update Software and Drivers: Ensure that both the FTP client and server software, as well as network drivers, are up to date to benefit from performance optimizations and bug fixes.
+
+By following these troubleshooting steps, you can identify and address the underlying issues causing slow media transfer over FTP, thereby improving the transfer speed and efficiency.
+
+#### 137. Memory management, Memory pages, Basic commands?
+**Answer.** Memory management involves organizing and controlling computer memory, ensuring efficient use of available resources.
+
+Memory pages are fixed-size blocks used in virtual memory systems for memory allocation and management.
+
+Basic commands for memory management include malloc (allocate memory), free (release memory), memset (set memory values), and memcpy (copy memory content).
+
+#### 138. Troubleshooting: I am not able to connect to the internet.
+**Answer.** To troubleshoot internet connectivity issues:
+
+- Check Network Connection: Ensure cables are properly connected, and Wi-Fi is enabled if applicable.
+- Restart Network Devices: Power cycle the modem and router to refresh connections.
+- Check IP Configuration: Use commands like ipconfig (Windows) or ifconfig (Linux) to verify IP settings.
+- Ping Network Resources: Test connectivity to websites or local devices using the ping command.
+- Check DNS Settings: Verify DNS settings and try alternative DNS servers like Google DNS (8.8.8.8).
+- Firewall and Security: Temporarily disable firewall or security software to check for blocking.
+- Update Network Drivers: Ensure network drivers are up to date.
+- ISP Status: Check if the internet service provider is experiencing outages.
+
+#### 139. Scenario: You have 4 GB RAM Mobile, What do you think can we able to play 8GB Game.
+**Answer.** No, it's unlikely. Mobile games typically require RAM similar to or slightly higher than their file size. Attempting to run an 8GB game on a device with only 4GB of RAM would likely result in performance issues or failure to run altogether due to insufficient memory.
+
+#### 140. What is starvation and aging in OS?
+**Answer.** Starvation: Starvation occurs when a process is unable to proceed because it cannot access required resources, despite being eligible to do so. This situation can arise due to resource contention or scheduling algorithms favoring other processes excessively.
+
+Aging: Aging is a technique used to prevent starvation in scheduling algorithms. It involves gradually increasing the priority of waiting processes over time, ensuring that all processes eventually get a chance to execute, even if they have been waiting for a long time.
