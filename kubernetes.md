@@ -490,3 +490,18 @@ Pod: A pod is the smallest deployable unit in Kubernetes, containing one or more
 **Answer.** A Pod is the smallest deployable unit in Kubernetes, representing one or more containers that are deployed together on the same host.
 - A single Pod can contain one or more containers, typically related and tightly coupled, that share networking and storage resources.
 - While there is no strict limit on the number of containers within a single Pod, it's generally recommended to keep Pods focused on a single concern or tightly coupled set of concerns for better maintainability and scalability.
+
+#### 75. Different deployment strategies one can take when they're deploying any application, or, you know, virtual machines or containers or anything like that?
+**Answer.** Different deployment strategies include:
+
+Blue-Green Deployment: Running two identical production environments, with one serving live traffic (blue) while the other is idle (green). The green environment is updated with new changes, tested, and then swapped with the blue environment to minimize downtime.
+
+Canary Deployment: Gradually rolling out changes to a small subset of users or servers before deploying them to the entire infrastructure. This allows for testing in a real-world environment and mitigates the risk of widespread issues.
+
+Rolling Deployment: Deploying changes gradually across a pool of servers or instances, one at a time, while ensuring the application remains available throughout the process. This strategy helps minimize downtime and allows for quick rollback if issues arise.
+
+Immutable Deployment: Deploying changes by replacing the entire infrastructure with a new, immutable version. This ensures consistency and reproducibility but may involve longer deployment times and increased resource usage.
+
+Feature Flags: Deploying changes but controlling their activation using feature flags. This allows for gradual feature rollout, testing, and experimentation without deploying multiple versions of the application.
+
+Each deployment strategy has its own advantages and considerations, and the choice depends on factors such as the application's architecture, requirements, and risk tolerance.
