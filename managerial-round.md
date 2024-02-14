@@ -116,13 +116,9 @@ Answer.
 
 #### But do you know what each of them mean? Like when we talked about rolling and versus blue and green? Key the difference between those two?
 
-#### familiar with Windows or Linux?
 
-#### Personally, how do you connect to a Linux machine?
 
-#### Let's say SSH is not working for some reason. How would you go over troubleshooting it?
 
-#### What is the default port for SSH?
 
 #### Let's say the server is running straight because you go to AWS console and you can see your instance running straight right. A better system is still not working any have also checked up the inbound rule is correct and security group is allowing port 22 and instances in public subnet. Any commands you can run to check where might be the issue lying with this?
 
@@ -134,75 +130,25 @@ Answer.
 
 #### Let's say you create a website. Just for example, right? It's your own website, where you know you put in details about your life and stuff. And it's hosted on, let's say www yourname.com. Write your name means that can.com That's fine. So when you pick that you get a response. We have been in this from your own laptop or computer whatever you use, right? It means okay connectivity is there however you want to communicate to your website on a specific port. For example, let the port number be 8080 How would you check connectivity with your website on port 8080 Like what one would use?
 
-#### the command you will use to check both connectivity. To check port is open or not.
 
-
-
-
-
-
-
-Operating system questions:
-
-1. What to do if laptop is hanging a lot?
-
-2. How to fix a slow computer?  
-
-3. What is RAM ? What is a thread ? What is a Pthread ?
-
-4. Can CPU goes beyond 100%?
-
-5. How to install and use a software which need more space than the available space in your system ?
-
-7. Difference between buffer and cache.
-
-10. Explain deadlock? How can we prevent it? Explain semaphores in layman language?
-
-
-13. Explain different page replacement algorithm, and which is the most efficient?
-
-14. Can round-robin be pre-emptive?
-
-15. What is Active directory ?
-
-
-17. What is Bash? How would you explain Bash/PowerShell to a non-technical person?
-
-19. How do you access root?
-
-
-22. where are the USB drivers installed in Linux
-  
-
-27. Managing system services and background processes
-
-28. How to view logs in windows?
-
-29. Which directory are log files stored?
-
-30. A user says that whenever they try to use the system, it keeps rebooting, what could be the cause of this? How would you go about trying to find out what's causing the issue?
-
-33. A client's system/server is having bad performance, what could potentially be causing this? How would you go about trying to find out the cause of this problem?
-
-36. If I have to run a management script in my system at a particular time each day, how will I proceed? What exactly goes inside cron jobs scripts?
 
 
 
 
  Computer Network questions
-1. OSI model with complete details and protocols on each layer.
+ 
+
 
 2. Transmission of messages between layers
 
-3. Difference between router, switch.
 
 4. How is a hub, a router, and a switch different from each other? Explain in terms of broadcast domain.
 
-5. What is a Broadcast Domain?
+
 
 6. What is the difference between Bandwidth, Delay and Latency?
 
-7. Flow/error control.
+
 
 8. TCP/IP,BGP.
 
@@ -214,45 +160,32 @@ Operating system questions:
 
 12. What is SSL and how does it work? How do you protect a website?
 
-13. Difference between TCP/UDP, with example.
 
-14. DHCP and DORA process.
+15. How DHCP server is uniquely identified by the client?
 
-15. How DHCP server is uniquely identified by the client ?
-
-16. MSS/MTU Explain.
 
 17. As MSS was explained in TCP 3 way handshake, explain what is MTU and compare and contrast MSS and MTU together.
 
-18. Why would you choose HTTPS over HTTP? From a technical perspective, what is
-
-19. HTTPS?
-
-20. Port number of HTTP, HTTPS, FTP, DHCP ?
+18. Why would you choose HTTPS over HTTP? From a technical perspective, what is HTTPS?
 
 21. What is FTP? what kind of application it used for?
 
 22. How would you secure a website?/How would you make a website secure?
 
-23. What happens when you type www.amazon.com?
 
 24. How does a web page load, what happens in the background?
 
 25. What is DNS? How does DNS work?
 
-26. DNS resolving ( how to resolve name to IP or what happen when you vist
-
-27. amazon.com)
+26. DNS resolving ( how to resolve name to IP or what happen when you vist amazon.com)
 
 28. Describe DNS lookup process for Domain name resolution.
 
-29. What is the difference between "Connection Refused" and "Connection Timed
-
-30. Out"? What causes these two things to happen?
+29. What is the difference between "Connection Refused" and "Connection Timed Out"? What causes these two things to happen?
 
 31. Is 1.1.1.1 routable?
 
-32. What is a firewall, why do you need it?
+ 
 
 33. Concept of Proxy and firewall? Stateless and stateful firewalls?
 
@@ -266,7 +199,6 @@ Operating system questions:
 
 38. Command to track and print the path traversed between different routers.
 
-39. What command checks for open ports?
 
 40. What command checks the routing table in Linux?
 
@@ -294,8 +226,7 @@ Operating system questions:
 
 51. My net isn't working, how do i troubleshoot?
 
-HR and Managerial questions
-1. Tell me about yourself.
+HR and Managerial questions.
 
 2. Why should I hire you?
 
@@ -367,7 +298,6 @@ HR and Managerial questions
 
 34. Tell me about the most complex idea you have had to explain to someone? 
 
-If you have any doubt/query, Please ask in comment section.
 
 https://www.tipszon.com/2023/12/how-to-use-star-method-in-interview.html
 https://www.tipszon.com/2022/03/how-to-prepare-for-amazon-cloud-support-associate-interview.html
