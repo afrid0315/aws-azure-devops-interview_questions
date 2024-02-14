@@ -53,251 +53,103 @@ Answer.
 **Answer.** As a candidate for a senior management position, I bring a combination of strong leadership skills, a proven track record in achieving strategic goals, and the ability to foster a collaborative and high-performance work culture. My experience includes successfully leading teams through complex projects, implementing effective organizational strategies, and driving innovation. I am dedicated to achieving operational excellence, fostering employee development, and contributing to the overall success and growth of the organization.
 
 #### 17. Why AWS and Amazon? 
+AWS and Amazon as a preferred organization and cloud provider offers several compelling reasons are preferred for their innovation, scalability, reliability, security, flexibility, global reach, cost-effectiveness, and robust ecosystem.
 
-#### Why deployment?
+#### Why should I hire you?
+I bring a combination of technical expertise, problem-solving skills, and a strong work ethic to the team. My ability to adapt, learn quickly, and collaborate effectively makes me a valuable asset to any organization.
 
-#### Why, like, what's the benefit of using Ansible?
+#### What is your weakness?
+My weakness is sometimes getting too focused on details, which can lead to spending more time than necessary on tasks. However, I actively work on improving my time management skills to maintain balance and efficiency.
 
-#### What's one thing that makes Ansible different from any other tool for example, Chef, Puppet or anything like that?
+#### What are your strengths?
+My strengths include effective communication, adaptability, and a positive attitude. I excel in collaborating with diverse teams, problem-solving, and continuously seeking opportunities for growth and improvement.
 
-#### Is Ansible agent or agentless?
+#### Why do you want this job?
+This job aligns with my career aspirations and provides an opportunity to leverage my skills and contribute to meaningful projects. I'm excited about the challenges it presents and the potential for professional development.
 
-#### What does it use to communicate with the host?
+#### Where do you see yourself in five years?
+In five years, I see myself in a leadership role, leveraging my experience and expertise to drive innovation and make a positive impact within the organization. I aim to continue learning and growing professionally.
 
-#### How does Ansible interact with the servers?
+#### How would you describe yourself?
+I would describe myself as a proactive and motivated individual with a passion for learning and continuous improvement. I thrive in dynamic environments and enjoy collaborating with others to achieve common goals.
 
-#### What have you automated so far in terms of that, like what have you configured on the host using Ansible playbook?
+#### What was your biggest disappointment?
+My biggest disappointment was when a project I worked on didn't meet the expected outcomes despite significant effort. However, I turned this disappointment into a learning experience by analyzing what went wrong and applying those lessons to future projects.
 
-#### You mentioned Docker what is Docker like if you want to generalize it, and how would you go about defining Docker?
+#### Would you call yourself a team player?
+Yes, absolutely. I believe in the power of teamwork and collaboration. I actively contribute ideas, support my teammates, and strive to foster a positive and inclusive team environment.
 
-#### Is Docker container itself or container runtime?
+#### Give some examples of your teamwork.
+In my previous role, I collaborated with cross-functional teams to successfully implement a new software solution, which improved efficiency and streamlined processes. Additionally, I regularly participate in team brainstorming sessions and contribute to problem-solving discussions.
 
-#### Why would you use Docker? Over a virtual machine and give an example?
+#### Do you prefer teamwork or working independently?
+I value both teamwork and independent work. While I enjoy collaborating with others and leveraging diverse perspectives to achieve common goals, I'm also capable of working autonomously and taking initiative when necessary.
 
-#### Let's say I have like okay, I have a Docker image in Docker Hub. And I want to, like use that image to start a Docker container on your local laptop or an EC2 instance what command would we use?
+#### "What makes you angry?"
+I believe in maintaining a positive and constructive attitude, even in challenging situations. However, I can feel frustrated when faced with obstacles that hinder progress or when communication breakdowns occur within a team.
 
-#### If I want to create an Docker image. What command would I use?
+#### Do you have any blind spots?
+While I strive to be self-aware and open to feedback, I recognize that everyone has blind spots. I actively seek feedback from colleagues and supervisors to identify areas for improvement and work on addressing them proactively.
 
-#### What's the difference between Docker build and Docker Compose?
+#### What is a project you have worked on that you are very proud of?
+One project I'm particularly proud of is when I led a team to develop a new feature for our company's software platform. We successfully delivered the project ahead of schedule and received positive feedback from stakeholders for its impact on improving user experience and generating new revenue streams.
 
-#### For example, let's say you have X number of Docker containers running on a machine right and maybe an instant easy to instance or server or whatever. How would you check those containers like what command would you use?
+#### What have you done to improve your knowledge last year?
+Last year, I enrolled in online courses and attended industry conferences to stay updated on the latest trends and technologies in my field. I also participated in internal training sessions and actively sought out mentorship opportunities to broaden my skill set.
 
-#### Let's say there was seven containers running on a machine out of those two stops for some reason. And someone asks you like hey, can we check what happened to those two containers? Like what can you do from here to see why those two containers stopped?
+#### How do you rate your communication skills?
+I would rate my communication skills as strong. I'm able to effectively convey complex ideas and information to diverse audiences, both verbally and in writing. I actively listen to others and adapt my communication style to ensure clarity and understanding.
 
-#### Let's say paint shop for whatever reasons. And someone asks you like hey, can we check what happened there? How would you approach?
+#### What is more important to you money or success?
+While financial stability is important, I prioritize personal and professional growth and fulfillment. I believe that success is measured not only by monetary rewards but also by achieving meaningful goals, making a positive impact, and finding fulfillment in my work.
 
-#### what is Kubernetes to begin with?
+#### What kind of person would you refuse to work with?
+I believe in maintaining a positive and respectful work environment. I would be hesitant to work with individuals who exhibit toxic behavior, lack integrity, or demonstrate a lack of commitment to teamwork and collaboration.
 
-#### Can you give me a brief overview of what Jenkins is and what it does?
+#### How long can you commit to working with us?
+I'm committed to contributing to the success of the organization and would be open to discussing long-term opportunities for growth and development within the company.
 
-#### What are the components of Jenkins ?
+#### Tell me about the challenges you have faced to complete a project?
+One challenge I faced during a project was tight deadlines and resource constraints. However, by prioritizing tasks, delegating responsibilities effectively, and maintaining open communication with stakeholders, we were able to successfully overcome these challenges and deliver the project on time.
 
-#### Does Jenkins have a concept of master slave if yes, do you know what it is?
+#### Have you worked with someone you didn’t like? If so, how did you handle it?
+While it's natural to encounter differences in personality or working styles, I believe in maintaining professionalism and focusing on collaboration and mutual respect. I've successfully navigated such situations by emphasizing open communication, finding common ground, and focusing on shared goals.
 
-#### Can you walk me through how would you? Let's say you write a code right and you want to push it to whatever repo you're using. You mentioned GitHub only push updated code?
+#### Tell us about a time you failed and how did you bounce back up from it?
+One time I failed was when a project I managed experienced delays and setbacks due to unforeseen technical issues. However, I took ownership of the situation, analyzed what went wrong, and developed a plan to address the issues and mitigate risks moving forward. By learning from the experience and applying those lessons to future projects, I was able to bounce back stronger and more resilient.
 
-#### Let's say you do this, but there is a conflict in the repo. How will you resolve it?
+#### Tell me a time when you went above and beyond to deliver results?
+During a critical project deadline, I volunteered to work overtime and collaborate with team members to ensure all deliverables were completed on time. Despite facing challenges, my dedication and proactive approach helped us achieve success and receive positive feedback from stakeholders.
 
-#### Now, you mentioned your work with CloudFormation and TerraForm. Why do you prefer one over the other?
+#### Tell me about a time when you had a problem and how did you solve it?
+In a previous role, we encountered a technical issue that threatened to delay a project deadline. I quickly identified the root cause, consulted with subject matter experts, and implemented a workaround to keep the project on track. By effectively troubleshooting and finding a solution, we were able to meet the deadline and deliver the project successfully.
 
-#### Why would you use infrastructure code and what are the benefits of using that?
+#### Tell me a time you were wrong?
+There have been instances where I made mistakes or misjudgments, but I always view them as opportunities for learning and growth. When I'm wrong, I acknowledge my mistake, take responsibility, and work towards finding a solution or making amends.
 
-#### What language do you use? To write your code?
+#### Tell me a time when and how did you overcome the situation?
+During a challenging project, we encountered unexpected obstacles that threatened to derail our progress. However, by maintaining a positive attitude, collaborating with team members, and seeking input from stakeholders, we were able to overcome the situation and achieve our goals. By staying resilient and adaptable, we turned challenges into opportunities for growth and success.
 
-#### What have you so far coded? Using cloud formation or TerraForm? Like any major project to undertake and where you wrote IAC for that? If yes, can you please talk about it?
+#### Tell me a time when you went above and beyond to solve a problem and that helped your team.
+In a critical project, we faced a technical issue that required immediate resolution to prevent downtime. I took the initiative to research and implement a workaround, which not only solved the problem but also prevented similar issues in the future. My proactive approach and dedication to finding solutions helped maintain team productivity and achieve project objectives.
 
-#### Like what is the most ambitious thing you have done with IAC?
+#### Ever faced any situation when I completed the work just before the deadline? How I was able to cope up with pressure and manage everything in time at the last moment.
+Yes, there have been instances where I had to complete work just before the deadline. In such situations, I prioritize tasks, focus on the most critical aspects, and maintain open communication with stakeholders to manage expectations. By staying organized, remaining calm under pressure, and leveraging my problem-solving skills, I'm able to meet deadlines effectively.
 
-#### Any difficulty you face while writing this setup form template?
+#### When was the time you worked out of scope from your responsibilities?
+There have been occasions where I took on additional responsibilities outside of my role to support the team or address urgent needs. For example, I volunteered to assist with a client presentation, even though it wasn't part of my job description. By stepping up and going above and beyond, I demonstrated my commitment to the team's success and contributed to positive outcomes.
 
-#### Let's say we create a new branch because let's say two people are working on the same project, but don't have their own branches. How do you create a new branch?
+#### Tell me about a time when you had a conflict in the team?
+Conflict is a natural part of team dynamics, and I've encountered it in various situations. One example is when team members had differing opinions on the project approach. To resolve the conflict, I facilitated open communication, encouraged collaboration, and helped find a compromise that satisfied everyone's concerns. By addressing the conflict constructively, we were able to strengthen teamwork and achieve our goals.
 
-#### Different deployment strategies one can take when they're deploying any application, or, you know, virtual machines or containers or anything like that.
+#### Give an example of a situation in which you saw an opportunity in a potential problem. What did you do? What was the result?
+During a project implementation, we encountered a technical issue that threatened to derail our progress. Instead of viewing it as a setback, I saw it as an opportunity to innovate and improve our processes. I worked closely with the team to brainstorm creative solutions, and we ultimately developed a more efficient workflow that not only solved the immediate problem but also enhanced our overall productivity and effectiveness.
 
-#### But do you know what each of them mean? Like when we talked about rolling and versus blue and green? Key the difference between those two?
+#### In which way will you respond if your professor or manager shares negative feedback publicly or in the bay?
+If negative feedback is shared publicly or in a public forum, I would remain professional and composed while acknowledging the feedback. I would then seek clarification on specific areas for improvement and work proactively to address them. Privately, I would engage in a constructive dialogue with my professor or manager to understand their concerns, take accountability, and develop a plan for improvement.
 
-
-
-
-
-#### Let's say the server is running straight because you go to AWS console and you can see your instance running straight right. A better system is still not working any have also checked up the inbound rule is correct and security group is allowing port 22 and instances in public subnet. Any commands you can run to check where might be the issue lying with this?
-
-#### you ping it you get a response right? What does that mean?
-
-#### when you use ping does it only check network connectivity or does it check connectivity on a specific port?
-
-#### What if you want to check connectivity on a certain website on a specific port, for example. You do Ping google.com You get a response right? It means that you can communicate with Google as in your laptop from where you ran that command is communicating with google.com Just fine. However, if you want to communicate with Google, let's say on port 8080. How would you check connectivity for that?
-
-#### Let's say you create a website. Just for example, right? It's your own website, where you know you put in details about your life and stuff. And it's hosted on, let's say www yourname.com. Write your name means that can.com That's fine. So when you pick that you get a response. We have been in this from your own laptop or computer whatever you use, right? It means okay connectivity is there however you want to communicate to your website on a specific port. For example, let the port number be 8080 How would you check connectivity with your website on port 8080 Like what one would use?
-
-
-
-
-
-
- Computer Network questions
- 
-
-
-2. Transmission of messages between layers
-
-
-4. How is a hub, a router, and a switch different from each other? Explain in terms of broadcast domain.
-
-
-
-6. What is the difference between Bandwidth, Delay and Latency?
-
-
-
-8. TCP/IP,BGP.
-
-9. What is BGP and describe the states - Idle, Connect, Active, Opensent, Openconfirm, Established.
-
-10. Why the TCP/IP model used over OSI model?
-
-11. TCP and SSL handshake. How TCP/ IP connection is established (via 3-way handshake) and terminated?
-
-12. What is SSL and how does it work? How do you protect a website?
-
-
-15. How DHCP server is uniquely identified by the client?
-
-
-17. As MSS was explained in TCP 3 way handshake, explain what is MTU and compare and contrast MSS and MTU together.
-
-18. Why would you choose HTTPS over HTTP? From a technical perspective, what is HTTPS?
-
-21. What is FTP? what kind of application it used for?
-
-22. How would you secure a website?/How would you make a website secure?
-
-
-24. How does a web page load, what happens in the background?
-
-25. What is DNS? How does DNS work?
-
-26. DNS resolving ( how to resolve name to IP or what happen when you vist amazon.com)
-
-28. Describe DNS lookup process for Domain name resolution.
-
-29. What is the difference between "Connection Refused" and "Connection Timed Out"? What causes these two things to happen?
-
-31. Is 1.1.1.1 routable?
-
- 
-
-33. Concept of Proxy and firewall? Stateless and stateful firewalls?
-
-34. What is the difference between example.com and example.org?
-
-35. Trouble shoot slow website.
-
-36. How to view network stats?
-
-37. What does NetStat do? Which Linux command finds routing tables?
-
-38. Command to track and print the path traversed between different routers.
-
-
-40. What command checks the routing table in Linux?
-
-41. How to setup remote desktop connection using command line in windows
-
-42. A scenario question about packet flow in NAT
-
-43. How do you find out what your IP Address is?
-
-44. What protocol is used and how it is used to gate out from private network.(ARP)?
-
-45. Given the following information: 10.0.0.0/8 100,000 hosts on network There is a host with an IP of 10.0.0.1 who cannot connect, why is this? Also, a lot of hosts on the network are reporting that they cannot connect, why is this?
-
-
-46. Suppose I have a brand new laptop and I wish to connect it to the internet. What should I do, and what shall happen in background before the laptop is connected to the internet? (Ans. Manually assigning IP address or DHCP and DORA procedure. They expect you to explain in depth about DHCP and DORA)
-
-47. What exactly are the requirements to make two computers communicate (they are close to each other, connected to same network) (here, also highlight the fact that how one computer will uniquely identify the other computer)
-
-48. Concept of public and private IPs? Can two systems connected to same network have the same public IPs? How conflict is resolved in that case?
-
-49. Will I able to access amazon.com if I'm using private IP (say, if I'm a part of an organization). Or will I need a public IP as well to connect with it?
-
-
-50. If one person is able to access amazon.com website, while the other person is not, what can be the possible valid reasons for the 2nd person, provided the amazon.com website is working fine. Why clearing cookies also helps in reaching to a website?
-
-51. My net isn't working, how do i troubleshoot?
-
-HR and Managerial questions.
-
-2. Why should I hire you?
-
-3. What is your weakness?
-
-4. What are your strengths?
-
-5. Why do you want this job?
-
-6. Where do you see yourself in five years?
-
-7. How would you describe yourself?
-
-8. What was your biggest disappointment?
-
-9. Would you call yourself a team player?
-
-10. Give some examples of your teamwork.
-
-11. Do you prefer teamwork or working independently?
-
-12. “What makes you angry?”
-
-13. Do you have any blind spots?
-
-14. What is a project you have worked on that you are very proud of?
-
-15. What have you done to improve your knowledge last year?
-
-16. What do you do to improve your knowledge?
-
-17. How do you rate your communication skills?
-
-18. What is more important to you money or success?
-
-19. What kind of person would you refuse to work with?
-
-20. How long can you commit to working with us?
-
-21. Tell me about the challenges you have faced to complete a project?
-
-22. Have you worked with someone you didn’t like? if so, how did you handle it?
-
-
-23. Tell us about a time you failed and how did you bounce back up from it?
-
-
-24. Tell me a time when you went above and beyond to deliver results?
-
-25. Tell me about a time when you had a problem and how did you solve it?
-
-26. Tell me about a time you were wrong?
-
-27. Tell me a time when and how did you overcome the situation?
-
-28. Tell me a time when you went above and beyond to solve a problem and that helped your team.
-
-29. Ever faced any situation when I completed the work just before the deadline? How I was able to cope up with pressure and manage everything in time at the last moment.
-
-30. When was the time you worked out of scope from your responsibilities?
-
-
-31. Tell me about a time when you had a conflict in the team?
-
-
-32. Give an example of a situation in which you saw an opportunity in a potential problem. What did you do? What was the result?
-
-33. In which way will you respond if your professor or manager shares negative feedback publicly or in the bay?
-
-34. Tell me about the most complex idea you have had to explain to someone? 
-
+#### Tell me about the most complex idea you have had to explain to someone?
+One of the most complex ideas I had to explain was the implementation of a new software architecture to non-technical stakeholders. I used analogies and visual aids to simplify the concept, emphasizing the benefits and impact on business outcomes. By breaking down the technical jargon and focusing on key takeaways, I successfully communicated the idea and gained buy-in from the audience.
 
 https://www.tipszon.com/2023/12/how-to-use-star-method-in-interview.html
 https://www.tipszon.com/2022/03/how-to-prepare-for-amazon-cloud-support-associate-interview.html
