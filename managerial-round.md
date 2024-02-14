@@ -167,3 +167,88 @@ a. the default gateway.
 b. the DNS server.
 c. source host
 d. all responses are correct.
+
+Operating system questions:
+1. What to do if laptop is hanging a lot?
+
+2. How to fix a slow computer?  
+
+3. What is RAM ? What is a thread ? What is a Pthread ?
+
+4. Can CPU goes beyond 100%?
+
+5. How to install and use a software which need more space than the available space
+
+6. in your system ?
+
+7. Virtual Memory - how I'm able to run a 7GB game with my 4 GB RAM? Why the
+
+8. game gets slow in such cases - which OS I primarily work on and why?
+
+
+9. Memory pages; Buffer and Caches. Difference between buffer and cache.
+
+
+10. Explain deadlock? How can we prevent it? Explain semaphores in layman
+
+11. language?
+
+12. CPU scheduling Algorithms and questions based on them.
+
+13. Explain different page replacement algorithm, and which is the most efficient?
+
+14. Can round-robin be pre-emptive?
+
+15. What is Active directory ?
+
+16. Explain Boot process (either windows/linux)
+
+17. What is Bash? How would you explain Bash/PowerShell to a non-technical
+
+18. person?
+
+19. How do you access root?
+
+20. Commands to check memory and disk space in OS either Linux or windows?
+
+21. What command checks for running processes?
+
+22. where are the USB drivers installed in Linux
+
+23. System date/time management, network time protocol
+
+24. Managing Users and groups - explain chmod command.
+
+25. File permissions
+
+26. Managing software’s - installation, uninstallation, upgrade etc.  
+
+27. Managing system services and background processes
+
+28. How to view logs in windows ?
+
+29. Which directory are log files stored?
+
+30. A user says that whenever they try to use the system, it keeps rebooting, what
+
+31. could be the cause of this? How would you go about trying to find out what's
+
+32. causing the issue?
+
+33. A client's system/server is having bad performance, what could potentially be
+
+34. causing this? How would you go about trying to find out the cause of this
+
+35. problem?
+
+36. If I have to run a management script in my system at a particular time each day,
+
+37. how will I proceed? What exactly goes inside cron jobs scripts - Difference
+
+
+38. between processes and threads, pages and fragments
+
+39. BSOD
+
+https://www.tipszon.com/2023/12/how-to-use-star-method-in-interview.html
+https://www.tipszon.com/2022/03/how-to-prepare-for-amazon-cloud-support-associate-interview.html
