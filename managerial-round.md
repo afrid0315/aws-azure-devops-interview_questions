@@ -355,5 +355,80 @@ Operating system questions:
 
 51. My net isn't working, how do i troubleshoot?
 
+HR and Managerial questions
+1. Tell me about yourself.
+
+2. Why should I hire you?
+
+3. What is your weakness?
+
+4. What are your strengths?
+
+5. Why do you want this job?
+
+6. Where do you see yourself in five years?
+
+7. How would you describe yourself?
+
+8. What was your biggest disappointment?
+
+9. Would you call yourself a team player?
+
+10. Give some examples of your teamwork.
+
+11. Do you prefer teamwork or working independently?
+
+12. “What makes you angry?”
+
+13. Do you have any blind spots?
+
+14. What is a project you have worked on that you are very proud of?
+
+15. What have you done to improve your knowledge last year?
+
+16. What do you do to improve your knowledge?
+
+17. How do you rate your communication skills?
+
+18. What is more important to you money or success?
+
+19. What kind of person would you refuse to work with?
+
+20. How long can you commit to working with us?
+
+21. Tell me about the challenges you have faced to complete a project?
+
+22. Have you worked with someone you didn’t like? if so, how did you handle it?
+
+
+23. Tell us about a time you failed and how did you bounce back up from it?
+
+
+24. Tell me a time when you went above and beyond to deliver results?
+
+25. Tell me about a time when you had a problem and how did you solve it?
+
+26. Tell me about a time you were wrong?
+
+27. Tell me a time when and how did you overcome the situation?
+
+28. Tell me a time when you went above and beyond to solve a problem and that helped your team.
+
+29. Ever faced any situation when I completed the work just before the deadline? How I was able to cope up with pressure and manage everything in time at the last moment.
+
+30. When was the time you worked out of scope from your responsibilities?
+
+
+31. Tell me about a time when you had a conflict in the team?
+
+
+32. Give an example of a situation in which you saw an opportunity in a potential problem. What did you do? What was the result?
+
+33. In which way will you respond if your professor or manager shares negative feedback publicly or in the bay?
+
+34. Tell me about the most complex idea you have had to explain to someone? 
+
+If you have any doubt/query, Please ask in comment section.
+
 https://www.tipszon.com/2023/12/how-to-use-star-method-in-interview.html
 https://www.tipszon.com/2022/03/how-to-prepare-for-amazon-cloud-support-associate-interview.html
