@@ -169,7 +169,16 @@ Backup and Restore Procedures: Implement regular backup and restore procedures t
 
 Containerization: Consider containerization (e.g., Docker) to encapsulate Jenkins components, making it easier to scale and deploy in a highly available manner.
 
+#### 12. What are the components of Jenkins ?
+**Answer.** Components of Jenkins:
 
-
+- Master
+- Nodes (Agents)
+- Jobs
+- Build Pipeline
+- Plugins
+- Build Environment
+- Build History and Logs
+- User Interface (UI)
 
 
