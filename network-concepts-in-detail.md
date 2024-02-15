@@ -77,3 +77,25 @@ Network Management: Broadcast messages can also be used for network management p
 Dynamic Host Configuration: Broadcast messages play a role in dynamic host configuration protocols such as DHCP (Dynamic Host Configuration Protocol). When a client device connects to a network and needs to obtain an IP address, it sends a DHCP discovery request as a broadcast message. DHCP servers within the broadcast domain respond to these requests, offering IP addresses and other configuration parameters to the client device.
 
 In essence, a broadcast domain facilitates communication and interaction between devices within the same network segment by allowing them to send broadcast messages to each other. These messages serve various purposes, including address resolution, service discovery, network management, and dynamic host configuration, contributing to the efficient operation of the network.
+
+#### DNS:
+
+DNS stands for Domain Name System. It is a decentralized naming system for computers, services, or any resource connected to the Internet or a private network. DNS is essentially like a phone book for the internet, translating human-readable domain names (like www.example.com) into IP addresses (like 192.0.2.1) that computers use to identify each other on the network.
+
+Here's how DNS works and why it's important:
+
+Domain Names: Domain names are the familiar, easy-to-remember names for websites and other internet services. They consist of two main parts: the top-level domain (TLD), such as .com, .org, .net, and the second-level domain (SLD), which is the unique name chosen by the website owner (e.g., example.com).
+
+IP Addresses: Every device connected to the internet, including web servers, computers, routers, and smartphones, has a unique numerical address called an IP address. IP addresses are used by computers to communicate with each other over the internet. For example, when you type a domain name into your web browser, your computer uses DNS to look up the corresponding IP address so it can connect to the website's server.
+
+DNS Servers: DNS operates through a distributed network of servers called DNS servers. These servers store databases of domain names and their corresponding IP addresses. When you request a website by its domain name, your computer sends a query to a DNS server, which then looks up the IP address associated with that domain name and returns it to your computer. If the DNS server doesn't have the information cached, it will recursively query other DNS servers until it finds the correct IP address.
+
+Hierarchy: DNS operates in a hierarchical structure, with different levels of servers responsible for different parts of the domain name system. At the top of the hierarchy are the root DNS servers, which store information about the top-level domains (TLDs). Below them are authoritative DNS servers, which are responsible for specific domains or subdomains. Finally, there are caching DNS servers, which temporarily store DNS records to speed up future queries.
+
+Resolution Process: The process of translating a domain name into an IP address is called DNS resolution. It involves multiple steps, including querying DNS servers, caching results, and resolving domain names to their corresponding IP addresses. DNS resolution happens automatically whenever you access a website or other internet service by its domain name.
+
+Overall, DNS is a fundamental component of the internet infrastructure, enabling users to access websites and services using easy-to-remember domain names instead of complex numerical IP addresses. Without DNS, the internet as we know it would not be possible.
+
+
+
+
