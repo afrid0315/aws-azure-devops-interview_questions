@@ -91,6 +91,23 @@ I would describe myself as a proactive and motivated individual with a passion f
 
 #### What was your biggest disappointment?
 My biggest disappointment was when a project I worked on didn't meet the expected outcomes despite significant effort. However, I turned this disappointment into a learning experience by analyzing what went wrong and applying those lessons to future projects.
+Situation:
+In a previous role as a DevOps Engineer, I was tasked with leading a project to migrate our company's legacy infrastructure to a cloud-based environment. The goal was to improve scalability, reliability, and cost-effectiveness by leveraging cloud technologies.
+
+Task:
+My responsibility was to plan and execute the migration process while minimizing downtime and ensuring seamless transition for our applications and services. This involved assessing our existing infrastructure, selecting the appropriate cloud provider, designing the architecture, and implementing automation to streamline deployment and management.
+
+Action:
+I began by conducting a thorough analysis of our current infrastructure to identify dependencies, performance bottlenecks, and potential challenges in the migration process. I researched various cloud providers and compared their features, pricing, and compatibility with our existing technologies. Based on this analysis, we decided to migrate to AWS due to its robust services and flexibility.
+
+Next, I developed a detailed migration plan outlining the sequence of steps, timeline, and contingency measures. I automated as much of the process as possible using Infrastructure as Code (IaC) tools like Terraform and configuration management tools like Ansible. I also implemented continuous integration and deployment pipelines to facilitate testing and deployment of our applications in the new environment.
+
+Despite careful planning and execution, we encountered unexpected issues during the migration, including compatibility issues with certain applications and performance degradation in the cloud environment. Despite our efforts to address these challenges, the project did not meet the expected outcomes in terms of timeline and performance improvements.
+
+Result:
+While the project outcome was disappointing, it provided valuable insights and lessons learned for future initiatives. We conducted a post-mortem analysis to identify the root causes of the issues and implemented corrective measures to address them. This included refining our migration strategy, improving our testing processes, and enhancing our monitoring and troubleshooting capabilities.
+
+Overall, the experience reinforced the importance of thorough planning, effective communication, and adaptability in complex migration projects. It also highlighted the need for continuous learning and iteration in the dynamic field of cloud and DevOps. Moving forward, I am confident that these lessons will enable me to lead successful projects and deliver tangible value to my organization.
 
 #### Would you call yourself a team player?
 Yes, absolutely. I believe in the power of teamwork and collaboration. I actively contribute ideas, support my teammates, and strive to foster a positive and inclusive team environment.
