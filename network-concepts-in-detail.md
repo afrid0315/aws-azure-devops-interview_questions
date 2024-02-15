@@ -135,7 +135,45 @@ MSS is negotiated during the TCP handshake process when establishing a TCP conne
 MSS helps to optimize TCP performance by ensuring that TCP segments fit within the MTU of the underlying network, reducing the need for fragmentation and improving efficiency.
 In summary, MTU specifies the maximum size of IP packets that can be transmitted over a network link, while MSS specifies the maximum size of payload data in TCP segments exchanged between devices. Both parameters play important roles in determining the efficient transmission of data over a network, minimizing fragmentation and optimizing performance.
 
+#### OSI model with complete details and protocols on each layer:
 
+The OSI (Open Systems Interconnection) model is a conceptual framework that standardizes the functions of a telecommunication or computing system into seven abstraction layers. These layers help to understand how different protocols and technologies interact to enable communication between devices on a network. Here's an overview of the OSI model:
+
+Physical Layer (Layer 1):
+
+The physical layer is responsible for transmitting raw data bits over a communication channel. It defines the electrical, mechanical, and procedural aspects of the physical connection between devices.
+Examples: Ethernet, Wi-Fi, fiber optics, electrical signals.
+Data Link Layer (Layer 2):
+
+The data link layer provides reliable data transfer across a physical link and detects and corrects errors that may occur in the physical layer.
+It also manages access to the physical medium and controls the flow of data.
+Examples: Ethernet (MAC sublayer), Wi-Fi (MAC sublayer), HDLC (High-Level Data Link Control).
+Network Layer (Layer 3):
+
+The network layer is responsible for addressing, routing, and forwarding data packets between different networks.
+It determines the best path for data packets to reach their destination based on network topology and congestion.
+Examples: IP (Internet Protocol), ICMP (Internet Control Message Protocol), ARP (Address Resolution Protocol).
+Transport Layer (Layer 4):
+
+The transport layer provides end-to-end communication between devices on different hosts and ensures that data is reliably delivered, ordered, and error-checked.
+It also manages flow control and congestion control to optimize the transmission of data.
+Examples: TCP (Transmission Control Protocol), UDP (User Datagram Protocol), SCTP (Stream Control Transmission Protocol).
+Session Layer (Layer 5):
+
+The session layer establishes, maintains, and terminates communication sessions between applications on different devices.
+It handles synchronization, checkpointing, and recovery of data exchange sessions.
+Examples: NetBIOS, RPC (Remote Procedure Call).
+Presentation Layer (Layer 6):
+
+The presentation layer is responsible for data translation, encryption, and compression to ensure that data exchanged between applications is in a format that the receiving application can understand.
+It abstracts the differences in data formats and ensures interoperability between different systems.
+Examples: SSL/TLS (Secure Sockets Layer/Transport Layer Security), ASCII, JPEG.
+Application Layer (Layer 7):
+
+The application layer provides network services directly to end-users and application processes.
+It includes protocols and services for tasks such as file transfer, email, remote login, and web browsing.
+Examples: HTTP (Hypertext Transfer Protocol), FTP (File Transfer Protocol), SMTP (Simple Mail Transfer Protocol), DNS (Domain Name System).
+The OSI model serves as a reference framework for understanding how communication protocols and technologies interact within a network environment. Each layer performs specific functions, and data passes through these layers from the application layer down to the physical layer during transmission, and vice versa during reception.
 
 
 
