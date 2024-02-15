@@ -175,5 +175,45 @@ It includes protocols and services for tasks such as file transfer, email, remot
 Examples: HTTP (Hypertext Transfer Protocol), FTP (File Transfer Protocol), SMTP (Simple Mail Transfer Protocol), DNS (Domain Name System).
 The OSI model serves as a reference framework for understanding how communication protocols and technologies interact within a network environment. Each layer performs specific functions, and data passes through these layers from the application layer down to the physical layer during transmission, and vice versa during reception.
 
+#### SSL Handshake:
 
+The SSL (Secure Sockets Layer) handshake is a process that occurs between a client and a server when establishing a secure connection for encrypted communication. The SSL handshake involves several steps to negotiate the parameters of the secure connection and authenticate both parties. Here's an overview of the SSL handshake process:
+
+Client Hello:
+
+The SSL handshake begins with the client sending a "Client Hello" message to the server.
+This message includes the client's SSL version, a list of supported cipher suites (encryption algorithms), and a random number called the "Client Random."
+The client also includes any other parameters required for the handshake, such as supported compression methods or session ID for session resumption.
+
+Server Hello:
+
+Upon receiving the Client Hello message, the server responds with a "Server Hello" message.
+The Server Hello message includes the chosen SSL version, a selected cipher suite from the client's list of supported suites, and a random number called the "Server Random."
+If the server supports session resumption and the client provided a session ID, the server may include a session ID in the Server Hello message.
+
+Server Certificate:
+
+After the Server Hello message, the server sends its digital certificate to the client.
+The certificate contains the server's public key, along with information about the server's identity (such as its domain name) and the digital signature of the certificate authority (CA) that issued the certificate.
+The client verifies the certificate's authenticity by checking the digital signature against its list of trusted root CAs.
+
+Key Exchange:
+
+Once the client has validated the server's certificate, it generates a "Pre-Master Secret" (a random value) and encrypts it with the server's public key from the certificate.
+The client sends the encrypted Pre-Master Secret to the server.
+Both the client and server use the Pre-Master Secret, along with the Client Random and Server Random values exchanged earlier, to derive the "Master Secret" for the session.
+
+Client Finished:
+
+The client sends a "Client Finished" message, which includes a hash of all the exchanged handshake messages so far, encrypted using the negotiated encryption parameters.
+This message verifies to the server that the client has successfully processed the handshake messages and is ready to begin encrypted communication.
+Server Finished:
+
+The server sends a "Server Finished" message, which includes a hash of all the exchanged handshake messages (including the Client Finished message) so far, encrypted using the negotiated encryption parameters.
+This message verifies to the client that the server has successfully processed the handshake messages and is ready to begin encrypted communication.
+Established Secure Connection:
+
+Once both the client and server have exchanged Finished messages and verified each other's authenticity, they have established a secure, encrypted connection.
+All subsequent data transmitted between the client and server is encrypted and protected from eavesdropping or tampering.
+The SSL handshake process ensures that both the client and server agree on the parameters of the secure connection, authenticate each other's identities, and establish a secure channel for encrypted communication.
 
