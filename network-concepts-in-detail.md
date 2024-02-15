@@ -96,6 +96,25 @@ Resolution Process: The process of translating a domain name into an IP address 
 
 Overall, DNS is a fundamental component of the internet infrastructure, enabling users to access websites and services using easy-to-remember domain names instead of complex numerical IP addresses. Without DNS, the internet as we know it would not be possible.
 
+#### TCP (Transmission Control Protocol) and UDP (User Datagram Protocol):
 
+TCP (Transmission Control Protocol) and UDP (User Datagram Protocol) are two of the main transport layer protocols used in computer networks. They provide the means for applications to communicate with each other over a network, but they have different characteristics and are suitable for different types of communication.
+
+Here's an overview of TCP and UDP:
+
+**TCP (Transmission Control Protocol):**
+
+Connection-Oriented: TCP is a connection-oriented protocol, which means it establishes a logical connection between the sender and receiver before data exchange. This connection is maintained throughout the entire communication session.
+Reliable: TCP ensures reliable delivery of data by using acknowledgment mechanisms, sequence numbers, and retransmission of lost or corrupted packets. It guarantees that data arrives in the same order it was sent and without errors.
+Flow Control and Congestion Control: TCP incorporates flow control and congestion control mechanisms to manage the rate of data transmission and prevent network congestion.
+Examples of TCP Applications: TCP is used for applications that require reliable, ordered delivery of data, such as web browsing, email, file transfer (FTP), remote terminal access (SSH), and online gaming.
+
+**UDP (User Datagram Protocol):**
+
+Connectionless: UDP is a connectionless protocol, meaning it does not establish a dedicated connection between the sender and receiver before transmitting data. Each packet is treated independently and may take different paths through the network.
+Unreliable: Unlike TCP, UDP does not provide reliability or error-checking mechanisms. It does not guarantee delivery, order, or error correction. Packets may arrive out of order, duplicated, or not at all.
+Low Overhead: UDP has lower overhead compared to TCP because it lacks the overhead of connection establishment, acknowledgment, and flow control mechanisms. This makes UDP faster and more efficient for certain types of communication.
+Examples of UDP Applications: UDP is used for applications where real-time communication and low latency are more important than reliability, such as streaming media (audio and video), voice over IP (VoIP), online multiplayer gaming, and Domain Name System (DNS) queries.
+In summary, TCP and UDP are both important transport layer protocols used for communication over computer networks, but they have different characteristics and are suitable for different types of applications. TCP provides reliable, ordered delivery of data with connection-oriented communication, while UDP offers faster, connectionless communication with lower overhead but no reliability guarantees. The choice between TCP and UDP depends on the specific requirements of the application and the trade-offs between reliability, latency, and efficiency.
 
 
