@@ -230,6 +230,7 @@ Buffering: Buffers are used to temporarily store data at the receiver until it c
 Sliding Window Protocol: This protocol allows the sender to transmit multiple frames before receiving acknowledgment from the receiver, optimizing network efficiency.
 Rate-based Flow Control: In rate-based flow control, the sender adjusts its transmission rate based on feedback from the receiver, such as acknowledgments or flow control signals.
 Examples: TCP (Transmission Control Protocol) utilizes flow control mechanisms such as TCP window size and the sliding window protocol to regulate data flow between sender and receiver.
+
 Error Control:
 
 Definition: Error control ensures that data transmitted between devices is received accurately and without corruption. It detects and corrects errors that may occur during transmission.
@@ -240,3 +241,46 @@ Error Correction: Forward Error Correction (FEC) codes, such as Hamming codes or
 Automatic Repeat reQuest (ARQ): ARQ protocols request retransmission of corrupted or lost data segments, ensuring reliable delivery.
 Examples: In TCP/IP, error control is primarily handled by TCP through mechanisms such as checksums, sequence numbers, acknowledgments, and selective repeat or Go-Back-N ARQ protocols.
 Both flow control and error control are integral components of reliable data communication protocols. They work together to ensure that data is transmitted accurately, efficiently, and with minimal disruption, even in challenging network conditions. These mechanisms are essential for maintaining the integrity and performance of modern communication networks.
+
+#### DNS query process:
+
+The DNS (Domain Name System) query process involves several steps to resolve a domain name to its corresponding IP address. Here's an overview of the DNS query process:
+
+**DNS Resolver Request:**
+
+When a user or application initiates a DNS query by entering a domain name (e.g., www.example.com) into a web browser or other network application, the DNS resolver on the user's device sends a DNS query request to a DNS server.
+
+**Local DNS Cache Check:**
+
+The DNS resolver first checks its local cache to see if it already has the IP address corresponding to the requested domain name. If the IP address is found in the cache and is still valid (not expired), the resolver returns the IP address to the requesting application, and the query process ends.
+
+**Recursive Query to DNS Server:**
+
+If the IP address is not found in the local cache or has expired, the DNS resolver sends a recursive query to a DNS server.
+The recursive query is sent to the user's configured DNS server, typically provided by the Internet Service Provider (ISP) or a public DNS service like Google DNS or OpenDNS.
+
+**Root DNS Server Resolution:**
+
+If the user's DNS server does not have the IP address in its cache, it initiates the DNS resolution process by querying the root DNS servers.
+The root DNS servers are the top-level servers in the DNS hierarchy and maintain information about the authoritative DNS servers responsible for top-level domains (TLDs) such as .com, .org, .net, etc.
+
+**TLD DNS Server Resolution:**
+
+The root DNS servers respond to the DNS resolver's query with the IP addresses of the authoritative DNS servers responsible for the requested TLD.
+The resolver then queries one of the authoritative DNS servers for the TLD (e.g., the .com DNS server) to obtain information about the next-level domain.
+
+**Authoritative DNS Server Resolution:**
+
+The authoritative DNS server for the requested domain name responds to the resolver's query with the IP address(es) associated with the domain name.
+If multiple IP addresses are returned (e.g., for load balancing or redundancy), the resolver typically selects one of the IP addresses for further use.
+
+**Caching of DNS Response:**
+
+The DNS resolver caches the IP address obtained from the authoritative DNS server in its local cache for future use, along with the corresponding time-to-live (TTL) value provided by the authoritative DNS server.
+The TTL value specifies how long the resolver should consider the cached IP address valid before it expires and needs to be refreshed with a new query.
+
+**Return IP Address to Application:**
+
+Finally, the DNS resolver returns the IP address obtained from the authoritative DNS server to the requesting application or user's device.
+The application can then use the IP address to establish a connection with the desired web server or other network resource associated with the domain name.
+Overall, the DNS query process involves a series of hierarchical queries from the local resolver to root DNS servers, TLD DNS servers, and authoritative DNS servers to obtain the IP address corresponding to a given domain name. Caching of DNS responses at various stages helps improve efficiency and reduce the load on DNS infrastructure by minimizing redundant queries for frequently accessed domain names.
