@@ -17,7 +17,23 @@ Answer. To date, I have consistently met project deadlines. Through effective pl
 
 #### 5. Tell me about a time when you didn’t get the solution even after putting in the effort.
 
-Answer.
+Answer. Situation:
+In my previous role as a Cloud Engineer, I was tasked with optimizing the deployment process for a complex microservices architecture on AWS. The company had experienced issues with scalability and reliability due to inefficient deployment practices.
+
+Task:
+My responsibility was to design and implement a solution that would automate the deployment process, ensure high availability, and streamline scaling operations. This involved leveraging AWS services like Elastic Beanstalk, Lambda, and CloudFormation to orchestrate the deployment pipeline.
+
+Action:
+I began by thoroughly researching best practices and existing solutions within the industry. I analyzed our current infrastructure and deployment workflows to identify pain points and areas for improvement. I then developed a comprehensive plan outlining the architecture of the new deployment pipeline, including the use of Infrastructure as Code (IaC) principles.
+
+Next, I started implementing the solution in a staging environment. I wrote scripts to automate the provisioning of resources, configured load balancers for traffic distribution, and set up monitoring and alerting systems for performance tracking. Throughout the process, I collaborated closely with the development and operations teams to gather feedback and ensure alignment with their requirements.
+
+However, despite my efforts, I encountered challenges with fine-tuning the auto-scaling configurations to handle sudden spikes in traffic effectively. I experimented with different metrics and scaling policies but struggled to find the optimal settings to balance performance and cost efficiency.
+
+Result:
+Despite my dedication and perseverance, I wasn't able to fully resolve the scalability issues within the given timeframe. However, my initiative in researching, planning, and implementing the deployment pipeline laid a solid foundation for future iterations. I continued to iterate on the solution, seeking feedback from stakeholders and staying updated on new AWS features and best practices to eventually overcome the challenges and achieve the desired scalability and reliability improvements.
+
+This experience taught me the importance of resilience and continuous learning in the face of setbacks, and it reinforced my commitment to delivering robust, efficient solutions in my role as a Cloud and DevOps engineer.
 
 #### 6. Tell me about a time when you handled a task within tight deadlines.
 **Answer.** In a critical project with tight deadlines, I took charge of streamlining the deployment pipeline. I optimized configurations, automated manual processes, and collaborated closely with the team. Despite the pressure, the pipeline enhancements were successfully implemented ahead of schedule, ensuring timely and efficient project delivery.
