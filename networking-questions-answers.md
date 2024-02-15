@@ -3,9 +3,15 @@
 #### 1. What is HTTP protocol and explain PUT POST DELETE GET?
 **Answer.** The HTTP (Hypertext Transfer Protocol) is a protocol used for communication between a client and a server over the internet. It facilitates the transfer of hypertext, typically in the form of HTML documents, but can also handle various data types. HTTP operates on a request-response model, where clients send requests to servers, and servers respond with the requested information along with a status code indicating the success or failure of the request.
 
-**PUT:** Used to update or create a resource on the server. The data sent with a PUT request typically replaces the existing resource or creates a new one if it doesn't exist.
+**PUT:** Used to update or create a resource on the server. The data sent with a PUT request typically replaces the existing resource or creates a new one if it doesn't exist. PUT for updating existing resources and POST for creating new resources. 
+
+PUT Method Example:
+Suppose we have a web service managing user profiles, and we want to update the information for a specific user with the ID "123". We can use the PUT method to update the user's details.
 
 **POST:** Used to submit data to be processed to a specified resource. It is often used to create new resources, and the server assigns a URI to the new resource.
+
+POST Method Example:
+Now, let's say we want to add a new user to our system. Since we're creating a new resource (user), we use the POST method.
 
 **DELETE:** Used to request the removal of a resource on the server. After a successful DELETE request, the resource is no longer available.
 
