@@ -345,3 +345,58 @@ Network Troubleshooting:
 Ping is a valuable tool for network troubleshooting and maintenance.
 Network administrators and IT professionals use ping to verify network connectivity, identify connectivity issues, and perform basic network diagnostics.
 Overall, the ping command is a simple yet powerful tool for testing network connectivity, diagnosing network problems, and measuring network performance. It is widely used in both home and enterprise environments for network troubleshooting and monitoring purposes.
+
+### DNS records
+There are several other types of DNS records that serve various purposes. Here are some common DNS record types:
+
+- A (Address) Record:
+
+A records map domain names to IPv4 addresses.
+Example: example.com. IN A 192.0.2.1
+
+- AAAA (IPv6 Address) Record:
+
+AAAA records map domain names to IPv6 addresses.
+Example: example.com. IN AAAA 2001:0db8:85a3:0000:0000:8a2e:0370:7334
+
+- MX (Mail Exchange) Record:
+
+MX records specify the mail servers responsible for receiving email messages for a domain.
+Example: example.com. IN MX 10 mail.example.com.
+
+- PTR (Pointer) Record:
+
+PTR records map IP addresses to domain names and are used in reverse DNS lookups.
+Example: 1.2.3.4.in-addr.arpa. IN PTR example.com.
+
+- TXT (Text) Record:
+
+TXT records contain text information and are commonly used for various purposes such as SPF (Sender Policy Framework) records for email authentication.
+Example: example.com. IN TXT "v=spf1 mx -all"
+
+- NS (Name Server) Record:
+
+NS records specify the authoritative name servers for a domain.
+Example: example.com. IN NS ns1.example.com.
+
+- SOA (Start of Authority) Record:
+
+SOA records provide authoritative information about a DNS zone, including details such as the primary name server, contact email address, and refresh intervals.
+Example: example.com. IN SOA ns1.example.com. admin.example.com. 2024010101 3600 900 604800 86400
+
+- CNAME (Canonical Name) Record:
+
+CNAME records alias one domain name to another.
+Example: www.example.com. IN CNAME example.com.
+
+- SRV (Service) Record:
+
+SRV records define the location of services such as SIP, LDAP, and XMPP.
+Example: _sip._tcp.example.com. IN SRV 0 5 5060 sipserver.example.com.
+
+- CAA (Certification Authority Authorization) Record:
+
+CAA records specify which certificate authorities (CAs) are allowed to issue SSL certificates for a domain.
+Example: example.com. IN CAA 0 issue "letsencrypt.org"
+These are some of the commonly used DNS record types, each serving a specific function in the DNS resolution process. Depending on the requirements and configuration of a domain, different types of DNS records may be used.
+
