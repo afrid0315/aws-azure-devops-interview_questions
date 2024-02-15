@@ -217,3 +217,26 @@ Once both the client and server have exchanged Finished messages and verified ea
 All subsequent data transmitted between the client and server is encrypted and protected from eavesdropping or tampering.
 The SSL handshake process ensures that both the client and server agree on the parameters of the secure connection, authenticate each other's identities, and establish a secure channel for encrypted communication.
 
+##### Flow/Error Control:
+
+Flow control and error control are essential mechanisms used in data communication to ensure reliable and efficient transmission of data between devices. Let's delve into each concept:
+
+Flow Control:
+
+Definition: Flow control regulates the flow of data between sender and receiver to prevent the receiver from being overwhelmed by a faster sender. It ensures that the receiver can process incoming data at a rate it can handle.
+Purpose: Flow control prevents buffer overflow at the receiver and avoids data loss or corruption due to congestion.
+Techniques:
+Buffering: Buffers are used to temporarily store data at the receiver until it can be processed.
+Sliding Window Protocol: This protocol allows the sender to transmit multiple frames before receiving acknowledgment from the receiver, optimizing network efficiency.
+Rate-based Flow Control: In rate-based flow control, the sender adjusts its transmission rate based on feedback from the receiver, such as acknowledgments or flow control signals.
+Examples: TCP (Transmission Control Protocol) utilizes flow control mechanisms such as TCP window size and the sliding window protocol to regulate data flow between sender and receiver.
+Error Control:
+
+Definition: Error control ensures that data transmitted between devices is received accurately and without corruption. It detects and corrects errors that may occur during transmission.
+Purpose: Error control ensures data integrity and reliability by identifying and correcting errors caused by noise, interference, or transmission issues.
+Techniques:
+Error Detection: Techniques such as checksums, CRC (Cyclic Redundancy Check), and parity bits are used to detect errors in transmitted data.
+Error Correction: Forward Error Correction (FEC) codes, such as Hamming codes or Reed-Solomon codes, are used to correct errors in the received data without the need for retransmission.
+Automatic Repeat reQuest (ARQ): ARQ protocols request retransmission of corrupted or lost data segments, ensuring reliable delivery.
+Examples: In TCP/IP, error control is primarily handled by TCP through mechanisms such as checksums, sequence numbers, acknowledgments, and selective repeat or Go-Back-N ARQ protocols.
+Both flow control and error control are integral components of reliable data communication protocols. They work together to ensure that data is transmitted accurately, efficiently, and with minimal disruption, even in challenging network conditions. These mechanisms are essential for maintaining the integrity and performance of modern communication networks.
