@@ -284,3 +284,38 @@ The TTL value specifies how long the resolver should consider the cached IP addr
 Finally, the DNS resolver returns the IP address obtained from the authoritative DNS server to the requesting application or user's device.
 The application can then use the IP address to establish a connection with the desired web server or other network resource associated with the domain name.
 Overall, the DNS query process involves a series of hierarchical queries from the local resolver to root DNS servers, TLD DNS servers, and authoritative DNS servers to obtain the IP address corresponding to a given domain name. Caching of DNS responses at various stages helps improve efficiency and reduce the load on DNS infrastructure by minimizing redundant queries for frequently accessed domain names.
+
+#### Ports and port numbers:
+
+In computer networking, a port is a communication endpoint used to identify a specific process or application on a networked device. Ports allow multiple processes or services to operate simultaneously on a single device, enabling them to send and receive data independently. Each port is associated with a unique port number, which helps identify the type of service or protocol running on that port. Here's an overview of ports and port numbers:
+
+**Port Number Range:**
+
+Port numbers range from 0 to 65535.
+Ports from 0 to 1023 are reserved for well-known services and protocols, such as HTTP (80), HTTPS (443), FTP (21), SSH (22), Telnet (23), SMTP (25), DNS (53), etc. These ports are often referred to as "well-known ports" or "system ports."
+
+**Registered Ports:**
+
+Ports from 1024 to 49151 are registered ports, which are assigned by the Internet Assigned Numbers Authority (IANA) to specific services or protocols upon request.
+These ports are used by applications and services that are not considered well-known but require standardized port numbers to avoid conflicts.
+
+**Dynamic/Private Ports:**
+
+Ports from 49152 to 65535 are dynamic or private ports, also known as ephemeral ports.
+These ports are used for temporary communication between client and server applications. When a client initiates a connection to a server, it typically uses a dynamic port number from this range.
+
+**Port Types:**
+
+TCP (Transmission Control Protocol) Ports: TCP is a connection-oriented protocol, and each TCP connection is uniquely identified by a combination of IP address and port number. TCP ports are used for reliable, ordered, and error-checked communication.
+UDP (User Datagram Protocol) Ports: UDP is a connectionless protocol, and each UDP packet contains the source and destination port numbers. UDP ports are used for fast and lightweight communication but do not guarantee delivery or order.
+
+**Port Assignment:**
+
+Ports are assigned to specific services or protocols to allow networked devices to understand how to handle incoming data packets.
+For example, a web server typically listens on port 80 for HTTP requests, while an email server listens on port 25 for SMTP (Simple Mail Transfer Protocol) traffic.
+
+**Firewall and Security:**
+
+Ports are often used in firewall configurations to control network traffic by allowing or blocking specific port numbers.
+Understanding port numbers and their associated protocols is crucial for network security, as open ports can potentially expose devices to unauthorized access or attacks.
+In summary, ports and port numbers play a fundamental role in computer networking by facilitating communication between processes and services on networked devices. They provide a standardized way to identify and differentiate between various network applications and protocols, enabling efficient and secure data exchange across the internet and other computer networks.
