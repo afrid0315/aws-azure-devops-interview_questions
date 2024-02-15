@@ -400,3 +400,28 @@ CAA records specify which certificate authorities (CAs) are allowed to issue SSL
 Example: example.com. IN CAA 0 issue "letsencrypt.org"
 These are some of the commonly used DNS record types, each serving a specific function in the DNS resolution process. Depending on the requirements and configuration of a domain, different types of DNS records may be used.
 
+#### Ip table targets:
+
+In iptables, targets determine what action should be taken with a packet that matches a particular rule. Here are some common targets used in iptables rules:
+
+ACCEPT: Allows the packet to pass through the firewall without further processing.
+
+DROP: Silently discards the packet without sending any response. No acknowledgment is sent to the source host, indicating that the packet was dropped.
+
+REJECT: Discards the packet like DROP, but sends an ICMP error message back to the source host, indicating that the packet was rejected. This can inform the source host that its packet was not allowed through the firewall.
+
+LOG: Logs information about the packet using the system logging mechanism (e.g., syslog). This is often used for debugging purposes to monitor traffic that matches specific rules.
+
+DNAT (Destination NAT): Modifies the destination IP address and/or port of the packet. This is commonly used for port forwarding or redirecting incoming traffic to a different destination.
+
+SNAT (Source NAT): Modifies the source IP address and/or port of the packet. This is often used for masquerading, where internal private IP addresses are replaced with a single public IP address when packets are sent out to the Internet.
+
+MASQUERADE: A specific type of SNAT that automatically selects the outgoing interface's IP address as the source address. It is typically used for dynamic IP configurations, such as dial-up connections or DHCP-assigned IP addresses.
+
+REDIRECT: Redirects packets to a different destination, typically used for transparent proxying or port redirection.
+
+MARK: Marks packets with a specific value, which can be used later in conjunction with other iptables rules or routing decisions.
+
+QUEUE: Passes the packet to a user-space program for further processing. This is often used with specialized applications like intrusion detection systems (IDS) or packet analyzers.
+
+These are some of the common targets in iptables. Each target serves a specific purpose and can be used to control the flow of network traffic through the firewall based on predefined rules.
