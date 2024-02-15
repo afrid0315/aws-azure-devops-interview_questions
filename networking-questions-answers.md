@@ -17,7 +17,7 @@ Now, let's say we want to add a new user to our system. Since we're creating a n
 
 **GET:** Used to retrieve data from a specified resource. It should not have any side effects on the server and is considered a safe and idempotent operation, meaning multiple identical requests should have the same effect as a single request.
 
-**URI:** A URI is a generic term used to identify a resource, such as a web page, document, or image, on the internet. It can be further categorized into two types: URLs and URNs (Uniform Resource Names). A URI can identify a resource by its name, location, or both.
+**URI:** A URI (Uniform Resource Identifier) is a generic term used to identify a resource, such as a web page, document, or image, on the internet. It can be further categorized into two types: URLs and URNs (Uniform Resource Names). A URI can identify a resource by its name, location, or both.
 
 **URL:** A URL is a specific type of URI that provides the means to access a resource by specifying its location. It includes the protocol used to access the resource (such as HTTP or HTTPS), the domain name or IP address where the resource is hosted, and the path to the resource on the server.
 
