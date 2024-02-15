@@ -117,4 +117,25 @@ Low Overhead: UDP has lower overhead compared to TCP because it lacks the overhe
 Examples of UDP Applications: UDP is used for applications where real-time communication and low latency are more important than reliability, such as streaming media (audio and video), voice over IP (VoIP), online multiplayer gaming, and Domain Name System (DNS) queries.
 In summary, TCP and UDP are both important transport layer protocols used for communication over computer networks, but they have different characteristics and are suitable for different types of applications. TCP provides reliable, ordered delivery of data with connection-oriented communication, while UDP offers faster, connectionless communication with lower overhead but no reliability guarantees. The choice between TCP and UDP depends on the specific requirements of the application and the trade-offs between reliability, latency, and efficiency.
 
+#### What is MSS/MTU:
+
+MSS (Maximum Segment Size) and MTU (Maximum Transmission Unit) are both terms used in networking, particularly in the context of TCP/IP (Transmission Control Protocol/Internet Protocol) communications. They relate to the maximum size of data packets that can be transmitted over a network.
+
+MTU (Maximum Transmission Unit):
+
+MTU refers to the maximum size of an IP packet that can be transmitted over a specific network link without fragmentation.
+It represents the largest amount of data that can be encapsulated in a single frame or packet at the data link layer (Layer 2 of the OSI model).
+MTU is typically measured in bytes.
+When a device sends data across a network, it breaks the data into packets. The MTU determines the maximum size of these packets. If the data to be transmitted exceeds the MTU of a network segment, the data must be fragmented into smaller packets to fit within the MTU limit.
+MSS (Maximum Segment Size):
+
+MSS is a parameter in TCP that specifies the largest amount of data that a device can receive in a single TCP segment.
+It represents the maximum size of the payload data in a TCP segment, excluding the TCP header and IP header.
+MSS is negotiated during the TCP handshake process when establishing a TCP connection between two devices. It is determined based on the minimum MTU value along the path between the two devices minus the size of the IP and TCP headers.
+MSS helps to optimize TCP performance by ensuring that TCP segments fit within the MTU of the underlying network, reducing the need for fragmentation and improving efficiency.
+In summary, MTU specifies the maximum size of IP packets that can be transmitted over a network link, while MSS specifies the maximum size of payload data in TCP segments exchanged between devices. Both parameters play important roles in determining the efficient transmission of data over a network, minimizing fragmentation and optimizing performance.
+
+
+
+
 
