@@ -3,7 +3,7 @@
 
 Routers and switches are both integral components of computer networks, but they serve different purposes and operate at different layers of the OSI model. Here are their definitions and key differences:
 
-#### Router:
+### Router:
 
 A router is a networking device that forwards data packets between computer networks. It operates at the network layer (Layer 3) of the OSI model.
 Routers use logical addressing (such as IP addresses) to determine the best path for forwarding packets from the source to the destination across multiple networks.
@@ -11,7 +11,7 @@ They make decisions based on routing tables, which contain information about net
 Routers are capable of performing functions such as packet forwarding, routing, and network address translation (NAT).
 They are essential for connecting multiple networks, such as LANs, WANs, or the internet, and ensuring that data reaches its intended destination efficiently.
 
-#### Switch:
+### Switch:
 
 A switch is a networking device that connects devices within a single local area network (LAN). It operates at the data link layer (Layer 2) of the OSI model.
 Switches use MAC addresses to forward data packets within a LAN. They maintain a MAC address table (also known as a forwarding table or CAM table) that maps MAC addresses to the physical ports on the switch.
@@ -19,7 +19,7 @@ When a switch receives a data packet, it examines the destination MAC address an
 Switches are designed to increase network performance and efficiency by reducing network congestion and improving bandwidth utilization within a LAN.
 They are commonly used in Ethernet-based networks to connect devices such as computers, printers, servers, and other networking equipment.
 
-#### Key Differences:
+### Key Differences:
 
 Functionality: Routers forward data between different networks, while switches forward data within a single network.
 Layer of Operation: Routers operate at the network layer (Layer 3), whereas switches operate at the data link layer (Layer 2).
@@ -45,7 +45,7 @@ Examples of Usage: MAC addresses are commonly used in Ethernet networks to facil
 
 Overall, MAC addresses play a crucial role in network communication by providing a means to uniquely identify devices on a network, enabling efficient and accurate data transmission.
 
-#### Broadcast domain:
+### Broadcast domain:
 
 A broadcast domain is a logical division of a computer network, in which all devices can directly send broadcast messages to each other. These messages are typically intended for all devices within the same network segment. In simpler terms, a broadcast domain is the area of a network where broadcast traffic is confined.
 
@@ -65,7 +65,7 @@ VLANs: Virtual Local Area Networks (VLANs) are often used to segment a physical 
 
 In summary, a broadcast domain defines the scope within which broadcast messages can be sent and received by devices on a network. Understanding and properly managing broadcast domains is crucial for maintaining network performance and scalability.
 
-#### What exactly broadcast domain does?
+### What exactly broadcast domain does?
 A broadcast domain serves several important functions in a computer network:
 
 Address Resolution: One of the primary functions of broadcast messages is address resolution. For example, in IPv4 networks, the Address Resolution Protocol (ARP) is used to map IP addresses to MAC addresses. When a device needs to communicate with another device on the same network and knows only the IP address, it sends out an ARP request as a broadcast message to all devices within the broadcast domain. The device with the corresponding IP address responds with its MAC address, allowing communication to proceed.
@@ -78,7 +78,7 @@ Dynamic Host Configuration: Broadcast messages play a role in dynamic host confi
 
 In essence, a broadcast domain facilitates communication and interaction between devices within the same network segment by allowing them to send broadcast messages to each other. These messages serve various purposes, including address resolution, service discovery, network management, and dynamic host configuration, contributing to the efficient operation of the network.
 
-#### DNS:
+### DNS:
 
 DNS stands for Domain Name System. It is a decentralized naming system for computers, services, or any resource connected to the Internet or a private network. DNS is essentially like a phone book for the internet, translating human-readable domain names (like www.example.com) into IP addresses (like 192.0.2.1) that computers use to identify each other on the network.
 
@@ -96,7 +96,7 @@ Resolution Process: The process of translating a domain name into an IP address 
 
 Overall, DNS is a fundamental component of the internet infrastructure, enabling users to access websites and services using easy-to-remember domain names instead of complex numerical IP addresses. Without DNS, the internet as we know it would not be possible.
 
-#### TCP (Transmission Control Protocol) and UDP (User Datagram Protocol):
+### TCP (Transmission Control Protocol) and UDP (User Datagram Protocol):
 
 TCP (Transmission Control Protocol) and UDP (User Datagram Protocol) are two of the main transport layer protocols used in computer networks. They provide the means for applications to communicate with each other over a network, but they have different characteristics and are suitable for different types of communication.
 
@@ -117,7 +117,7 @@ Low Overhead: UDP has lower overhead compared to TCP because it lacks the overhe
 Examples of UDP Applications: UDP is used for applications where real-time communication and low latency are more important than reliability, such as streaming media (audio and video), voice over IP (VoIP), online multiplayer gaming, and Domain Name System (DNS) queries.
 In summary, TCP and UDP are both important transport layer protocols used for communication over computer networks, but they have different characteristics and are suitable for different types of applications. TCP provides reliable, ordered delivery of data with connection-oriented communication, while UDP offers faster, connectionless communication with lower overhead but no reliability guarantees. The choice between TCP and UDP depends on the specific requirements of the application and the trade-offs between reliability, latency, and efficiency.
 
-#### What is MSS/MTU:
+### What is MSS/MTU:
 
 MSS (Maximum Segment Size) and MTU (Maximum Transmission Unit) are both terms used in networking, particularly in the context of TCP/IP (Transmission Control Protocol/Internet Protocol) communications. They relate to the maximum size of data packets that can be transmitted over a network.
 
@@ -135,7 +135,7 @@ MSS is negotiated during the TCP handshake process when establishing a TCP conne
 MSS helps to optimize TCP performance by ensuring that TCP segments fit within the MTU of the underlying network, reducing the need for fragmentation and improving efficiency.
 In summary, MTU specifies the maximum size of IP packets that can be transmitted over a network link, while MSS specifies the maximum size of payload data in TCP segments exchanged between devices. Both parameters play important roles in determining the efficient transmission of data over a network, minimizing fragmentation and optimizing performance.
 
-#### OSI model with complete details and protocols on each layer:
+### OSI model with complete details and protocols on each layer:
 
 The OSI (Open Systems Interconnection) model is a conceptual framework that standardizes the functions of a telecommunication or computing system into seven abstraction layers. These layers help to understand how different protocols and technologies interact to enable communication between devices on a network. Here's an overview of the OSI model:
 
@@ -175,7 +175,7 @@ It includes protocols and services for tasks such as file transfer, email, remot
 Examples: HTTP (Hypertext Transfer Protocol), FTP (File Transfer Protocol), SMTP (Simple Mail Transfer Protocol), DNS (Domain Name System).
 The OSI model serves as a reference framework for understanding how communication protocols and technologies interact within a network environment. Each layer performs specific functions, and data passes through these layers from the application layer down to the physical layer during transmission, and vice versa during reception.
 
-#### SSL Handshake:
+### SSL Handshake:
 
 The SSL (Secure Sockets Layer) handshake is a process that occurs between a client and a server when establishing a secure connection for encrypted communication. The SSL handshake involves several steps to negotiate the parameters of the secure connection and authenticate both parties. Here's an overview of the SSL handshake process:
 
@@ -217,7 +217,7 @@ Once both the client and server have exchanged Finished messages and verified ea
 All subsequent data transmitted between the client and server is encrypted and protected from eavesdropping or tampering.
 The SSL handshake process ensures that both the client and server agree on the parameters of the secure connection, authenticate each other's identities, and establish a secure channel for encrypted communication.
 
-##### Flow/Error Control:
+### Flow/Error Control:
 
 Flow control and error control are essential mechanisms used in data communication to ensure reliable and efficient transmission of data between devices. Let's delve into each concept:
 
@@ -242,7 +242,7 @@ Automatic Repeat reQuest (ARQ): ARQ protocols request retransmission of corrupte
 Examples: In TCP/IP, error control is primarily handled by TCP through mechanisms such as checksums, sequence numbers, acknowledgments, and selective repeat or Go-Back-N ARQ protocols.
 Both flow control and error control are integral components of reliable data communication protocols. They work together to ensure that data is transmitted accurately, efficiently, and with minimal disruption, even in challenging network conditions. These mechanisms are essential for maintaining the integrity and performance of modern communication networks.
 
-#### DNS query process:
+### DNS query process:
 
 The DNS (Domain Name System) query process involves several steps to resolve a domain name to its corresponding IP address. Here's an overview of the DNS query process:
 
@@ -285,7 +285,7 @@ Finally, the DNS resolver returns the IP address obtained from the authoritative
 The application can then use the IP address to establish a connection with the desired web server or other network resource associated with the domain name.
 Overall, the DNS query process involves a series of hierarchical queries from the local resolver to root DNS servers, TLD DNS servers, and authoritative DNS servers to obtain the IP address corresponding to a given domain name. Caching of DNS responses at various stages helps improve efficiency and reduce the load on DNS infrastructure by minimizing redundant queries for frequently accessed domain names.
 
-#### Ports and port numbers:
+### Ports and port numbers:
 
 In computer networking, a port is a communication endpoint used to identify a specific process or application on a networked device. Ports allow multiple processes or services to operate simultaneously on a single device, enabling them to send and receive data independently. Each port is associated with a unique port number, which helps identify the type of service or protocol running on that port. Here's an overview of ports and port numbers:
 
