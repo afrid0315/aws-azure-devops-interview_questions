@@ -253,6 +253,27 @@ Once you run the command, the system will ask you to enter and confirm the new p
 | Resource  | Resource use is higher  | Requires lesser resources |
 | Termination time | The termination time is higher | The termination time is less. |
 
+Process:
+
+A process is an instance of a running program on a computer system.
+It is an independent entity that has its own memory space, system resources, and execution environment.
+Each process is isolated from other processes, meaning that changes made by one process do not directly affect the memory or execution of another process.
+Processes communicate with each other through inter-process communication (IPC) mechanisms, such as pipes, sockets, or shared memory.
+Examples of processes include web browsers, word processors, media players, and system services.
+Thread:
+
+A thread is a lightweight execution unit within a process.
+Threads share the same memory space and system resources as their parent process.
+Multiple threads within the same process can concurrently execute code and share data.
+Threads within a process can communicate directly by accessing shared memory, which allows for more efficient communication compared to inter-process communication.
+Threads are commonly used to perform parallel or concurrent tasks within a single process, such as handling user input, performing background tasks, or processing data in parallel.
+Threads are cheaper to create and manage compared to processes, as they share resources and do not require the overhead of creating a separate memory space.
+In summary:
+
+A process is an independent instance of a running program with its own memory and resources.
+A thread is a lightweight execution unit within a process that shares the same memory and resources as other threads in the same process.
+Processes provide isolation and security by running independently of each other, while threads allow for concurrent execution within a single process, facilitating parallelism and multitasking.
+
 #### 27. What is the ulimit command, and how do you use it?
 **Answer.** The ulimit command controls the resource limit for the user process. You can use the ulimit command to set the limit on the system resource to prevent consuming the higher resources. This command contains multiple options to set the limit. For example, you can use the u option to set a maximum number of processes to 50:
 
