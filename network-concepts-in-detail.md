@@ -27,6 +27,38 @@ Addressing: Routers use logical addressing (e.g., IP addresses), while switches 
 Scope: Routers connect multiple networks and determine the best path for data transmission, while switches connect devices within a single network and facilitate communication between them.
 In summary, routers and switches play complementary roles in computer networks, with routers handling inter-network communication and switches managing intra-network communication. Understanding the differences between these devices is essential for designing and maintaining efficient network infrastructures.
 
+### How is a hub, a router, and a switch different from each other? Explain in terms of broadcast domain.
+
+In networking, a hub, a router, and a switch are all devices used to connect multiple devices in a network, but they operate differently and serve distinct purposes. The concept of broadcast domains helps to understand their differences:
+
+- Hub:
+
+A hub is the simplest networking device that operates at the physical layer (Layer 1) of the OSI model.
+It works by broadcasting data it receives from one device to all other devices connected to it.
+In terms of broadcast domains, a hub does not segment the network; all devices connected to the hub are in the same broadcast domain.
+Consequently, any broadcast or multicast packet sent by one device connected to the hub is received by all other devices, which can lead to unnecessary network traffic and potential performance issues.
+
+- Switch:
+
+A switch operates at the data link layer (Layer 2) of the OSI model.
+Unlike a hub, a switch keeps track of the MAC addresses of devices connected to it by building a MAC address table (also known as a CAM table).
+When a switch receives a frame from a device, it examines the destination MAC address and forwards the frame only to the port associated with that MAC address.
+In terms of broadcast domains, a switch segments the network into multiple broadcast domains. Each port on a switch is its own broadcast domain.
+Broadcast and multicast traffic is forwarded only to the ports where devices interested in that traffic are located, reducing unnecessary network traffic compared to a hub.
+
+- Router:
+
+A router operates at the network layer (Layer 3) of the OSI model.
+Routers are used to connect multiple networks together and facilitate communication between them.
+Routers make forwarding decisions based on IP addresses and maintain routing tables to determine the best path for forwarding packets.
+In terms of broadcast domains, routers separate broadcast domains by default. Each interface on a router represents a separate broadcast domain.
+Broadcast traffic is not forwarded by routers between different network segments, which helps to contain broadcast traffic within a local network and prevent it from flooding other parts of the network.
+In summary, the key differences between a hub, a switch, and a router in terms of broadcast domains are:
+
+A hub does not segment the network and all devices connected to it are in the same broadcast domain.
+A switch segments the network into multiple broadcast domains, with each port on the switch representing a separate broadcast domain.
+A router separates broadcast domains by default, with each interface on the router representing a separate broadcast domain.
+
 **MAC address:**
 
 **A MAC address, or Media Access Control address**, is a unique identifier assigned to a network interface controller (NIC) for communication on a network. It's a hardware address that is assigned by the manufacturer and is stored in the device's firmware.
