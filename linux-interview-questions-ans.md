@@ -706,7 +706,7 @@ By default, iptables rules get automatically removed after the system reboot, bu
 Verify SSH port connectivity: ``telnet <server_ip> 22``
 Review system logs for SSH-related errors: ``sudo journalctl -u sshd``
 
-#### 77. Processing a log file and fetching for few error codes from debugging prints. Can be solved using cat and sed.
+#### 77. Processing a log file and fetching for few error codes from debugging prints.
 **Answer. Processing Log File with cat and sed in Linux:**
 - Use cat to display log content.
 - Employ sed to filter specific lines, e.g., for error codes.
