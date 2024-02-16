@@ -425,3 +425,39 @@ MARK: Marks packets with a specific value, which can be used later in conjunctio
 QUEUE: Passes the packet to a user-space program for further processing. This is often used with specialized applications like intrusion detection systems (IDS) or packet analyzers.
 
 These are some of the common targets in iptables. Each target serves a specific purpose and can be used to control the flow of network traffic through the firewall based on predefined rules.
+
+### Types of floods commonly used in Denial of Service (DoS) attacks:
+
+There are several other types of floods commonly used in Denial of Service (DoS) attacks to overwhelm target systems. Here are some notable examples:
+
+A SYN flood is a type of Denial of Service (DoS) attack that exploits the three-way handshake process of the TCP protocol to overwhelm a target server's resources and render it inaccessible to legitimate users. Here's how a SYN flood attack works:
+
+Three-Way Handshake: In the normal TCP three-way handshake process, a client sends a SYN (synchronize) packet to the server to initiate a connection. The server responds with a SYN-ACK (synchronize-acknowledge) packet, indicating that it received the SYN packet and is willing to establish a connection. Finally, the client sends an ACK (acknowledge) packet to confirm the connection establishment.
+
+SYN Flood Attack: In a SYN flood attack, the attacker sends a large number of SYN packets to the target server, but does not complete the handshake process by sending the final ACK packet. This causes the server to allocate resources (such as memory and CPU) to maintain half-open connections for each incoming SYN packet.
+
+Resource Exhaustion: As the server continues to receive a flood of SYN packets without receiving the final ACK packets to complete the connections, it exhausts its available resources to handle legitimate connection requests. Eventually, the server becomes overwhelmed and unable to process legitimate incoming connections, leading to denial of service for legitimate users.
+
+Effects: The impact of a SYN flood attack can vary depending on the target server's capacity and network infrastructure. In some cases, the server may slow down or become unresponsive, leading to degraded performance or complete outage.
+
+Mitigation: To mitigate SYN flood attacks, various techniques can be employed:
+
+SYN cookies: A mechanism that allows the server to handle SYN packets without allocating resources until the connection is fully established.
+Rate limiting: Implementing rate-limiting measures to restrict the number of incoming SYN packets from individual sources.
+Firewalls and Intrusion Prevention Systems (IPS): Using network security devices to detect and block SYN flood traffic.
+Load balancing: Distributing incoming traffic across multiple servers to distribute the impact of the attack.
+Overall, SYN flood attacks are a common form of DoS attack and pose a significant threat to the availability of network services. Effective mitigation strategies and network security measures are essential to protect against such attacks.
+
+- UDP Flood: In a UDP flood attack, the attacker sends a large volume of User Datagram Protocol (UDP) packets to random ports on the target server. Since UDP is connectionless and does not require a handshake like TCP, the server attempts to process each incoming UDP packet, eventually exhausting its resources and leading to denial of service.
+
+- ICMP Flood (Ping Flood): ICMP flood attacks, also known as ping floods, involve sending a high volume of Internet Control Message Protocol (ICMP) echo request packets (pings) to the target server. The server responds to each ping with an ICMP echo reply, consuming bandwidth and processing power. ICMP floods can saturate network links and disrupt normal network operations.
+
+- HTTP Flood: In an HTTP flood attack, the attacker sends a large number of HTTP requests to the target web server. These requests may be legitimate HTTP GET or POST requests or may be crafted to exploit vulnerabilities in web server software. The goal is to exhaust the server's resources, such as CPU, memory, and bandwidth, and render the web service unavailable to legitimate users.
+
+- DNS Amplification (DNS Flood): DNS amplification attacks exploit vulnerable DNS servers to amplify the volume of traffic directed at the target server. The attacker sends a small DNS query with a spoofed source IP address to a large number of open DNS servers. These servers respond with much larger DNS responses, flooding the target server with a massive amount of traffic.
+
+- NTP Amplification (NTP Flood): Similar to DNS amplification attacks, NTP amplification attacks exploit vulnerable Network Time Protocol (NTP) servers to amplify traffic directed at the target server. The attacker sends a small NTP query to open NTP servers, which respond with larger NTP packets, overwhelming the target server with traffic.
+
+- SSDP Amplification (SSDP Flood): SSDP amplification attacks exploit vulnerable Simple Service Discovery Protocol (SSDP) servers to amplify traffic directed at the target server. The attacker sends a small SSDP query to open SSDP servers, which respond with larger SSDP packets, flooding the target server with traffic.
+
+These are just a few examples of flood-based DoS attacks. Each type of flood attack targets different protocols or services and aims to overwhelm the target server's resources, leading to denial of service for legitimate users. Effective mitigation strategies involve a combination of network security measures, traffic filtering, rate limiting, and server hardening to defend against such attacks.
