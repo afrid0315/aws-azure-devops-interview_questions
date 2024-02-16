@@ -493,3 +493,33 @@ Overall, SYN flood attacks are a common form of DoS attack and pose a significan
 - SSDP Amplification (SSDP Flood): SSDP amplification attacks exploit vulnerable Simple Service Discovery Protocol (SSDP) servers to amplify traffic directed at the target server. The attacker sends a small SSDP query to open SSDP servers, which respond with larger SSDP packets, flooding the target server with traffic.
 
 These are just a few examples of flood-based DoS attacks. Each type of flood attack targets different protocols or services and aims to overwhelm the target server's resources, leading to denial of service for legitimate users. Effective mitigation strategies involve a combination of network security measures, traffic filtering, rate limiting, and server hardening to defend against such attacks.
+
+### Difference between Bandwidth, Delay and Latency:
+
+Bandwidth, delay, and latency are all important concepts in networking, but they represent different aspects of network performance:
+
+- Bandwidth:
+
+Bandwidth refers to the maximum rate at which data can be transferred over a network connection, typically measured in bits per second (bps), kilobits per second (Kbps), megabits per second (Mbps), or gigabits per second (Gbps).
+It represents the capacity of the network connection and determines how much data can be transmitted in a given amount of time.
+Higher bandwidth allows for faster data transfer speeds and can accommodate more data-intensive applications such as video streaming, file downloads, and large data transfers.
+
+- Delay:
+
+Delay, in networking, refers to the time it takes for a data packet to travel from the source to the destination across the network.
+It is often measured in milliseconds (ms) or microseconds (μs).
+Delay can be caused by various factors, including the physical distance between devices, the speed of the network medium (e.g., fiber optic cables, copper wires), the processing time at intermediate network devices (e.g., routers, switches), and congestion on the network.
+Types of delay include propagation delay (time taken for a signal to travel through the medium), transmission delay (time taken to push all the packet's bits into the link), queuing delay (time spent in buffers waiting to be transmitted), and processing delay (time spent by network devices to process the packet).
+
+- Latency:
+
+Latency is closely related to delay but specifically refers to the time it takes for a data packet to travel from the source to the destination and back (round trip) across the network.
+It is often measured in milliseconds (ms) or microseconds (μs).
+Latency includes both the propagation delay (time taken for the signal to travel to the destination) and the processing delay (time taken by devices to process the packet) but does not include transmission delay or queuing delay.
+Latency is a critical factor in real-time applications such as voice over IP (VoIP), online gaming, and video conferencing, where even small delays can affect user experience.
+
+In summary:
+
+Bandwidth represents the capacity of the network connection and determines the maximum rate of data transfer.
+Delay refers to the time it takes for a data packet to travel from the source to the destination and can be caused by various factors.
+Latency specifically refers to the round-trip time for a data packet to travel from the source to the destination and back, including both propagation delay and processing delay.
