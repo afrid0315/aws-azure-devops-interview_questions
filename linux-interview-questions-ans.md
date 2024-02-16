@@ -614,10 +614,11 @@ Booting is the process of initializing a computer's operating system and making 
 
 **Linux Boot Process:**
 
-- BIOS/UEFI: The computer's firmware (BIOS or UEFI) performs a Power-On Self-Test (POST) and initializes hardware.
-- Boot Loader (GRUB): The boot loader, such as GRUB, loads the Linux kernel into memory from the boot partition.
-- Linux Kernel Initialization: The kernel initializes hardware, mounts the root file system, and starts the init process.
-- Init Process: The init process (or a modern equivalent like systemd) initializes user space components, services, and runs startup scripts.
+(BIOS/UEFI->POST->GRUB->KERNEL->INIT->SERVICES START)
+- BIOS/UEFI: When computer powered on, BIOS/UEFI (Basic Input/Output System or Unified Extensible Firmware Interface) is initialized. BIOS/UEFI performs Power-On Self-Test (POST) to check hardware components like CPU, storages and others... Then Boot Loader loads in booting device from BIOS/UEFI settings. Boot Loader is GRUB (Grand Boot Loader) which is used in most linux distributions.
+- Boot Loader (GRUB): GRUB is reponsible for the initializing hardware components and loading linux kernel into memory from the boot partition.
+- Linux Kernel Initialization: Once Linux kernel loads into memory then the Init process starts, initializes hardware, mounts the root file system.
+- Init Process: The init process (or a modern equivalent like systemd) initializes user space components, services, and runs startup scripts. Allowing users to interact with the system.
 
 **Windows Boot Process:**
 
