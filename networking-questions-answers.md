@@ -394,3 +394,6 @@ d. all responses are correct.
 
 #### 79. My net isn't working, how do i troubleshoot?
 **Answer.** To troubleshoot network connectivity issues, you can start by checking physical connections, restarting network devices, verifying network settings, testing connectivity with other devices, checking for IP address conflicts, and reviewing firewall configurations. Additionally, diagnostic tools like ping, traceroute, and netstat can help identify and resolve network problems.
+
+#### 80. About topology? Types of topology?
+**Answer.**  https://www.geeksforgeeks.org/types-of-network-topology/
