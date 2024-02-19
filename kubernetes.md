@@ -496,7 +496,7 @@ Pod: A pod is the smallest deployable unit in Kubernetes, containing one or more
 
 Blue-Green Deployment: Running two identical production environments, with one serving live traffic (blue) while the other is idle (green). The green environment is updated with new changes, tested, and then swapped with the blue environment to minimize downtime.
 
-Canary Deployment: Gradually rolling out changes to a small subset of users or servers before deploying them to the entire infrastructure. This allows for testing in a real-world environment and mitigates the risk of widespread issues.
+Canary Deployment: Gradually rolling out changes to a small subset of users or servers before deploying them to the entire infrastructure. This allows for testing in a real-world environment and mitigates the risk of widespread issues. (We have two identical environments v1 and v2-version2. We slowly test v2 by deploying few users like 10% and remaining 90% in v1, after v2 running fine all other 90% also we deploy in v2).
 
 Rolling Deployment: Deploying changes gradually across a pool of servers or instances, one at a time, while ensuring the application remains available throughout the process. This strategy helps minimize downtime and allows for quick rollback if issues arise.
 
