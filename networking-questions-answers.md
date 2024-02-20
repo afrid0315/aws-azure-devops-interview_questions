@@ -397,3 +397,6 @@ d. all responses are correct.
 
 #### 80. About topology? Types of topology?
 **Answer.**  https://www.geeksforgeeks.org/types-of-network-topology/
+
+#### 81. URL full form?
+**Answer.** Universal Resource Locator.
