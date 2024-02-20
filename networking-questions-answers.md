@@ -327,7 +327,11 @@ d. all responses are correct.
 **Answer.** When a web page is loaded, the client's browser sends a request to the web server hosting the page. The server processes the request, retrieves the necessary files (HTML, CSS, JavaScript, images, etc.), and sends them back to the client's browser. The browser then renders the content received, displaying the web page to the user.
 
 #### 57. What is DNS? How does DNS work?
-**Answer.** DNS is a decentralized naming system used to translate domain names (e.g., www.example.com) into IP addresses (e.g., 192.0.2.1) on the internet. It enables users to access websites using human-readable domain names instead of numeric IP addresses. DNS works through a distributed hierarchy of servers, including recursive resolvers, authoritative name servers, and root servers.
+**Answer.** DNS is a decentralized naming system used to translate domain names (e.g., www.example.com) into IP addresses (e.g., 192.0.2.1) on the internet. It enables users to access websites using human-readable domain names instead of numeric IP addresses. DNS works through a distributed hierarchy of servers, including 
+- recursive resolvers, Eg: The recursor can be thought of as a librarian who is asked to go find a particular book somewhere in a library.
+- root servers, eg: It can be thought of like an index in a library that points to different racks of books
+- TLD nameserver(Top level Domain server) eg: The top level domain server (TLD) can be thought of as a specific rack of books in a library.
+- authoritative name servers. eg:  This final nameserver can be thought of as a dictionary on a rack of books.
 
 #### 58. DNS resolving ( how to resolve name to IP or what happen when you vist amazon.com)
 **Answer.** DNS resolution is the process of converting a domain name (e.g., www.example.com) into an IP address (e.g., 192.0.2.1) through the Domain Name System. It involves querying DNS servers recursively or iteratively until the corresponding IP address is found and returned to the client.
