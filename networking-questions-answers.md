@@ -405,5 +405,5 @@ d. all responses are correct.
 #### 81. URL,SNMP full form?
 **Answer.** Universal Resource Locator.
 Simple Network Management Protocol.
-MAS - Message Address System.
+MAS - Media Access Control System.
 ARP - Address Resolution Protocol.
