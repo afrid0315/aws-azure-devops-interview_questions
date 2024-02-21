@@ -402,5 +402,8 @@ d. all responses are correct.
 #### 80. About topology? Types of topology?
 **Answer.**  https://www.geeksforgeeks.org/types-of-network-topology/
 
-#### 81. URL full form?
+#### 81. URL,SNMP full form?
 **Answer.** Universal Resource Locator.
+Simple Network Management Protocol.
+MAS - Message Address System.
+ARP - Address Resolution Protocol.
