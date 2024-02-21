@@ -407,3 +407,6 @@ d. all responses are correct.
 Simple Network Management Protocol.
 MAC - Media Access Control System.
 ARP - Address Resolution Protocol.
+
+#### 82. What is Gateway?
+**Answer.** Gateway acts as entrypoint for network connections. It facilitate connection between different networks. It can translate one protocol to another. It is a network node that connects two networks using different protocols together. Also called Protocol Converter. Its function is entry/exit to the network.
