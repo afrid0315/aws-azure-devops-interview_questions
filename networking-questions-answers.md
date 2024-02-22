@@ -215,7 +215,7 @@ After the Acknowledge step, the DHCP client configures its network interface wit
 
 TRACERT (Traceroute) traces the route that packets take to reach a destination. It sends packets with increasing TTL (Time To Live) values, causing routers along the path to respond with ICMP Time Exceeded messages. This helps identify the routers in the network path and measure the round-trip time to each hop, aiding in network troubleshooting.
 
-#### 32. How to check a particular port is open or no
+#### 32. How to check a particular port is open or no? (Telnet somewhat similiar to ssh)
 **Answer.** You can check if a particular port is open using the telnet command or nc (netcat) command.``telnet hostname_or_ip port_number or telnet example.com 80``
 
 #### 33. Use of Traceroute & Nslookup command.
