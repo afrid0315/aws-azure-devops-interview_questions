@@ -20,6 +20,8 @@ WORKDIR /app/data
 #### 3. What is docker networks?
 **Answer.** Docker Networks are vital for defining communication patterns, ensuring proper isolation, and facilitating containerized application deployment.
 
+https://docs.docker.com/network/
+
 #### 4. How the port forwading is done in docker?
 **Answer.**
 ``
