@@ -4,7 +4,19 @@
 https://www.levels.fyi/blog/amazon-leadership-principles.html
 ```
 #### 1. Tell me how you handled your non-supportive team members in your team.
-**Answer.** In handling non-supportive team members, I focused on open communication and collaboration. I sought to understand their concerns, addressed any issues impacting teamwork, and encouraged a positive team culture. Additionally, I leveraged team-building activities to foster a collaborative environment, emphasizing the importance of shared goals and mutual support for project success.
+**Answer.** Situation: During my time as a DevOps engineer, I encountered a situation where a team member was displaying non-supportive behavior, which was negatively impacting team morale and productivity.
+
+Task: My task was to address this issue constructively while maintaining a positive team dynamic and ensuring project goals were met.
+
+Action: I approached the situation by first seeking to understand the underlying reasons for the team member's non-supportive behavior. I initiated a one-on-one conversation in a private setting to express my concerns and listen to their perspective. I remained empathetic and non-confrontational, creating a safe space for open dialogue.
+
+During our discussion, I focused on active listening, acknowledging their feelings, and validating their concerns. I also provided specific examples of how their behavior was impacting the team and our collective goals.
+
+Next, I worked collaboratively with the team member to identify potential solutions and strategies for improvement. We discussed actionable steps they could take to become more supportive and engaged team members. I offered my support and guidance, emphasizing that we were all working towards the same objectives and that their contributions were valued.
+
+Throughout this process, I maintained regular communication with the rest of the team, ensuring transparency and addressing any concerns or questions they had about the situation. I also fostered a supportive team environment by highlighting individual strengths and encouraging mutual respect and collaboration.
+
+Result: By addressing the issue directly and promoting open communication and collaboration, we were able to resolve the non-supportive behavior effectively. The team member became more engaged and proactive, contributing positively to our projects and fostering a more cohesive team environment. Ultimately, this approach helped improve team morale and productivity, leading to successful project outcomes.
 
 #### 2. 
 
