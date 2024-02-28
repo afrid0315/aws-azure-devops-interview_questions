@@ -107,9 +107,10 @@ For example: When you have sensitive data such as database credentials or user p
 
         - By Role Based Access Control
         - By Network policies- it will control traffic between the pods.
-        - By Secrets and conflicts - it will manage your sensitive information.
+        - By Secrets and conflicts - it will manage your sensitive information. (Use Hashicorp Vault, AWS KMS)
         - By inspecting images by using tools like Snyk..
         - Run as a user not as Root(administrator)
+        - etcd secure by firewalls
 
 #### 17. What is minikube?
 
