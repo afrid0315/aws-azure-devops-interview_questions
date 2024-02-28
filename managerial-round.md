@@ -22,7 +22,7 @@ Result: By addressing the issue directly and promoting open communication and co
 
 #### 3. Tell me about a time when you failed a deadline.
 
-Answer. To date, I have consistently met project deadlines. Through effective planning, proactive monitoring, and a commitment to best practices, I've been able to ensure the successful delivery of projects within the specified timelines. However, I acknowledge that the nature of the industry involves challenges, and in the event of unforeseen obstacles, I prioritize transparent communication and rapid resolution to minimize any potential impact on project timelines.
+Answer. I had just returned from some time off and wasn’t back into my usual groove of working yet. I hadn’t asked someone to cover my part of a project before I left, despite my work friend answering. On my second day back, I realized that I was the only person who hadn’t finished their part. I ended up working overtime all week so the team wouldn’t be waiting on me. I felt ashamed for being late and exhausted from trying to catch up. I learned that I shouldn’t be afraid to ask for help and need to establish more of a routine to follow to never miss a deadline.
 
 #### 4. Detailed discussion about Projects.
 **Answer.** In my role as a DevOps engineer, I've been involved in several projects focused on optimizing continuous integration, deployment pipelines, and infrastructure as code. Notable projects include implementing AWS-based solutions for scalability, enhancing container orchestration with Kubernetes, and integrating monitoring tools for improved system reliability. These experiences have honed my skills in automating workflows, ensuring high availability, and fostering a culture of collaboration between development and operations teams.
