@@ -236,3 +236,4 @@ ENTRYPOINT instruction also works similar to CMD instruction. ENTRYPOINT instruc
 15. We are getting logs right from where it is getting path of logs in kubernetes
 16. How can I reduce docker size
 17. Difference between deployment and replicaset? If we mention replicas in deployment then wat is the purpose of replicaset file
+18. Different Docker runlevels
