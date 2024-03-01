@@ -616,7 +616,7 @@ Booting is the process of initializing a computer's operating system and making 
 
 (BIOS/UEFI->POST->MBR->GRUB->KERNEL->INIT->SERVICES START)
 - BIOS/UEFI: When computer powered on, BIOS/UEFI (Basic Input/Output System or Unified Extensible Firmware Interface) is initialized. BIOS/UEFI performs Power-On Self-Test (POST) to check hardware components like CPU, storages and others... Then Boot Loader loads in booting device from BIOS/UEFI settings. Boot Loader is GRUB (Grand Boot Loader) which is used in most linux distributions.
-- MBR: MBR is less than 512 bytes in size. This has three components 1) primary boot loader info in 1st 446 bytes 2) partition table info in next 64 bytes 3) mbr validation check in last 2 bytes. It contains information about GRUB (or LILO in old systems). So, in simple terms MBR loads and executes the GRUB boot loader.
+- MBR: MBR (Master Boot Record) is less than 512 bytes in size. This has three components 1) primary boot loader info in 1st 446 bytes 2) partition table info in next 64 bytes 3) mbr validation check in last 2 bytes. It contains information about GRUB (or LILO in old systems). So, in simple terms MBR loads and executes the GRUB boot loader.
 - Boot Loader (GRUB): GRUB is reponsible for the initializing hardware components and loading linux kernel into memory from the boot partition.
 - Linux Kernel Initialization: Once Linux kernel loads into memory then the Init process starts, initializes hardware, mounts the root file system.
 - Init Process: The init process (or a modern equivalent like systemd) initializes user space components, services, and runs startup scripts. Allowing users to interact with the system.
