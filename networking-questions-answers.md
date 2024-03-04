@@ -146,6 +146,7 @@ Examples of protocols: TCP (Transmission Control Protocol) for reliable communic
 - DHCP(Dynamic Host Configuration Protocol): Ports 67 (server) and 68 (client)
 - Telnet (23)
 - SMTP (25)
+- RIP (520)
 
 #### 23. What is the time complexity of merge sort?
 **Answer.** The time complexity of merge sort is O(n log n), where "n" is the number of elements in the array that is being sorted.
