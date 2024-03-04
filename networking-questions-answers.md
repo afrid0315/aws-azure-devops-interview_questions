@@ -37,6 +37,8 @@ A switch operates at the data link layer (Layer 2) and connects devices within t
 #### 5. What is MSS/MTU?
 **Answer.** MSS (Maximum Segment Size) and MTU (Maximum Transmission Unit) refer to the size of data packets in networking. MTU is the maximum size of a network layer packet, while MSS is the maximum size of a TCP segment. Adjusting MSS helps prevent fragmentation, ensuring efficient data transmission across networks with varying MTUs.
 
+(MSS works in Transport layer, MTU in Network layer both going to make pieces called fragmentation. In MSS, it checks data packet if payload size is exceeding to maximum segmented size. It will not check header of IP AND TCP in Transport layer. But, in netwoking layer the overall packet size is calculated and fragmented accordingly the payload. MTU = 1500 BYTES AND MSS = HEADER(IP =20,TCP=20), PAYLOAD=1460BYTES.)
+
 #### 6. OSI model with complete details and protocols on each layer?
 **Answer.** The OSI (Open Systems Interconnection) model is a conceptual framework for understanding network interactions, divided into seven layers:
 - Physical Layer: Deals with physical connection and transmission media. Protocols: Ethernet, USB, HDMI.
