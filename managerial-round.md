@@ -166,7 +166,25 @@ One time I failed was when a project I managed experienced delays and setbacks d
 In a previous role, we encountered a technical issue that threatened to delay a project deadline. I quickly identified the root cause, consulted with subject matter experts, and implemented a workaround to keep the project on track. By effectively troubleshooting and finding a solution, we were able to meet the deadline and deliver the project successfully.
 
 #### Tell me a time you were wrong?
-There have been instances where I made mistakes or misjudgments, but I always view them as opportunities for learning and growth. When I'm wrong, I acknowledge my mistake, take responsibility, and work towards finding a solution or making amends.
+Situation:
+During a critical phase of a project aimed at optimizing our organization's cloud infrastructure on AWS, I encountered a situation where I made a mistake that impacted the project's progress.
+
+Task:
+Our task was to implement a new CI/CD pipeline to automate the deployment process for our applications on AWS, but I made an incorrect assumption that led to delays and setbacks.
+
+Action:
+As part of the project team, I was responsible for configuring the CI/CD pipeline and integrating it with our AWS environment. However, during the configuration process, I incorrectly assumed that a specific AWS service was compatible with our existing infrastructure and proceeded with the implementation without thoroughly validating the assumption.
+
+As a result, we encountered compatibility issues and unexpected errors during testing, which significantly delayed the deployment of the CI/CD pipeline and disrupted our project timeline.
+
+Recognizing my mistake, I took immediate action to rectify the situation. I acknowledged the error and communicated transparently with the project team, explaining the impact of my mistake and outlining steps to address it.
+
+I collaborated with team members and sought input from subject matter experts to identify alternative solutions and workarounds. Together, we reevaluated our requirements and selected a different AWS service that better suited our needs and was compatible with our existing infrastructure.
+
+Result:
+By admitting my mistake and taking proactive steps to rectify it, we were able to overcome the setbacks and successfully deploy the CI/CD pipeline on AWS. While the initial delay was regrettable, the experience taught me valuable lessons about the importance of thorough validation and the consequences of making assumptions without sufficient evidence.
+
+Furthermore, the transparency and accountability demonstrated in owning up to my mistake fostered trust and collaboration within the project team. The experience highlighted the importance of humility, resilience, and continuous learning in a dynamic AWS/DevOps environment, ultimately strengthening our team's ability to navigate challenges and deliver successful outcomes in future projects.
 
 #### Tell me a time when and how did you overcome the situation?
 During a challenging project, we encountered unexpected obstacles that threatened to derail our progress. However, by maintaining a positive attitude, collaborating with team members, and seeking input from stakeholders, we were able to overcome the situation and achieve our goals. By staying resilient and adaptable, we turned challenges into opportunities for growth and success.
