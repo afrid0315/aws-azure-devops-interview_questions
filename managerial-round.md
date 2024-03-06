@@ -211,5 +211,26 @@ To address the challenges posed by the difficult customer, I initiated regular m
 Result:
 Despite the initial difficulties, our proactive approach and commitment to meeting the customer's needs resulted in the successful implementation of the CI/CD pipeline. The customer was impressed with the final solution, which streamlined their development process, improved deployment efficiency, and enhanced overall security. Our ability to navigate challenges and deliver a tailored solution strengthened our relationship with the customer and positioned us as a trusted partner for future projects.
 
+#### Tell me about a time when you didn't meet customer expectations. What happened, and how did you deal with the situation?
+Situation:
+During a project to implement a continuous integration/continuous deployment (CI/CD) pipeline for our organization, we encountered a situation where we didn't meet customer expectations.
+
+Task:
+Our task was to develop and deploy a CI/CD pipeline that would streamline the software delivery process, improve deployment efficiency, and enhance overall development productivity for the customer.
+
+Action:
+Initially, we conducted thorough requirements gathering sessions with the customer to understand their needs and expectations for the CI/CD pipeline. However, as the project progressed, we encountered several challenges, including unexpected technical complexities, resource constraints, and shifting priorities.
+
+Despite our best efforts, we underestimated the timeline and encountered delays in delivering the final CI/CD pipeline to the customer. This led to frustration and disappointment on the customer's part as they had expected the project to be completed within the initially agreed-upon timeframe.
+
+To address the situation, we immediately communicated the delay to the customer, taking full responsibility for not meeting their expectations. We provided transparent updates on the project status, explaining the reasons for the delay and outlining the steps we were taking to expedite the completion of the CI/CD pipeline.
+
+Additionally, we reassessed our project plan and resource allocation, reallocating resources and adjusting priorities to accelerate the remaining tasks. We also implemented more frequent progress updates and demos to keep the customer informed and engaged throughout the remainder of the project.
+
+Result:
+Despite the initial setback, our proactive communication and commitment to addressing the customer's concerns helped rebuild trust and confidence in our team. By maintaining open and transparent communication channels, we were able to successfully deliver the CI/CD pipeline to the customer, albeit slightly behind schedule.
+
+While the delay was not ideal, the customer appreciated our honesty, transparency, and dedication to resolving the issue promptly. Ultimately, the successful delivery of the CI/CD pipeline strengthened our relationship with the customer and demonstrated our ability to overcome challenges and deliver results in a dynamic DevOps environment.
+
 https://www.tipszon.com/2023/12/how-to-use-star-method-in-interview.html
 https://www.tipszon.com/2022/03/how-to-prepare-for-amazon-cloud-support-associate-interview.html
