@@ -4,6 +4,8 @@
 https://www.levels.fyi/blog/amazon-leadership-principles.html
 ```
 #### 1. Tell me how you handled your non-supportive team members in your team.
+#### or Your team mate is not coping up with tasks being a lead how will you support and guide him?
+
 **Answer.** Situation: During my time as a DevOps engineer, I encountered a situation where a team member was displaying non-supportive behavior, which was negatively impacting team morale and productivity.
 
 Task: My task was to address this issue constructively while maintaining a positive team dynamic and ensuring project goals were met.
@@ -74,7 +76,7 @@ This experience taught me the importance of resilience and continuous learning i
 #### 14. You are in the production oncall support and you get a alert where one of the system CPU is spiking up what measures would you take?
 **Answer.** In the event of a CPU spike alert during on-call support, I would first identify the root cause by checking system logs and monitoring tools. Next, I would assess the impact on performance and user experience. Depending on the severity, I may scale resources, optimize code, or restart services to mitigate the issue. Continuous monitoring and alerting would be implemented to prevent future occurrences, and a post-incident review would be conducted for further optimization and learning.
  
-#### 15. Your team mate is not coping up with tasks being a lead how will you support and guide him?
+#### 15. 
 **Answer.** As a team lead, if a team member is struggling with tasks, I would initiate an open and empathetic conversation to understand their challenges. Together, we would identify specific areas of difficulty and create a plan to address them. I'd provide additional resources or training if needed and offer ongoing support and feedback. Collaboration and setting realistic goals would be key, ensuring the team member feels supported in their professional development.
 
 #### 16. Why would you be a good fit for a senior management position?
