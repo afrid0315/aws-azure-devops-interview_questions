@@ -306,5 +306,53 @@ Taking ownership of the project, I led the implementation efforts, configuring a
 Result:
 Through my initiative and leadership, we successfully redesigned and optimized our application deployment architecture on AWS, achieving significant improvements in scalability, reliability, and cost efficiency. The new architecture provided automated deployment, dynamic scaling, and fault tolerance, enabling our organization to respond quickly to changing demands and maintain high availability for our applications and services.
 
+#### Describe a time when you found a simple solution to a complex problem.
+Situation:
+During a critical phase of a project aimed at optimizing our organization's cloud infrastructure on AWS, I encountered a complex problem related to resource management and cost optimization.
+
+Task:
+Our task was to identify and implement solutions to reduce costs and improve resource utilization without compromising performance or availability.
+
+Action:
+After conducting a thorough analysis of our AWS infrastructure using AWS Cost Explorer and AWS Trusted Advisor, I discovered that a significant portion of our costs was attributed to underutilized resources, particularly EC2 instances running non-production workloads.
+
+Rather than pursuing complex and time-consuming optimization strategies, I proposed a simple yet effective solution: implementing AWS EC2 instance scheduling using AWS Systems Manager Automation.
+
+I took the initiative to research and test the AWS Systems Manager Automation feature, which enables automated scheduling of EC2 instances based on predefined schedules. Leveraging this feature, I created automation documents to start and stop non-production EC2 instances during off-hours and weekends when they were not needed.
+
+Next, I collaborated with the operations team to implement the automation documents in our AWS environment. We configured scheduled tasks using AWS CloudWatch Events to trigger the automation documents at specific times, ensuring that non-production EC2 instances were automatically started and stopped according to the predefined schedule.
+
+Result:
+By implementing AWS EC2 instance scheduling using AWS Systems Manager Automation, we achieved significant cost savings and improved resource utilization without impacting performance or availability. The simple yet effective solution reduced our AWS bill by optimizing the usage of non-production EC2 instances during off-hours and weekends when they were not in use.
+
+Furthermore, the automation of EC2 instance scheduling streamlined operations and reduced manual overhead, allowing our team to focus on more strategic initiatives. The success of this solution highlighted the value of simplicity and automation in addressing complex problems in an AWS/DevOps environment, demonstrating the power of leveraging AWS services to achieve cost savings and operational efficiency.
+
+#### Tell me about a time when you invented something.
+Situation:
+During a critical phase of a project aimed at optimizing our organization's cloud infrastructure on AWS, I identified an opportunity to innovate and create a solution to improve security and compliance.
+
+Task:
+Our task was to enhance the security posture of our AWS environment and ensure compliance with industry regulations and best practices.
+
+Action:
+After conducting a comprehensive assessment of our AWS environment using AWS Config, AWS Security Hub, and AWS IAM Access Analyzer, I identified a common challenge related to managing permissions and access controls for AWS resources. Specifically, I observed that our organization lacked a centralized and automated solution for managing IAM policies and permissions across multiple AWS accounts and services.
+
+Recognizing the need for a more efficient and scalable approach to IAM management, I took the initiative to develop a solution: an IAM policy generator tool using AWS Lambda and AWS Step Functions.
+
+I began by designing the architecture and workflow of the IAM policy generator tool, leveraging AWS Lambda for serverless compute and AWS Step Functions for orchestrating the workflow. I also integrated AWS SDK for Python (Boto3) to interact with AWS IAM APIs and retrieve resource information dynamically.
+
+Next, I developed the code logic for the IAM policy generator tool, implementing features such as role-based access control (RBAC), least privilege principles, and policy validation checks to ensure compliance with security best practices.
+
+Once the development was complete, I thoroughly tested the IAM policy generator tool in a sandbox environment, simulating various use cases and scenarios to validate its functionality and reliability.
+
+Result:
+By inventing and implementing the IAM policy generator tool, we achieved significant improvements in IAM management efficiency, security, and compliance across our organization's AWS environment.
+
+The tool provided a centralized and automated solution for generating IAM policies and managing permissions, reducing the manual overhead and human error associated with manual policy creation and management.
+
+Furthermore, the IAM policy generator tool enhanced our organization's security posture by enforcing least privilege principles and ensuring compliance with industry regulations and best practices.
+
+Overall, the invention of the IAM policy generator tool demonstrated my ability to innovate and create solutions that address real-world challenges in an AWS/DevOps environment, contributing to the success and security of our cloud infrastructure optimization project.
+
 https://www.tipszon.com/2023/12/how-to-use-star-method-in-interview.html
 https://www.tipszon.com/2022/03/how-to-prepare-for-amazon-cloud-support-associate-interview.html
