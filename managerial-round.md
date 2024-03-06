@@ -75,9 +75,6 @@ This experience taught me the importance of resilience and continuous learning i
 
 #### 14. You are in the production oncall support and you get a alert where one of the system CPU is spiking up what measures would you take?
 **Answer.** In the event of a CPU spike alert during on-call support, I would first identify the root cause by checking system logs and monitoring tools. Next, I would assess the impact on performance and user experience. Depending on the severity, I may scale resources, optimize code, or restart services to mitigate the issue. Continuous monitoring and alerting would be implemented to prevent future occurrences, and a post-incident review would be conducted for further optimization and learning.
- 
-#### 15. 
-**Answer.** As a team lead, if a team member is struggling with tasks, I would initiate an open and empathetic conversation to understand their challenges. Together, we would identify specific areas of difficulty and create a plan to address them. I'd provide additional resources or training if needed and offer ongoing support and feedback. Collaboration and setting realistic goals would be key, ensuring the team member feels supported in their professional development.
 
 #### 16. Why would you be a good fit for a senior management position?
 **Answer.** As a candidate for a senior management position, I bring a combination of strong leadership skills, a proven track record in achieving strategic goals, and the ability to foster a collaborative and high-performance work culture. My experience includes successfully leading teams through complex projects, implementing effective organizational strategies, and driving innovation. I am dedicated to achieving operational excellence, fostering employee development, and contributing to the overall success and growth of the organization.
@@ -165,9 +162,6 @@ While it's natural to encounter differences in personality or working styles, I 
 #### Tell us about a time you failed and how did you bounce back up from it?
 One time I failed was when a project I managed experienced delays and setbacks due to unforeseen technical issues. However, I took ownership of the situation, analyzed what went wrong, and developed a plan to address the issues and mitigate risks moving forward. By learning from the experience and applying those lessons to future projects, I was able to bounce back stronger and more resilient.
 
-#### Tell me a time when you went above and beyond to deliver results?
-During a critical project deadline, I volunteered to work overtime and collaborate with team members to ensure all deliverables were completed on time. Despite facing challenges, my dedication and proactive approach helped us achieve success and receive positive feedback from stakeholders.
-
 #### Tell me about a time when you had a problem and how did you solve it?
 In a previous role, we encountered a technical issue that threatened to delay a project deadline. I quickly identified the root cause, consulted with subject matter experts, and implemented a workaround to keep the project on track. By effectively troubleshooting and finding a solution, we were able to meet the deadline and deliver the project successfully.
 
@@ -177,14 +171,8 @@ There have been instances where I made mistakes or misjudgments, but I always vi
 #### Tell me a time when and how did you overcome the situation?
 During a challenging project, we encountered unexpected obstacles that threatened to derail our progress. However, by maintaining a positive attitude, collaborating with team members, and seeking input from stakeholders, we were able to overcome the situation and achieve our goals. By staying resilient and adaptable, we turned challenges into opportunities for growth and success.
 
-#### Tell me a time when you went above and beyond to solve a problem and that helped your team.
-In a critical project, we faced a technical issue that required immediate resolution to prevent downtime. I took the initiative to research and implement a workaround, which not only solved the problem but also prevented similar issues in the future. My proactive approach and dedication to finding solutions helped maintain team productivity and achieve project objectives.
-
 #### Ever faced any situation when I completed the work just before the deadline? How I was able to cope up with pressure and manage everything in time at the last moment.
 Yes, there have been instances where I had to complete work just before the deadline. In such situations, I prioritize tasks, focus on the most critical aspects, and maintain open communication with stakeholders to manage expectations. By staying organized, remaining calm under pressure, and leveraging my problem-solving skills, I'm able to meet deadlines effectively.
-
-#### When was the time you worked out of scope from your responsibilities?
-There have been occasions where I took on additional responsibilities outside of my role to support the team or address urgent needs. For example, I volunteered to assist with a client presentation, even though it wasn't part of my job description. By stepping up and going above and beyond, I demonstrated my commitment to the team's success and contributed to positive outcomes.
 
 #### Tell me about a time when you had a conflict in the team?
 Conflict is a natural part of team dynamics, and I've encountered it in various situations. One example is when team members had differing opinions on the project approach. To resolve the conflict, I facilitated open communication, encouraged collaboration, and helped find a compromise that satisfied everyone's concerns. By addressing the conflict constructively, we were able to strengthen teamwork and achieve our goals.
@@ -253,6 +241,30 @@ Collaboration with Team: I collaborate closely with my team members, including A
 
 Result:
 By following this prioritization approach, I am able to effectively manage customer needs and ensure that critical issues are addressed promptly, leading to improved customer satisfaction and retention. Additionally, the systematic handling of customer inquiries enables our team to maintain high service levels and meet SLA commitments despite the large volume of incoming requests.
+
+#### Tell me a time when you went above and beyond to solve a problem and that helped your team. (or)           
+#### Tell me a time when you went above and beyond to deliver results? (or)                                                             
+#### Tell me about a time when you took on a task that was beyond your job responsibilities. (or)               
+#### When was the time you worked out of scope from your responsibilities? 
+Situation:
+During my tenure as a cloud support engineer in a dynamic AWS/DevOps environment, I encountered various challenges that required me to go above and beyond to support my team and deliver exceptional results.
+
+Task:
+My primary task was to ensure the smooth operation of our cloud infrastructure, provide technical support to customers, and contribute to the success of our DevOps initiatives.
+
+Action:
+In one particular instance, our team faced a critical issue with an AWS service that was impacting multiple customers and causing significant disruption. Recognizing the urgency of the situation, I took the initiative to lead the investigation and resolution efforts.
+
+I collaborated closely with our engineering and operations teams to diagnose the root cause of the issue. Drawing upon my technical expertise and knowledge of AWS services, I proposed and implemented innovative solutions to mitigate the impact on our customers and restore service stability.
+
+Additionally, I went above and beyond by proactively reaching out to affected customers, providing regular updates on the status of the issue, and offering personalized support to address their specific concerns and requirements. I also documented the incident response process and shared lessons learned with the team to improve our incident management procedures.
+
+Result:
+By going above and beyond to solve the problem and deliver results, I not only resolved the immediate issue but also strengthened our team's resilience, collaboration, and customer-centric mindset. The proactive measures I implemented contributed to minimizing downtime, restoring customer confidence, and enhancing overall service reliability.
+
+Furthermore, there have been instances where I took on tasks beyond my job responsibilities, such as assisting with onboarding new team members, participating in cross-functional projects, and contributing to process improvement initiatives. These experiences have allowed me to develop new skills, expand my knowledge, and make meaningful contributions to the success of our team and organization.
+
+Overall, my willingness to go the extra mile, take on additional responsibilities, and deliver results has been instrumental in driving positive outcomes and fostering a culture of excellence, teamwork, and continuous improvement within our organization.
 
 https://www.tipszon.com/2023/12/how-to-use-star-method-in-interview.html
 https://www.tipszon.com/2022/03/how-to-prepare-for-amazon-cloud-support-associate-interview.html
