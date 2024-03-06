@@ -138,8 +138,31 @@ While I strive to be self-aware and open to feedback, I recognize that everyone 
 #### What is a project you have worked on that you are very proud of?
 One project I'm particularly proud of is when I led a team to develop a new feature for our company's software platform. We successfully delivered the project ahead of schedule and received positive feedback from stakeholders for its impact on improving user experience and generating new revenue streams.
 
-#### What have you done to improve your knowledge last year?
-Last year, I enrolled in online courses and attended industry conferences to stay updated on the latest trends and technologies in my field. I also participated in internal training sessions and actively sought out mentorship opportunities to broaden my skill set.
+#### What have you done to improve your knowledge last year? (or)
+#### Tell me about a time when you made a smarter decision with the help of your curiosity.
+Situation:
+Over the past year, I recognized the importance of continuous learning and professional development in the rapidly evolving field of AWS/DevOps.
+
+Task:
+To stay current and enhance my knowledge, I actively sought opportunities to improve my skills and expand my understanding of AWS services, DevOps practices, and cloud technologies.
+
+Action:
+One instance where my curiosity led to a smarter decision occurred when I encountered a complex problem during a project aimed at optimizing our organization's cloud infrastructure on AWS.
+
+While troubleshooting an issue related to application performance degradation, I noticed a discrepancy in the metrics reported by our monitoring tools and suspected that there might be underlying factors contributing to the problem that were not immediately apparent.
+
+Instead of accepting the surface-level explanation, I decided to delve deeper into the issue out of curiosity and explore potential root causes that might not have been initially considered.
+
+I began by conducting a comprehensive analysis of the application architecture, examining system logs, and reviewing configuration settings to identify any anomalies or misconfigurations that could be impacting performance.
+
+Additionally, I proactively engaged with other team members and sought input from subject matter experts to gain different perspectives and insights into the problem.
+
+Through my curiosity-driven investigation, I uncovered a previously overlooked configuration issue with one of the AWS services being used by the application, which was causing intermittent performance issues.
+
+Result:
+By leveraging my curiosity and proactive approach to problem-solving, I was able to make a smarter decision that ultimately led to the resolution of the performance degradation issue and improved the reliability and performance of our application on AWS.
+
+Furthermore, the experience reinforced the value of curiosity as a driving force for innovation and continuous improvement in a dynamic AWS/DevOps environment. It highlighted the importance of questioning assumptions, exploring alternative solutions, and continuously seeking opportunities to learn and grow.
 
 #### How do you rate your communication skills?
 I would rate my communication skills as strong. I'm able to effectively convey complex ideas and information to diverse audiences, both verbally and in writing. I actively listen to others and adapt my communication style to ensure clarity and understanding.
@@ -397,6 +420,29 @@ By effectively using my judgment to prioritize and address the security vulnerab
 The timely response and proactive measures taken to remediate the issue demonstrated our organization's commitment to security and compliance in the AWS environment.
 
 Furthermore, the incident served as a learning opportunity for our team, highlighting the importance of continuous monitoring, proactive security measures, and collaboration in maintaining a secure and compliant cloud infrastructure.
+
+#### Tell me about an important lesson you learned over the past year. (or)
+#### Tell me about a situation or experience you went through that changed your way of thinking. (need to change scenrio)
+Situation:
+Over the past year, I encountered a significant challenge while working on a project aimed at optimizing our organization's cloud infrastructure on AWS.
+
+Task:
+Our task was to migrate our legacy applications to the cloud and implement a DevOps culture to improve agility, scalability, and efficiency.
+
+Action:
+During the project, I faced unexpected obstacles and setbacks that tested my problem-solving skills and resilience. One important lesson I learned from this experience was the value of embracing change and adaptability in a dynamic AWS/DevOps environment.
+
+Initially, I struggled with the uncertainty and complexity of the migration process, as it involved redesigning architectures, rearchitecting applications, and transitioning traditional workflows to cloud-native methodologies. However, I realized that resisting change only hindered progress and led to frustration.
+
+Instead of dwelling on setbacks, I embraced the opportunity to learn and grow from the experience. I sought guidance from mentors, attended training sessions, and actively pursued self-study to enhance my skills and knowledge in AWS services, DevOps practices, and cloud migration strategies.
+
+Furthermore, I adopted an agile mindset and approach, breaking down complex tasks into smaller, more manageable components and iterating quickly to validate assumptions and course-correct as needed. I also collaborated closely with cross-functional teams, leveraging their expertise and perspectives to overcome challenges and drive progress.
+
+Result:
+By embracing change and adaptability, I was able to navigate the challenges of the project and contribute to its successful outcome. The experience taught me valuable lessons about resilience, flexibility, and continuous learning in a dynamic AWS/DevOps environment.
+
+Furthermore, the skills and insights gained from overcoming obstacles during the project have positioned me to tackle future challenges with confidence and competence. Overall, this experience reinforced the importance of embracing change as an opportunity for growth and innovation, both personally and professionally, in the ever-evolving landscape of AWS and DevOps.
+
 
 https://www.tipszon.com/2023/12/how-to-use-star-method-in-interview.html
 https://www.tipszon.com/2022/03/how-to-prepare-for-amazon-cloud-support-associate-interview.html
