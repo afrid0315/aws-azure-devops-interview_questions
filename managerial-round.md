@@ -232,5 +232,27 @@ Despite the initial setback, our proactive communication and commitment to addre
 
 While the delay was not ideal, the customer appreciated our honesty, transparency, and dedication to resolving the issue promptly. Ultimately, the successful delivery of the CI/CD pipeline strengthened our relationship with the customer and demonstrated our ability to overcome challenges and deliver results in a dynamic DevOps environment.
 
+#### How do you go about prioritizing customer needs when you are dealing with a large number of customers?
+Situation:
+In my role as a Cloud Support Engineer or DevOps professional at [Company Name], I frequently encounter situations where I need to prioritize customer needs while dealing with a large number of customers.
+
+Task:
+The task is to effectively manage and prioritize customer needs to ensure timely and satisfactory resolution of issues and requests, despite the high volume of incoming inquiries and varying levels of urgency.
+
+Action:
+
+Understanding Customer Requirements: I start by thoroughly understanding each customer's requirements, including their business objectives, technical environment, and critical systems running on AWS.
+
+Assessing Impact and Urgency: I prioritize customer needs based on the impact of the issue or request on their business operations and the urgency of the situation. Critical issues affecting production environments or causing significant disruptions are prioritized highest.
+
+Utilizing Ticketing Systems: I utilize ticketing systems such as JIRA or ServiceNow to systematically manage and track customer inquiries, ensuring that no request goes unaddressed.
+
+Effective Communication: I maintain open and transparent communication with customers, providing regular updates on the status of their requests and managing their expectations regarding resolution timelines.
+
+Collaboration with Team: I collaborate closely with my team members, including AWS architects, developers, and other support engineers, to triage and resolve customer issues efficiently.
+
+Result:
+By following this prioritization approach, I am able to effectively manage customer needs and ensure that critical issues are addressed promptly, leading to improved customer satisfaction and retention. Additionally, the systematic handling of customer inquiries enables our team to maintain high service levels and meet SLA commitments despite the large volume of incoming requests.
+
 https://www.tipszon.com/2023/12/how-to-use-star-method-in-interview.html
 https://www.tipszon.com/2022/03/how-to-prepare-for-amazon-cloud-support-associate-interview.html
