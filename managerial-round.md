@@ -266,5 +266,26 @@ Furthermore, there have been instances where I took on tasks beyond my job respo
 
 Overall, my willingness to go the extra mile, take on additional responsibilities, and deliver results has been instrumental in driving positive outcomes and fostering a culture of excellence, teamwork, and continuous improvement within our organization.
 
+#### Tell me about a time when you had to work on a task with unclear responsibilities?
+Situation:
+During a project to migrate our organization's infrastructure to the cloud, I encountered a situation where I had to work on a task with unclear responsibilities.
+
+Task:
+Our task was to design and implement a scalable and resilient cloud infrastructure architecture that could support our organization's growing needs and provide a reliable platform for our applications and services.
+
+Action:
+In the early stages of the project, it became apparent that certain tasks and responsibilities were not clearly defined, leading to confusion and inefficiencies within the team. Specifically, there was uncertainty regarding who was responsible for configuring and managing certain cloud services, such as networking, security, and monitoring.
+
+To address this challenge, I took the initiative to organize a meeting with the project stakeholders, including team members, project managers, and subject matter experts. During the meeting, I facilitated a discussion to clarify roles, responsibilities, and expectations for each team member.
+
+Drawing upon my knowledge of cloud technologies and best practices, I proposed a framework for dividing tasks based on expertise and skill sets. I also created documentation outlining the responsibilities for each team member and established clear communication channels to ensure everyone was informed and aligned.
+
+Additionally, I volunteered to take on additional responsibilities to fill any gaps and support my teammates where needed. This included tasks such as configuring network security groups, implementing monitoring and alerting solutions, and optimizing resource utilization to improve cost efficiency.
+
+Result:
+By taking proactive steps to address the situation and clarify responsibilities, we were able to streamline our project workflows, improve collaboration, and enhance overall productivity. The clear delineation of tasks and responsibilities helped eliminate confusion and ambiguity within the team, enabling us to focus our efforts more effectively on achieving our project objectives.
+
+Furthermore, my willingness to take on additional responsibilities and support my teammates fostered a culture of teamwork, accountability, and continuous improvement within the team. This ultimately contributed to the successful implementation of the cloud infrastructure project, which met our organization's requirements and exceeded expectations.
+
 https://www.tipszon.com/2023/12/how-to-use-star-method-in-interview.html
 https://www.tipszon.com/2022/03/how-to-prepare-for-amazon-cloud-support-associate-interview.html
