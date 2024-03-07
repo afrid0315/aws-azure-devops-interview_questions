@@ -102,7 +102,7 @@ My decision to roll back the deployment on the spot proved to be the right choic
 
 #### 9. Tell me about a time when you had to take critical feedback.
 **Answer.** Situation:
-In a previous position as a DevOps engineer, during a team meeting, my manager publicly shared negative feedback about a project I had been leading. The feedback highlighted shortcomings in my project management approach and suggested improvements to ensure better coordination and communication within the team.
+In a previous position as a DevOps engineer, my manager publicly shared negative feedback about a project I had been leading. The feedback highlighted shortcomings in my project management approach and suggested improvements to ensure better coordination and communication within the team.
 
 Task:
 My task was to acknowledge and address the critical feedback constructively, demonstrating a growth mindset and a commitment to continuous improvement.
