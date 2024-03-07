@@ -67,21 +67,23 @@ This experience taught me the importance of resilience and continuous learning i
 
 #### 6. Tell me about a time when you handled a task within tight deadlines.
 **Answer.** Situation:
-In my previous role as a DevOps engineer, our company had a sudden surge in website traffic due to a successful marketing campaign. As a result, our existing infrastructure couldn't handle the increased load, leading to performance issues and potential downtime. The management decided to scale up our infrastructure within a very tight deadline of 48 hours to ensure uninterrupted service for our users.
+During a critical period, our organization experienced email delivery failures.
 
 Task:
-My task was to lead the effort to scale up our infrastructure to accommodate the increased traffic and optimize performance to handle future spikes in demand. This involved provisioning additional servers, configuring load balancers, optimizing database performance, and implementing caching mechanisms.
+My task was to identify and resolve the issue causing the email delivery failures within a tight deadline.
 
 Action:
-Immediate Assessment: I quickly assessed the current infrastructure to identify bottlenecks and determine the most critical areas for improvement.
-Prioritization: I worked closely with the operations and development teams to prioritize tasks based on their impact on performance and urgency.
-Automated Provisioning: Leveraging infrastructure as code principles, I automated the provisioning of additional servers using tools like Terraform and Ansible, ensuring consistency and scalability.
-Load Balancing Configuration: I configured load balancers to distribute incoming traffic evenly across multiple servers, improving scalability and fault tolerance.
-Database Optimization: I optimized database queries, implemented indexing, and adjusted configuration parameters to improve database performance under high load.
-Caching Implementation: I implemented caching mechanisms using tools like Redis and Memcached to reduce the load on the backend servers and improve response times for frequently accessed data.
-Continuous Monitoring: Throughout the process, I continuously monitored system metrics and performance indicators using tools like Prometheus and Grafana, allowing us to identify and address any issues promptly.
+
+Investigation: I immediately initiated an in-depth investigation to determine the root cause of the email delivery failures. I analyzed system logs, reviewed configurations, and conducted network diagnostics to pinpoint the issue.
+
+Identification of Misconfiguration: Through my investigation, I discovered a misconfiguration in the Postfix service settings. Specifically, the relay server details were incorrect, causing mail to be stuck in the queue.
+
+Resolution: With the deadline looming, I prioritized rectifying the misconfiguration. I made the necessary adjustments to the Postfix configuration, ensuring that the relay server details were accurate and properly configured.
+
+Testing: To ensure the effectiveness of the solution and prevent any recurrence of the issue, I implemented rigorous testing procedures. I simulated various email delivery scenarios and monitored the system closely to verify that normal email functionality was restored.
+
 Result:
-Despite the tight deadline, we successfully scaled up our infrastructure and optimized performance to handle the increased traffic effectively. The website remained stable and responsive throughout the surge in traffic, ensuring a positive user experience and preventing any potential revenue loss due to downtime. The swift and coordinated effort demonstrated the effectiveness of our DevOps practices and the importance of automation and collaboration in meeting tight deadlines. Additionally, the experience provided valuable insights into our infrastructure's scalability and performance requirements, informing future optimization efforts and capacity planning.
+By taking swift and decisive action, I successfully resolved the email delivery failures within the tight deadline. The rectification of the misconfiguration in the Postfix service settings restored normal email functionality, minimizing disruption to the organization's operations. This experience highlighted the importance of proactive problem-solving, attention to detail, and effective time management in handling tasks within tight deadlines.
 
 #### Tell me about a time when you had to take a decision on the spot. 
 #### Tell me about a time when you had to make a bold and challenging decision.
