@@ -85,21 +85,6 @@ Testing: To ensure the effectiveness of the solution and prevent any recurrence 
 Result:
 By taking swift and decisive action, I successfully resolved the email delivery failures within the tight deadline. The rectification of the misconfiguration in the Postfix service settings restored normal email functionality, minimizing disruption to the organization's operations. This experience highlighted the importance of proactive problem-solving, attention to detail, and effective time management in handling tasks within tight deadlines.
 
-#### Tell me about a time when you had to take a decision on the spot. 
-#### Tell me about a time when you had to make a bold and challenging decision.
-#### Describe a situation when you took the initiative to correct a problem or a mistake rather than waiting for someone else to do it.
-**Answer.** Situation:
-During a critical incident in our production environment, I faced a challenging situation that required quick thinking and decisive action.
-
-Task:
-Our production system encountered unexpected issues following a recent deployment, jeopardizing system stability and potentially impacting our services.
-
-Action:
-Recognizing the severity of the situation and the need for immediate action, I swiftly assessed the impact of the issues and the potential consequences of various courses of action. After careful deliberation, I made the bold decision to roll back to the previous stable version of the software.
-
-Result:
-My decision to roll back the deployment on the spot proved to be the right choice, as it minimized downtime and restored system stability, ensuring uninterrupted service delivery to our customers. Despite the pressure of the moment, I remained composed and decisive, demonstrating my ability to prioritize effectively and make tough calls in critical situations.
-
 #### 9. Tell me about a time when you had to take critical feedback.
 **Answer.** Situation:
 In a previous position as a DevOps engineer, my manager publicly shared negative feedback about a project I had been leading. The feedback highlighted shortcomings in my project management approach and suggested improvements to ensure better coordination and communication within the team.
@@ -440,6 +425,21 @@ Collaboration with Team: I collaborate closely with my team members, including A
 
 Result:
 By following this prioritization approach, I am able to effectively manage customer needs and ensure that critical issues are addressed promptly, leading to improved customer satisfaction and retention. Additionally, the systematic handling of customer inquiries enables our team to maintain high service levels and meet SLA commitments despite the large volume of incoming requests.
+
+#### Tell me about a time when you had to take a decision on the spot. 
+#### Tell me about a time when you had to make a bold and challenging decision.
+#### Describe a situation when you took the initiative to correct a problem or a mistake rather than waiting for someone else to do it.
+**Answer.** Situation:
+During a critical incident in our production environment, I faced a challenging situation that required quick thinking and decisive action.
+
+Task:
+Our production system encountered unexpected issues following a recent deployment, jeopardizing system stability and potentially impacting our services.
+
+Action:
+Recognizing the severity of the situation and the need for immediate action, I swiftly assessed the impact of the issues and the potential consequences of various courses of action. After careful deliberation, I made the bold decision to roll back to the previous stable version of the software.
+
+Result:
+My decision to roll back the deployment on the spot proved to be the right choice, as it minimized downtime and restored system stability, ensuring uninterrupted service delivery to our customers. Despite the pressure of the moment, I remained composed and decisive, demonstrating my ability to prioritize effectively and make tough calls in critical situations.
 
 #### Tell me a time when you went above and beyond to solve a problem and that helped your team. (or)           
 #### Tell me a time when you went above and beyond to deliver results? (or)                                                             
