@@ -446,24 +446,22 @@ My decision to roll back the deployment on the spot proved to be the right choic
 #### Tell me about a time when you took on a task that was beyond your job responsibilities. (or)               
 #### When was the time you worked out of scope from your responsibilities? 
 Situation:
-During my tenure as a cloud support engineer in a dynamic AWS/DevOps environment, I encountered various challenges that required me to go above and beyond to support my team and deliver exceptional results.
+During a critical phase of a project in our DevOps team, a coworker was struggling with a challenging task related to infrastructure automation and deployment.
 
 Task:
-My primary task was to ensure the smooth operation of our cloud infrastructure, provide technical support to customers, and contribute to the success of our DevOps initiatives.
+While the task was not directly assigned to me, I recognized the importance of resolving the issue promptly to keep the project on track and ensure the team's success.
 
 Action:
-In one particular instance, our team faced a critical issue with an AWS service that was impacting multiple customers and causing significant disruption. Recognizing the urgency of the situation, I took the initiative to lead the investigation and resolution efforts.
+I took the initiative to offer assistance to my struggling coworker, even though it wasn't technically part of my job responsibilities. I approached them to understand the nature of the problem they were facing and offered my support in finding a solution.
 
-I collaborated closely with our engineering and operations teams to diagnose the root cause of the issue. Drawing upon my technical expertise and knowledge of AWS services, I proposed and implemented innovative solutions to mitigate the impact on our customers and restore service stability.
+Upon understanding the complexities involved, I leveraged my expertise in infrastructure automation and deployment tools, such as Terraform and Ansible, to analyze the issue and propose potential solutions. I dedicated extra time outside of my regular duties to collaborate with my coworker, providing guidance, troubleshooting assistance, and sharing best practices.
 
-Additionally, I went above and beyond by proactively reaching out to affected customers, providing regular updates on the status of the issue, and offering personalized support to address their specific concerns and requirements. I also documented the incident response process and shared lessons learned with the team to improve our incident management procedures.
+Together, we worked through the challenges, iteratively testing and refining our approach until we found a viable solution. I also took the opportunity to mentor my coworker, sharing my knowledge and insights to help them improve their skills and confidence in handling similar tasks in the future.
 
 Result:
-By going above and beyond to solve the problem and deliver results, I not only resolved the immediate issue but also strengthened our team's resilience, collaboration, and customer-centric mindset. The proactive measures I implemented contributed to minimizing downtime, restoring customer confidence, and enhancing overall service reliability.
+By going above and beyond to assist my coworker with the challenging task, we were able to overcome the obstacles and successfully complete the project on schedule. My proactive involvement not only helped resolve the immediate issue but also strengthened teamwork and collaboration within the DevOps team.
 
-Furthermore, there have been instances where I took on tasks beyond my job responsibilities, such as assisting with onboarding new team members, participating in cross-functional projects, and contributing to process improvement initiatives. These experiences have allowed me to develop new skills, expand my knowledge, and make meaningful contributions to the success of our team and organization.
-
-Overall, my willingness to go the extra mile, take on additional responsibilities, and deliver results has been instrumental in driving positive outcomes and fostering a culture of excellence, teamwork, and continuous improvement within our organization.
+Furthermore, my willingness to step outside of my job responsibilities and offer support demonstrated my commitment to the team's success and exemplified the collaborative spirit of our DevOps culture. This experience highlighted the importance of mutual support and camaraderie in achieving our goals and delivering exceptional results in our DevOps initiatives.
 
 #### Tell me about a time when you had to work on a task with unclear responsibilities? (or)
 #### Tell me about a time when you had to work with insufficient information or incomplete data.
