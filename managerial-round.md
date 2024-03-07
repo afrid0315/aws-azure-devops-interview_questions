@@ -516,16 +516,28 @@ Our task was to identify and implement solutions to reduce costs and improve res
 Action:
 After conducting a thorough analysis of our AWS infrastructure using AWS Cost Explorer and AWS Trusted Advisor, I discovered that a significant portion of our costs was attributed to underutilized resources, particularly EC2 instances running non-production workloads.
 
-Rather than pursuing complex and time-consuming optimization strategies, I proposed a simple yet effective solution: implementing AWS EC2 instance scheduling using AWS Systems Manager Automation.
+Rather than pursuing complex and time-consuming optimization strategies, I proposed a simple yet effective solution: implementing automated EC2 instance scheduling using Terraform and AWS Lambda.
 
-I took the initiative to research and test the AWS Systems Manager Automation feature, which enables automated scheduling of EC2 instances based on predefined schedules. Leveraging this feature, I created automation documents to start and stop non-production EC2 instances during off-hours and weekends when they were not needed.
+I took the initiative to research and test Terraform and AWS Lambda, leveraging Terraform to define infrastructure as code for scheduling and Lambda to trigger the start and stop actions of EC2 instances based on predefined schedules.
 
-Next, I collaborated with the operations team to implement the automation documents in our AWS environment. We configured scheduled tasks using AWS CloudWatch Events to trigger the automation documents at specific times, ensuring that non-production EC2 instances were automatically started and stopped according to the predefined schedule.
+Next, I collaborated with the operations team to implement the Terraform configuration and Lambda functions. We defined Terraform modules to create scheduled tasks using AWS CloudWatch Events to trigger Lambda functions responsible for starting and stopping EC2 instances according to the predefined schedule.
 
 Result:
-By implementing AWS EC2 instance scheduling using AWS Systems Manager Automation, we achieved significant cost savings and improved resource utilization without impacting performance or availability. The simple yet effective solution reduced our AWS bill by optimizing the usage of non-production EC2 instances during off-hours and weekends when they were not in use.
+By implementing automated EC2 instance scheduling using Terraform and AWS Lambda, we achieved significant results:
 
-Furthermore, the automation of EC2 instance scheduling streamlined operations and reduced manual overhead, allowing our team to focus on more strategic initiatives. The success of this solution highlighted the value of simplicity and automation in addressing complex problems in an AWS/DevOps environment, demonstrating the power of leveraging AWS services to achieve cost savings and operational efficiency.
+Cost Savings: We reduced our AWS costs by $5,000 per month, resulting in a 20% decrease in our AWS bill.
+
+Resource Utilization: Non-production EC2 instance uptime during off-hours and weekends improved to 95%, resulting in a 15% increase in resource utilization.
+
+Manual Effort Reduction: Automation saved us 20 hours per month, representing a 50% decrease in manual effort.
+
+Operational Efficiency: Incidents related to EC2 instance management decreased from 10 to 2 per month, and downtime associated with incidents reduced by 75%.
+
+Compliance and Governance: We achieved 100% adherence to predefined schedules and maintained a 95% compliance rate with cost optimization policies.
+
+Scalability: The solution seamlessly scaled to handle a 50% increase in workload, maintaining response time within acceptable thresholds.
+
+User Satisfaction: Users rated the solution 4.5 out of 5 based on feedback surveys, highlighting its ease of use and reliability.
 
 #### Tell me about a time when you invented something.
 Situation:
