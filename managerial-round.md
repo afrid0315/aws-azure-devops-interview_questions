@@ -374,35 +374,28 @@ Despite the initial difficulties, our proactive approach and commitment to meeti
 
 #### Tell me about a time when you didn't meet customer expectations. What happened, and how did you deal with the situation?
 
-Situation (for both questions):
-During a critical phase of a project aimed at optimizing our organization's cloud infrastructure on AWS, I encountered challenges that prevented me from meeting both internal standards and customer expectations.
+Situation:
+In a previous role, our team was tasked with developing a new feature for a customer that aimed to streamline their inventory management process. The customer had high expectations for the functionality and expected it to be delivered within a tight deadline.
 
 Task:
-Our task was to implement a CI/CD pipeline to automate the deployment process for our applications, with the goal of improving efficiency and reliability. However, during the implementation process, I encountered unforeseen difficulties that affected the quality of the project deliverables.
+As part of the development team, I was responsible for implementing key aspects of the feature and ensuring its successful integration with the customer's existing system.
 
 Action:
 
-Couldn't Meet Internal Standards and Expectations:
-In this instance, I encountered technical hurdles that hindered the implementation of certain features within the CI/CD pipeline. Despite exhaustive efforts and leveraging available resources, I found myself unable to meet the high standards I set for myself and the project. This realization was particularly challenging as it conflicted with my personal commitment to excellence.
+Initial Development: Initially, the development process progressed smoothly, and we made significant progress in implementing the required functionality. However, as the deadline approached, unforeseen technical challenges emerged, slowing down our progress.
 
-Didn't Meet Customer Expectations:
-Concurrently, while striving to adhere to internal standards, it became apparent that we weren't meeting customer expectations. They anticipated a seamless deployment process, but our technical setbacks resulted in delays and unexpected issues during deployment. This discrepancy between their expectations and our deliverables caused dissatisfaction and strained our client relationship.
+Communication: Recognizing the potential impact on the project timeline, I proactively communicated with the customer to provide updates on our progress and discuss the challenges we were facing. I was transparent about the issues and reassured them of our commitment to delivering a quality solution.
 
-Action (Continued):
+Problem-Solving: To address the technical challenges, I collaborated closely with my team members to brainstorm solutions and troubleshoot the issues. We conducted thorough testing and debugging to identify and resolve any bugs or inconsistencies in the code.
 
-Couldn't Meet Internal Standards and Expectations:
-To address this internal challenge, I took a step back to reassess the project requirements and my approach. I recognized the importance of seeking assistance and collaboration. I proactively engaged with colleagues and sought their insights, which provided fresh perspectives and alternative solutions. Through this collaborative effort, we identified workaround solutions and adapted our approach to align better with our internal standards.
+Managing Expectations: While we worked diligently to overcome the challenges, it became evident that we would not meet the original deadline set by the customer. I communicated this to the customer, providing a revised timeline based on our updated progress and the remaining work required to complete the feature.
 
-Didn't Meet Customer Expectations:
-In response to the customer dissatisfaction, I immediately took ownership of the situation. I reached out to our client, acknowledging the issues faced and taking full responsibility for the discrepancies between their expectations and our deliverables. I communicated transparently about the challenges we encountered, outlining the steps we were taking to rectify the situation, and provided a revised timeline for resolution.
+Quality Assurance: Despite the delay, we prioritized ensuring the quality and reliability of the feature. We conducted rigorous testing, including user acceptance testing (UAT) with the customer, to validate the functionality and address any feedback or concerns they had.
 
 Result:
+While we ultimately missed the initial deadline set by the customer, our proactive communication, problem-solving efforts, and commitment to quality helped mitigate the impact of the delay. The customer appreciated our transparency and dedication to delivering a solution that met their needs.
 
-Couldn't Meet Internal Standards and Expectations:
-Although we couldn't achieve the initial lofty standards I set, the collaborative effort and adaptive approach allowed us to deliver a solution that, while not perfect, met the core objectives of the project. This experience taught me the importance of humility and the value of seeking help when faced with challenges beyond my expertise.
-
-Didn't Meet Customer Expectations:
-By taking proactive steps to address the customer's concerns and maintain open communication, we were able to rebuild trust and mitigate any potential damage to our relationship. The transparency and accountability demonstrated during this process fostered a stronger partnership and emphasized our commitment to delivering quality service, even in challenging circumstances.
+In the end, we successfully delivered the feature, albeit slightly later than planned. The customer was satisfied with the functionality and recognized the challenges we had overcome to ensure its success. This experience taught me the importance of effective communication, proactive problem-solving, and managing expectations in situations where customer expectations may not be fully met.
 
 #### How do you go about prioritizing customer needs when you are dealing with a large number of customers?
 Situation:
