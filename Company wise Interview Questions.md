@@ -70,3 +70,31 @@ approach to them.
 - Tell something about a situation that I faced in my file and how I dealt with it.
 - There was a technical situation given and he asked me to solve it in both technical and
 non-technical ways.
+
+
+
+# Amazon - Cloud Support Engineer (deployment)
+
+#### 1. Docker file to create image we need ls -lrth need to be executed 
+#### 2. Dockerfile to create image ls -lrth in user1 and ls - la in user2 to executed how to do?
+#### 3. ⁠kubernetes components
+#### 4. ⁠kubernetes workflow (if we click kubectl run some pod, wat  the exact workflow or mechanism of kubernetes?
+#### 5. ⁠wat is ur daily activities 
+#### 6. ⁠about rbac
+#### 7. ⁠docker drivers 
+#### 8. ⁠docker networking
+#### 9. ⁠wat u did automation in ur daily activities 
+#### 10. ⁠pod is not deleting wat we do to delete 
+#### 11. ⁠if we are having same name of containers with same port can we achieve this? How
+#### 12. ⁠docker stages
+#### 13. ⁠how docker created from kernel? What is the kernels which used to create docker
+#### 14. ⁠can u tell me wat are other docker like tools we have.
+#### 15. We are getting logs right from where it is getting path of logs in kubernetes
+#### 16. How can I reduce docker size
+#### 17. Difference between deployment and replicaset? If we mention replicas in deployment then wat is the purpose of replicaset file
+#### 18. Booting process, dns query
+#### 19. Dns recursive process, iterative process
+#### 20. Different classes of private subnets can we connect
+#### 21. Dhcp
+#### 22. A time when u took on a task that was beyond your job ?
+#### 23. Can two different private subnets with different clases can communicate ?
