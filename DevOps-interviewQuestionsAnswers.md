@@ -122,6 +122,13 @@ mvn install package is also going to do all the steps mvn clean package does. Bu
 #### 19. What is sonarqube? what exactly it will do can you explain how it will analyse the code?
 **Answer.** SonarQube is an open-source platform for continuous inspection of code quality. It analyzes source code to detect code smells, bugs, and security vulnerabilities. SonarQube provides insights into the overall health of your codebase, helping teams maintain code quality standards. It employs static code analysis, checking for issues without executing the code. The analysis results are presented through a web interface, allowing teams to prioritize and address code quality issues.
 
+#### 20. What is the difference between SonarQube and Checkmarx CxSAST & CxSCA?
+**Answer.** SonarQube is used for ensuring code quality, and CheckMarx is used for ensuring the security of a system running that code.
+
+SonarQube looks at several areas, including the code coverage percentage of unit tests of the code, duplication percentages, and also code quality issues found through static analysis of the code.
+
+CheckMarx, on the other hand, just analyzes the flow of the code and the inputs and outputs. It looks for situations where inputs that could have been provided by an end user are used directly to control behavior, and other "attack vectors".
+
 1) Could you Please Introduce yourself Briefly about your background and your project ?
 2) What Does DevOps Means and how DevOps is Different from Other Department in IT Industry ?
 3) What Happen when DevOps comes in IT Industry ?
