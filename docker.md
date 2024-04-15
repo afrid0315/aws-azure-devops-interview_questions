@@ -219,6 +219,9 @@ ENTRYPOINT instruction also works similar to CMD instruction. ENTRYPOINT instruc
 #### 35. Let's say paint shop for whatever reasons. And someone asks you like hey, can we check what happened there? How would you approach?
 **Answer:** To investigate why a container failed, you can inspect its logs using the docker logs <container_id> command. Additionally, you can check the container's exit code using the docker inspect --format='{{.State.ExitCode}}' <container_id> command to get more information about the reason for its failure.
 
+#### 36. Alternative tools for Docker?
+**Answer:** LXD, Buildah, Kaniko, and Podman. You can choose alternative runtimes such as Containerd, CRI-O, or others to run containers in a Kubernetes cluster.
+
 1. Docker file to create image we need ls -lrth need to be executed 
 2. Dockerfile to create image ls -lrth in user1 and ls - la in user2 to executed how to do?
 3. ⁠kubernetes components
