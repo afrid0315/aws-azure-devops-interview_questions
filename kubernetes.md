@@ -508,3 +508,6 @@ Immutable Deployment: Deploying changes by replacing the entire infrastructure w
 Feature Flags: Deploying changes but controlling their activation using feature flags. This allows for gradual feature rollout, testing, and experimentation without deploying multiple versions of the application.
 
 Each deployment strategy has its own advantages and considerations, and the choice depends on factors such as the application's architecture, requirements, and risk tolerance.
+
+#### 76. Kubectl means?
+**Answer.** Kubecontrol.
