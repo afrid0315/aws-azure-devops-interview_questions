@@ -517,3 +517,6 @@ Each deployment strategy has its own advantages and considerations, and the choi
 #### 78. About static pod and normal pod?
 
 #### 79. About daemonset?
+
+#### 80. What is the path of directory holding static pod definition files?
+**Answer.** path is cd /etc/kubernetes/manifests/
