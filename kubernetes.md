@@ -511,3 +511,5 @@ Each deployment strategy has its own advantages and considerations, and the choi
 
 #### 76. Kubectl means?
 **Answer.** Kubecontrol.
+
+#### 77. About taint and tolerations in kubernetes?
