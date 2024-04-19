@@ -513,3 +513,7 @@ Each deployment strategy has its own advantages and considerations, and the choi
 **Answer.** Kubecontrol.
 
 #### 77. About taint and tolerations in kubernetes?
+
+#### 78. About static pod and normal pod?
+
+#### 79. About daemonset?
