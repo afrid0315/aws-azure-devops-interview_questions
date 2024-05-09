@@ -26,3 +26,27 @@ ansible-playbook -vvv your-playbook.yml
 
 #### 8. What have you automated so far in terms of that, like what have you configured on the host using Ansible playbook?
 **Answer.** Using Ansible playbook, various tasks can be automated such as server provisioning, package installation, configuration management, application deployment, service orchestration, and system monitoring. Specific examples may include setting up web servers, configuring databases, deploying applications, and managing network devices.
+
+#### 9. if u have 100 servers we need to check their versions and if the updated version not available in that particular server we need to send mail to particular person - how can we achieve this?
+**Answer.** 
+```
+---
+- name: Check software versions
+  hosts: servers
+  tasks:
+    - name: Get current version
+      shell: command_to_get_version
+      register: current_version
+
+    - name: Compare with latest version
+      set_fact:
+        outdated: "{{ current_version.stdout.strip() != latest_version }}"
+
+    - name: Send email if outdated
+      when: outdated
+      mail:
+        to: admin@example.com
+        subject: "Outdated version detected on {{ inventory_hostname }}"
+        body: "The current version is {{ current_version.stdout.strip() }}, which is outdated."
+```
+By using this yaml we can achieve..
