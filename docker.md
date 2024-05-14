@@ -224,19 +224,19 @@ ENTRYPOINT instruction also works similar to CMD instruction. ENTRYPOINT instruc
 
 1. Docker file to create image we need ls -lrth need to be executed 
 2. Dockerfile to create image ls -lrth in user1 and ls - la in user2 to executed how to do?
-3. ⁠kubernetes components
-4. ⁠kubernetes workflow (if we click kubectl run some pod, wat  the exact workflow or mechanism of kubernetes?
+
 5. ⁠wat is ur daily activities 
 6. ⁠about rbac
 7. ⁠docker drivers 
 8. ⁠docker networking
 9. ⁠wat u did automation in ur daily activities 
-10. ⁠pod is not deleting wat we do to delete 
 11. ⁠if we are having same name of containers with same port can we achieve this? How
 12. ⁠docker stages
 13. ⁠how docker created from kernel? What is the kernels which used to create docker
-14. ⁠can u tell me wat are other docker like tools we have
-15. We are getting logs right from where it is getting path of logs in kubernetes
+
+From where are we retrieving logs in Kubernetes and where can we locate the log paths?
+In Kubernetes, logs are typically retrieved directly from the containers running inside pods. The path to the logs depends on how the application inside the container is configured to output its logs. Generally, logs are accessed via the container runtime interface or through logging agents like Fluentd or Fluent Bit.
+
 16. How can I reduce docker size
-17. Difference between deployment and replicaset? If we mention replicas in deployment then wat is the purpose of replicaset file
+
 18. Different Docker runlevels
