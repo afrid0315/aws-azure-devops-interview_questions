@@ -523,3 +523,6 @@ Each deployment strategy has its own advantages and considerations, and the choi
 
 #### 80. What is the path of directory holding static pod definition files?
 **Answer.** path is cd /etc/kubernetes/manifests/
+
+#### 81. From where are we retrieving logs in Kubernetes and where can we locate the log paths?
+**Answer.** In Kubernetes, logs are typically retrieved directly from the containers running inside pods. The path to the logs depends on how the application inside the container is configured to output its logs. Generally, logs are accessed via the container runtime interface or through logging agents like Fluentd or Fluent Bit.
