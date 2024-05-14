@@ -222,19 +222,41 @@ ENTRYPOINT instruction also works similar to CMD instruction. ENTRYPOINT instruc
 #### 36. Alternative tools for Docker?
 **Answer:** LXD, Buildah, Kaniko, and Podman. You can choose alternative runtimes such as Containerd, CRI-O, or others to run containers in a Kubernetes cluster.
 
+#### 37. Dockerfile to create image ls -lrth in user1 and ls - la in user2 to executed how to do?
+**Answer:** 
+ 
+#### 38. ⁠docker drivers?
+**Answer:** 
+Storage Drivers: These manage how images and containers are stored on disk. Some common storage drivers include:
+- OverlayFS: Used on Linux systems, OverlayFS is a union filesystem that allows layers of filesystems to be stacked transparently.
+- Device Mapper: Another option for Linux systems, Device Mapper creates thin provisions for Docker containers.
+- AUFS (Another Union File System): Previously popular but now deprecated in favor of OverlayFS.
+- ZFS: Supported on certain platforms, ZFS is a combined filesystem and logical volume manager.
 
-2. Dockerfile to create image ls -lrth in user1 and ls - la in user2 to executed how to do?
+Networking Drivers: These manage how containers communicate with each other and the outside world. Docker provides several networking drivers, including:
+- Bridge: The default network driver, creates a virtual bridge that connects containers on the same host.
+- Overlay: Facilitates communication between containers across multiple Docker daemons or hosts.
+- Host: Removes network isolation between the container and the Docker host, allowing containers to use the host's network stack directly.
+- Macvlan: Allows containers to have their own MAC address, making them appear as physical devices on the network.
+- IPvlan: Similar to Macvlan but more lightweight, it assigns multiple virtual interfaces to a single parent interface.
 
-5. ⁠wat is ur daily activities 
-6. ⁠about rbac
-7. ⁠docker drivers 
-8. ⁠docker networking
-9. ⁠wat u did automation in ur daily activities 
-11. ⁠if we are having same name of containers with same port can we achieve this? How
-12. ⁠docker stages
-13. ⁠how docker created from kernel? What is the kernels which used to create docker
+Choosing the right drivers depends on factors such as performance requirements, compatibility with your infrastructure, and specific use cases.
 
+#### 39. ⁠If we are having same name of containers with same port can we achieve this? How?
+**Answer:** No, with same name of containers we can't achieve this. 
 
-16. How can I reduce docker size
+#### 40. ⁠how docker created from kernel? What is the kernels which used to create docker?
+**Answer:** Docker itself is not created from the kernel. Instead, Docker relies on certain features provided by the Linux kernel to implement containerization.
 
-18. Different Docker runlevels
+#### 41. How can I reduce docker size
+**Answer:** To reduce Docker image size:
+- Use slim base images.
+- Minimize layers and combine RUN commands.
+- Remove unnecessary dependencies and files.
+- Utilize multi-stage builds.
+- Compress files within the image.
+- Use .dockerignore to exclude unnecessary files from the build context.
+- Optimize Dockerfile instructions for efficiency.
+
+#### 42. Different Docker runlevels?
+**Answer:** Docker doesn't have traditional "runlevels" like Linux distributions. Instead, it follows stages: create, build, run, stop/start, and remove for managing containers.
