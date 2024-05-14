@@ -222,7 +222,7 @@ ENTRYPOINT instruction also works similar to CMD instruction. ENTRYPOINT instruc
 #### 36. Alternative tools for Docker?
 **Answer:** LXD, Buildah, Kaniko, and Podman. You can choose alternative runtimes such as Containerd, CRI-O, or others to run containers in a Kubernetes cluster.
 
-1. Docker file to create image we need ls -lrth need to be executed 
+
 2. Dockerfile to create image ls -lrth in user1 and ls - la in user2 to executed how to do?
 
 5. ⁠wat is ur daily activities 
@@ -234,8 +234,6 @@ ENTRYPOINT instruction also works similar to CMD instruction. ENTRYPOINT instruc
 12. ⁠docker stages
 13. ⁠how docker created from kernel? What is the kernels which used to create docker
 
-From where are we retrieving logs in Kubernetes and where can we locate the log paths?
-In Kubernetes, logs are typically retrieved directly from the containers running inside pods. The path to the logs depends on how the application inside the container is configured to output its logs. Generally, logs are accessed via the container runtime interface or through logging agents like Fluentd or Fluent Bit.
 
 16. How can I reduce docker size
 
