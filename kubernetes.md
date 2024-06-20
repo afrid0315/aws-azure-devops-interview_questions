@@ -526,3 +526,12 @@ Each deployment strategy has its own advantages and considerations, and the choi
 
 #### 81. From where are we retrieving logs in Kubernetes and where can we locate the log paths?
 **Answer.** In Kubernetes, logs are typically retrieved directly from the containers running inside pods. The path to the logs depends on how the application inside the container is configured to output its logs. Generally, logs are accessed via the container runtime interface or through logging agents like Fluentd or Fluent Bit.
+
+#### 82. kubernetes can we have backup?
+**Answer.** Yes, Kubernetes supports backups. You can back up Kubernetes resources and persistent data using tools like:
+
+1. **Velero**: A popular open-source tool for backing up and restoring Kubernetes cluster resources and persistent volumes.
+2. **ETCD Backup**: For clusters using ETCD as the data store, you can back up ETCD directly.
+3. **Persistent Volume Snapshots**: Use Kubernetes VolumeSnapshots to create snapshots of persistent volumes.
+
+These methods ensure you can recover your Kubernetes cluster and data in case of failures or data loss.
