@@ -207,3 +207,10 @@ Containerization: Consider containerization (e.g., Docker) to encapsulate Jenkin
 
 By following these steps, you can ensure that Jenkins handles a large number of jobs efficiently and quickly.
 
+#### 14. Jenkins Cost Optimization?
+**Answer** 
+- Right-Sizing Nodes: Adjust resources (CPU, memory) for Jenkins nodes based on workload.
+- Containerization: Use Docker or Kubernetes to optimize resource usage with scalable agent containers.
+- Cloud Instance Management: Utilize auto-scaling features to minimize idle compute costs.
+- Efficiency Improvements: Consolidate jobs, manage plugins, and implement artifact cleanup to streamline operations.
+- Monitoring and Automation: Monitor performance, automate tasks, and continuously optimize configurations for cost-efficiency.
