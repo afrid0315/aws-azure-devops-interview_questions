@@ -260,3 +260,35 @@ Choosing the right drivers depends on factors such as performance requirements, 
 
 #### 42. Different Docker runlevels?
 **Answer:** Docker doesn't have traditional "runlevels" like Linux distributions. Instead, it follows stages: create, build, run, stop/start, and remove for managing containers.
+
+
+#### 43. How do you manage data persistence in Docker containers?
+**Answer:** To manage data persistence in Docker containers:
+
+- Use volumes to store data separately from containers. They persist even if containers are removed.
+- Bind mounts link host paths to container paths, allowing shared access to files.
+- Dockerfile VOLUME instruction declares paths as volumes for data persistence.
+- Avoid data containers for new projects; prefer volumes or bind mounts for simplicity and flexibility.
+
+#### 44. How do you secure a MySQL Data which is Running in my container?
+**Answer:**
+- Use a Secure Base Image: Start with a trusted MySQL Docker image.
+- Set Strong Passwords: Use environment variables (MYSQL_ROOT_PASSWORD) to set a strong root password.
+- Persistent Storage: Use Docker volumes to store MySQL data outside the container.
+- Limit User Privileges: Create MySQL users with minimal necessary privileges.
+- Network Security: Bind MySQL to localhost (127.0.0.1) inside the container for local access only.
+- Regular Updates: Keep MySQL and Docker images updated with security patches.
+
+#### 45. Docker Cost Optimization?
+**Answer:**
+To optimize Docker costs:
+
+Right-sizing: Allocate resources based on actual application needs to avoid over-provisioning.
+
+Efficient Images: Use lean Docker images by minimizing layers and dependencies to reduce storage and deployment costs.
+
+Auto-scaling: Implement auto-scaling to adjust container resources based on workload demand, minimizing idle resources.
+
+Monitoring: Monitor resource usage and costs regularly to identify and address inefficiencies.
+
+Cloud Optimization: Choose cost-effective cloud services for Docker registries, compute instances, and storage.
