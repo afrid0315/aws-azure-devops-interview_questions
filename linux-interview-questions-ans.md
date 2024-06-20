@@ -1308,3 +1308,6 @@ Cron jobs scripts typically contain commands or scripts to be executed at schedu
 
 This command attempts to establish a connection to Google on port 8080. If successful, it indicates that there is connectivity to Google on that port.
 
+#### 163. Which Linux version you used in your project?
+**Answer.** 
+
