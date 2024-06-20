@@ -135,12 +135,6 @@ CheckMarx, on the other hand, just analyzes the flow of the code and the inputs 
 4) Could you please Explain me About your last project have you worked on and what was you roles and responsibility ?
 
 
-✅ About Linux OS:
-
-1) What are Different OS have you Familiar with and worked on ?
-2) What is Kernel ?
-3) which Linux version you used in your project ?
-4) why we Used Linux OS Rather than Windows and any other ?
 
 
 ✅ About Git GitHub and Gitlab:
