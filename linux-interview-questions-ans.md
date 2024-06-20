@@ -1309,5 +1309,10 @@ Cron jobs scripts typically contain commands or scripts to be executed at schedu
 This command attempts to establish a connection to Google on port 8080. If successful, it indicates that there is connectivity to Google on that port.
 
 #### 163. Which Linux version you used in your project?
-**Answer.** 
+**Answer.** In my role as a DevOps and cloud engineer, I've primarily used the following Linux versions:
+
+- Ubuntu 20.04 LTS: Used for development environments and CI/CD pipelines due to its stability and five-year support.
+- CentOS 7: Deployed on production servers for web applications and databases because of its enterprise-level stability and compatibility with RHEL.
+- Amazon Linux 2: Utilized for AWS-based projects, optimized for performance and seamless integration with AWS services.
+I chose these versions for their stability, long-term support, and compatibility with our project requirements. To manage these systems, I regularly applied security patches, automated updates with Ansible, and tested new versions in staging environments to ensure stability and security."
 
