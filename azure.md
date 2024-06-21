@@ -164,3 +164,9 @@ Scope: Service connections are specific to Azure DevOps for pipeline integration
 
 **Azure Functions**: Azure Functions is a serverless compute service that lets you run event-triggered code without managing infrastructure. It scales automatically and integrates with various Azure services and third-party services.
 
+#### 13. Types of Azure Storage?
+**Answer** 
+Blob Storage - Unstructured storages like images,videos,large files,
+File storage - VM's,pods,
+Table storage - No Sql, e-commerce
+Queue Storage - comparable with SQS service in aws.
