@@ -170,3 +170,32 @@ Blob Storage - Unstructured storages like images,videos,large files,
 File storage - VM's,pods,
 Table storage - No Sql, e-commerce
 Queue Storage - comparable with SQS service in aws.
+
+#### 14. How you write Azure Resource Manager (ARM) templates? Can you write?
+**Answer** Yes, I can write Azure Resource Manager (ARM) templates. ARM templates are JSON files that define the infrastructure and configuration for Azure resources. They allow you to deploy and manage Azure resources declaratively.
+(If someone ask us to write template, we have main things like schema, contentVersion, parameters, functions, variables, resources, outputs.
+```
+{
+  "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentTemplate.json#",
+  "contentVersion": "1.0.0.0",
+  "functions": [],
+  "variables": {},
+  "resources": [
+    {
+      "type": "Microsoft.Storage/storageAccounts",
+      "apiVersion": "2022-09-01",
+      "name": "[parameters('storageAccountName')]",
+      "location": "[parameters('location')]",
+      "sku": {
+        "name": "Standard_LRS"
+      },
+      "kind": "StorageV2",
+      "properties": {}
+    }
+  ],
+  "parameters": {
+    "storageAccountName": {
+      "type": "string",
+      "metadata": {
+        "description": "
+```
