@@ -201,4 +201,6 @@ Queue Storage - comparable with SQS service in aws.
 ```
 
 #### 15. What is Microsoft Entra ID?
-**Answer** Microsoft Entra ID, formerly Azure Active Directory, is Microsoft's cloud-based identity and access management service. It provides features like single sign-on (SSO), multi-factor authentication (MFA), conditional access, role-based access control (RBAC), and more, to manage user identities and secure access to resources in the cloud and on-premises. (In Azure, to create VM we need resource group definitely likewise to create IAM we need to create Microsoft Entra ID. Previously it is called "Active Directory". Now name changed to "Entra ID".
+**Answer** Microsoft Entra ID, formerly Azure Active Directory, is Microsoft's cloud-based identity and access management service. It provides features like single sign-on (SSO), multi-factor authentication (MFA), conditional access, role-based access control (RBAC), and more, to manage user identities and secure access to resources in the cloud and on-premises. (In Azure, to create VM we need resource group definitely likewise to create IAM we need to create Microsoft Entra ID. Previously it is called "Active Directory". Now name changed to "Entra ID") 
+User or groups assign roles
+Resources assign service account or service principal (resources means vm, storages,..)
