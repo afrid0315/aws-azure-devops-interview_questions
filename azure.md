@@ -206,3 +206,7 @@ User or groups assign roles
 Resources assign service account or service principal (resources means vm, storages,..)
 
 #### 16. Difference between Azure Boards and Jira tool?
+
+#### 17. Which is better Self hosted kubernetes cluster or AKS (managed cluster)?
+**Answer**  Maintenance is needed in self hosted kubernetes machines compare to AKS
+Cost optimization is high in self hosted machines compare to AKS (AKS pay as you go model)
