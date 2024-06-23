@@ -150,6 +150,8 @@ Documentation: Maintain updated documentation compliant with regulations (GDPR, 
 
 Continuous Improvement: Review and update the DR plan based on changes and lessons learned.
 
+#### 22. When should we use EBS and EFS while mounting PVC in Kubernetes?
+**Answer:** If your storage needs to be accessed by a single pod, then use AWS EBS or Azure Disks. EBS volumes can only be attached to a single EC2 instance at a time, which makes them suitable for single-pod access. On the other hand, if your storage needs to be accessed by multiple pods across different nodes or the same node, then use AWS EFS or Azure Files. EFS provides a shared file system that can be mounted simultaneously by multiple pods, making it ideal for distributed applications or shared storage use cases.
 
 1) Could you Please Introduce yourself Briefly about your background and your project ?
 2) What Does DevOps Means and how DevOps is Different from Other Department in IT Industry ?
