@@ -212,3 +212,8 @@ Resources assign service account or service principal (resources means vm, stora
 - Maintenance is needed in self hosted kubernetes machines compare to AKS.
 - Cost optimization is high in self hosted machines compare to AKS (AKS pay as you go model)
 - Scaling - self hosted machines need to manually use some scaling tools for autoscaling, AKS having nodepools which autoscales easily.
+
+
+10)	What is service connection and how can we crate that?
+
+12)	Aware of azure resources such as App services and function apps?’
