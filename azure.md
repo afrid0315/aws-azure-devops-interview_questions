@@ -206,6 +206,7 @@ User or groups assign roles
 Resources assign service account or service principal (resources means vm, storages,..)
 
 #### 16. Difference between Azure Boards and Jira tool?
+**Answer** Azure Boards is a project management tool within the Azure DevOps suite, ideal for teams using Azure services. Jira is a versatile project management tool from Atlassian, known for its high customization and integration with a wide range of tools. Azure Boards is best for Azure-centric workflows, while Jira suits diverse project management needs with extensive plugin options.
 
 #### 17. Which is better Self hosted kubernetes cluster or AKS (managed cluster)?
 **Answer**  
@@ -213,7 +214,16 @@ Resources assign service account or service principal (resources means vm, stora
 - Cost optimization is high in self hosted machines compare to AKS (AKS pay as you go model)
 - Scaling - self hosted machines need to manually use some scaling tools for autoscaling, AKS having nodepools which autoscales easily.
 
+#### 18.	What is service connection and how can we crate that?
+**Answer** A service connection in Azure DevOps is a way to link Azure DevOps to external services (like Azure, GitHub, Docker, etc.) to facilitate automated deployments and integrations.
 
-10)	What is service connection and how can we crate that?
+To create a service connection:
 
-12)	Aware of azure resources such as App services and function apps?’
+1. **Go to Azure DevOps Project**: Open your Azure DevOps project.
+2. **Project Settings**: Navigate to "Project settings" in the lower-left corner.
+3. **Service connections**: Under "Pipelines", click on "Service connections".
+4. **New service connection**: Click "New service connection" and choose the type of service you want to connect to (e.g., Azure Resource Manager, GitHub).
+5. **Configure connection**: Follow the prompts to provide necessary details (e.g., authentication information, permissions).
+6. **Verify and save**: Verify the connection details and save the service connection.
+
+This setup enables Azure DevOps pipelines to securely interact with external services.
