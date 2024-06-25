@@ -537,3 +537,4 @@ Each deployment strategy has its own advantages and considerations, and the choi
 These methods ensure you can recover your Kubernetes cluster and data in case of failures or data loss.
 
 #### 83. What is a DaemonSet, and how is it used?
+**Answer.** A DaemonSet is a Kubernetes resource that ensures a copy of a specific pod runs on all or a subset of nodes in a cluster. It's used for deploying system-level applications like log collectors, monitoring agents, or network tools that need to operate on every node to provide consistent service across the cluster.
