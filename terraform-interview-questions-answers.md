@@ -187,29 +187,29 @@ instance_count = 10
 #### 21. Do you know Terraform Blockers?
 **Answer.** If by "Terraform Blockers" you mean different types of blocks in Terraform configurations, then yes. Terraform blocks include Provider Blocks, Resource Blocks, Variable Blocks, Output Blocks, and Module Blocks, each serving a specific purpose in defining and managing infrastructure.
 
+#### 22. What are the best practices for managing secrets or sensitive information within Terraform configurations?
+**Answer.** Use Terraform's vault provider, store secrets in environment variables, or utilize secret management tools like AWS Secrets Manager, Azure Key Vault, or HashiCorp Vault. Avoid hardcoding secrets in configuration files.
 
+#### 23. Could you explain the differences between the `count` and `for_each` meta-arguments in Terraform?
+**Answer.** count vs for_each: count is used for creating multiple instances of a resource based on an integer value, whereas for_each is used for creating resources from a map or set, allowing for more complex and flexible resource creation.
 
+#### 24. How do you manage dependencies between different resources in Terraform configurations?
+**Answer.** Managing dependencies: Use implicit dependencies by referencing outputs of one resource in another, or use the depends_on meta-argument to explicitly declare resource dependencies.
 
-2. What are the best practices for managing secrets or sensitive information within Terraform configurations?
- Use Terraform's vault provider, store secrets in environment variables, or utilize secret management tools like AWS Secrets Manager, Azure Key Vault, or HashiCorp Vault. Avoid hardcoding secrets in configuration files.
+#### 25. What techniques can be used to enable parallelism in Terraform operations and enhance performance?
+**Answer.** Parallelism: Enable parallelism by default in Terraform operations. Use the -parallelism flag to specify the number of concurrent operations Terraform can perform, balancing it with your infrastructure's capacity.
 
-4. Could you explain the differences between the `count` and `for_each` meta-arguments in Terraform?
-count vs for_each: count is used for creating multiple instances of a resource based on an integer value, whereas for_each is used for creating resources from a map or set, allowing for more complex and flexible resource creation.
+#### 26. What methods are available to prevent concurrent modifications to Terraform state?
+**Answer.** Preventing concurrent modifications: Use state locking mechanisms provided by Terraform's backend, such as AWS DynamoDB for S3 backend or Google Cloud Storage's locking mechanism, to prevent concurrent modifications to Terraform state.
 
-6. How do you manage dependencies between different resources in Terraform configurations?
-Managing dependencies: Use implicit dependencies by referencing outputs of one resource in another, or use the depends_on meta-argument to explicitly declare resource dependencies.
+#### 27. How can Terraform state be securely managed across multiple environments or teams?
+**Answer.** Managing state securely: Store state files in a remote backend (e.g., S3 with DynamoDB locking, Terraform Cloud, or Consul) to securely share state across teams and environments. Encrypt state files and use role-based access control.
 
-7. What techniques can be used to enable parallelism in Terraform operations and enhance performance?
-Parallelism: Enable parallelism by default in Terraform operations. Use the -parallelism flag to specify the number of concurrent operations Terraform can perform, balancing it with your infrastructure's capacity.
+#### 28. What is the difference between the `taint` and `import` commands in Terraform?
+**Answer.** taint vs import: The taint command marks a resource for destruction and recreation in the next apply, while the import command associates existing infrastructure with Terraform state without creating or destroying resources.
 
-10. What methods are available to prevent concurrent modifications to Terraform state?
-Preventing concurrent modifications: Use state locking mechanisms provided by Terraform's backend, such as AWS DynamoDB for S3 backend or Google Cloud Storage's locking mechanism, to prevent concurrent modifications to Terraform state.
+#### 29. How do you detect and address drift in Terraform-managed infrastructure?
+**Answer.** Detecting and addressing drift: Use the terraform plan command to detect infrastructure drift by comparing the current state with the desired state. Address drift by applying the necessary changes with terraform apply.
 
-12. How can Terraform state be securely managed across multiple environments or teams?
-Managing state securely: Store state files in a remote backend (e.g., S3 with DynamoDB locking, Terraform Cloud, or Consul) to securely share state across teams and environments. Encrypt state files and use role-based access control.
-
-14. What is the difference between the `taint` and `import` commands in Terraform?
-
-15. How do you detect and address drift in Terraform-managed infrastructure?
-
-16. What are some best practices for organizing Terraform configurations to ensure they are modular and reusable?
+#### 30. What are some best practices for organizing Terraform configurations to ensure they are modular and reusable?
+**Answer.** Organizing configurations: Use modules to encapsulate and reuse configurations. Organize code into logical directories, use consistent naming conventions, and separate environment-specific configurations. Use version control to manage changes and collaboration.
