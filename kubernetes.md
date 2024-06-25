@@ -535,3 +535,5 @@ Each deployment strategy has its own advantages and considerations, and the choi
 3. **Persistent Volume Snapshots**: Use Kubernetes VolumeSnapshots to create snapshots of persistent volumes.
 
 These methods ensure you can recover your Kubernetes cluster and data in case of failures or data loss.
+
+#### 83. What is a DaemonSet, and how is it used?
