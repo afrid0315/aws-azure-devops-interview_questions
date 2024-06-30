@@ -536,3 +536,8 @@ Each deployment strategy has its own advantages and considerations, and the choi
 
 These methods ensure you can recover your Kubernetes cluster and data in case of failures or data loss.
 
+#### 83. If private cluster? How can you access?
+**Answer.**  az aks command invoke command is useful for accessing an AKS cluster without needing to configure kubectl locally. It simplifies access, enhances security, supports audit logging, and integrates well with automation workflows.
+```
+az aks command invoke --resource-group myResourceGroup --name myAKSCluster --command 'kubectl get nodes'
+```
