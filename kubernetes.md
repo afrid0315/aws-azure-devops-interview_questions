@@ -279,7 +279,7 @@ After defining the HPA, I apply it to the cluster using kubectl apply -f hpa.yam
 
 #### 45. Can you explain a scenario where you would use a service mesh in Kubernetes, especially in terms of authentication and authorization?
 
-**Answer**. I would use a service mesh in Kubernetes, such as Istio, in scenarios where I need to enhance communication between microservices. Specifically, for authentication and authorization, a service mesh provides capabilities like mutual TLS for secure communication, fine-grained access control, and user identity propagation. This ensures that only authorized services can communicate securely within the cluster, improving overall security and governance."
+**Answer**. I would use a service mesh in Kubernetes, such as Istio, in scenarios where I need to enhance communication between microservices. Specifically, for authentication and authorization, a service mesh provides capabilities like mutual TLS for secure communication, fine-grained access control, and user identity propagation. This ensures that only authorized services can communicate securely within the cluster, improving overall security and governance." (Mutual TLS between services like microservice to microservice communication)
 
 #### 46. Why are Pod Security Policies important in Kubernetes, and how would you implement them to enhance security?
 
