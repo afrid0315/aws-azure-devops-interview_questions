@@ -213,3 +213,9 @@ instance_count = 10
 
 #### 30. What are some best practices for organizing Terraform configurations to ensure they are modular and reusable?
 **Answer.** Organizing configurations: Use modules to encapsulate and reuse configurations. Organize code into logical directories, use consistent naming conventions, and separate environment-specific configurations. Use version control to manage changes and collaboration.
+
+#### 31. About Hashicorp vault installation?
+**Answer** By using gpg package we are going to install vault.
+
+#### 32. About data and resource difference in terraform script?
+**Answer** To retrieve data we use data and to create resource we use resource.
