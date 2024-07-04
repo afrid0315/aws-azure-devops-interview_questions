@@ -227,3 +227,25 @@ To create a service connection:
 6. **Verify and save**: Verify the connection details and save the service connection.
 
 This setup enables Azure DevOps pipelines to securely interact with external services.
+
+#### 19. Steps to connect Azure Vault with kubernetes for secrets?
+**Answer** Steps
+
+**Create Azure Key Vault:**
+- Set up a new Azure Key Vault.
+- Add secrets to the Key Vault.
+
+**Create and Configure Service Principal:**
+- Create a Service Principal in Azure AD.
+- Assign get permissions to the Service Principal for the Key Vault.
+
+**Install Secrets Store CSI Driver and Azure Key Vault Provider:**
+- Add the Helm repository for Secrets Store CSI Driver and install it.
+- Add the Helm repository for Azure Key Vault provider and install it.
+
+**Create a SecretProviderClass:**
+- Define a SecretProviderClass with Key Vault details and secrets to access.
+- Apply the SecretProviderClass configuration in Kubernetes.
+
+**Deploy a Pod Using the Secrets:**
+- Define and apply a pod specification that uses the SecretProviderClass to mount secrets.
