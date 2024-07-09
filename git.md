@@ -10,7 +10,7 @@ Choose between them based on your project's needs and collaboration workflow. Us
 
 GitHub: GitHub is a web-based platform built around Git that provides hosting for Git repositories, collaboration tools, and additional features such as issue tracking, project management, and code review. It serves as a central hub for developers to share and collaborate on code.
 
-#### 3.
+#### 3. How do you undo a deleted branch?
 **Answer.** 
 
 #### Git commands?
