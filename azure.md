@@ -272,3 +272,6 @@ Key features:
 - **Scalability**: Automatic scaling based on demand, with options for manual scaling.
   
 Azure App Service is suitable for hosting web applications, APIs, and mobile backends, offering high availability, security, and flexibility for developers.
+
+#### 22. About Azure CDN.
+**Answer**In Azure, the service equivalent to a Content Delivery Network (CDN) is called **Azure Content Delivery Network (CDN)**. It accelerates the delivery of static content like images and videos by caching it at edge locations worldwide, reducing latency and improving performance for users globally.
