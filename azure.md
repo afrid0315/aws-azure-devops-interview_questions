@@ -249,3 +249,26 @@ This setup enables Azure DevOps pipelines to securely interact with external ser
 
 **Deploy a Pod Using the Secrets:**
 - Define and apply a pod specification that uses the SecretProviderClass to mount secrets.
+
+#### 20. Azure storage tiers?
+**Answer** Sure, Azure Blob Storage offers three main access tiers:
+
+1. **Hot Access Tier**: For frequently accessed data with higher storage costs but lower access costs.
+   
+2. **Cool Access Tier**: For infrequently accessed data stored for at least 30 days, with lower storage costs but higher access costs than the hot tier.
+
+3. **Archive Access Tier**: For rarely accessed data stored for long-term retention, with the lowest storage costs but higher access costs compared to hot and cool tiers.
+
+These tiers help optimize costs based on your data access patterns and retention requirements.
+
+#### 21. About Azure App service?
+**Answer** Azure App Service is a fully managed platform-as-a-service (PaaS) offering from Microsoft Azure for building, deploying, and scaling web applications and APIs quickly and easily without managing infrastructure. It supports multiple programming languages and integrates with Azure services for seamless development and deployment.
+
+Key features:
+- **Managed Service**: Azure handles infrastructure management, scaling, and maintenance.
+- **Support for Multiple Frameworks**: Supports .NET, Java, Node.js, Python, PHP, and more.
+- **Integration**: Easily integrates with Azure SQL Database, Cosmos DB, Storage, and other Azure services.
+- **Deployment Options**: Supports continuous deployment from Git, GitHub, Azure DevOps, Docker, and more.
+- **Scalability**: Automatic scaling based on demand, with options for manual scaling.
+  
+Azure App Service is suitable for hosting web applications, APIs, and mobile backends, offering high availability, security, and flexibility for developers.
