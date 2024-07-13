@@ -11,7 +11,26 @@ Choose between them based on your project's needs and collaboration workflow. Us
 GitHub: GitHub is a web-based platform built around Git that provides hosting for Git repositories, collaboration tools, and additional features such as issue tracking, project management, and code review. It serves as a central hub for developers to share and collaborate on code.
 
 #### 3. How do you undo a deleted branch?
-**Answer.** 
+**Answer.** Certainly!
+
+To undo a deleted branch in Git:
+
+1. **Find the Commit**: Use `git reflog` to find the commit hash of the deleted branch.
+   ```bash
+   git reflog
+   ```
+
+2. **Recreate the Branch**: Use the commit hash to recreate the branch.
+   ```bash
+   git checkout -b <branch-name> <commit-hash>
+   ```
+
+3. **Push the Branch**: If it was a remote branch, push it back to GitHub.
+   ```bash
+   git push origin <branch-name>
+   ```
+
+This process restores a deleted branch by referencing its last commit, allowing you to recover it from Git's history.
 
 #### 4. About git revert and reset commands?
 **Answer.** `git revert` maintains proper history by creating a new commit that undoes changes, but the changes from the reverted commit will be undone in your files. 
