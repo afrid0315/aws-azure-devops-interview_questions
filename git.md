@@ -17,5 +17,8 @@ GitHub: GitHub is a web-based platform built around Git that provides hosting fo
 **Answer.** `git revert` maintains proper history by creating a new commit that undoes changes, but the changes from the reverted commit will be undone in your files. 
 In contrast, `git reset` can move the HEAD to a different commit: using `--soft` keeps all changes in the staging area without altering files, and using `--hard` moves the HEAD and discards changes in both the staging area and working directory, effectively deleting files.
 
+#### 5. What should I do if I need to undo changes after pushing to GitHub?
+**Answer.** If you need to undo changes after pushing to GitHub, use `git revert` to maintain history and avoid conflicts. First, run `git revert <commit-hash>` to create a new commit that undoes the specified commit, then push the revert commit with `git push origin <your-branch>`. If you must use `git reset`, you need to reset to the previous commit with `git reset --hard <commit-hash>` and then force push using `git push --force origin <your-branch>`. Be cautious with force-pushing as it rewrites history and can disrupt other collaborators' work.
+
 #### Git commands?
 **Answer.** git clean -df -> to clean git repositories d-directories, f-files
