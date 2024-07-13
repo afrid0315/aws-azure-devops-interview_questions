@@ -13,5 +13,9 @@ GitHub: GitHub is a web-based platform built around Git that provides hosting fo
 #### 3. How do you undo a deleted branch?
 **Answer.** 
 
+#### 4. About git revert and reset commands?
+**Answer.** `git revert` maintains proper history by creating a new commit that undoes changes, but the changes from the reverted commit will be undone in your files. 
+In contrast, `git reset` can move the HEAD to a different commit: using `--soft` keeps all changes in the staging area without altering files, and using `--hard` moves the HEAD and discards changes in both the staging area and working directory, effectively deleting files.
+
 #### Git commands?
 **Answer.** git clean -df -> to clean git repositories d-directories, f-files
