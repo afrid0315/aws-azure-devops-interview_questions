@@ -541,8 +541,10 @@ These methods ensure you can recover your Kubernetes cluster and data in case of
 ```
 az aks command invoke --resource-group myResourceGroup --name myAKSCluster --command 'kubectl get nodes'
 ```
+#### 84. About Daemonset?
+**Answer.** In Kubernetes ensure that a specific pod runs on all or a subset of nodes in the cluster, making them ideal for deploying system-level daemons or background services uniformly across the infrastructure. They handle automatic scheduling, support rolling updates, and are used for tasks like monitoring agents, logging collectors, or network proxies that require presence on every node.
 
-#### 84. About affinity, anti-affinity, taints/tolerations and node selectors/affinity differences?
+#### 85. About affinity, anti-affinity, taints/tolerations and node selectors/affinity differences?
 **Answer.** While **Affinity and Anti-Affinity**, **Taints and Tolerations**, and **Node Selectors and Node Affinity** all serve to control pod placement within a Kubernetes cluster, they have distinct use cases, flexibility levels, and mechanisms for achieving pod scheduling constraints. Here’s a breakdown of their differences:
 
 ### 1. Node Selectors vs. Node Affinity
@@ -638,3 +640,4 @@ az aks command invoke --resource-group myResourceGroup --name myAKSCluster --com
 | **Pod Anti-Affinity** | Avoid co-locating pods based on labels      | Complex         | `podAntiAffinity: requiredDuringScheduling...`|
 
 By understanding these differences, you can choose the appropriate mechanisms to achieve your pod scheduling and placement requirements effectively in Kubernetes.
+
