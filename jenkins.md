@@ -501,3 +501,25 @@ This process ensures a smooth migration of Jenkins jobs while maintaining their 
 6. **Caching**: Implement caching strategies for dependencies to speed up builds and reduce redundant downloads.
 
 These steps ensure that dependencies are correctly handled, making the Jenkins pipeline more efficient and reliable.
+
+1. What is a Jenkins pipeline, and how does it differ from a traditional build job?
+2.What are some commonly used Jenkins plugins, and what purposes do they serve?
+3. How do you integrate Jenkins with Docker and Kubernetes?
+4. How do you monitor Jenkins jobs and ensure they are running smoothly?
+5. Explain your approach to backing up and restoring Jenkins configurations and jobs.?
+6.How
+ do you automate tests with Jenkins?
+7. How do you use Jenkins to deploy applications to different environments (e.g., dev, test, prod)?
+8.How
+ do you handle failing Jenkins builds?
+9.How
+ can you trigger Jenkins jobs remotely?
+10.How
+ to create continuous deployment in Jenkins?
+11.In
+ Jenkins, how to give backup from one server to another server?
+12.Explain a CI/CD pipeline you have implemented using Jenkins?
+13.How
+ would you migrate Jenkins jobs from one server to another?
+14..What is SonarQube and how we will integrate it with Jenkins?
+15.What is code coverage in SonarQube?
