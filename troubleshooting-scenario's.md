@@ -10,6 +10,12 @@
 
 ``kubectl scale deployment myDeployment –replicas=5``)
 
+**Scenario 7 - this scenario related to scenario 2b:** In a previous role as a DevOps engineer, I encountered an issue where a Kubernetes cluster shared by multiple development teams was impacted by a pod experiencing memory leaks. This led to instability across the entire cluster, but it was unclear which pod or namespace was causing the problem.
+
+To address this, I implemented 'resource quotas and limits' on the pods within each namespace. This allowed us to pinpoint the specific pod responsible for the issue and contain the impact to that particular component.
+
+In a related scenario, after setting up these limits, I noticed that the problematic pod was frequently being terminated with an 'OOMKilled' (Out Of Memory) error, resulting in a 'CrashLoopBackOff' status. This status is not an error itself but indicates that the pod is repeatedly crashing and restarting. By using kubectl describe on the pod, I confirmed that the cause was indeed out of memory errors. This setup helped us quickly identify and address resource allocation issues, improving overall cluster stability. We were able to reduce and know where this issue occuring by using resource limits and quoatas but at the end when we find due to particular pod or microservices leakage was happening. So, we can take thread dump or heap dump and send to developers and solve and upgrade accordingly.
+
 **Scenario 2 c:** If a recent deployment causes issues, one of the fastest and easiest ways to remedy this is by using rollbacks. To see the deployment history:
 
 kubectl rollout history deployment myDeployment
