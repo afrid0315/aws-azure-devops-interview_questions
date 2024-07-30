@@ -308,3 +308,8 @@ Listeners: Listen for incoming traffic, define protocols/ports, and route traffi
 **Answer.** Load Balancer: Distributes incoming network traffic across multiple servers or resources to ensure high availability and reliability.
 Round Robin Concept: A basic load balancing algorithm that distributes requests sequentially among backend servers in a circular order.
  In a round-robin setup, each new request is routed to the next server in the pool in a sequential order. Once all servers have received a request, the algorithm cycles back to the beginning of the server list and continues distributing requests in the same order.
+
+#### 43. About Permission Boundary?
+**Answer.** A permission boundary is an optional feature in AWS IAM that allows you to define the maximum permissions a role or user can have. It acts as an upper limit or "boundary" on the permissions that can be assigned, even if more permissions are specified in the attached policies.
+
+**Example:** In a recent project, we implemented a permission boundary for a role used by a development team. The role had various permissions for managing S3 buckets, but we wanted to ensure that no one could delete the buckets. We created a permission boundary that explicitly denied the s3:DeleteBucket action. This way, even if a policy attached to the role tried to grant delete permissions, the boundary prevented it, ensuring data safety. The steps we took included defining the permission boundary policy, attaching it to the role, and testing to confirm the restricted actions were correctly enforced.
