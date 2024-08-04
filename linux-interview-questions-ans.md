@@ -1316,3 +1316,5 @@ This command attempts to establish a connection to Google on port 8080. If succe
 - Amazon Linux 2: Utilized for AWS-based projects, optimized for performance and seamless integration with AWS services.
 I chose these versions for their stability, long-term support, and compatibility with our project requirements. To manage these systems, I regularly applied security patches, automated updates with Ansible, and tested new versions in staging environments to ensure stability and security."
 
+#### 164. Difference between Apache and Nginx?
+**Answer.** ``https://www.geeksforgeeks.org/difference-between-apache-and-nginx/``
