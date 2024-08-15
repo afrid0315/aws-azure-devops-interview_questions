@@ -166,6 +166,11 @@ Currently, I am working at [Current Company], where I am responsible for maintai
 
 I am excited about the opportunity at [Company You Are Applying To] because I admire your commitment to innovative solutions and continuous improvement. I believe my experience and skills align well with the requirements of this role, and I am eager to contribute to your team's success."
 
+#### 25. On which product you worked for?
+**Answer.** In my role as a DevOps engineer working on a healthcare project for Johnson & Johnson, I was involved in supporting the infrastructure and deployment pipelines for [insert the specific application or service here, such as a healthcare data platform, patient management system, or clinical trial management tool]. My responsibilities included automating CI/CD pipelines, ensuring compliance with healthcare regulations (like HIPAA), monitoring and optimizing the cloud infrastructure, and collaborating with the development team to ensure seamless and secure deployments. My work directly contributed to improving the efficiency and reliability of the product."
+
+If you want to customize this further with the specific product details, you can insert the name or description of the application you worked on.
+
 1) Could you Please Introduce yourself Briefly about your background and your project ?
 2) What Does DevOps Means and how DevOps is Different from Other Department in IT Industry ?
 3) What Happen when DevOps comes in IT Industry ?
