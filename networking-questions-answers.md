@@ -417,3 +417,6 @@ ARP - Address Resolution Protocol.
 
 #### 83. About Subnet & Subnet masking?
 **Answer.** https://www.pubconcierge.com/blog/subnetting-101-free-ipv4-cheat-sheet/
+
+#### 84. Difference between Wget and curl?
+**Answer.** https://www.geeksforgeeks.org/difference-between-wget-vs-curl/
