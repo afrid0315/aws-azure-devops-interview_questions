@@ -1318,3 +1318,21 @@ I chose these versions for their stability, long-term support, and compatibility
 
 #### 164. Difference between Apache and Nginx?
 **Answer.** ``https://www.geeksforgeeks.org/difference-between-apache-and-nginx/``
+
+#### 165. If I have a file with some data? From that I want only to get particular names or values from that file? How to write shell script for it or wat command is used?
+**Answer.** To extract only the employee names from a JSON file using a shell script, you can use jq, a command-line JSON processor.
+```
+#!/bin/bash
+
+# File path of the JSON file
+json_file="employees.json"
+
+# Extract employee names using jq
+jq -r '.employees[].name' "$json_file"
+```
+
+- jq -r '.employees[].name' "$json_file":
+- jq processes the JSON file.
+- -r outputs raw strings instead of JSON-encoded strings.
+- .employees[].name selects all name fields under the employees array.
+This script will output the employee names one per line.
