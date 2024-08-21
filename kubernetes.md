@@ -641,3 +641,23 @@ az aks command invoke --resource-group myResourceGroup --name myAKSCluster --com
 
 By understanding these differences, you can choose the appropriate mechanisms to achieve your pod scheduling and placement requirements effectively in Kubernetes.
 
+#### 86. In ArgoCD, what is project and application?
+**Answer.** ### **Project:**
+- **Definition:** A Project in ArgoCD groups and manages multiple applications.
+- **Purpose:** Controls policies, permissions, and constraints for applications.
+- **Features:**
+  - Access control for teams
+  - Restrictions on clusters and repositories
+  - Resource quotas and namespace management
+
+### **Application:**
+- **Definition:** An Application represents a deployment of Kubernetes resources managed by ArgoCD.
+- **Purpose:** Syncs application state from a Git repository to a Kubernetes cluster.
+- **Features:**
+  - Continuous syncing with Git
+  - Health monitoring and visualization
+  - Rollback capabilities
+
+**In Summary:** 
+- **Project:** Organizes and governs multiple applications.
+- **Application:** Manages and deploys a specific set of Kubernetes resources from a Git repository.
