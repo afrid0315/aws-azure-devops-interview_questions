@@ -50,3 +50,6 @@ ansible-playbook -vvv your-playbook.yml
         body: "The current version is {{ current_version.stdout.strip() }}, which is outdated."
 ```
 By using this yaml we can achieve..
+
+#### 10. What modules you have used or worked with?
+**Answer.** Apt, yum, file, copy, unarchieve, services, blockinfile - used for inserting text in particular block in to existing file, inlinefile module also like blockinfile but it manages the whole file, replace - to replace a string or a word in existing file, , 
