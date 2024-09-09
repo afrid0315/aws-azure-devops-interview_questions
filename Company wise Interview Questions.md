@@ -98,3 +98,46 @@ non-technical ways.
 #### 21. Dhcp
 #### 22. A time when u took on a task that was beyond your job ?
 #### 23. Can two different private subnets with different clases can communicate ?
+
+𝐑𝐨𝐮𝐧𝐝 𝟏- 𝐓𝐞𝐜𝐡𝐧𝐢𝐜𝐚𝐥
+
+1) Can you explain the ingress controller routing mechanism
+2) What will happen if you get no space left on device
+3) What are the RCA rule along with SRE 4 rules that you will apply while you create the alerts for your application
+4) How you will achieve the DB high availability and fault tolerance
+5) What is jenkins and security tools
+6) How docker is integrated in jenkins
+7) Write terraform code to have the AWS with1 VPC 2 Subnets and each having 1 ec2 instance
+8) Tell all the scenarios too implement the security in kubernetes
+9) Your Prod systems are down and being an SRE what are the Steps you are going to take to solve the issue
+
+𝐑𝐨𝐮𝐧𝐝 2- 𝐓𝐞𝐜𝐡𝐧𝐢𝐜𝐚𝐥
+
+10) AWS application design in current organization
+11) AWS Ec2 types volumes, difference between ALB and NLB(General Purpose SSD volumes (gp3), gp2,IO, throughput, load balancer)
+13) why your application choose the above load balancer
+14) How the CORS present in S3 (Select the bucket from the
+list, and click Configure CORS. Paste the CORS configuration XML into the text box, and click Save. To modify the CORS setting for the bucket, update the CORS configuration XML in the text box, and click Save)
+15) S3 types, R53 and the use in our application ()
+16) Amazon certificate manager (ACM)
+17) Kubernetes (pods managemet, memory and ram utilization check)
+18) Types of Kubernetes services (loadbalancer, Ingress,clusterip, nodeport)
+
+
+𝐑𝐨𝐮𝐧𝐝𝟑 - 𝐂𝐨𝐝𝐢𝐧𝐠
+
+19) What is DNS caching
+20) What is an i node
+21) The systems CPU and Memory are spiking up and at the same time PODs are in crashloop back what steps you would take to resolve the issue
+22) Write the Python code to hit the rest endpoint and take our all the urls from the json and again check if the status is 200 or not
+23) One more python code based on Leetcode
+
+𝐑𝐨𝐮𝐧𝐝 𝟒 - 𝐒𝐲𝐬𝐭𝐞𝐦 𝐃𝐞𝐬𝐢𝐠𝐧
+
+24) Design a high availability 3 tier system where your deployments will happen on kubernetes
+
+𝐑𝐨𝐮𝐧𝐝 𝟓 - 𝐌𝐚𝐧𝐚𝐠𝐞𝐫𝐢𝐚𝐥/𝐓𝐞𝐜𝐡𝐧𝐢𝐜𝐚𝐥
+
+25) Why would you be a good fit for a senior management position?
+26) What’s your most significant achievement so far?
+27) Tell me a scenario where you had critical issue and you went beyond and above to solve that issue
