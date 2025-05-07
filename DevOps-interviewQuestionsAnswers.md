@@ -175,3 +175,39 @@ If you want to customize this further with the specific product details, you can
 2) What Does DevOps Means and how DevOps is Different from Other Department in IT Industry ?
 3) What Happen when DevOps comes in IT Industry ?
 4) Could you please Explain me About your last project have you worked on and what was you roles and responsibility ?
+
+🚀 CI/CD & Pipeline Architecture
+✅ How would you implement progressive delivery (canary + feature flag) in Azure DevOps?
+✅ How do you ensure secure and auditable deployments in a multi-tenant CI/CD setup?
+✅ What is pipeline templating in GitLab or Azure DevOps and how do you reuse it across teams?
+✅ How do you trigger pipelines across repositories (cross-repo triggers) securely?
+
+🚀 Containers & Runtime Security
+✅ What steps would you take to harden a Docker image for production?
+✅ Explain how to use Docker BuildKit for optimized builds.
+✅ How do you prevent secret leakage during image builds or container execution?
+✅ What’s the impact of running containers with --privileged and how do you mitigate it?
+
+🚀 Kubernetes & Platform Operations
+✅ How would you design a resilient multi-AZ AKS cluster with custom VNETs?
+✅ What are PodDisruptionBudgets, and how do they affect high availability?
+✅ Explain how to use Kyverno or OPA Gatekeeper for Kubernetes policy enforcement.
+
+🚀 GitOps & Infra-as-Code
+✅ How do you manage drift detection in ArgoCD or FluxCD?
+✅ What’s the difference between kustomize and Helm, and when would you use each?
+✅ How do you structure Terraform for scalable multi-team projects (modules vs workspaces)?
+
+🚀 Azure & Cloud-Native Infrastructure
+✅ How do you manage Azure Policy for compliance across subscriptions?
+✅ What’s your approach to setting up private AKS clusters with secure ingress?
+✅ How would you handle shared services (e.g., Key Vault, DNS, Monitoring) across projects in Azure?
+
+🚀 Observability & Incident Response
+✅ How would you detect and alert on memory leaks in Kubernetes pods?
+✅ What are the key metrics you would monitor for a customer-facing API?
+✅ How do you correlate logs, traces, and metrics using Azure Monitor or OpenTelemetry?
+
+🚀 Automation & Scripting
+✅ Write a Bash script to verify if Kubernetes pods are restarting frequently and alert if >5 restarts.
+✅ How would you use Python to automate tagging and backup across multiple Azure resource groups?
