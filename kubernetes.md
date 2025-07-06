@@ -516,7 +516,7 @@ Each deployment strategy has its own advantages and considerations, and the choi
 **Answer.** In Kubernetes, taints are used to repel pods from nodes, while tolerations allow pods to be scheduled on nodes with matching taints. They're mechanisms for controlling pod placement in the cluster.
 
 #### 78. About static pod and normal pod?
-**Answer.** Static pods are managed directly by the kubelet on a node, while normal pods are managed by the Kubernetes API server. Static pods are typically used for system components like kube-proxy or kubelet itself, whereas normal pods are deployed through Kubernetes manifests and managed by controllers like Deployments or StatefulSets.
+**Answer.** Static pods are managed directly by the kubelet on a node, while normal pods are managed by the Kubernetes API server. Static pods are typically used for system components like kube-proxy or kubelet itself, whereas normal pods are deployed through Kubernetes manifests and managed by controllers like Deployments or StatefulSets. (Static pod cannot be deleted like normal pod - k delete pod. We need to delete by going into the /etc/kubernetes/manifests/ path and need to delete.)
 
 #### 79. About daemonset?
 **Answer.** DaemonSet ensures that all (or some) nodes run a copy of a pod. It's used for background tasks like log collection or node monitoring where each node in the cluster needs a copy of the pod.
