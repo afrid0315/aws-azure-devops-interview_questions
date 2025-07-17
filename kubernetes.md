@@ -669,9 +669,25 @@ By understanding these differences, you can choose the appropriate mechanisms to
 **Answer.** Secrets should not be injected in ConfigMaps as ConfigMaps are not designed for
 sensitive data. Instead, Kubernetes Secrets should be used. Secrets can be injected into
 pods via environment variables or mounted as files.
+
 #### 89. How do you find which pod is taking more system resources across nodes using kubectl?
 **Answer.** Use kubectl top pod --all-namespaces to list resource usage by pods.
 Combine it with kubectl describe pod <pod-name> to get detailed resource usage.
+
+#### 90. Types or design patterns of containers we have in kubernetes?
+**Answer.** 
+| **Pattern**          | **Purpose**                                      | **Example**                         |
+| -------------------- | ------------------------------------------------ | ----------------------------------- |
+| **Single Container** | Simple app in one container                      | NGINX server                        |
+| **Multi-Container**  | Multiple containers in one Pod sharing resources | App + logger                        |
+| **Sidecar**          | Extends main app (helper)                        | Log shipper, proxy (Envoy)          |
+| **Adapter**          | Transforms app output                            | Format converter for metrics        |
+| **Ambassador**       | Acts as a proxy to external service              | Envoy to DB/API                     |
+| **Init Container**   | Runs setup tasks before main app starts          | DB init, config fetcher             |
+| **Work Queue**       | Pulls tasks from a queue                         | Background workers                  |
+| **DaemonSet**        | One Pod per node                                 | Node-level monitoring/logging agent |
+| **Job/CronJob**      | One-time or scheduled tasks                      | Backup, batch jobs                  |
+
 
 5. How do you know which worker node is consuming more resources across
 the clusters using kubectl?
