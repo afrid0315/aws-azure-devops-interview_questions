@@ -53,6 +53,8 @@ https://lnkd.in/gFfkZqyf
 15. Amazon EBS:
 https://lnkd.in/gFK2pP-T
 
+Projects  devops - https://lnkd.in/dptRSAwC
+
 1. 𝙇𝙞𝙣𝙪𝙭 𝙁𝙪𝙣𝙙𝙖𝙢𝙚𝙣𝙩𝙖𝙡𝙨: https://lnkd.in/eEAPKk_Q
 2. 𝙂𝙞𝙩 𝘾𝙧𝙖𝙨𝙝 𝘾𝙤𝙪𝙧𝙨𝙚: https://lnkd.in/eFzxFknC
 3. 𝙉𝙚𝙩𝙬𝙤𝙧𝙠𝙞𝙣𝙜 (𝘼𝙙𝙧𝙞𝙖𝙣 𝘾𝙖𝙣𝙩𝙧𝙞𝙡𝙡): https://lnkd.in/eWFFY-r9
