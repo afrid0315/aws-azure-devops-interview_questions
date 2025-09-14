@@ -1,6 +1,11 @@
+All about AWS DATABASE Q/A
+
 In AWS we have RDS service used for?
 What are the services compatible to use in aws RDS?
 AWS RDS similiar services from Azure and google?
 What about SQL and No-SQL and other type of databases means?
 What is Amamzon Aurora?
+About AWS Aurora version v2?
 What is about AWS Redshift?
+What is about AWS keyspaces(for apache cassandra) ?
+What is about AWS Neptune?
