@@ -111,3 +111,5 @@ Advanced Git Scenarios
 29. Your Git repository has become very large. How do you reduce its size without affecting its history?
 
 30. Explain the difference between git revert and git reset. When would you use each?
+
+31. What is git blame?
