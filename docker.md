@@ -293,6 +293,10 @@ Monitoring: Monitor resource usage and costs regularly to identify and address i
 
 Cloud Optimization: Choose cost-effective cloud services for Docker registries, compute instances, and storage.
 
+#### 46. What will happen to container logs if you restart the container? Will it be lost?
+**Answer:**
+Because container is stateless, so if we delete container u will lost. But, if the container stopped and started or restarted u will not lost.
+
 1. You are running a containerized application that crashes intermittently without logging anything useful. How do you debug this behavior?
 
 2. Your CI/CD pipeline pushes a new Docker image that fails only in production, not in staging. How would you isolate and resolve the discrepancy?
