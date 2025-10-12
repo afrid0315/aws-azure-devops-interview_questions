@@ -1337,7 +1337,12 @@ jq -r '.employees[].name' "$json_file"
 - .employees[].name selects all name fields under the employees array.
 This script will output the employee names one per line.
 
+#### 166. What is Virtualization?
+**Answer.** Virtualization is the process of creating multiple virtual machines (VMs) on a single physical server using a hypervisor. Each VM runs its own OS and applications independently, sharing the host’s CPU, memory, and storage.
 
+✅ Examples: VMware, Hyper-V, VirtualBox
+
+✅ Benefits: Better resource utilization, cost savings, easy backup, and environment isolation.
 
 51. How do you set environment variables?
 52. What is the `PATH` variable?
