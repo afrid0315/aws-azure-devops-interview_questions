@@ -350,7 +350,7 @@ d. all responses are correct.
 **Answer.** Yes, 1.1.1.1 is a routable IP address assigned to a public DNS resolver operated by Cloudflare.
 
 #### 62. Concept of Proxy and firewall? Stateless and stateful firewalls?
-**Answer.** A proxy (proxy somewhat similiar to vpn) acts as an intermediary between clients and servers, forwarding requests and responses between them. A firewall is a network security device that monitors and controls incoming and outgoing traffic based on predetermined security rules. Stateful firewalls keep track of the state of active connections, while stateless firewalls filter packets based on individual packet attributes.
+**Answer.** (to access or block any web application we can use proxy, to allow or deny network packets we can use firewall, to access securely with encryption or hiding our ip address detail we use vpn) A proxy (proxy somewhat similiar to vpn) acts as an intermediary between clients and servers, forwarding requests and responses between them. A firewall is a network security device that monitors and controls incoming and outgoing traffic based on predetermined security rules. Stateful firewalls keep track of the state of active connections, while stateless firewalls filter packets based on individual packet attributes.
 
 #### 63. What is the difference between example.com and example.org?
 **Answer.** example.com and example.org are both generic top-level domain names used for illustrative purposes in documentation and testing. They are reserved by the Internet Assigned Numbers Authority (IANA) and are not associated with any specific organization or entity. 
