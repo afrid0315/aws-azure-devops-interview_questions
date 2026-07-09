@@ -27,3 +27,7 @@ def count_vowels(string: str) -> int:
  if char in vowels:
  vowel_count += 1
  return vowel_count
+
+#### Best for Cloud, DevOps & Scripting Applications
+
+If your goal is to use Python for AWS Lambda, Boto3, or Infra Automation:Corey Schafer's Python Series (YouTube): Widely considered the best free video resource for practical Python, covering object-oriented programming (OOP), OS interactions, virtual environments, and automation scripts.Google's Python Class: A free, intensive tutorial created by Google for engineers who know basic programming concepts and want to quickly learn practical file handling, system processes, and HTTP connections.  Automate the Boring Stuff with Python: A completely free online book/course focused on practical scripting—parsing files, web scraping, interacting with APIs, and automating daily system admin tasks.
