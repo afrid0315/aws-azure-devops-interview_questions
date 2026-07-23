@@ -1,3 +1,42 @@
+𝟭. 𝗞𝗼𝗱𝗲𝗞𝗹𝗼𝘂𝗱 𝗘𝗻𝗴𝗶𝗻𝗲𝗲𝗿 𝗣𝗹𝗮𝘁𝗳𝗼𝗿𝗺
+Simulate real-world tasks and progress from beginner to architect.
+https://lnkd.in/g3G_vMNU
+
+𝟮. 𝗗𝗲𝘃𝗢𝗽𝘀 𝗟𝗮𝗯𝘀 𝗖𝗼𝗹𝗹𝗲𝗰𝘁𝗶𝗼𝗻
+Practice across CI/CD, monitoring, and automation. No card required.
+https://lnkd.in/g8HVvigm
+
+𝟯. 𝗞𝘂𝗯𝗲𝗿𝗻𝗲𝘁𝗲𝘀 𝗟𝗮𝗯
+Learn how to deploy clusters, manage apps, and write effective YAML.
+https://lnkd.in/guWWzCeh
+
+𝟰. 𝗗𝗼𝗰𝗸𝗲𝗿 𝗟𝗮𝗯
+Work with real containers. Pull, build, run.
+https://lnkd.in/gFyeEnrT
+
+𝟱. 𝗚𝗶𝘁 𝗟𝗮𝗯
+Master Git branching, merges, and workflows.
+https://lnkd.in/grP6dYfa
+
+𝟲. 𝗧𝗲𝗿𝗿𝗮𝗳𝗼𝗿𝗺 𝗟𝗮𝗯
+Write Infrastructure as Code and deploy confidently.
+https://lnkd.in/gmhTZPdR
+
+𝟳. 𝗟𝗶𝗻𝘂𝘅 𝗟𝗮𝗯
+Understand the OS where most DevOps magic happens.
+https://lnkd.in/g92cPyYE
+
+𝟴. 𝗔𝗻𝘀𝗶𝗯𝗹𝗲 𝗟𝗮𝗯
+Learn to automate server configurations and more.
+https://lnkd.in/gVGdesdB
+
+𝟵. 𝗝𝗲𝗻𝗸𝗶𝗻𝘀 𝗟𝗮𝗯
+Build and manage CI/CD pipelines in real-time scenarios.
+https://lnkd.in/gPdeqhYZ
+
+𝟭𝟬. 𝗣𝘆𝘁𝗵𝗼𝗻 𝗟𝗮𝗯
+Practice scripts for automation and cloud tasks.
+https://lnkd.in/g-gM9QmM
 
 # AWS, Azure, Kubernetes, Jenkins, Docker and other DevOps Interview Q/A available separately in respective folders readme files...
 
